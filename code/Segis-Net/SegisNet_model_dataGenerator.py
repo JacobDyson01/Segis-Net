@@ -86,11 +86,11 @@ def joint_model(img_xyz, R_ch, S_ch, n_output, indexing='ij',alpha=0.2):
     indexing = indexing
     alpha    = alpha
     # inputs
-    tgt        = Input(shape=(*img_xyz, R_ch)) 
-    src        = Input(shape=(*img_xyz, R_ch))
-    S_src      = Input(shape=(*img_xyz, S_ch))
+    tgt        = Input(shape=(img_xyz, R_ch)) 
+    src        = Input(shape=(img_xyz, R_ch))
+    S_src      = Input(shape=(img_xyz, S_ch))
  
-    aff_def    = Input(shape=(*img_xyz)+(3,))
+    aff_def    = Input(shape=(img_xyz)+(3,))
        
     seg_model  = seg_net(img_xyz, S_ch, n_output, alpha = alpha)
     reg_model  = reg_net(img_xyz, alpha = alpha)   

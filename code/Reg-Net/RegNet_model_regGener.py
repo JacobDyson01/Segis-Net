@@ -51,16 +51,16 @@ def reg_net(img_xyz, alpha = 0.2):
     num_start_ch = 16
     alpha=alpha
     """input layers"""
-    tgt      = Input(shape=(*img_xyz)+(1,)) 
-    src      = Input(shape=(*img_xyz)+(1,))
-    aff_def  = Input(shape=(*img_xyz)+(3,)) 
+    tgt      = Input(shape=(img_xyz)+(1,)) 
+    src      = Input(shape=(img_xyz)+(1,))
+    aff_def  = Input(shape=(img_xyz)+(3,)) 
     
     """online affine-warp"""
     # this can be omitted, if use as input the affine-aligned image pairs directly
-    aff_warped = SpatialTransformer(interp_method='linear', indexing='ij', 
-                                    name='aff_warped')([src, aff_def]) 
+    # aff_warped = SpatialTransformer(interp_method='linear', indexing='ij', 
+    # name='aff_warped')([src, aff_def]) 
     # concatenate the target and affine-warped scr image as a two-channel input
-    inputs = concatenate([tgt, aff_warped], axis=-1)
+    inputs = concatenate([tgt, aff_def], axis=-1)
 
     """Encoder"""
     # reduce memory demand by half filters of the first layer.
@@ -106,10 +106,10 @@ def reg_net(img_xyz, alpha = 0.2):
     """composite transformation"""
     # compose the estimated non-linear deformation with the aff_def input
     # this can be omitted, if affine-warped image pair is the input and only the nonr_def is needed
-    all_def  = Add()([nonr_def, aff_def])
+    # all_def  = Add()([nonr_def, aff_def])
     
     """image warp use the composite transformation"""
-    y = SpatialTransformer(interp_method='linear', indexing='ij', name='movedFA')([src, all_def])
+    y = SpatialTransformer(interp_method='linear', indexing='ij', name='movedFA')([src, nonr_def])
 
     """output"""
     model = Model(inputs=[tgt, src, aff_def], outputs=[y, nonr_def])
@@ -194,8 +194,8 @@ class DataGenerator(object):
           src[i, :, :, :, 0]       = src_img
           
           # pre-estimated dense affine (displacement) map, size: (x,y,z,3)
-          affine = np.load(join(affine_path,str(ID2)+'.'+str(ID1),'deformationField.npz'))['deff']
-          aff_def[i,...] = affine
+          # affine = np.load(join(affine_path,str(ID2)+'.'+str(ID1),'deformationField.npz'))['deff']
+          aff_def[i,...] = affine_path
           # note that the map is in ijk-index rather than the world coordicate
           # the step2 in function apply_affine_deff_from_Elastix is an example to convert 
           # deformation obtained from Elastix to numpy array         
