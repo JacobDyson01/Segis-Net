@@ -10,7 +10,7 @@ please cite the paper if the code/method would be useful to your work.
 # for suggestions and questions, contact: BL (b.li@erasmusmc.nl)
 """
 from keras.models import Model
-from keras.utils.training_utils import multi_gpu_model
+# from keras.utils import multi_gpu_model
 from keras.callbacks import Callback
 import csv
 import keras.backend as K
@@ -19,22 +19,22 @@ import keras.backend as K
 #from nilearn import image
 
 
-class ModelMGPU(Model):
-    def __init__(self, ser_model, gpus):
-        pmodel = multi_gpu_model(ser_model, gpus)
-        self.__dict__.update(pmodel.__dict__)
-        self._smodel = ser_model
+# class ModelMGPU(Model):
+#     def __init__(self, ser_model, gpus):
+#         pmodel = multi_gpu_model(ser_model, gpus)
+#         self.__dict__.update(pmodel.__dict__)
+#         self._smodel = ser_model
 
-    def __getattribute__(self, attrname):
-        '''Override load and save methods to be used from the serial-model. The
-        serial-model holds references to the weights in the multi-gpu model.
-        '''
-        # return Model.__getattribute__(self, attrname)
-        # if 'load' in attrname or 'save' in attrname:
-        if 'save' in attrname:
-            return getattr(self._smodel, attrname)
+#     def __getattribute__(self, attrname):
+#         '''Override load and save methods to be used from the serial-model. The
+#         serial-model holds references to the weights in the multi-gpu model.
+#         '''
+#         # return Model.__getattribute__(self, attrname)
+#         # if 'load' in attrname or 'save' in attrname:
+#         if 'save' in attrname:
+#             return getattr(self._smodel, attrname)
 
-        return super(ModelMGPU, self).__getattribute__(attrname)
+#         return super(ModelMGPU, self).__getattribute__(attrname)
 
 
 class LossHistory_batch(Callback):
@@ -69,14 +69,13 @@ class LossHistory_batch(Callback):
 
 class LossHistory_basic(Callback):
     """Arguments: auto_decay"""
-    
+
     def __init__(self, auto_decay):
-        super(LossHistory_batch, self).__init__()
+        super(LossHistory_basic, self).__init__()
         self.auto_decay = auto_decay
-        
+
     def on_train_begin(self, logs={}):
         self.losses = []
-#       self.accuracy = []
         self.lr = []
 
     def on_epoch_end(self, epoch, logs={}):

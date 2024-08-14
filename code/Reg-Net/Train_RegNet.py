@@ -30,8 +30,8 @@ from RegNet_model_regGener import reg_net, DataGenerator
 
 """ Initial setting """
 # data and saving path
-data_p = ' '
-img_path    = join(data_p,' ') # images to be registered
+data_p = '/home/groups/dlmrimnd/jacob/data/'
+img_path    = join(data_p,'input_images') # images to be registered
 affine_path = join(data_p,' ') # dense affine displacement
 save_path   = join(data_p,' ') # folder for this experiment
 if not exists(save_path):

@@ -1,0 +1,17 @@
+Using TensorFlow backend.
+/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+Traceback (most recent call last):
+  File "/home/groups/dlmrimnd/jacob/projects/Segis-Net/code/Segis-Net/Train_SegisNet.py", line 146, in <module>
+    indexing='ij',alpha=a)
+  File "/home/groups/dlmrimnd/jacob/projects/Segis-Net/code/Segis-Net/SegisNet_model_dataGenerator.py", line 100, in joint_model
+    seg_model = seg_net(img_xyz, S_ch, n_output, alpha=alpha)
+  File "/home/groups/dlmrimnd/jacob/projects/Segis-Net/code/Segis-Net/SegNet_model_segGener.py", line 84, in seg_net
+    up_7   = concatenate([up_7, conv_3], axis=4)
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/keras/layers/merge.py", line 641, in concatenate
+    return Concatenate(axis=axis, **kwargs)(inputs)
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/keras/engine/base_layer.py", line 434, in __call__
+    self.build(input_shapes)
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/keras/layers/merge.py", line 354, in build
+    'Got inputs shapes: %s' % (input_shape))
+ValueError: A `Concatenate` layer requires inputs with matching shapes except for the concat axis. Got inputs shapes: [(None, 36, 36, 36, 128), (None, 37, 37, 37, 64)]

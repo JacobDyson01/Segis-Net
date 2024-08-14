@@ -1,0 +1,36 @@
+Using TensorFlow backend.
+/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+Traceback (most recent call last):
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/tensorflow/python/framework/common_shapes.py", line 686, in _call_cpp_shape_fn_impl
+    input_tensors_as_shapes, status)
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/tensorflow/python/framework/errors_impl.py", line 473, in __exit__
+    c_api.TF_GetCode(self.status.status))
+tensorflow.python.framework.errors_impl.InvalidArgumentError: Dimensions must be equal, but are 3 and 4 for 'clip_by_value/Minimum' (op: 'Minimum') with input shapes: [?,144,144,144,3], [4].
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/groups/dlmrimnd/jacob/projects/Segis-Net/code/Segis-Net/Train_SegisNet.py", line 146, in <module>
+    indexing='ij',alpha=a)
+  File "/home/groups/dlmrimnd/jacob/projects/Segis-Net/code/Segis-Net/SegisNet_model_dataGenerator.py", line 101, in joint_model
+    reg_model = reg_net(img_xyz, alpha=alpha)
+  File "/home/groups/dlmrimnd/jacob/projects/Segis-Net/code/Segis-Net/RegNet_model_regGener.py", line 66, in reg_net
+    clipped_aff_def = tf.clip_by_value(aff_def, clip_value_min=0, clip_value_max=tf.cast(vol_shape - 1, aff_def.dtype))
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/tensorflow/python/ops/clip_ops.py", line 62, in clip_by_value
+    t_min = math_ops.minimum(t, clip_value_max)
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/tensorflow/python/ops/gen_math_ops.py", line 2653, in minimum
+    "Minimum", x=x, y=y, name=name)
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py", line 787, in _apply_op_helper
+    op_def=op_def)
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 2958, in create_op
+    set_shapes_for_outputs(ret)
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 2209, in set_shapes_for_outputs
+    shapes = shape_func(op)
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 2159, in call_with_requiring
+    return call_cpp_shape_fn(op, require_shape_fn=True)
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/tensorflow/python/framework/common_shapes.py", line 627, in call_cpp_shape_fn
+    require_shape_fn)
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/tensorflow/python/framework/common_shapes.py", line 691, in _call_cpp_shape_fn_impl
+    raise ValueError(err.message)
+ValueError: Dimensions must be equal, but are 3 and 4 for 'clip_by_value/Minimum' (op: 'Minimum') with input shapes: [?,144,144,144,3], [4].

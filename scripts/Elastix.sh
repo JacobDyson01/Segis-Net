@@ -11,10 +11,10 @@ subjname=$1
 base_dir="/home/groups/dlmrimnd/akshit/data/ADNI_HIPPO_T1w_ONLY"
 
 # Set the base directory for output data
-output_base_dir="/home/groups/dlmrimnd/jacob/code/segis-net/Elastix_Preprocessing"
+output_base_dir="/home/groups/dlmrimnd/jacob/projects/Segis-Net/data"
 
 # Define the paths for rigid and affine parameter files
-affine_param_file="/home/groups/dlmrimnd/jacob/code/segis-net/Elastix_Preprocessing/par_atlas_aff_checknrfalse.txt"
+affine_param_file="/home/groups/dlmrimnd/jacob/projects/Segis-Net/scripts/par_atlas_aff_checknrfalse.txt"
 
 # Iterate over each subject
 for sub_dir in ${base_dir}/sub-*; do
@@ -79,7 +79,7 @@ for sub_dir in ${base_dir}/sub-*; do
         transformix -in ${dest_img_dir}/src_FA.nii.gz -tp ${deform_dir}/TransformParameters.0.txt -out ${dest_def_dir}
 
       # Rename the result image
-      mv ${dest_def_dir}/result.nii.gz ${dest_img_dir}/warped_FA.nii.gz
+      mv ${dest_def_dir}/result.nii.gz ${dest_img_dir}/warped.nii.gz
 
       echo "Processed ${sub_id} ${ses1_id} -> ${ses2_id}"
     done

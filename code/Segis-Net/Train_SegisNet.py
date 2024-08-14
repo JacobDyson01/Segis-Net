@@ -24,29 +24,29 @@ from keras.callbacks import ModelCheckpoint, ReduceLROnPlateau, CSVLogger
 #import time
 from keras.optimizers import Adam
 import keras.backend as K
-from tools import ModelMGPU, Adaptive_LossWeight, LossHistory_basic
+from tools import Adaptive_LossWeight, LossHistory_basic
 from Loss_metrics import sigmoid_DC, sigmoid_sftDC, grad_loss, DCLoss, MeanSquaredError
 from SegisNet_model_dataGenerator import joint_model, DataGenerator
 
 
 """ Initial setting """
 # data and saving path
-data_p = ' '
+data_p = '/home/groups/dlmrimnd/jacob/data/'
 # images to be registered, e.g., fractional anisotropy (FA) derived from DTI
-R_path    = join(data_p,' ') 
+R_path    = join(data_p,'input_images_roi') 
 # images to be segmented, e.g., diffusion tensor image (with six components)
-S_path    = join(data_p,' ') 
+S_path    = join(data_p,'input_images_roi') 
 # segmentation labels for supervised training
-segm_path = join(data_p,' ') 
+segm_path = join(data_p,'binary_masks_roi') 
 # dense affine displacement, e.g., estimated using Elastix
-affine_path = join(data_p,' ') 
+affine_path = join(data_p,'deformation_fields_roi') 
 # save folder for this experiment
-save_path   = join(data_p,' ') 
+save_path   = join(data_p,'results') 
 if not exists(save_path):
     os.makedirs(save_path)
 
-train_index = np.load(' ') 
-vali_index  = np.load(' ')
+train_index = np.load('/home/groups/dlmrimnd/jacob/projects/Segis-Net/code/Segis-Net/train_index.npy') 
+vali_index  = np.load('/home/groups/dlmrimnd/jacob/projects/Segis-Net/code/Segis-Net/vali_index.npy')
 
 # files to save during training
 # best weights of the monitor metric in checkpoint 1, i.e., seg acc
@@ -69,11 +69,11 @@ structs = ['cgc_l', 'cgc_r',  'cgh_l', 'cgh_r', 'fma', 'fmi', 'atr_l', 'atr_r',
            'slf_l', 'slf_r']
 
 # parameters for data generator
-params_train = {'dim_xyz': (112, 208, 112),
-          'R_ch': 2,
-          'S_ch': 6,
+params_train = {'dim_xyz': (160, 160, 160),
+          'R_ch': 1,
+          'S_ch': 1,
           'batch_size': 1,
-          'outputs': structs[:6],
+          # 'outputs': structs[:6],
           # int(len(params_train['outputs'])/2)
           # combined the left & right structures into one map/channel
           'n_output': 3, # nb of feature channels in the output
@@ -156,10 +156,10 @@ else:
 if G <= 1:
     print("train with %d GPU" % G)
     parallel_model = model
-else:
-    print("train with %d GPU" % G)
+#else:
+    #print("train with %d GPU" % G)
     #with tf.device("/cpu:0"):
-    parallel_model = ModelMGPU(model, gpus=G)
+    #parallel_model = ModelMGPU(model, gpus=G)
 
 
 parallel_model.compile(optimizer=opt, loss=losses, 

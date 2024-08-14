@@ -137,7 +137,13 @@ class SpatialTransformer(Layer):
         return affine_to_shift(trf, volshape, shift_center=True)
 
     def _single_transform(self, inputs):
-        return transform(inputs[0], inputs[1], interp_method=self.interp_method)
+        vol, trf = inputs
+        vol_shape = tf.shape(vol)[:-1]
+        
+        # Clip trf values to stay within valid indices
+        # trf = tf.clip_by_value(trf, 0, tf.cast(vol_shape - 1, trf.dtype))
+        
+        return transform(vol, trf, interp_method=self.interp_method)
 
 
 class Grad():
