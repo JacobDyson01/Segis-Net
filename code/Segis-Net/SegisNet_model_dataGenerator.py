@@ -197,21 +197,21 @@ class DataGenerator(object):
         ses2 = subject_ses[2]
 
     # Define paths to the target and source images
-        tgt_p = join(R_path, f'{subject}_{ses1}_{ses2}', 'target_roi.nii.gz')
-        src_p = join(R_path, f'{subject}_{ses1}_{ses2}', 'source_roi.nii.gz')
+        tgt_p = join(R_path, f'{subject}_{ses1}_{ses2}', 'target_Warped_roi.nii.gz')
+        src_p = join(R_path, f'{subject}_{ses1}_{ses2}', 'source_Warped_roi.nii.gz')
         # print(f'{tgt_p}')
         tgt_img = nib.load(tgt_p).get_fdata().astype(dtype='float32')
         src_img = nib.load(src_p).get_fdata().astype(dtype='float32')
         
 
     # Load the source image to be segmented and the label
-        tensor_p = join(S_path, f'{subject}_{ses1}_{ses2}', 'source_roi.nii.gz')
+        tensor_p = join(S_path, f'{subject}_{ses1}_{ses2}', 'source_Warped_roi.nii.gz')
         tensor = nib.load(tensor_p).get_fdata().astype(dtype='float32')
 
-        segm1_p = join(segm_path, f'{subject}_{ses1}', 'binary_mask_roi.nii.gz')
+        segm1_p = join(segm_path, f'{subject}_{ses1}', 'binary_mask_warped_roi.nii.gz')
         segm1 = nib.load(segm1_p).get_fdata().astype(dtype='int8')
 
-        segm2_p = join(segm_path, f'{subject}_{ses2}', 'binary_mask_roi.nii.gz')
+        segm2_p = join(segm_path, f'{subject}_{ses2}', 'binary_mask_warped_roi.nii.gz')
         segm2 = nib.load(segm2_p).get_fdata().astype(dtype='int8')
             
           #add data-augmentation here, if needed
@@ -225,16 +225,16 @@ class DataGenerator(object):
         # segm2 = self.resize_image(segm2, (self.batch_size, *self.dim_xyz, self.n_output))
         # # segm1 = self.resize_image(segm1, (*self.dim_xyz))
         # # segm2 = self.resize_image(segm2, (*self.dim_xyz))
-        tgt_img = self.resize_image(tgt_img, (self.dim_xyz))
-        src_img = self.resize_image(src_img, (self.dim_xyz))
+        # tgt_img = self.resize_image(tgt_img, (self.dim_xyz))
+        # src_img = self.resize_image(src_img, (self.dim_xyz))
         # tensor = self.resize_image(tensor, (*self.dim_xyz, self.S_ch))
         tensor = np.expand_dims(tensor, axis=-1)
         # segm1 = self.resize_image(segm1, (*self.dim_xyz, self.n_output))
         # segm2 = self.resize_image(segm2, (*self.dim_xyz, self.n_output))
 
         
-        segm1 = self.resize_image(segm1, self.dim_xyz)
-        segm2 = self.resize_image(segm2, self.dim_xyz)
+        # segm1 = self.resize_image(segm1, self.dim_xyz)
+        # segm2 = self.resize_image(segm2, self.dim_xyz)
         segm1 = np.expand_dims(segm1, axis=-1)
         segm2 = np.expand_dims(segm2, axis=-1)
         # tgt_img = self.resize_image(tgt_img, (*self.dim_xyz, self.R_ch))
@@ -243,14 +243,14 @@ class DataGenerator(object):
         src_img = np.expand_dims(src_img, axis=-1)
 
         # pre-estimated dense affine (displacement) map, size: (x,y,z,3)
-        affine_p = join(affine_path, f'{subject}_{ses1}_{ses2}', 'deformationField.nii.gz')
+        affine_p = join(affine_path, f'{subject}_{ses1}_{ses2}', 'deformation_1Warp.nii.gz')
         affine = nib.load(affine_p).get_fdata().astype(dtype='float32')
         
         if affine.ndim == 5:
                 affine = affine.squeeze()
 
         # affine = self.resize_image(affine, (self.batch_size, *self.dim_xyz, 3))
-        affine = self.resize_image(affine, (*self.dim_xyz, 3))
+        # affine = self.resize_image(affine, (*self.dim_xyz, 3))
 
         # Normalize affine deformation field values
         affine -= np.min(affine)

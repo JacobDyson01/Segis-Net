@@ -7,8 +7,8 @@
 
 
 # Set the base directories
-base_dir="/home/groups/dlmrimnd/jacob/data/input_images_roi"
-output_base_dir="/home/groups/dlmrimnd/jacob/data/deformation_fields_roi"
+base_dir="/home/groups/dlmrimnd/jacob/data/input_images_downsampled"
+output_base_dir="/home/groups/dlmrimnd/jacob/data/deformation_fields_downsampled"
 affine_param_file="/home/groups/dlmrimnd/jacob/files/Elastix_Preprocessing/par_atlas_aff_checknrfalse.txt"
 elastix_sif="/home/groups/dlmrimnd/jacob/files/Elastix_Preprocessing/elastix.sif"
 
@@ -28,8 +28,8 @@ for sub_dir in ${base_dir}/sub-*; do
   ses2_id="ses${ses_ids[1]}"
 
   # Define paths to the images
-  img1="${sub_dir}/source_roi.nii.gz"
-  img2="${sub_dir}/target_roi.nii.gz"
+  img1="${sub_dir}/source.nii.gz"
+  img2="${sub_dir}/target.nii.gz"
 
   echo "Processing sessions: ${ses1_id} and ${ses2_id}"
   echo "Image 1 path: ${img1}"

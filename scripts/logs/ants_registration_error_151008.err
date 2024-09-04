@@ -1,0 +1,2 @@
+cp: cannot stat '/output/sub-003S6067_ses-01_ses-02/source_0GenericAffine.mat': No such file or directory
+slurmstepd: error: *** JOB 151008 ON vcpu-0 CANCELLED AT 2024-09-02T11:37:14 ***

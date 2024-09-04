@@ -2,13 +2,13 @@ import os
 import nibabel as nib
 
 # Directory containing the subject folders with .nii.gz files
-input_images_dir = '/home/groups/dlmrimnd/jacob/data/input_images'
+input_images_dir = '/home/groups/dlmrimnd/jacob/data/input_images_old'
 
 # Source directory containing the .mgz files
 source_dir = '/home/groups/dlmrimnd/akshit/ADNI_output_files'
 
 # Target directory for the converted .nii.gz files
-target_dir = '/home/groups/dlmrimnd/jacob/data/input_images_converted'
+target_dir = '/home/groups/dlmrimnd/jacob/data/input_images'
 
 # Create the target directory if it doesn't exist
 os.makedirs(target_dir, exist_ok=True)
@@ -20,8 +20,8 @@ for subject_dir in os.listdir(input_images_dir):
     ses2 = subject_dir.split('_')[2].replace('-', '_')  # Replace '-' with '_' for session id
     
     # Define the source paths for the .mgz files
-    src_path = os.path.join(source_dir, f'{subject_id}_{ses1}', 'mri', 'T1.mgz')
-    tgt_path = os.path.join(source_dir, f'{subject_id}_{ses2}', 'mri', 'T1.mgz')
+    src_path = os.path.join(source_dir, f'{subject_id}_{ses1}', 'mri', 'brain.mgz')
+    tgt_path = os.path.join(source_dir, f'{subject_id}_{ses2}', 'mri', 'brain.mgz')
     
     if os.path.exists(src_path) and os.path.exists(tgt_path):
         target_sub_dir = os.path.join(target_dir, subject_dir)

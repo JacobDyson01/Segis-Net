@@ -53,8 +53,6 @@ for sub_dir in ${base_dir}/sub-*; do
       mkdir -p ${dest_img_dir}
 
       # Copy the images to the destination directory
-      cp ${img1} ${dest_img_dir}/tgt_FA.nii.gz
-      cp ${img2} ${dest_img_dir}/src_FA.nii.gz
 
       # Ensure the variables are parsed into Singularity
       export SINGULARITYENV_dest_img_dir=${dest_img_dir}
@@ -68,7 +66,7 @@ for sub_dir in ${base_dir}/sub-*; do
         -B ${deform_dir}:${deform_dir} \
         -B ${affine_param_file}:${affine_param_file} \
         /home/groups/dlmrimnd/jacob/code/segis-net/Elastix_Preprocessing/elastix.sif \
-        elastix -threads 1 -f ${dest_img_dir}/tgt_FA.nii.gz -m ${dest_img_dir}/src_FA.nii.gz -p ${affine_param_file} -out ${deform_dir}
+        elastix -threads 1 -f ${dest_img_dir}/target_roi.nii.gz -m ${dest_img_dir}/source_roi.nii.gz -p ${affine_param_file} -out ${deform_dir}
 
       # Step 3: Warp the moving image to the target space using Transformix
       singularity exec \
@@ -76,7 +74,7 @@ for sub_dir in ${base_dir}/sub-*; do
         -B ${deform_dir}:${deform_dir} \
         -B ${dest_def_dir}:${dest_def_dir} \
         /home/groups/dlmrimnd/jacob/code/segis-net/Elastix_Preprocessing/elastix.sif \
-        transformix -in ${dest_img_dir}/src_FA.nii.gz -tp ${deform_dir}/TransformParameters.0.txt -out ${dest_def_dir}
+        transformix -in ${dest_img_dir}/source_roi.nii.gz -tp ${deform_dir}/TransformParameters.0.txt -out ${dest_def_dir}
 
       # Rename the result image
       mv ${dest_def_dir}/result.nii.gz ${dest_img_dir}/warped.nii.gz

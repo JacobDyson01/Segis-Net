@@ -1,0 +1,39 @@
+import nibabel as nib
+import numpy as np
+from scipy.ndimage import zoom
+
+# Define the file paths
+mask1_path = "/home/groups/dlmrimnd/jacob/data/mni_icbm152_t1_tal_nlin_sym_09a_mask.nii"
+mask2_path = "/home/groups/dlmrimnd/jacob/data/mni_icbm152_t1_tal_nlin_sym_09a.nii"
+output_path = "/home/groups/dlmrimnd/jacob/data/brain_mni_256.nii.gz"
+
+# Load the NIfTI images
+mask1_img = nib.load(mask1_path)
+mask2_img = nib.load(mask2_path)
+
+# Extract the data arrays from the NIfTI images
+mask1_data = mask1_img.get_fdata()
+mask2_data = mask2_img.get_fdata()
+
+# Multiply the data arrays together
+multiplied_data = mask1_data * mask2_data
+
+# Determine the scaling factors to increase size to 256x256x256
+target_shape = (256, 256, 256)
+scaling_factors = [t / o for t, o in zip(target_shape, multiplied_data.shape)]
+
+# Upsample the image
+upsampled_data = zoom(multiplied_data, scaling_factors, order=1)  # Linear interpolation
+
+# Adjust the affine matrix for the new voxel size
+new_affine = mask1_img.affine.copy()
+# scaling_affine = np.diag([1.0 / scaling_factors[0], 1.0 / scaling_factors[1], 1.0 / scaling_factors[2], 1])
+# new_affine = np.dot(new_affine, scaling_affine)
+
+# Create a new NIfTI image with the upsampled data and adjusted affine
+upsampled_img = nib.Nifti1Image(upsampled_data, new_affine)
+
+# Save the resulting NIfTI image
+nib.save(upsampled_img, output_path)
+
+print(f"Upsampled and multiplied mask with adjusted size saved to {output_path}")

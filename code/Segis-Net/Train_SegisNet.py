@@ -33,13 +33,13 @@ from SegisNet_model_dataGenerator import joint_model, DataGenerator
 # data and saving path
 data_p = '/home/groups/dlmrimnd/jacob/data/'
 # images to be registered, e.g., fractional anisotropy (FA) derived from DTI
-R_path    = join(data_p,'input_images_roi') 
+R_path    = join(data_p,'ants_warped_input_roi') 
 # images to be segmented, e.g., diffusion tensor image (with six components)
-S_path    = join(data_p,'input_images_roi') 
+S_path    = join(data_p,'ants_warped_input_roi') 
 # segmentation labels for supervised training
-segm_path = join(data_p,'binary_masks_roi') 
+segm_path = join(data_p,'warped_masks_roi') 
 # dense affine displacement, e.g., estimated using Elastix
-affine_path = join(data_p,'deformation_fields_roi') 
+affine_path = join(data_p,'deformation_fields') 
 # save folder for this experiment
 save_path   = join(data_p,'results') 
 if not exists(save_path):
@@ -69,7 +69,7 @@ structs = ['cgc_l', 'cgc_r',  'cgh_l', 'cgh_r', 'fma', 'fmi', 'atr_l', 'atr_r',
            'slf_l', 'slf_r']
 
 # parameters for data generator
-params_train = {'dim_xyz': (160, 160, 160),
+params_train = {'dim_xyz': (144, 96, 112),
           'R_ch': 1,
           'S_ch': 1,
           'batch_size': 1,

@@ -1,8 +1,8 @@
 #!/bin/bash
 
 #SBATCH --job-name=segisnet
-#SBATCH --output=/home/groups/dlmrimnd/jacob/projects/Segis-Net/logs/output_%j.out
-#SBATCH --error=/home/groups/dlmrimnd/jacob/projects/Segis-Net/logs/error_%j.err
+#SBATCH --output=/home/groups/dlmrimnd/jacob/projects/Segis-Net/logs/segis_net_output_%j.out
+#SBATCH --error=/home/groups/dlmrimnd/jacob/projects/Segis-Net/logs/segis_net_error_%j.err
 #SBATCH --partition=a100
 #SBATCH --time=8:00:0
 

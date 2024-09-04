@@ -17,9 +17,9 @@ def crop_image(input_path, output_path, crop_coords):
 def crop_binary_mask(input_path, output_path, crop_coords):
     crop_image(input_path, output_path, crop_coords)
 
-input_dir = "/home/groups/dlmrimnd/jacob/data/binary_masks"
-output_mask_dir = "/home/groups/dlmrimnd/jacob/data/binary_masks_roi"
-crop_coords = (48, 192, 0, 144, 48, 192)  # Define your crop coordinates here
+input_dir = "/home/groups/dlmrimnd/jacob/data/warped_binary_masks"
+output_mask_dir = "/home/groups/dlmrimnd/jacob/data/warped_masks_roi"
+crop_coords = (28, 172, 65, 161, 55, 167)  # Define your crop coordinates here
 
 # Iterate over the binary masks
 for sub_dir in os.listdir(input_dir):
@@ -27,8 +27,8 @@ for sub_dir in os.listdir(input_dir):
     print(f"Processing {sub_id}...")
 
     # Define paths to binary masks
-    mask_ses1 = os.path.join(input_dir, sub_dir, "binary_mask.nii.gz")
-    mask_ses1_roi = os.path.join(output_mask_dir, sub_id, "binary_mask_roi.nii.gz")
+    mask_ses1 = os.path.join(input_dir, sub_dir, "binary_mask_warped.nii.gz")
+    mask_ses1_roi = os.path.join(output_mask_dir, sub_id, "binary_mask_warped_roi.nii.gz")
 
     # Create output directories
     os.makedirs(os.path.dirname(mask_ses1_roi), exist_ok=True)

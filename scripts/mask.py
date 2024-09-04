@@ -3,10 +3,10 @@ import nibabel as nib
 import numpy as np
 
 # Root directory where your output_files are located
-root_dir = '/home/groups/dlmrimnd/akshit/ADNI_output_files/'
+root_dir = '/home/groups/dlmrimnd/jacob/projects/Segis-Net/scripts/ADNI_output_images'
 
 # Desired output directory for NIfTI files
-output_dir = '/home/groups/dlmrimnd/jacob/data/binary_masks/'
+output_dir = '/home/groups/dlmrimnd/jacob/data/test_binary_masks/'
 
 # Create the output directory if it doesn't exist
 os.makedirs(output_dir, exist_ok=True)
