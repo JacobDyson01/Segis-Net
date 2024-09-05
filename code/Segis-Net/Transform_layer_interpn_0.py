@@ -141,7 +141,7 @@ class SpatialTransformer(Layer):
         vol_shape = tf.shape(vol)[:-1]
         
         # Clip trf values to stay within valid indices
-        # trf = tf.clip_by_value(trf, 0, tf.cast(vol_shape - 1, trf.dtype))
+        trf = tf.clip_by_value(trf, 0, tf.cast(vol_shape - 1, trf.dtype))
         
         return transform(vol, trf, interp_method=self.interp_method)
 

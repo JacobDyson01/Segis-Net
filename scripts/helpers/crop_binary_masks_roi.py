@@ -18,8 +18,8 @@ def crop_binary_mask(input_path, output_path, crop_coords):
     crop_image(input_path, output_path, crop_coords)
 
 input_dir = "/home/groups/dlmrimnd/jacob/data/warped_binary_masks"
-output_mask_dir = "/home/groups/dlmrimnd/jacob/data/warped_masks_roi"
-crop_coords = (28, 172, 65, 161, 55, 167)  # Define your crop coordinates here
+output_mask_dir = "/home/groups/dlmrimnd/jacob/data/warped_masks_roi_full"
+crop_coords = crop_coords = (2, 194, 1, 233, 2, 186)  # Define your crop coordinates here
 
 # Iterate over the binary masks
 for sub_dir in os.listdir(input_dir):

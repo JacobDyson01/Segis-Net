@@ -39,7 +39,7 @@ S_path    = join(data_p,'ants_warped_input_roi')
 # segmentation labels for supervised training
 segm_path = join(data_p,'warped_masks_roi') 
 # dense affine displacement, e.g., estimated using Elastix
-affine_path = join(data_p,'deformation_fields') 
+affine_path = join(data_p,'deformation_fields_roi') 
 # save folder for this experiment
 save_path   = join(data_p,'results') 
 if not exists(save_path):
@@ -69,6 +69,9 @@ structs = ['cgc_l', 'cgc_r',  'cgh_l', 'cgh_r', 'fma', 'fmi', 'atr_l', 'atr_r',
            'slf_l', 'slf_r']
 
 # parameters for data generator
+
+# params_train = {'dim_xyz': (160, 112, 128),
+# params_train = {'dim_xyz': (197, 233, 189),
 params_train = {'dim_xyz': (144, 96, 112),
           'R_ch': 1,
           'S_ch': 1,

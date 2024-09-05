@@ -1,0 +1,28 @@
+Using TensorFlow backend.
+/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+Traceback (most recent call last):
+  File "/home/groups/dlmrimnd/jacob/projects/Segis-Net/code/Segis-Net/Train_SegisNet.py", line 147, in <module>
+    indexing='ij',alpha=a)
+  File "/home/groups/dlmrimnd/jacob/projects/Segis-Net/code/Segis-Net/SegisNet_model_dataGenerator.py", line 101, in joint_model
+    reg_model = reg_net(img_xyz, alpha=alpha)
+  File "/home/groups/dlmrimnd/jacob/projects/Segis-Net/code/Segis-Net/RegNet_model_regGener.py", line 118, in reg_net
+    model = Model(inputs=[tgt, src, aff_def], outputs=[y, nonr_def])
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/keras/legacy/interfaces.py", line 91, in wrapper
+    return func(*args, **kwargs)
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/keras/engine/network.py", line 91, in __init__
+    self._init_graph_network(*args, **kwargs)
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/keras/engine/network.py", line 235, in _init_graph_network
+    self.inputs, self.outputs)
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/keras/engine/network.py", line 1412, in _map_graph_network
+    tensor_index=tensor_index)
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/keras/engine/network.py", line 1399, in build_map
+    node_index, tensor_index)
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/keras/engine/network.py", line 1399, in build_map
+    node_index, tensor_index)
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/keras/engine/network.py", line 1399, in build_map
+    node_index, tensor_index)
+  [Previous line repeated 79 more times]
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/keras/engine/network.py", line 1371, in build_map
+    node = layer._inbound_nodes[node_index]
+AttributeError: 'NoneType' object has no attribute '_inbound_nodes'

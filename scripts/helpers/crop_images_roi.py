@@ -16,11 +16,11 @@ def crop_image(input_path, output_path, crop_coords):
     nib.save(cropped_img, output_path)
 
 # Define the cropping coordinates (adjust these values as needed)
-crop_coords = (28, 172, 65, 161, 55, 167)
+crop_coords = (2, 194, 1, 233, 2, 186)
 
 # Directories
 input_dir = "/home/groups/dlmrimnd/jacob/data/ants_warped_input"
-output_dir = "/home/groups/dlmrimnd/jacob/data/ants_warped_input_roi"
+output_dir = "/home/groups/dlmrimnd/jacob/data/ants_warped_input_roi_full"
 
 # Create output directory if it doesn't exist
 os.makedirs(output_dir, exist_ok=True)

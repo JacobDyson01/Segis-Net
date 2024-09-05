@@ -169,120 +169,104 @@ class DataGenerator(object):
       return indexes
 
   def __data_generation(self, list_IDs_temp, R_path, S_path, segm_path, affine_path):
-      'Generates data of batch_size samples'
-      # Initialization
-      R_tgt = np.zeros((self.batch_size, *self.dim_xyz, self.R_ch)).astype(dtype='float32')
-      R_src = np.zeros((self.batch_size, *self.dim_xyz, self.R_ch)).astype(dtype='float32')
-      # R_tgt = np.zeros((self.batch_size, *self.dim_xyz)).astype(dtype='float32')
-      # R_src = np.zeros((self.batch_size, *self.dim_xyz)).astype(dtype='float32')
-      # keras.backend.floatx() default is
-      # Out[2]: 'float32'
-      S_src = np.zeros((self.batch_size, *self.dim_xyz, self.S_ch)).astype(dtype='float32')
-      # S_src = np.zeros((self.batch_size, *self.dim_xyz)).astype(dtype='float32')
-      segm_tgt = np.zeros((self.batch_size, *self.dim_xyz, self.n_output)).astype(dtype='int8')
-      segm_src = np.zeros((self.batch_size, *self.dim_xyz, self.n_output)).astype(dtype='int8')
-    #   segm_tgt = np.zeros((self.batch_size, *self.dim_xyz)).astype(dtype='int8')
-    #   segm_src = np.zeros((self.batch_size, *self.dim_xyz)).astype(dtype='int8')
-      
-      # the displacement has 3 channels, because of 3-dimention
-      zeros   = np.zeros((self.batch_size, *self.dim_xyz, 3)).astype(dtype='float16')
-      aff_def = np.zeros((self.batch_size, *self.dim_xyz, 3)).astype(dtype='float32')
-      # Generate batch
-      for i, ID in enumerate(list_IDs_temp):
-    # IDs of the images to be registered, ID1: target, ID2: moving
-    # Extract the subject and session information from the directory name
+    'Generates data of batch_size samples'
+
+    # Padding for each dimension (x, y, z) by 5 to prevent out-of-bounds errors
+    pad_width = ((8, 8), (8, 8), (8, 8))  # Padding for each dimension
+
+    # Initialization of arrays for registration and segmentation data
+    R_tgt = np.zeros((self.batch_size, *self.dim_xyz, self.R_ch)).astype(dtype='float32')
+    R_src = np.zeros((self.batch_size, *self.dim_xyz, self.R_ch)).astype(dtype='float32')
+    S_src = np.zeros((self.batch_size, *self.dim_xyz, self.S_ch)).astype(dtype='float32')
+    segm_tgt = np.zeros((self.batch_size, *self.dim_xyz, self.n_output)).astype(dtype='int8')
+    segm_src = np.zeros((self.batch_size, *self.dim_xyz, self.n_output)).astype(dtype='int8')
+
+    # Placeholder arrays for zeros and affine deformation fields
+    zeros = np.zeros((self.batch_size, *self.dim_xyz, 3)).astype(dtype='float16')
+    aff_def = np.zeros((self.batch_size, *self.dim_xyz, 3)).astype(dtype='float32')
+
+    # Generate batch
+    for i, ID in enumerate(list_IDs_temp):
+        # IDs of the images to be registered, ID1: target, ID2: moving
+        # Extract the subject and session information from the directory name
         subject_ses = ID.split('_')
         subject = subject_ses[0]
         ses1 = subject_ses[1]
         ses2 = subject_ses[2]
 
-    # Define paths to the target and source images
+        # Define paths to the target and source images
         tgt_p = join(R_path, f'{subject}_{ses1}_{ses2}', 'target_Warped_roi.nii.gz')
         src_p = join(R_path, f'{subject}_{ses1}_{ses2}', 'source_Warped_roi.nii.gz')
-        # print(f'{tgt_p}')
+
+        # Load the target and source images
         tgt_img = nib.load(tgt_p).get_fdata().astype(dtype='float32')
         src_img = nib.load(src_p).get_fdata().astype(dtype='float32')
-        
 
-    # Load the source image to be segmented and the label
+        # Load the source image to be segmented and the label (tensor)
         tensor_p = join(S_path, f'{subject}_{ses1}_{ses2}', 'source_Warped_roi.nii.gz')
         tensor = nib.load(tensor_p).get_fdata().astype(dtype='float32')
 
+        # Load the binary masks for segmentation
         segm1_p = join(segm_path, f'{subject}_{ses1}', 'binary_mask_warped_roi.nii.gz')
         segm1 = nib.load(segm1_p).get_fdata().astype(dtype='int8')
 
         segm2_p = join(segm_path, f'{subject}_{ses2}', 'binary_mask_warped_roi.nii.gz')
         segm2 = nib.load(segm2_p).get_fdata().astype(dtype='int8')
-            
-          #add data-augmentation here, if needed
-          
-          # intensity normalization within the brain tissue (zero mean, std one), if needed 
+
+        # Add padding to all images (target, source, tensor, segmentation masks)
+        # tensor = np.pad(tensor, pad_width, mode='constant', constant_values=0)
+        # segm1 = np.pad(segm1, pad_width, mode='constant', constant_values=0)
+        # segm2 = np.pad(segm2, pad_width, mode='constant', constant_values=0)
+        # tgt_img = np.pad(tgt_img, pad_width, mode='constant', constant_values=0)
+        # src_img = np.pad(src_img, pad_width, mode='constant', constant_values=0)
+
+        # Normalize intensity values in the tensor (zero mean, unit variance)
         tensor -= np.mean(tensor)
         tensor /= np.std(tensor)
 
-        tensor = self.resize_image(tensor, (self.dim_xyz))
-        # segm1 = self.resize_image(segm1, (self.batch_size, *self.dim_xyz, self.n_output))
-        # segm2 = self.resize_image(segm2, (self.batch_size, *self.dim_xyz, self.n_output))
-        # # segm1 = self.resize_image(segm1, (*self.dim_xyz))
-        # # segm2 = self.resize_image(segm2, (*self.dim_xyz))
-        # tgt_img = self.resize_image(tgt_img, (self.dim_xyz))
-        # src_img = self.resize_image(src_img, (self.dim_xyz))
-        # tensor = self.resize_image(tensor, (*self.dim_xyz, self.S_ch))
+        # Expand dimensions for channels (required for input in the neural network)
         tensor = np.expand_dims(tensor, axis=-1)
-        # segm1 = self.resize_image(segm1, (*self.dim_xyz, self.n_output))
-        # segm2 = self.resize_image(segm2, (*self.dim_xyz, self.n_output))
-
-        
-        # segm1 = self.resize_image(segm1, self.dim_xyz)
-        # segm2 = self.resize_image(segm2, self.dim_xyz)
         segm1 = np.expand_dims(segm1, axis=-1)
         segm2 = np.expand_dims(segm2, axis=-1)
-        # tgt_img = self.resize_image(tgt_img, (*self.dim_xyz, self.R_ch))
-        # src_img = self.resize_image(src_img, (*self.dim_xyz, self.R_ch))
         tgt_img = np.expand_dims(tgt_img, axis=-1)
         src_img = np.expand_dims(src_img, axis=-1)
 
-        # pre-estimated dense affine (displacement) map, size: (x,y,z,3)
+        # Pre-estimated dense affine (displacement) map, size: (x,y,z,3)
         affine_p = join(affine_path, f'{subject}_{ses1}_{ses2}', 'deformation_1Warp.nii.gz')
         affine = nib.load(affine_p).get_fdata().astype(dtype='float32')
-        
-        if affine.ndim == 5:
-                affine = affine.squeeze()
 
-        # affine = self.resize_image(affine, (self.batch_size, *self.dim_xyz, 3))
-        # affine = self.resize_image(affine, (*self.dim_xyz, 3))
+        # Ensure deformation field has correct dimensions and pad it
+        if affine.ndim == 5:
+            affine = affine.squeeze()  # Remove singleton dimensions if needed
+
+        # Add padding to the affine deformation field (excluding the last dimension)
+        # affine = np.pad(affine, ((8, 8), (8, 8), (8, 8), (0, 0)), mode='constant', constant_values=0)
 
         # Normalize affine deformation field values
-        affine -= np.min(affine)
-        affine /= np.max(affine)
-        affine *= np.array(self.dim_xyz) - 1
-        affine = np.clip(affine, 0, np.array(self.dim_xyz) - 1)
-        
-        
+        # affine -= np.min(affine)
+        # affine /= np.max(affine)
+        # affine *= np.array(self.dim_xyz) - 1
+        # affine = np.clip(affine, 0, np.array(self.dim_xyz) - 1)
+
+        # Debugging print statements to check shapes and ranges of values
         print(f'affine min: {np.min(affine)}, max: {np.max(affine)}')
-
-
         print(f"tensor shape: {tensor.shape}")
         print(f"segm1 shape: {segm1.shape}")
         print(f"segm2 shape: {segm2.shape}")
         print(f"tgt_img shape: {tgt_img.shape}")
         print(f"src_img shape: {src_img.shape}")
         print(f"aff_def shape: {affine.shape}")
+
+        # Assign the padded and processed data to the batch arrays
         S_src[i] = tensor
         R_tgt[i] = tgt_img
         R_src[i] = src_img
         segm_tgt[i] = segm1
         segm_src[i] = segm2
-        
-          
-          
-					# Assign the affine deformation field to aff_def
         aff_def[i] = affine
-          # note that the map is in ijk-index rather than the world coordicate
-          # the step2 in function apply_affine_deff_from_Elastix is an example to convert 
-          # deformation obtained from Elastix to numpy array
 
-      return [R_tgt,R_src,S_src,aff_def], [R_tgt,segm_tgt,segm_src,zeros]
+    # Return the batch of processed data
+    return [R_tgt, R_src, S_src, aff_def], [R_tgt, segm_tgt, segm_src, zeros]
 
   def resize_image(self, image, target_shape):
         from scipy.ndimage import zoom
