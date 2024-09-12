@@ -4,7 +4,10 @@
 #SBATCH --output=/home/groups/dlmrimnd/jacob/projects/Segis-Net/logs/segis_net_output_%j.out
 #SBATCH --error=/home/groups/dlmrimnd/jacob/projects/Segis-Net/logs/segis_net_error_%j.err
 #SBATCH --partition=a100
-#SBATCH --time=8:00:0
+#SBATCH --nodelist=a100-5
+#SBATCH --time=12:00:00
+
+
 
 # Load necessary modules
 # module load python/3.6.7

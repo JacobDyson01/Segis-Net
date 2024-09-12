@@ -96,36 +96,23 @@ class SpatialTransformer(Layer):
         self.built = True
 
     def call(self, inputs):
-        """
-        Parameters
-            inputs: list with two entries
-        """
-
-        # check shapes
-        assert len(inputs) == 2, "inputs has to be len 2, found: %d" % len(inputs)
-        vol = inputs[0]
-        trf = inputs[1]
-
-        # necessary for multi_gpu models...
+        vol, trf = inputs
         vol = K.reshape(vol, [-1, *self.inshape[0][1:]])
         trf = K.reshape(trf, [-1, *self.inshape[1][1:]])
 
-        # go from affine
         if self.is_affine:
             trf = tf.map_fn(lambda x: self._single_aff_to_shift(x, vol.shape[1:-1]), trf, dtype=tf.float32)
 
-        # prepare location shift
-        if self.indexing == 'xy':  # shift the first two dimensions
+        if self.indexing == 'xy':
             trf_split = tf.split(trf, trf.shape[-1], axis=-1)
             trf_lst = [trf_split[1], trf_split[0], *trf_split[2:]]
             trf = tf.concat(trf_lst, -1)
 
-        # map transform across batch
-        if self.single_transform:
-            fn = lambda x: self._single_transform([x, trf[0,:]])
-            return tf.map_fn(fn, vol, dtype=tf.float32)
-        else:
-            return tf.map_fn(self._single_transform, [vol, trf], dtype=tf.float32)
+    # Clip the transformation field before applying it
+        vol_shape = tf.shape(vol)[:-1]
+        # trf = tf.clip_by_value(trf, 0, tf.cast(vol_shape - 1, trf.dtype))
+
+        return tf.map_fn(self._single_transform, [vol, trf], dtype=tf.float32)
 
     def _single_aff_to_shift(self, trf, volshape):
         if len(trf.shape) == 1:  # go from vector to matrix
@@ -141,7 +128,7 @@ class SpatialTransformer(Layer):
         vol_shape = tf.shape(vol)[:-1]
         
         # Clip trf values to stay within valid indices
-        trf = tf.clip_by_value(trf, 0, tf.cast(vol_shape - 1, trf.dtype))
+        # trf = tf.clip_by_value(trf, 0, tf.cast(vol_shape - 1, trf.dtype))
         
         return transform(vol, trf, interp_method=self.interp_method)
 
@@ -187,34 +174,12 @@ class Grad():
 def interpn(vol, loc, interp_method='linear'):
     """
     N-D gridded interpolation in tensorflow
-    vol can have more dimensions than loc[i], in which case loc[i] acts as a slice 
-    for the first dimensions
-    Parameters:
-        vol: volume with size vol_shape or [*vol_shape, nb_features]
-        loc: a N-long list of N-D Tensors (the interpolation locations) for the new grid
-            each tensor has to have the same size (but not nec. same size as vol)
-            or a tensor of size [*new_vol_shape, D]
-        interp_method: interpolation type 'linear' (default) or 'nearest'
-    Returns:
-        new interpolated volume of the same size as the entries in loc
-    TODO:
-        enable optional orig_grid - the original grid points.
-        check out tf.contrib.resampler, only seems to work for 2D data
     """
-    
+
     if isinstance(loc, (list, tuple)):
         loc = tf.stack(loc, -1)
 
-    # since loc can be a list, nb_dims has to be based on vol.
     nb_dims = loc.shape[-1]
-
-    if nb_dims != len(vol.shape[:-1]):
-        raise Exception("Number of loc Tensors %d does not match volume dimension %d"
-                        % (nb_dims, len(vol.shape[:-1])))
-
-    if nb_dims > len(vol.shape):
-        raise Exception("Loc dimension %d does not match volume dimension %d"
-                        % (nb_dims, len(vol.shape)))
 
     if len(vol.shape) == nb_dims:
         vol = K.expand_dims(vol, -1)
@@ -222,70 +187,40 @@ def interpn(vol, loc, interp_method='linear'):
     # flatten and float location Tensors
     loc = tf.cast(loc, 'float32')
 
-    # interpolate
     if interp_method == 'linear':
         loc0 = tf.floor(loc)
+        max_loc = [d - 1 for d in vol.get_shape().as_list()[:-1]]  # Fix: Include last dimension for valid bounds
 
-        # clip values
-        # --- changed Jun22,2020 by BL, want zero instead of max_loc, remove clip
-        max_loc = [d - 1 for d in vol.get_shape().as_list()]
-#        loc0lst = [tf.clip_by_value(loc0[...,d], 0, max_loc[d]) for d in range(nb_dims)]
-        loc0lst = [loc0[...,d] for d in range(nb_dims)]
-        
-        # get other end of point cube
-#        loc1 = [tf.clip_by_value(loc0lst[d] + 1, 0, max_loc[d]) for d in range(nb_dims)]
-        loc1 = [loc0lst[d] + 1 for d in range(nb_dims)]
+        # --- Restore Clipping for Boundary Handling ---
+        loc0lst = [tf.clip_by_value(loc0[..., d], 0, max_loc[d]) for d in range(nb_dims)]
+        loc1 = [tf.clip_by_value(loc0lst[d] + 1, 0, max_loc[d]) for d in range(nb_dims)]
         locs = [[tf.cast(f, 'int32') for f in loc0lst], [tf.cast(f, 'int32') for f in loc1]]
-        # ------end of change
-        
-        # compute the difference between the upper value and the original value
-        # differences are basically 1 - (pt - floor(pt))
-        #   because: floor(pt) + 1 - pt = 1 + (floor(pt) - pt) = 1 - (pt - floor(pt))
-        diff_loc1 = [loc1[d] - loc[...,d] for d in range(nb_dims)]
+        # Difference calculation remains the same
+        diff_loc1 = [loc1[d] - loc[..., d] for d in range(nb_dims)]
         diff_loc0 = [1 - d for d in diff_loc1]
-        weights_loc = [diff_loc1, diff_loc0] # note reverse ordering since weights are inverse of diff.
+        weights_loc = [diff_loc1, diff_loc0]  # Reverse ordering since weights are inverse of diff.
 
-        # go through all the cube corners, indexed by a ND binary vector 
-        # e.g. [0, 0] means this "first" corner in a 2-D "cube"
+        # Cube points and interpolation
         cube_pts = list(itertools.product([0, 1], repeat=nb_dims))
         interp_vol = 0
-        
+
         for c in cube_pts:
-            
             subs = [locs[c[d]][d] for d in range(nb_dims)]
-
             idx = sub2ind(vol.shape[:-1], subs)
-
             vol_val = tf.gather(tf.reshape(vol, [-1, vol.shape[-1]]), idx)
-
-            wts_lst = [weights_loc[c[d]][d] for d in range(nb_dims)]
-
-            wt = prod_n(wts_lst)
+            wt = prod_n([weights_loc[c[d]][d] for d in range(nb_dims)])
             wt = K.expand_dims(wt, -1)
-            
-            # compute final weighted value for each cube corner
             interp_vol += wt * vol_val
-#            print('interp shape', interp_vol.shape)
-        
+
     else:
         assert interp_method == 'nearest'
         roundloc = tf.cast(tf.round(loc), 'int32')
-#        roundloc = tf.cast(tf.math.floor(loc), 'int32')
-        # clip values
-#        max_loc = [tf.cast(d - 1, 'int32') for d in vol.shape]
-        # --- changed Jun22,2020 by BL, want zero instead of max_loc
-        # Note that on CPU, if an out of bound index is found, an error is returned. 
-        # On GPU, if an out of bound index is found, a 0 is stored in the corresponding output value.
-#        roundloc = [tf.clip_by_value(roundloc[...,d], 0, max_loc[d]) for d in range(nb_dims)]
-        roundloc = [roundloc[...,d] for d in range(nb_dims)]
-        # --- end of change
-        
-        # get values
-        # tf stacking is slow. replace with gather
-#        roundloc = tf.stack(roundloc, axis=-1)
-#        interp_vol = tf.gather_nd(vol, roundloc)
+        max_loc = [d - 1 for d in vol.get_shape().as_list()[:-1]]
+
+        # Clip boundary for nearest neighbor interpolation as well
+        roundloc = [tf.clip_by_value(roundloc[..., d], 0, max_loc[d]) for d in range(nb_dims)]
         idx = sub2ind(vol.shape[:-1], roundloc)
-        interp_vol = tf.gather(tf.reshape(vol, [-1, vol.shape[-1]]), idx) 
+        interp_vol = tf.gather(tf.reshape(vol, [-1, vol.shape[-1]]), idx)
 
     return interp_vol
 
@@ -314,62 +249,29 @@ def sub2ind(siz, subs, **kwargs):
 def affine_to_shift(affine_matrix, volshape, shift_center=True, indexing='ij'):
     """
     transform an affine matrix to a dense location shift tensor in tensorflow
-    Algorithm:
-        - get grid and shift grid to be centered at the center of the image (optionally)
-        - apply affine matrix to each index.
-        - subtract grid
-    Parameters:
-        affine_matrix: ND+1 x ND+1 or ND x ND+1 matrix (Tensor)
-        volshape: 1xN Nd Tensor of the size of the volume.
-        shift_center (optional)
-    Returns:
-        shift field (Tensor) of size *volshape x N
-    TODO: 
-        allow affine_matrix to be a vector of size nb_dims * (nb_dims + 1)
     """
 
-    if isinstance(volshape, (tf.Dimension, tf.TensorShape)):
-        volshape = volshape.as_list()
-    
-    if affine_matrix.dtype != 'float32':
-        affine_matrix = tf.cast(affine_matrix, 'float32')
-
     nb_dims = len(volshape)
-
-    if len(affine_matrix.shape) == 1:
-        if len(affine_matrix) != (nb_dims * (nb_dims + 1)) :
-            raise ValueError('transform is supposed a vector of len ndims * (ndims + 1).'
-                             'Got len %d' % len(affine_matrix))
-
-        affine_matrix = tf.reshape(affine_matrix, [nb_dims, nb_dims + 1])
-
-    if not (affine_matrix.shape[0] in [nb_dims, nb_dims + 1] and affine_matrix.shape[1] == (nb_dims + 1)):
-        raise Exception('Affine matrix shape should match'
-                        '%d+1 x %d+1 or ' % (nb_dims, nb_dims) + \
-                        '%d x %d+1.' % (nb_dims, nb_dims) + \
-                        'Got: ' + str(volshape))
-
-    # list of volume ndgrid
-    # N-long list, each entry of shape volshape
-    mesh = volshape_to_meshgrid(volshape, indexing=indexing)  
+    mesh = volshape_to_meshgrid(volshape, indexing=indexing)
     mesh = [tf.cast(f, 'float32') for f in mesh]
     
     if shift_center:
         mesh = [mesh[f] - (volshape[f]-1)/2 for f in range(len(volshape))]
 
-    # add an all-ones entry and transform into a large matrix
+    # Compute shifts
     flat_mesh = [flatten(f) for f in mesh]
     flat_mesh.append(tf.ones(flat_mesh[0].shape, dtype='float32'))
-    mesh_matrix = tf.transpose(tf.stack(flat_mesh, axis=1))  # 4 x nb_voxels
+    mesh_matrix = tf.transpose(tf.stack(flat_mesh, axis=1))
 
-    # compute locations
-    loc_matrix = tf.matmul(affine_matrix, mesh_matrix)  # N+1 x nb_voxels
-    loc_matrix = tf.transpose(loc_matrix[:nb_dims, :])  # nb_voxels x N
-    loc = tf.reshape(loc_matrix, list(volshape) + [nb_dims])  # *volshape x N
-    # loc = [loc[..., f] for f in range(nb_dims)]  # N-long list, each entry of shape volshape
+    loc_matrix = tf.matmul(affine_matrix, mesh_matrix)
+    loc_matrix = tf.transpose(loc_matrix[:nb_dims, :])
+    loc = tf.reshape(loc_matrix, list(volshape) + [nb_dims])
 
-    # get shifts and return
+    # --- Add Clipping to Prevent Out-of-Bounds Shifts ---
+    loc = tf.clip_by_value(loc, 0, [d - 1 for d in volshape])
+
     return loc - tf.stack(mesh, axis=nb_dims)
+
 
 def volshape_to_meshgrid(volshape, **kwargs):
     """

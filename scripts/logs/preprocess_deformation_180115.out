@@ -1,0 +1,282 @@
+Starting the preprocessing pipeline and deformation field generation using ANTs
+Skipping sub-002MND_ses-01 as it has only one session.
+Skipping sub-002MND_ses-02 as it has only one session.
+Skipping sub-003MND_ses-01 as it has only one session.
+Skipping sub-003MND_ses-02 as it has only one session.
+Skipping sub-003MND_ses-03 as it has only one session.
+Skipping sub-003MND_ses-04 as it has only one session.
+Skipping sub-004MND_ses-01 as it has only one session.
+Skipping sub-004MND_ses-02 as it has only one session.
+Skipping sub-005MND_ses-01 as it has only one session.
+Skipping sub-005MND_ses-04 as it has only one session.
+Skipping sub-005MND_ses-05 as it has only one session.
+Skipping sub-005MND_ses-06 as it has only one session.
+Skipping sub-005MND_ses-07 as it has only one session.
+Skipping sub-005MND_ses-08 as it has only one session.
+Skipping sub-005MND_ses-09 as it has only one session.
+Skipping sub-006MND_ses-01 as it has only one session.
+Skipping sub-006MND_ses-02 as it has only one session.
+Skipping sub-007MND_ses-01 as it has only one session.
+Skipping sub-007MND_ses-02 as it has only one session.
+Skipping sub-007MND_ses-03 as it has only one session.
+Skipping sub-008MND_ses-01 as it has only one session.
+Skipping sub-008MND_ses-02 as it has only one session.
+Skipping sub-009MND_ses-01 as it has only one session.
+Skipping sub-009MND_ses-02 as it has only one session.
+Skipping sub-010MND_ses-01 as it has only one session.
+Skipping sub-010MND_ses-02 as it has only one session.
+Skipping sub-011MND_ses-01 as it has only one session.
+Skipping sub-011MND_ses-02 as it has only one session.
+Skipping sub-012MND_ses-01 as it has only one session.
+Skipping sub-012MND_ses-02 as it has only one session.
+Skipping sub-013MND_ses-01 as it has only one session.
+Skipping sub-013MND_ses-02 as it has only one session.
+Skipping sub-014MND_ses-01 as it has only one session.
+Skipping sub-014MND_ses-02 as it has only one session.
+Skipping sub-014MND_ses-03 as it has only one session.
+Skipping sub-015MND_ses-01 as it has only one session.
+Skipping sub-016MND_ses-01 as it has only one session.
+Skipping sub-016MND_ses-02 as it has only one session.
+Skipping sub-017MND_ses-01 as it has only one session.
+Skipping sub-017MND_ses-02 as it has only one session.
+Skipping sub-017MND_ses-03 as it has only one session.
+Skipping sub-017MND_ses-04 as it has only one session.
+Skipping sub-017MND_ses-05 as it has only one session.
+Skipping sub-018MND_ses-01 as it has only one session.
+Skipping sub-018MND_ses-02 as it has only one session.
+Skipping sub-019MND_ses-01 as it has only one session.
+Skipping sub-019MND_ses-02 as it has only one session.
+Skipping sub-020MND_ses-01 as it has only one session.
+Skipping sub-020MND_ses-02 as it has only one session.
+Skipping sub-021MND_ses-01 as it has only one session.
+Skipping sub-021MND_ses-02 as it has only one session.
+Skipping sub-021MND_ses-03 as it has only one session.
+Skipping sub-021MND_ses-04 as it has only one session.
+Skipping sub-021MND_ses-05 as it has only one session.
+Skipping sub-021MND_ses-06 as it has only one session.
+Skipping sub-022MND_ses-01 as it has only one session.
+Skipping sub-022MND_ses-02 as it has only one session.
+Skipping sub-022MND_ses-03 as it has only one session.
+Skipping sub-023MND_ses-01 as it has only one session.
+Skipping sub-023MND_ses-02 as it has only one session.
+Skipping sub-023MND_ses-04 as it has only one session.
+Skipping sub-024MND_ses-01 as it has only one session.
+Skipping sub-024MND_ses-02 as it has only one session.
+Skipping sub-024MND_ses-03 as it has only one session.
+Skipping sub-024MND_ses-04 as it has only one session.
+Skipping sub-024MND_ses-05 as it has only one session.
+Skipping sub-024MND_ses-06 as it has only one session.
+Skipping sub-026MND_ses-01 as it has only one session.
+Skipping sub-026MND_ses-02 as it has only one session.
+Skipping sub-027MND_ses-01 as it has only one session.
+Skipping sub-028MND_ses-01 as it has only one session.
+Skipping sub-028MND_ses-02 as it has only one session.
+Skipping sub-029MND_ses-01 as it has only one session.
+Skipping sub-029MND_ses-02 as it has only one session.
+Skipping sub-029MND_ses-03 as it has only one session.
+Skipping sub-030MND_ses-01 as it has only one session.
+Skipping sub-031MND_ses-01 as it has only one session.
+Skipping sub-031MND_ses-02 as it has only one session.
+Skipping sub-032MND_ses-01 as it has only one session.
+Skipping sub-032MND_ses-02 as it has only one session.
+Skipping sub-034MND_ses-01 as it has only one session.
+Skipping sub-034MND_ses-02 as it has only one session.
+Skipping sub-034MND_ses-03 as it has only one session.
+Skipping sub-035MND_ses-02 as it has only one session.
+Skipping sub-036MND_ses-01 as it has only one session.
+Skipping sub-037MND_ses-01 as it has only one session.
+Skipping sub-038MND_ses-01 as it has only one session.
+Skipping sub-039MND_ses-01 as it has only one session.
+Skipping sub-040MND_ses-01 as it has only one session.
+Skipping sub-040MND_ses-02 as it has only one session.
+Skipping sub-040MND_ses-04 as it has only one session.
+Skipping sub-042MND_ses-01 as it has only one session.
+Skipping sub-043MND_ses-01 as it has only one session.
+Skipping sub-043MND_ses-02 as it has only one session.
+Skipping sub-043MND_ses-04 as it has only one session.
+Skipping sub-044MND_ses-01 as it has only one session.
+Skipping sub-044MND_ses-02 as it has only one session.
+Skipping sub-045MND_ses-01 as it has only one session.
+Skipping sub-049MND_ses-01 as it has only one session.
+Skipping sub-049MND_ses-02 as it has only one session.
+Skipping sub-049MND_ses-03 as it has only one session.
+Skipping sub-049MND_ses-04 as it has only one session.
+Skipping sub-050MND_ses-01 as it has only one session.
+Skipping sub-051MND_ses-01 as it has only one session.
+Skipping sub-052MND_ses-01 as it has only one session.
+Skipping sub-052MND_ses-03 as it has only one session.
+Skipping sub-053MND_ses-01 as it has only one session.
+Skipping sub-054MND_ses-01 as it has only one session.
+Skipping sub-054MND_ses-02 as it has only one session.
+Skipping sub-055MND_ses-01 as it has only one session.
+Skipping sub-056MND_ses-01 as it has only one session.
+Skipping sub-056MND_ses-02 as it has only one session.
+Skipping sub-057MND_ses-01 as it has only one session.
+Skipping sub-057MND_ses-02 as it has only one session.
+Skipping sub-058MND_ses-01 as it has only one session.
+Skipping sub-058MND_ses-02 as it has only one session.
+Skipping sub-059MND_ses-01 as it has only one session.
+Skipping sub-059MND_ses-02 as it has only one session.
+Skipping sub-060MND_ses-01 as it has only one session.
+Skipping sub-061MND_ses-01 as it has only one session.
+Skipping sub-062MND_ses-01 as it has only one session.
+Skipping sub-062MND_ses-03 as it has only one session.
+Skipping sub-063MND_ses-02 as it has only one session.
+Skipping sub-066MND_ses-01 as it has only one session.
+Skipping sub-067MND_ses-01 as it has only one session.
+Skipping sub-068MND_ses-01 as it has only one session.
+Skipping sub-069MND_ses-01 as it has only one session.
+Skipping sub-070MND_ses-01 as it has only one session.
+Skipping sub-071MND_ses-01 as it has only one session.
+Skipping sub-072MND_ses-01 as it has only one session.
+Skipping sub-073MND_ses-01 as it has only one session.
+Skipping sub-074MND_ses-01 as it has only one session.
+Skipping sub-075MND_ses-01 as it has only one session.
+Skipping sub-077MND_ses-01 as it has only one session.
+Skipping sub-078MND_ses-01 as it has only one session.
+Skipping sub-093MND_ses-01 as it has only one session.
+Skipping sub-094MND_ses-01 as it has only one session.
+Skipping sub-096MND_ses-01 as it has only one session.
+Skipping sub-098MND_ses-01 as it has only one session.
+Skipping sub-100MND_ses-01 as it has only one session.
+Skipping sub-101MND_ses-01 as it has only one session.
+Skipping sub-102MND_ses-01 as it has only one session.
+Skipping sub-103MND_ses-01 as it has only one session.
+Skipping sub-104MND_ses-01 as it has only one session.
+Skipping sub-106MND_ses-01 as it has only one session.
+Skipping sub-108MND_ses-01 as it has only one session.
+Skipping sub-111MND_ses-01 as it has only one session.
+Skipping sub-113MND_ses-01 as it has only one session.
+Skipping sub-115MND_ses-01 as it has only one session.
+Skipping sub-116MND_ses-01 as it has only one session.
+Skipping sub-117MND_ses-01 as it has only one session.
+Skipping sub-119MND_ses-01 as it has only one session.
+Skipping sub-120MND_ses-01 as it has only one session.
+Skipping sub-122MND_ses-01 as it has only one session.
+Skipping sub-123MND_ses-01 as it has only one session.
+Skipping sub-125MND_ses-01 as it has only one session.
+Skipping sub-126MND_ses-01 as it has only one session.
+Skipping sub-127MND_ses-01 as it has only one session.
+Skipping sub-129MND_ses-01 as it has only one session.
+Skipping sub-130MND_ses-01 as it has only one session.
+Skipping sub-131MND_ses-01 as it has only one session.
+Skipping sub-133MND_ses-01 as it has only one session.
+Skipping sub-136MND_ses-01 as it has only one session.
+Skipping sub-138MND_ses-01 as it has only one session.
+Skipping sub-139MND_ses-01 as it has only one session.
+Skipping sub-140MND_ses-01 as it has only one session.
+Skipping sub-144MND_ses-01 as it has only one session.
+Skipping sub-145MND_ses-01 as it has only one session.
+Skipping sub-146MND_ses-01 as it has only one session.
+Skipping sub-147MND_ses-01 as it has only one session.
+Skipping sub-150MND_ses-01 as it has only one session.
+Skipping sub-152MND_ses-01 as it has only one session.
+Skipping sub-153MND_ses-01 as it has only one session.
+Skipping sub-154MND_ses-01 as it has only one session.
+Skipping sub-155MND_ses-01 as it has only one session.
+Skipping sub-156MND_ses-01 as it has only one session.
+Skipping sub-157MND_ses-01 as it has only one session.
+Skipping sub-158MND_ses-01 as it has only one session.
+Skipping sub-160MND_ses-01 as it has only one session.
+Skipping sub-161MND_ses-01 as it has only one session.
+Skipping sub-162MND_ses-01 as it has only one session.
+Skipping sub-163MND_ses-01 as it has only one session.
+Skipping sub-164MND_ses-01 as it has only one session.
+Skipping sub-167MND_ses-01 as it has only one session.
+Skipping sub-169MND_ses-01 as it has only one session.
+Skipping sub-170MND_ses-01 as it has only one session.
+Skipping sub-171MND_ses-01 as it has only one session.
+Skipping sub-172MND_ses-01 as it has only one session.
+Skipping sub-173MND_ses-01 as it has only one session.
+Skipping sub-174MND_ses-01 as it has only one session.
+Skipping sub-175MND_ses-01 as it has only one session.
+Skipping sub-176MND_ses-01 as it has only one session.
+Skipping sub-177MND_ses-01 as it has only one session.
+Skipping sub-178MND_ses-01 as it has only one session.
+Skipping sub-179MND_ses-01 as it has only one session.
+Skipping sub-181MND_ses-01 as it has only one session.
+Skipping sub-182MND_ses-01 as it has only one session.
+Skipping sub-183MND_ses-01 as it has only one session.
+Skipping sub-184MND_ses-01 as it has only one session.
+Skipping sub-185MND_ses-01 as it has only one session.
+Skipping sub-186MND_ses-01 as it has only one session.
+Skipping sub-187MND_ses-01 as it has only one session.
+Skipping sub-188MND_ses-01 as it has only one session.
+Skipping sub-189MND_ses-01 as it has only one session.
+Skipping sub-190MND_ses-01 as it has only one session.
+Skipping sub-191MND_ses-01 as it has only one session.
+Skipping sub-192MND_ses-01 as it has only one session.
+Skipping sub-193MND_ses-01 as it has only one session.
+Skipping sub-194MND_ses-01 as it has only one session.
+Skipping sub-195MND_ses-01 as it has only one session.
+Skipping sub-196MND_ses-01 as it has only one session.
+Skipping sub-197MND_ses-01 as it has only one session.
+Skipping sub-198MND_ses-01 as it has only one session.
+Skipping sub-199MND_ses-01 as it has only one session.
+Skipping sub-200MND_ses-01 as it has only one session.
+Skipping sub-201MND_ses-01 as it has only one session.
+Skipping sub-202MND_ses-01 as it has only one session.
+Skipping sub-203MND_ses-01 as it has only one session.
+Skipping sub-204MND_ses-01 as it has only one session.
+Skipping sub-205MND_ses-01 as it has only one session.
+Skipping sub-206MND_ses-01 as it has only one session.
+Skipping sub-207MND_ses-01 as it has only one session.
+Skipping sub-208MND_ses-01 as it has only one session.
+Skipping sub-209MND_ses-01 as it has only one session.
+Skipping sub-210MND_ses-01 as it has only one session.
+Skipping sub-211MND_ses-01 as it has only one session.
+Skipping sub-212MND_ses-01 as it has only one session.
+Skipping sub-213MND_ses-01 as it has only one session.
+Skipping sub-214MND_ses-01 as it has only one session.
+Skipping sub-215MND_ses-01 as it has only one session.
+Skipping sub-216MND_ses-01 as it has only one session.
+Skipping sub-217MND_ses-01 as it has only one session.
+Skipping sub-218MND_ses-01 as it has only one session.
+Skipping sub-219MND_ses-01 as it has only one session.
+Skipping sub-220MND_ses-01 as it has only one session.
+Skipping sub-221MND_ses-01 as it has only one session.
+Skipping sub-222MND_ses-01 as it has only one session.
+Skipping sub-223MND_ses-01 as it has only one session.
+Skipping sub-224MND_ses-01 as it has only one session.
+Skipping sub-225MND_ses-01 as it has only one session.
+Skipping sub-226MND_ses-01 as it has only one session.
+Skipping sub-227MND_ses-01 as it has only one session.
+Skipping sub-228MND_ses-01 as it has only one session.
+Skipping sub-229MND_ses-01 as it has only one session.
+Skipping sub-230MND_ses-01 as it has only one session.
+Skipping sub-231MND_ses-01 as it has only one session.
+Skipping sub-232MND_ses-01 as it has only one session.
+Skipping sub-233MND_ses-01 as it has only one session.
+Skipping sub-234MND_ses-01 as it has only one session.
+Skipping sub-235MND_ses-01 as it has only one session.
+Skipping sub-236MND_ses-01 as it has only one session.
+Skipping sub-237MND_ses-01 as it has only one session.
+Skipping sub-238MND_ses-01 as it has only one session.
+Skipping sub-239MND_ses-01 as it has only one session.
+Skipping sub-240MND_ses-01 as it has only one session.
+Skipping sub-241MND_ses-01 as it has only one session.
+Skipping sub-242MND_ses-01 as it has only one session.
+Skipping sub-243MND_ses-01 as it has only one session.
+Skipping sub-244MND_ses-01 as it has only one session.
+Skipping sub-245MND_ses-01 as it has only one session.
+Skipping sub-246MND_ses-01 as it has only one session.
+Skipping sub-247MND_ses-01 as it has only one session.
+Skipping sub-248MND_ses-01 as it has only one session.
+Skipping sub-249MND_ses-01 as it has only one session.
+Skipping sub-250MND_ses-01 as it has only one session.
+Skipping sub-251MND_ses-01 as it has only one session.
+Skipping sub-252MND_ses-01 as it has only one session.
+Skipping sub-253MND_ses-01 as it has only one session.
+Skipping sub-254MND_ses-01 as it has only one session.
+Skipping sub-255MND_ses-01 as it has only one session.
+Skipping sub-256MND_ses-01 as it has only one session.
+Skipping sub-257MND_ses-01 as it has only one session.
+Skipping sub-258MND_ses-01 as it has only one session.
+Skipping sub-260MND_ses-01 as it has only one session.
+Skipping sub-261MND_ses-01 as it has only one session.
+Skipping sub-262MND_ses-01 as it has only one session.
+Skipping sub-263MND_ses-01 as it has only one session.
+Skipping sub-264MND_ses-01 as it has only one session.
+Skipping sub-265MND_ses-01 as it has only one session.
+Skipping sub-TEST_ses-04 as it has only one session.
+Preprocessing and deformation field generation complete!

@@ -94,7 +94,7 @@ def joint_model(img_xyz, R_ch, S_ch, n_output, indexing='ij', alpha=0.2):
     # tgt = Input(shape=img_xyz)  # Single channel
     # src = Input(shape=img_xyz)  # Single channel
     # S_src = Input(shape=img_xyz)
-    aff_def = Input(shape=img_xyz + (3,))
+    aff_warped = Input(shape=img_xyz + (1,))
 
     # seg_model = seg_net(img_xyz, S_ch, n_output, alpha=alpha)
     seg_model = seg_net(img_xyz, S_ch, n_output, alpha=alpha)
@@ -102,11 +102,11 @@ def joint_model(img_xyz, R_ch, S_ch, n_output, indexing='ij', alpha=0.2):
 
     # load seg-net and reg-net    
     src_segm = seg_model(S_src)
-    print(f'src_segm shape: {src_segm.shape}')
+    # print(f'src_segm shape: {src_segm.shape}')
 
-    [y, nonr_def] = reg_model([tgt, src, aff_def])
-    print(f'y shape: {y.shape}')
-    print(f'nonr_def shape: {nonr_def.shape}')
+    [y, nonr_def] = reg_model([tgt, src, aff_warped])
+    # print(f'y shape: {y.shape}')
+    # print(f'nonr_def shape: {nonr_def.shape}')
 
     # name layer for output-specific loss    
     src_segm = Lambda(lambda x: x, name='srcSegm')(src_segm)
@@ -114,14 +114,14 @@ def joint_model(img_xyz, R_ch, S_ch, n_output, indexing='ij', alpha=0.2):
     nonr_def = Lambda(lambda x: x, name='nonr_def')(nonr_def)
 
     # composite deformation of affine and non-linear
-    all_def = Add()([nonr_def, aff_def])
-    print(f'all_def shape: {all_def.shape}')
+    # all_def = Add()([nonr_def, aff_warped])
+    # print(f'all_def shape: {all_def.shape}')
 
     # warp source segmentation        
-    tgt_segm = Transformer(interp_method='linear', indexing=indexing, name='movedSegm')([src_segm, all_def])
-    print(f'tgt_segm shape: {tgt_segm.shape}')
+    tgt_segm = Transformer(interp_method='linear', indexing=indexing, name='movedSegm')([src_segm, nonr_def])
+    # print(f'tgt_segm shape: {tgt_segm.shape}')
 
-    model = Model(inputs=[tgt, src, S_src, aff_def], outputs=[y, tgt_segm, src_segm, nonr_def])
+    model = Model(inputs=[tgt, src, S_src, aff_warped], outputs=[y, tgt_segm, src_segm, nonr_def])
 
     return model
 
@@ -183,7 +183,7 @@ class DataGenerator(object):
 
     # Placeholder arrays for zeros and affine deformation fields
     zeros = np.zeros((self.batch_size, *self.dim_xyz, 3)).astype(dtype='float16')
-    aff_def = np.zeros((self.batch_size, *self.dim_xyz, 3)).astype(dtype='float32')
+    aff_warped = np.zeros((self.batch_size, *self.dim_xyz, self.R_ch)).astype(dtype='float32')
 
     # Generate batch
     for i, ID in enumerate(list_IDs_temp):
@@ -232,12 +232,12 @@ class DataGenerator(object):
         src_img = np.expand_dims(src_img, axis=-1)
 
         # Pre-estimated dense affine (displacement) map, size: (x,y,z,3)
-        affine_p = join(affine_path, f'{subject}_{ses1}_{ses2}', 'deformation_1Warp.nii.gz')
+        affine_p = join(affine_path, f'{subject}_{ses1}_{ses2}', 'deformation_Warped.nii.gz')
         affine = nib.load(affine_p).get_fdata().astype(dtype='float32')
-
+        affine = np.expand_dims(affine, axis=-1)
         # Ensure deformation field has correct dimensions and pad it
-        if affine.ndim == 5:
-            affine = affine.squeeze()  # Remove singleton dimensions if needed
+        # if affine.ndim == 5:
+        #     affine = affine.squeeze()  # Remove singleton dimensions if needed
 
         # Add padding to the affine deformation field (excluding the last dimension)
         # affine = np.pad(affine, ((8, 8), (8, 8), (8, 8), (0, 0)), mode='constant', constant_values=0)
@@ -249,13 +249,13 @@ class DataGenerator(object):
         # affine = np.clip(affine, 0, np.array(self.dim_xyz) - 1)
 
         # Debugging print statements to check shapes and ranges of values
-        print(f'affine min: {np.min(affine)}, max: {np.max(affine)}')
-        print(f"tensor shape: {tensor.shape}")
-        print(f"segm1 shape: {segm1.shape}")
-        print(f"segm2 shape: {segm2.shape}")
-        print(f"tgt_img shape: {tgt_img.shape}")
-        print(f"src_img shape: {src_img.shape}")
-        print(f"aff_def shape: {affine.shape}")
+        # print(f'affine min: {np.min(affine)}, max: {np.max(affine)}')
+        # print(f"tensor shape: {tensor.shape}")
+        # print(f"segm1 shape: {segm1.shape}")
+        # print(f"segm2 shape: {segm2.shape}")
+        # print(f"tgt_img shape: {tgt_img.shape}")
+        # print(f"src_img shape: {src_img.shape}")
+        # print(f"aff_def shape: {affine.shape}")
 
         # Assign the padded and processed data to the batch arrays
         S_src[i] = tensor
@@ -263,10 +263,10 @@ class DataGenerator(object):
         R_src[i] = src_img
         segm_tgt[i] = segm1
         segm_src[i] = segm2
-        aff_def[i] = affine
+        aff_warped[i] = affine
 
     # Return the batch of processed data
-    return [R_tgt, R_src, S_src, aff_def], [R_tgt, segm_tgt, segm_src, zeros]
+    return [R_tgt, R_src, S_src, aff_warped], [R_tgt, segm_tgt, segm_src, zeros]
 
   def resize_image(self, image, target_shape):
         from scipy.ndimage import zoom

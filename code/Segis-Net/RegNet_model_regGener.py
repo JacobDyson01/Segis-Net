@@ -55,15 +55,15 @@ def reg_net(img_xyz, alpha=0.2):
     src = Input(shape=(img_xyz) + (1,))  # Single channel for source image
     # tgt = Input(shape=(img_xyz))  # Single channel for target image
     # src = Input(shape=(img_xyz))  # Single channel for source image
-    aff_def = Input(shape=(img_xyz) + (3,))  # 3 channels for deformation field  
+    aff_warped = Input(shape=(img_xyz) + (1,))  # 3 channels for deformation field  
     
 
     
    
 
     """online affine-warp"""
-    aff_warped = SpatialTransformer(interp_method='linear', indexing='ij', 
-                                    name='aff_warped')([src, aff_def]) 
+    # aff_warped = SpatialTransformer(interp_method='linear', indexing='ij', 
+    #                                 name='aff_warped')([src, aff_def]) 
     # print('Warped Image - min:', tf.reduce_min(aff_warped).numpy(), 'max:', tf.reduce_max(aff_warped).numpy())
     # aff_warped = tf.clip_by_value(aff_warped, 0, 255)
     inputs = concatenate([tgt, aff_warped], axis=-1)
@@ -107,15 +107,15 @@ def reg_net(img_xyz, alpha=0.2):
     
 
     """composite transformation"""
-    all_def = Add()([nonr_def, aff_def])
+    # all_def = Add()([nonr_def, aff_def])
     
 
     """image warp use the composite transformation"""
-    y = SpatialTransformer(interp_method='linear', indexing='ij', name='movedFA')([src, all_def])
+    y = SpatialTransformer(interp_method='linear', indexing='ij', name='movedFA')([src, nonr_def])
     
 
     """output"""
-    model = Model(inputs=[tgt, src, aff_def], outputs=[y, nonr_def])
+    model = Model(inputs=[tgt, src, aff_warped], outputs=[y, nonr_def])
 
     return model
 

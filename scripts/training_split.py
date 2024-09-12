@@ -2,7 +2,7 @@ import os
 import numpy as np
 
 # Set the base directory for the data
-data_dir = '/home/groups/dlmrimnd/jacob/data_temp'
+data_dir = '/home/groups/dlmrimnd/jacob/data'
 
 # Path to the input images directory
 input_images_dir = os.path.join(data_dir, 'input_images')
