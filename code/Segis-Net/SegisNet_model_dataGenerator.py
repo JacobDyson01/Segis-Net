@@ -223,6 +223,10 @@ class DataGenerator(object):
         # Normalize intensity values in the tensor (zero mean, unit variance)
         tensor -= np.mean(tensor)
         tensor /= np.std(tensor)
+        tgt_img -= np.mean(tgt_img)
+        tgt_img /= np.std(tgt_img)
+        src_img -= np.mean(src_img)
+        src_img /= np.std(src_img)
 
         # Expand dimensions for channels (required for input in the neural network)
         tensor = np.expand_dims(tensor, axis=-1)
@@ -235,6 +239,8 @@ class DataGenerator(object):
         affine_p = join(affine_path, f'{subject}_{ses1}_{ses2}', 'deformation_Warped.nii.gz')
         affine = nib.load(affine_p).get_fdata().astype(dtype='float32')
         affine = np.expand_dims(affine, axis=-1)
+        affine -= np.mean(affine)
+        affine /= np.std(affine)
         # Ensure deformation field has correct dimensions and pad it
         # if affine.ndim == 5:
         #     affine = affine.squeeze()  # Remove singleton dimensions if needed

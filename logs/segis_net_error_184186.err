@@ -1,0 +1,53 @@
+Using TensorFlow backend.
+/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+Traceback (most recent call last):
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/keras/layers/normalization.py", line 187, in call
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/keras/layers/normalization.py", line 187, in <listcomp>
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/tensorflow/python/ops/array_ops.py", line 538, in _SliceHelper
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/tensorflow/python/ops/array_ops.py", line 706, in strided_slice
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/tensorflow/python/ops/gen_array_ops.py", line 5430, in strided_slice
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py", line 394, in _apply_op_helper
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 4932, in __enter__
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/contextlib.py", line 81, in __enter__
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 3513, in name_scope
+MemoryError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/contextlib.py", line 99, in __exit__
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 3529, in name_scope
+MemoryError
+
+During handling of the above exception, another exception occurred:
+
+MemoryError
+
+During handling of the above exception, another exception occurred:
+
+MemoryError
+
+During handling of the above exception, another exception occurred:
+
+MemoryError
+
+During handling of the above exception, another exception occurred:
+
+MemoryError
+
+During handling of the above exception, another exception occurred:
+
+MemoryError
+
+During handling of the above exception, another exception occurred:
+
+MemoryError
+
+During handling of the above exception, another exception occurred:
+
+MemoryError
+
+During handling of the above exception, another exception occurred:
+
+MemoryError

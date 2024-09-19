@@ -1,0 +1,490 @@
+Starting deformation field generation using ANTs
+Processing subject: sub-002MND_ses_01_ses_02
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-002MND_ses_01_ses_02/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-002MND_ses_01_ses_02/warped_target_Warped.nii.gz
+Finished processing sub-002MND_ses_01_ses_02
+Processing subject: sub-003MND_ses_01_ses_02
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-003MND_ses_01_ses_02/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-003MND_ses_01_ses_02/warped_target_Warped.nii.gz
+Finished processing sub-003MND_ses_01_ses_02
+Processing subject: sub-003MND_ses_01_ses_03
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-003MND_ses_01_ses_03/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-003MND_ses_01_ses_03/warped_target_Warped.nii.gz
+Finished processing sub-003MND_ses_01_ses_03
+Processing subject: sub-003MND_ses_01_ses_04
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-003MND_ses_01_ses_04/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-003MND_ses_01_ses_04/warped_target_Warped.nii.gz
+Finished processing sub-003MND_ses_01_ses_04
+Processing subject: sub-003MND_ses_02_ses_03
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-003MND_ses_02_ses_03/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-003MND_ses_02_ses_03/warped_target_Warped.nii.gz
+Finished processing sub-003MND_ses_02_ses_03
+Processing subject: sub-003MND_ses_02_ses_04
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-003MND_ses_02_ses_04/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-003MND_ses_02_ses_04/warped_target_Warped.nii.gz
+Finished processing sub-003MND_ses_02_ses_04
+Processing subject: sub-003MND_ses_03_ses_04
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-003MND_ses_03_ses_04/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-003MND_ses_03_ses_04/warped_target_Warped.nii.gz
+Finished processing sub-003MND_ses_03_ses_04
+Processing subject: sub-004MND_ses_01_ses_02
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-004MND_ses_01_ses_02/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-004MND_ses_01_ses_02/warped_target_Warped.nii.gz
+Finished processing sub-004MND_ses_01_ses_02
+Processing subject: sub-005MND_ses_01_ses_04
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-005MND_ses_01_ses_04/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-005MND_ses_01_ses_04/warped_target_Warped.nii.gz
+Finished processing sub-005MND_ses_01_ses_04
+Processing subject: sub-005MND_ses_01_ses_05
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-005MND_ses_01_ses_05/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-005MND_ses_01_ses_05/warped_target_Warped.nii.gz
+Finished processing sub-005MND_ses_01_ses_05
+Processing subject: sub-005MND_ses_01_ses_06
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-005MND_ses_01_ses_06/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-005MND_ses_01_ses_06/warped_target_Warped.nii.gz
+Finished processing sub-005MND_ses_01_ses_06
+Processing subject: sub-005MND_ses_01_ses_07
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-005MND_ses_01_ses_07/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-005MND_ses_01_ses_07/warped_target_Warped.nii.gz
+Finished processing sub-005MND_ses_01_ses_07
+Processing subject: sub-005MND_ses_01_ses_08
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-005MND_ses_01_ses_08/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-005MND_ses_01_ses_08/warped_target_Warped.nii.gz
+Finished processing sub-005MND_ses_01_ses_08
+Processing subject: sub-005MND_ses_01_ses_09
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-005MND_ses_01_ses_09/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-005MND_ses_01_ses_09/warped_target_Warped.nii.gz
+Finished processing sub-005MND_ses_01_ses_09
+Processing subject: sub-005MND_ses_04_ses_05
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-005MND_ses_04_ses_05/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-005MND_ses_04_ses_05/warped_target_Warped.nii.gz
+Finished processing sub-005MND_ses_04_ses_05
+Processing subject: sub-005MND_ses_04_ses_06
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-005MND_ses_04_ses_06/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-005MND_ses_04_ses_06/warped_target_Warped.nii.gz
+Finished processing sub-005MND_ses_04_ses_06
+Processing subject: sub-005MND_ses_04_ses_07
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-005MND_ses_04_ses_07/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-005MND_ses_04_ses_07/warped_target_Warped.nii.gz
+Finished processing sub-005MND_ses_04_ses_07
+Processing subject: sub-005MND_ses_04_ses_08
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-005MND_ses_04_ses_08/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-005MND_ses_04_ses_08/warped_target_Warped.nii.gz
+Finished processing sub-005MND_ses_04_ses_08
+Processing subject: sub-005MND_ses_04_ses_09
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-005MND_ses_04_ses_09/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-005MND_ses_04_ses_09/warped_target_Warped.nii.gz
+Finished processing sub-005MND_ses_04_ses_09
+Processing subject: sub-005MND_ses_05_ses_06
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-005MND_ses_05_ses_06/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-005MND_ses_05_ses_06/warped_target_Warped.nii.gz
+Finished processing sub-005MND_ses_05_ses_06
+Processing subject: sub-005MND_ses_05_ses_07
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-005MND_ses_05_ses_07/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-005MND_ses_05_ses_07/warped_target_Warped.nii.gz
+Finished processing sub-005MND_ses_05_ses_07
+Processing subject: sub-005MND_ses_05_ses_08
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-005MND_ses_05_ses_08/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-005MND_ses_05_ses_08/warped_target_Warped.nii.gz
+Finished processing sub-005MND_ses_05_ses_08
+Processing subject: sub-005MND_ses_05_ses_09
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-005MND_ses_05_ses_09/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-005MND_ses_05_ses_09/warped_target_Warped.nii.gz
+Finished processing sub-005MND_ses_05_ses_09
+Processing subject: sub-005MND_ses_06_ses_07
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-005MND_ses_06_ses_07/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-005MND_ses_06_ses_07/warped_target_Warped.nii.gz
+Finished processing sub-005MND_ses_06_ses_07
+Processing subject: sub-005MND_ses_06_ses_08
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-005MND_ses_06_ses_08/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-005MND_ses_06_ses_08/warped_target_Warped.nii.gz
+Finished processing sub-005MND_ses_06_ses_08
+Processing subject: sub-005MND_ses_06_ses_09
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-005MND_ses_06_ses_09/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-005MND_ses_06_ses_09/warped_target_Warped.nii.gz
+Finished processing sub-005MND_ses_06_ses_09
+Processing subject: sub-005MND_ses_07_ses_08
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-005MND_ses_07_ses_08/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-005MND_ses_07_ses_08/warped_target_Warped.nii.gz
+Finished processing sub-005MND_ses_07_ses_08
+Processing subject: sub-005MND_ses_07_ses_09
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-005MND_ses_07_ses_09/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-005MND_ses_07_ses_09/warped_target_Warped.nii.gz
+Finished processing sub-005MND_ses_07_ses_09
+Processing subject: sub-005MND_ses_08_ses_09
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-005MND_ses_08_ses_09/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-005MND_ses_08_ses_09/warped_target_Warped.nii.gz
+Finished processing sub-005MND_ses_08_ses_09
+Processing subject: sub-006MND_ses_01_ses_02
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-006MND_ses_01_ses_02/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-006MND_ses_01_ses_02/warped_target_Warped.nii.gz
+Finished processing sub-006MND_ses_01_ses_02
+Processing subject: sub-007MND_ses_01_ses_02
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-007MND_ses_01_ses_02/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-007MND_ses_01_ses_02/warped_target_Warped.nii.gz
+Finished processing sub-007MND_ses_01_ses_02
+Processing subject: sub-007MND_ses_01_ses_03
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-007MND_ses_01_ses_03/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-007MND_ses_01_ses_03/warped_target_Warped.nii.gz
+Finished processing sub-007MND_ses_01_ses_03
+Processing subject: sub-007MND_ses_02_ses_03
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-007MND_ses_02_ses_03/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-007MND_ses_02_ses_03/warped_target_Warped.nii.gz
+Finished processing sub-007MND_ses_02_ses_03
+Processing subject: sub-008MND_ses_01_ses_02
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-008MND_ses_01_ses_02/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-008MND_ses_01_ses_02/warped_target_Warped.nii.gz
+Finished processing sub-008MND_ses_01_ses_02
+Processing subject: sub-009MND_ses_01_ses_02
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-009MND_ses_01_ses_02/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-009MND_ses_01_ses_02/warped_target_Warped.nii.gz
+Finished processing sub-009MND_ses_01_ses_02
+Processing subject: sub-010MND_ses_01_ses_02
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-010MND_ses_01_ses_02/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-010MND_ses_01_ses_02/warped_target_Warped.nii.gz
+Finished processing sub-010MND_ses_01_ses_02
+Processing subject: sub-011MND_ses_01_ses_02
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-011MND_ses_01_ses_02/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-011MND_ses_01_ses_02/warped_target_Warped.nii.gz
+Finished processing sub-011MND_ses_01_ses_02
+Processing subject: sub-012MND_ses_01_ses_02
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-012MND_ses_01_ses_02/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-012MND_ses_01_ses_02/warped_target_Warped.nii.gz
+Finished processing sub-012MND_ses_01_ses_02
+Processing subject: sub-013MND_ses_01_ses_02
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-013MND_ses_01_ses_02/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-013MND_ses_01_ses_02/warped_target_Warped.nii.gz
+Finished processing sub-013MND_ses_01_ses_02
+Processing subject: sub-014MND_ses_01_ses_02
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-014MND_ses_01_ses_02/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-014MND_ses_01_ses_02/warped_target_Warped.nii.gz
+Finished processing sub-014MND_ses_01_ses_02
+Processing subject: sub-014MND_ses_01_ses_03
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-014MND_ses_01_ses_03/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-014MND_ses_01_ses_03/warped_target_Warped.nii.gz
+Finished processing sub-014MND_ses_01_ses_03
+Processing subject: sub-014MND_ses_02_ses_03
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-014MND_ses_02_ses_03/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-014MND_ses_02_ses_03/warped_target_Warped.nii.gz
+Finished processing sub-014MND_ses_02_ses_03
+Processing subject: sub-016MND_ses_01_ses_02
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-016MND_ses_01_ses_02/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-016MND_ses_01_ses_02/warped_target_Warped.nii.gz
+Finished processing sub-016MND_ses_01_ses_02
+Processing subject: sub-017MND_ses_01_ses_02
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-017MND_ses_01_ses_02/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-017MND_ses_01_ses_02/warped_target_Warped.nii.gz
+Finished processing sub-017MND_ses_01_ses_02
+Processing subject: sub-017MND_ses_01_ses_03
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-017MND_ses_01_ses_03/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-017MND_ses_01_ses_03/warped_target_Warped.nii.gz
+Finished processing sub-017MND_ses_01_ses_03
+Processing subject: sub-017MND_ses_01_ses_04
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-017MND_ses_01_ses_04/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-017MND_ses_01_ses_04/warped_target_Warped.nii.gz
+Finished processing sub-017MND_ses_01_ses_04
+Processing subject: sub-017MND_ses_01_ses_05
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-017MND_ses_01_ses_05/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-017MND_ses_01_ses_05/warped_target_Warped.nii.gz
+Finished processing sub-017MND_ses_01_ses_05
+Processing subject: sub-017MND_ses_02_ses_03
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-017MND_ses_02_ses_03/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-017MND_ses_02_ses_03/warped_target_Warped.nii.gz
+Finished processing sub-017MND_ses_02_ses_03
+Processing subject: sub-017MND_ses_02_ses_04
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-017MND_ses_02_ses_04/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-017MND_ses_02_ses_04/warped_target_Warped.nii.gz
+Finished processing sub-017MND_ses_02_ses_04
+Processing subject: sub-017MND_ses_02_ses_05
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-017MND_ses_02_ses_05/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-017MND_ses_02_ses_05/warped_target_Warped.nii.gz
+Finished processing sub-017MND_ses_02_ses_05
+Processing subject: sub-017MND_ses_03_ses_04
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-017MND_ses_03_ses_04/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-017MND_ses_03_ses_04/warped_target_Warped.nii.gz
+Finished processing sub-017MND_ses_03_ses_04
+Processing subject: sub-017MND_ses_03_ses_05
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-017MND_ses_03_ses_05/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-017MND_ses_03_ses_05/warped_target_Warped.nii.gz
+Finished processing sub-017MND_ses_03_ses_05
+Processing subject: sub-017MND_ses_04_ses_05
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-017MND_ses_04_ses_05/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-017MND_ses_04_ses_05/warped_target_Warped.nii.gz
+Finished processing sub-017MND_ses_04_ses_05
+Processing subject: sub-018MND_ses_01_ses_02
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-018MND_ses_01_ses_02/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-018MND_ses_01_ses_02/warped_target_Warped.nii.gz
+Finished processing sub-018MND_ses_01_ses_02
+Processing subject: sub-019MND_ses_01_ses_02
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-019MND_ses_01_ses_02/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-019MND_ses_01_ses_02/warped_target_Warped.nii.gz
+Finished processing sub-019MND_ses_01_ses_02
+Processing subject: sub-020MND_ses_01_ses_02
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-020MND_ses_01_ses_02/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-020MND_ses_01_ses_02/warped_target_Warped.nii.gz
+Finished processing sub-020MND_ses_01_ses_02
+Processing subject: sub-021MND_ses_01_ses_02
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-021MND_ses_01_ses_02/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-021MND_ses_01_ses_02/warped_target_Warped.nii.gz
+Finished processing sub-021MND_ses_01_ses_02
+Processing subject: sub-021MND_ses_01_ses_03
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-021MND_ses_01_ses_03/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-021MND_ses_01_ses_03/warped_target_Warped.nii.gz
+Finished processing sub-021MND_ses_01_ses_03
+Processing subject: sub-021MND_ses_01_ses_04
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-021MND_ses_01_ses_04/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-021MND_ses_01_ses_04/warped_target_Warped.nii.gz
+Finished processing sub-021MND_ses_01_ses_04
+Processing subject: sub-021MND_ses_01_ses_05
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-021MND_ses_01_ses_05/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-021MND_ses_01_ses_05/warped_target_Warped.nii.gz
+Finished processing sub-021MND_ses_01_ses_05
+Processing subject: sub-021MND_ses_01_ses_06
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-021MND_ses_01_ses_06/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-021MND_ses_01_ses_06/warped_target_Warped.nii.gz
+Finished processing sub-021MND_ses_01_ses_06
+Processing subject: sub-021MND_ses_02_ses_03
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-021MND_ses_02_ses_03/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-021MND_ses_02_ses_03/warped_target_Warped.nii.gz
+Finished processing sub-021MND_ses_02_ses_03
+Processing subject: sub-021MND_ses_02_ses_04
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-021MND_ses_02_ses_04/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-021MND_ses_02_ses_04/warped_target_Warped.nii.gz
+Finished processing sub-021MND_ses_02_ses_04
+Processing subject: sub-021MND_ses_02_ses_05
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-021MND_ses_02_ses_05/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-021MND_ses_02_ses_05/warped_target_Warped.nii.gz
+Finished processing sub-021MND_ses_02_ses_05
+Processing subject: sub-021MND_ses_02_ses_06
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-021MND_ses_02_ses_06/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-021MND_ses_02_ses_06/warped_target_Warped.nii.gz
+Finished processing sub-021MND_ses_02_ses_06
+Processing subject: sub-021MND_ses_03_ses_04
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-021MND_ses_03_ses_04/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-021MND_ses_03_ses_04/warped_target_Warped.nii.gz
+Finished processing sub-021MND_ses_03_ses_04
+Processing subject: sub-021MND_ses_03_ses_05
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-021MND_ses_03_ses_05/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-021MND_ses_03_ses_05/warped_target_Warped.nii.gz
+Finished processing sub-021MND_ses_03_ses_05
+Processing subject: sub-021MND_ses_03_ses_06
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-021MND_ses_03_ses_06/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-021MND_ses_03_ses_06/warped_target_Warped.nii.gz
+Finished processing sub-021MND_ses_03_ses_06
+Processing subject: sub-021MND_ses_04_ses_05
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-021MND_ses_04_ses_05/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-021MND_ses_04_ses_05/warped_target_Warped.nii.gz
+Finished processing sub-021MND_ses_04_ses_05
+Processing subject: sub-021MND_ses_04_ses_06
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-021MND_ses_04_ses_06/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-021MND_ses_04_ses_06/warped_target_Warped.nii.gz
+Finished processing sub-021MND_ses_04_ses_06
+Processing subject: sub-021MND_ses_05_ses_06
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-021MND_ses_05_ses_06/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-021MND_ses_05_ses_06/warped_target_Warped.nii.gz
+Finished processing sub-021MND_ses_05_ses_06
+Processing subject: sub-022MND_ses_01_ses_02
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-022MND_ses_01_ses_02/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-022MND_ses_01_ses_02/warped_target_Warped.nii.gz
+Finished processing sub-022MND_ses_01_ses_02
+Processing subject: sub-022MND_ses_01_ses_03
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-022MND_ses_01_ses_03/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-022MND_ses_01_ses_03/warped_target_Warped.nii.gz
+Finished processing sub-022MND_ses_01_ses_03
+Processing subject: sub-022MND_ses_02_ses_03
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-022MND_ses_02_ses_03/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-022MND_ses_02_ses_03/warped_target_Warped.nii.gz
+Finished processing sub-022MND_ses_02_ses_03
+Processing subject: sub-023MND_ses_01_ses_02
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-023MND_ses_01_ses_02/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-023MND_ses_01_ses_02/warped_target_Warped.nii.gz
+Finished processing sub-023MND_ses_01_ses_02
+Processing subject: sub-023MND_ses_01_ses_04
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-023MND_ses_01_ses_04/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-023MND_ses_01_ses_04/warped_target_Warped.nii.gz
+Finished processing sub-023MND_ses_01_ses_04
+Processing subject: sub-023MND_ses_02_ses_04
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-023MND_ses_02_ses_04/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-023MND_ses_02_ses_04/warped_target_Warped.nii.gz
+Finished processing sub-023MND_ses_02_ses_04
+Processing subject: sub-024MND_ses_01_ses_02
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-024MND_ses_01_ses_02/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-024MND_ses_01_ses_02/warped_target_Warped.nii.gz
+Finished processing sub-024MND_ses_01_ses_02
+Processing subject: sub-024MND_ses_01_ses_03
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-024MND_ses_01_ses_03/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-024MND_ses_01_ses_03/warped_target_Warped.nii.gz
+Finished processing sub-024MND_ses_01_ses_03
+Processing subject: sub-024MND_ses_01_ses_04
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-024MND_ses_01_ses_04/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-024MND_ses_01_ses_04/warped_target_Warped.nii.gz
+Finished processing sub-024MND_ses_01_ses_04
+Processing subject: sub-024MND_ses_01_ses_05
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-024MND_ses_01_ses_05/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-024MND_ses_01_ses_05/warped_target_Warped.nii.gz
+Finished processing sub-024MND_ses_01_ses_05
+Processing subject: sub-024MND_ses_01_ses_06
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-024MND_ses_01_ses_06/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-024MND_ses_01_ses_06/warped_target_Warped.nii.gz
+Finished processing sub-024MND_ses_01_ses_06
+Processing subject: sub-024MND_ses_02_ses_03
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-024MND_ses_02_ses_03/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-024MND_ses_02_ses_03/warped_target_Warped.nii.gz
+Finished processing sub-024MND_ses_02_ses_03
+Processing subject: sub-024MND_ses_02_ses_04
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-024MND_ses_02_ses_04/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-024MND_ses_02_ses_04/warped_target_Warped.nii.gz
+Finished processing sub-024MND_ses_02_ses_04
+Processing subject: sub-024MND_ses_02_ses_05
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-024MND_ses_02_ses_05/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-024MND_ses_02_ses_05/warped_target_Warped.nii.gz
+Finished processing sub-024MND_ses_02_ses_05
+Processing subject: sub-024MND_ses_02_ses_06
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-024MND_ses_02_ses_06/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-024MND_ses_02_ses_06/warped_target_Warped.nii.gz
+Finished processing sub-024MND_ses_02_ses_06
+Processing subject: sub-024MND_ses_03_ses_04
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-024MND_ses_03_ses_04/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-024MND_ses_03_ses_04/warped_target_Warped.nii.gz
+Finished processing sub-024MND_ses_03_ses_04
+Processing subject: sub-024MND_ses_03_ses_05
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-024MND_ses_03_ses_05/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-024MND_ses_03_ses_05/warped_target_Warped.nii.gz
+Finished processing sub-024MND_ses_03_ses_05
+Processing subject: sub-024MND_ses_03_ses_06
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-024MND_ses_03_ses_06/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-024MND_ses_03_ses_06/warped_target_Warped.nii.gz
+Finished processing sub-024MND_ses_03_ses_06
+Processing subject: sub-024MND_ses_04_ses_05
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-024MND_ses_04_ses_05/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-024MND_ses_04_ses_05/warped_target_Warped.nii.gz
+Finished processing sub-024MND_ses_04_ses_05
+Processing subject: sub-024MND_ses_04_ses_06
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-024MND_ses_04_ses_06/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-024MND_ses_04_ses_06/warped_target_Warped.nii.gz
+Finished processing sub-024MND_ses_04_ses_06
+Processing subject: sub-024MND_ses_05_ses_06
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-024MND_ses_05_ses_06/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-024MND_ses_05_ses_06/warped_target_Warped.nii.gz
+Finished processing sub-024MND_ses_05_ses_06
+Processing subject: sub-026MND_ses_01_ses_02
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-026MND_ses_01_ses_02/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-026MND_ses_01_ses_02/warped_target_Warped.nii.gz
+Finished processing sub-026MND_ses_01_ses_02
+Processing subject: sub-028MND_ses_01_ses_02
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-028MND_ses_01_ses_02/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-028MND_ses_01_ses_02/warped_target_Warped.nii.gz
+Finished processing sub-028MND_ses_01_ses_02
+Processing subject: sub-029MND_ses_01_ses_02
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-029MND_ses_01_ses_02/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-029MND_ses_01_ses_02/warped_target_Warped.nii.gz
+Finished processing sub-029MND_ses_01_ses_02
+Processing subject: sub-029MND_ses_01_ses_03
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-029MND_ses_01_ses_03/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-029MND_ses_01_ses_03/warped_target_Warped.nii.gz
+Finished processing sub-029MND_ses_01_ses_03
+Processing subject: sub-029MND_ses_02_ses_03
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-029MND_ses_02_ses_03/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-029MND_ses_02_ses_03/warped_target_Warped.nii.gz
+Finished processing sub-029MND_ses_02_ses_03
+Processing subject: sub-031MND_ses_01_ses_02
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-031MND_ses_01_ses_02/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-031MND_ses_01_ses_02/warped_target_Warped.nii.gz
+Finished processing sub-031MND_ses_01_ses_02
+Processing subject: sub-032MND_ses_01_ses_02
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-032MND_ses_01_ses_02/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-032MND_ses_01_ses_02/warped_target_Warped.nii.gz
+Finished processing sub-032MND_ses_01_ses_02
+Processing subject: sub-034MND_ses_01_ses_02
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-034MND_ses_01_ses_02/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-034MND_ses_01_ses_02/warped_target_Warped.nii.gz
+Finished processing sub-034MND_ses_01_ses_02
+Processing subject: sub-034MND_ses_01_ses_03
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-034MND_ses_01_ses_03/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-034MND_ses_01_ses_03/warped_target_Warped.nii.gz
+Finished processing sub-034MND_ses_01_ses_03
+Processing subject: sub-034MND_ses_02_ses_03
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-034MND_ses_02_ses_03/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-034MND_ses_02_ses_03/warped_target_Warped.nii.gz
+Finished processing sub-034MND_ses_02_ses_03
+Processing subject: sub-040MND_ses_01_ses_02
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-040MND_ses_01_ses_02/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-040MND_ses_01_ses_02/warped_target_Warped.nii.gz
+Finished processing sub-040MND_ses_01_ses_02
+Processing subject: sub-040MND_ses_01_ses_04
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-040MND_ses_01_ses_04/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-040MND_ses_01_ses_04/warped_target_Warped.nii.gz
+Finished processing sub-040MND_ses_01_ses_04
+Processing subject: sub-040MND_ses_02_ses_04
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-040MND_ses_02_ses_04/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-040MND_ses_02_ses_04/warped_target_Warped.nii.gz
+Finished processing sub-040MND_ses_02_ses_04
+Processing subject: sub-043MND_ses_01_ses_02
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-043MND_ses_01_ses_02/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-043MND_ses_01_ses_02/warped_target_Warped.nii.gz
+Finished processing sub-043MND_ses_01_ses_02
+Processing subject: sub-043MND_ses_01_ses_04
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-043MND_ses_01_ses_04/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-043MND_ses_01_ses_04/warped_target_Warped.nii.gz
+Finished processing sub-043MND_ses_01_ses_04
+Processing subject: sub-043MND_ses_02_ses_04
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-043MND_ses_02_ses_04/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-043MND_ses_02_ses_04/warped_target_Warped.nii.gz
+Finished processing sub-043MND_ses_02_ses_04
+Processing subject: sub-044MND_ses_01_ses_02
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-044MND_ses_01_ses_02/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-044MND_ses_01_ses_02/warped_target_Warped.nii.gz
+Finished processing sub-044MND_ses_01_ses_02
+Processing subject: sub-049MND_ses_01_ses_02
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-049MND_ses_01_ses_02/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-049MND_ses_01_ses_02/warped_target_Warped.nii.gz
+Finished processing sub-049MND_ses_01_ses_02
+Processing subject: sub-049MND_ses_01_ses_03
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-049MND_ses_01_ses_03/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-049MND_ses_01_ses_03/warped_target_Warped.nii.gz
+Finished processing sub-049MND_ses_01_ses_03
+Processing subject: sub-049MND_ses_01_ses_04
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-049MND_ses_01_ses_04/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-049MND_ses_01_ses_04/warped_target_Warped.nii.gz
+Finished processing sub-049MND_ses_01_ses_04
+Processing subject: sub-049MND_ses_02_ses_03
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-049MND_ses_02_ses_03/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-049MND_ses_02_ses_03/warped_target_Warped.nii.gz
+Finished processing sub-049MND_ses_02_ses_03
+Processing subject: sub-049MND_ses_02_ses_04
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-049MND_ses_02_ses_04/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-049MND_ses_02_ses_04/warped_target_Warped.nii.gz
+Finished processing sub-049MND_ses_02_ses_04
+Processing subject: sub-049MND_ses_03_ses_04
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-049MND_ses_03_ses_04/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-049MND_ses_03_ses_04/warped_target_Warped.nii.gz
+Finished processing sub-049MND_ses_03_ses_04
+Processing subject: sub-052MND_ses_01_ses_03
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-052MND_ses_01_ses_03/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-052MND_ses_01_ses_03/warped_target_Warped.nii.gz
+Finished processing sub-052MND_ses_01_ses_03
+Processing subject: sub-054MND_ses_01_ses_02
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-054MND_ses_01_ses_02/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-054MND_ses_01_ses_02/warped_target_Warped.nii.gz
+Finished processing sub-054MND_ses_01_ses_02
+Processing subject: sub-056MND_ses_01_ses_02
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-056MND_ses_01_ses_02/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-056MND_ses_01_ses_02/warped_target_Warped.nii.gz
+Finished processing sub-056MND_ses_01_ses_02
+Processing subject: sub-057MND_ses_01_ses_02
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-057MND_ses_01_ses_02/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-057MND_ses_01_ses_02/warped_target_Warped.nii.gz
+Finished processing sub-057MND_ses_01_ses_02
+Processing subject: sub-058MND_ses_01_ses_02
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-058MND_ses_01_ses_02/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-058MND_ses_01_ses_02/warped_target_Warped.nii.gz
+Finished processing sub-058MND_ses_01_ses_02
+Processing subject: sub-059MND_ses_01_ses_02
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-059MND_ses_01_ses_02/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-059MND_ses_01_ses_02/warped_target_Warped.nii.gz
+Finished processing sub-059MND_ses_01_ses_02
+Processing subject: sub-062MND_ses_01_ses_03
+Using source image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-062MND_ses_01_ses_03/warped_source_Warped.nii.gz
+Using target image: /home/groups/dlmrimnd/jacob/data/MND/warped_input/sub-062MND_ses_01_ses_03/warped_target_Warped.nii.gz
+Finished processing sub-062MND_ses_01_ses_03
+Deformation field generation job completed.

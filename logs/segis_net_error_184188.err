@@ -1,0 +1,31 @@
+Using TensorFlow backend.
+/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+Traceback (most recent call last):
+  File "/home/groups/dlmrimnd/jacob/projects/Segis-Net/code/Segis-Net/Train_SegisNet.py", line 23, in <module>
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/keras/__init__.py", line 3, in <module>
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/keras/utils/__init__.py", line 6, in <module>
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/keras/utils/conv_utils.py", line 9, in <module>
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/keras/backend/__init__.py", line 87, in <module>
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py", line 5, in <module>
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/tensorflow/__init__.py", line 24, in <module>
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/tensorflow/python/__init__.py", line 83, in <module>
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/tensorflow/python/estimator/estimator_lib.py", line 35, in <module>
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/tensorflow/python/estimator/inputs/inputs.py", line 22, in <module>
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/tensorflow/python/estimator/inputs/numpy_io.py", line 22, in <module>
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/tensorflow/python/estimator/inputs/queues/feeding_functions.py", line 40, in <module>
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/pandas/__init__.py", line 55, in <module>
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/pandas/core/api.py", line 24, in <module>
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/pandas/core/groupby/__init__.py", line 1, in <module>
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/pandas/core/groupby/generic.py", line 44, in <module>
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/pandas/core/frame.py", line 115, in <module>
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/pandas/core/series.py", line 84, in <module>
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/pandas/plotting/__init__.py", line 59, in <module>
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/pandas/plotting/_core.py", line 17, in <module>
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/pandas/plotting/_matplotlib/__init__.py", line 3, in <module>
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/pandas/plotting/_matplotlib/boxplot.py", line 4, in <module>
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/matplotlib/__init__.py", line 917, in <module>
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/matplotlib/__init__.py", line 812, in _rc_params_in_file
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/contextlib.py", line 81, in __enter__
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/matplotlib/__init__.py", line 790, in _open_file_or_url
+MemoryError

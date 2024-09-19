@@ -1,0 +1,17 @@
+Using TensorFlow backend.
+/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+Traceback (most recent call last):
+  File "/home/groups/dlmrimnd/jacob/projects/Segis-Net/code/Segis-Net/Train_SegisNet.py", line 149, in <module>
+    indexing='ij',alpha=a)
+  File "/home/groups/dlmrimnd/jacob/projects/Segis-Net/code/Segis-Net/SegisNet_model_dataGenerator.py", line 100, in joint_model
+    seg_model = seg_net(img_xyz, S_ch, n_output, alpha=alpha)
+  File "/home/groups/dlmrimnd/jacob/projects/Segis-Net/code/Segis-Net/SegNet_model_segGener.py", line 63, in seg_net
+    conv_1 = ConvBlockA(tensors, num_start_ch, num_start_ch, alpha)
+  File "/home/groups/dlmrimnd/jacob/projects/Segis-Net/code/Segis-Net/SegNet_model_segGener.py", line 26, in ConvBlockA
+    use_bias=False, padding='same')(out) # activation=None,
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/keras/engine/base_layer.py", line 414, in __call__
+    self.assert_input_compatibility(inputs)
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/keras/engine/base_layer.py", line 311, in assert_input_compatibility
+    str(K.ndim(x)))
+ValueError: Input 0 is incompatible with layer conv3d_1: expected ndim=5, found ndim=4

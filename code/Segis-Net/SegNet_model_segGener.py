@@ -93,9 +93,10 @@ def seg_net(img_xyz, img_ch, n_output, alpha = 0.2):
     """sub-branch output"""
     out    = ConvBlockC(up_9, num_start_ch, n_output, alpha)    
     # out = [segm1, segm2, segm3]
-    segms = concatenate(out, axis=-1, name='segms')
+    # segms = concatenate(out, axis=-1, name='segms')
     
-    model = Model(inputs=tensors, outputs=segms)
+    # model = Model(inputs=tensors, outputs=segms)
+    model = Model(inputs=tensors, outputs=out)
     
     return model
 

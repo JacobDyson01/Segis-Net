@@ -6,10 +6,10 @@
 #SBATCH --time=24:00:00
 
 # Set the base directories
-input_dir="/home/groups/dlmrimnd/jacob/data/input_images"
-output_dir="/home/groups/dlmrimnd/jacob/data/ants_warped_input"
+input_dir="/home/groups/dlmrimnd/jacob/data/MND/input_images"
+output_dir="/home/groups/dlmrimnd/jacob/data/MND/ants_warped_input"
 template_img="/home/groups/dlmrimnd/jacob/data/brain_mni.nii.gz"
-transformation_dir="/home/groups/dlmrimnd/jacob/data/transformation_matrices"
+transformation_dir="/home/groups/dlmrimnd/jacob/data/MND/transformation_matrices"
 singularity_image="/home/groups/dlmrimnd/jacob/files/ants2.4.3.sif"
 
 echo "Starting ANTs registration job using Singularity"

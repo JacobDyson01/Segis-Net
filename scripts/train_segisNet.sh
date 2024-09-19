@@ -4,8 +4,7 @@
 #SBATCH --output=/home/groups/dlmrimnd/jacob/projects/Segis-Net/logs/segis_net_output_%j.out
 #SBATCH --error=/home/groups/dlmrimnd/jacob/projects/Segis-Net/logs/segis_net_error_%j.err
 #SBATCH --partition=a100
-#SBATCH --nodelist=a100-5
-#SBATCH --time=12:00:00
+#SBATCH --time=240:00:00
 
 
 

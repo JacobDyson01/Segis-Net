@@ -1,0 +1,3183 @@
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x55bc7a401850)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x55bc7a401850)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x55bc7a401010): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x55a4874f6850)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x55a4874f6850)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x55a4874f6010): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x559929aa0850)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x559929aa0850)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x559929aa0010): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x5581ecf8c850)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x5581ecf8c850)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x5581ecf8c010): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x562372d15760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x562372d15760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x562372d14f20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x5604a41c9760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x5604a41c9760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x5604a41c8f20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x55bc7aa1d760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x55bc7aa1d760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x55bc7aa1cf20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x5581304e7760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x5581304e7760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x5581304e6f20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x555b50de9760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x555b50de9760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x555b50de8f20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x557b47303760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x557b47303760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x557b47302f20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x56004cd2e760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x56004cd2e760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x56004cd2df20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x55699db3c760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x55699db3c760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x55699db3bf20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x5650f2971760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x5650f2971760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x5650f2970f20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x5567615a9760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x5567615a9760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x5567615a8f20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x555ce8206760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x555ce8206760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x555ce8205f20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x557028aed760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x557028aed760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x557028aecf20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x55c65ba18760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x55c65ba18760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x55c65ba17f20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x56081983c760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x56081983c760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x56081983bf20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x564d34eb1760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x564d34eb1760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x564d34eb0f20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x557010ab9760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x557010ab9760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x557010ab8f20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x55e83d853760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x55e83d853760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x55e83d852f20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x5597eb081760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x5597eb081760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x5597eb080f20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x55abaf3ed760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x55abaf3ed760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x55abaf3ecf20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x55bbe0e77760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x55bbe0e77760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x55bbe0e76f20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x55d1be5d6760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x55d1be5d6760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x55d1be5d5f20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x55ee77878760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x55ee77878760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x55ee77877f20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x55737c976760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x55737c976760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x55737c975f20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x5573b345b760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x5573b345b760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x5573b345af20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x55fb6ae27760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x55fb6ae27760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x55fb6ae26f20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x55a6038ec760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x55a6038ec760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x55a6038ebf20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x560a946a3760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x560a946a3760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x560a946a2f20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x5565d5a5e760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x5565d5a5e760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x5565d5a5df20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x55d206a10760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x55d206a10760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x55d206a0ff20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x556b85f81760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x556b85f81760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x556b85f80f20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x55e58340d760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x55e58340d760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x55e58340cf20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x55c4f1c92760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x55c4f1c92760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x55c4f1c91f20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x56211a9f6760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x56211a9f6760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x56211a9f5f20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x562091e04760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x562091e04760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x562091e03f20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x556170e87760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x556170e87760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x556170e86f20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x5633e5324760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x5633e5324760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x5633e5323f20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x559a9099f760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x559a9099f760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x559a9099ef20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x5645221fc760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x5645221fc760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x5645221fbf20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x55a2f2088760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x55a2f2088760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x55a2f2087f20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x55b3b22b2760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x55b3b22b2760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x55b3b22b1f20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x55fd57a1a760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x55fd57a1a760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x55fd57a19f20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x559351bf2760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x559351bf2760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x559351bf1f20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x55e5eb372760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x55e5eb372760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x55e5eb371f20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x556ca1878760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x556ca1878760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x556ca1877f20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x556cf499d760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x556cf499d760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x556cf499cf20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x556db3f6e760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x556db3f6e760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x556db3f6df20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x563ffd370760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x563ffd370760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x563ffd36ff20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x55b0981db760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x55b0981db760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x55b0981daf20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x56515eafa760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x56515eafa760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x56515eaf9f20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x55b8115dc760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x55b8115dc760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x55b8115dbf20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x55fa7e511760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x55fa7e511760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x55fa7e510f20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x55a25b5ba760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x55a25b5ba760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x55a25b5b9f20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x560bc0b13760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x560bc0b13760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x560bc0b12f20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x5608ce7f0760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x5608ce7f0760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x5608ce7eff20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x55f3a2b76760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x55f3a2b76760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x55f3a2b75f20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x55c62787c760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x55c62787c760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x55c62787bf20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x56019a5e2760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x56019a5e2760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x56019a5e1f20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x5614a467f760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x5614a467f760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x5614a467ef20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x55da484b7760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x55da484b7760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x55da484b6f20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x5608e23e0760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x5608e23e0760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x5608e23dff20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x55fcc1d43760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x55fcc1d43760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x55fcc1d42f20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x5603e2f02760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x5603e2f02760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x5603e2f01f20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x55e77088a760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x55e77088a760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x55e770889f20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x555ce0947760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x555ce0947760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x555ce0946f20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x55859f221760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x55859f221760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x55859f220f20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x55b7e3f8e760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x55b7e3f8e760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x55b7e3f8df20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x55ba48461760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x55ba48461760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x55ba48460f20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x5620ec6b0760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x5620ec6b0760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x5620ec6aff20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x556c97734760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x556c97734760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x556c97733f20): Fixed Image has not been set
+
+
+Exception caught during reference file reading 
+
+itk::ImageFileReaderException (0x56031bf88760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkImageFileReader.hxx
+Line: 132
+Description:  Could not create IO object for reading file /template
+  Tried to create one of the following:
+    BMPImageIO
+    BioRadImageIO
+    Bruker2dseqImageIO
+    GDCMImageIO
+    GE4ImageIO
+    GE5ImageIO
+    GiplImageIO
+    HDF5ImageIO
+    JPEGImageIO
+    JPEG2000ImageIO
+    LSMImageIO
+    MGHImageIO
+    MINCImageIO
+    MRCImageIO
+    MetaImageIO
+    NiftiImageIO
+    NrrdImageIO
+    PNGImageIO
+    StimulateImageIO
+    TIFFImageIO
+    VTKImageIO
+  You probably failed to set a file suffix, or
+    set the suffix to an unsupported type.
+
+
+ file /template
+Exception Object caught: 
+
+itk::ExceptionObject (0x56031bf88760)
+Location: "unknown" 
+File: /ants/build/staging/include/ITK-5.3/itkCenteredTransformInitializer.hxx
+Line: 31
+Description: ITK ERROR: CenteredTransformInitializer(0x56031bf87f20): Fixed Image has not been set
+
+
+slurmstepd: error: *** JOB 185275 ON vcpu-0 CANCELLED AT 2024-09-17T11:29:22 ***

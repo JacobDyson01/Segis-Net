@@ -1,0 +1,20 @@
+2024-09-13 14:39:08.236061: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+Using TensorFlow backend.
+/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/keras/callbacks.py:999: UserWarning: `epsilon` argument is deprecated and will be removed, use `min_delta` instead.
+  warnings.warn('`epsilon` argument is deprecated and '
+Traceback (most recent call last):
+  File "/home/groups/dlmrimnd/jacob/projects/Segis-Net/code/Segis-Net/Train_SegisNet.py", line 222, in <module>
+    initial_epoch=initial_epoch)
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/keras/legacy/interfaces.py", line 91, in wrapper
+    return func(*args, **kwargs)
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/keras/engine/training.py", line 1426, in fit_generator
+    initial_epoch=initial_epoch)
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/keras/engine/training_generator.py", line 229, in fit_generator
+    callbacks.on_epoch_end(epoch, epoch_logs)
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/keras/callbacks.py", line 77, in on_epoch_end
+    callback.on_epoch_end(epoch, logs)
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/keras/callbacks.py", line 942, in on_epoch_end
+    summary_value.simple_value = value.item()
+AttributeError: 'float' object has no attribute 'item'

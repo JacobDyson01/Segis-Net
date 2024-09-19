@@ -1,0 +1,7 @@
+Using TensorFlow backend.
+/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+Traceback (most recent call last):
+  File "/home/groups/dlmrimnd/jacob/projects/Segis-Net/code/Segis-Net/Train_SegisNet.py", line 125, in <module>
+    if G <= 1:
+NameError: name 'G' is not defined

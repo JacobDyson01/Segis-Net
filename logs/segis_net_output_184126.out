@@ -1,0 +1,60 @@
+Construct model
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to                     
+==================================================================================================
+input_1 (InputLayer)            (None, 144, 96, 112, 0                                            
+__________________________________________________________________________________________________
+input_2 (InputLayer)            (None, 144, 96, 112, 0                                            
+__________________________________________________________________________________________________
+input_4 (InputLayer)            (None, 144, 96, 112, 0                                            
+__________________________________________________________________________________________________
+input_3 (InputLayer)            (None, 144, 96, 112, 0                                            
+__________________________________________________________________________________________________
+model_2 (Model)                 [(None, 144, 96, 112 4707067     input_1[0][0]                    
+                                                                 input_2[0][0]                    
+                                                                 input_4[0][0]                    
+__________________________________________________________________________________________________
+model_1 (Model)                 (None, 144, 96, 112, 5888449     input_3[0][0]                    
+__________________________________________________________________________________________________
+srcSegm (Lambda)                (None, 144, 96, 112, 0           model_1[1][0]                    
+__________________________________________________________________________________________________
+nonr_def (Lambda)               (None, 144, 96, 112, 0           model_2[1][1]                    
+__________________________________________________________________________________________________
+warpedSrc (Lambda)              (None, 144, 96, 112, 0           model_2[1][0]                    
+__________________________________________________________________________________________________
+movedSegm (SpatialTransformer)  [(None, 144, 96, 112 0           srcSegm[0][0]                    
+                                                                 nonr_def[0][0]                   
+==================================================================================================
+Total params: 10,595,516
+Trainable params: 10,589,660
+Non-trainable params: 5,856
+__________________________________________________________________________________________________
+train a new model!
+train with 1 GPU
+Epoch 1/75
+
+ 1/17 [>.............................] - ETA: 4:32:34 - loss: 0.1306 - warpedSrc_loss: 0.0421 - movedSegm_loss: -0.0270 - srcSegm_loss: -0.0262 - nonr_def_loss: 4.3462e-09 - warpedSrc_MeanSquaredError: 0.0421 - movedSegm_sigmoid_sftDC: 0.0142 - srcSegm_sigmoid_DC: 0.0132 - nonr_def_mean_absolute_error: 8.7097e-05
+ 2/17 [==>...........................] - ETA: 4:13:35 - loss: 0.0092 - warpedSrc_loss: 0.0343 - movedSegm_loss: -0.0549 - srcSegm_loss: -0.0532 - nonr_def_loss: 1.9176e-05 - warpedSrc_MeanSquaredError: 0.0343 - movedSegm_sigmoid_sftDC: 0.0734 - srcSegm_sigmoid_DC: 0.0702 - nonr_def_mean_absolute_error: 0.0158    
+ 3/17 [====>.........................] - ETA: 3:56:04 - loss: 0.0349 - warpedSrc_loss: 0.0494 - movedSegm_loss: -0.0715 - srcSegm_loss: -0.0700 - nonr_def_loss: 4.7427e-05 - warpedSrc_MeanSquaredError: 0.0494 - movedSegm_sigmoid_sftDC: 0.1093 - srcSegm_sigmoid_DC: 0.1062 - nonr_def_mean_absolute_error: 0.0279
+ 4/17 [======>.......................] - ETA: 3:38:53 - loss: 0.0289 - warpedSrc_loss: 0.0531 - movedSegm_loss: -0.0792 - srcSegm_loss: -0.0786 - nonr_def_loss: 9.2735e-05 - warpedSrc_MeanSquaredError: 0.0531 - movedSegm_sigmoid_sftDC: 0.1146 - srcSegm_sigmoid_DC: 0.1129 - nonr_def_mean_absolute_error: 0.0400
+ 5/17 [=======>......................] - ETA: 3:21:54 - loss: 0.0052 - warpedSrc_loss: 0.0535 - movedSegm_loss: -0.0872 - srcSegm_loss: -0.0875 - nonr_def_loss: 1.6517e-04 - warpedSrc_MeanSquaredError: 0.0535 - movedSegm_sigmoid_sftDC: 0.1247 - srcSegm_sigmoid_DC: 0.1242 - nonr_def_mean_absolute_error: 0.0542
+ 6/17 [=========>....................] - ETA: 3:04:58 - loss: -0.0297 - warpedSrc_loss: 0.0513 - movedSegm_loss: -0.0952 - srcSegm_loss: -0.0955 - nonr_def_loss: 1.9683e-04 - warpedSrc_MeanSquaredError: 0.0513 - movedSegm_sigmoid_sftDC: 0.1411 - srcSegm_sigmoid_DC: 0.1408 - nonr_def_mean_absolute_error: 0.0633
+ 7/17 [===========>..................] - ETA: 2:48:04 - loss: -0.0332 - warpedSrc_loss: 0.0550 - movedSegm_loss: -0.1026 - srcSegm_loss: -0.1027 - nonr_def_loss: 2.3221e-04 - warpedSrc_MeanSquaredError: 0.0550 - movedSegm_sigmoid_sftDC: 0.1572 - srcSegm_sigmoid_DC: 0.1564 - nonr_def_mean_absolute_error: 0.0708
+ 8/17 [=============>................] - ETA: 2:31:15 - loss: -0.0710 - warpedSrc_loss: 0.0513 - movedSegm_loss: -0.1090 - srcSegm_loss: -0.1092 - nonr_def_loss: 2.6380e-04 - warpedSrc_MeanSquaredError: 0.0513 - movedSegm_sigmoid_sftDC: 0.1739 - srcSegm_sigmoid_DC: 0.1733 - nonr_def_mean_absolute_error: 0.0767
+ 9/17 [==============>...............] - ETA: 2:14:23 - loss: -0.1100 - warpedSrc_loss: 0.0470 - movedSegm_loss: -0.1150 - srcSegm_loss: -0.1151 - nonr_def_loss: 2.9018e-04 - warpedSrc_MeanSquaredError: 0.0470 - movedSegm_sigmoid_sftDC: 0.1872 - srcSegm_sigmoid_DC: 0.1866 - nonr_def_mean_absolute_error: 0.0815
+10/17 [================>.............] - ETA: 1:57:33 - loss: -0.1177 - warpedSrc_loss: 0.0483 - movedSegm_loss: -0.1196 - srcSegm_loss: -0.1198 - nonr_def_loss: 3.1083e-04 - warpedSrc_MeanSquaredError: 0.0483 - movedSegm_sigmoid_sftDC: 0.1976 - srcSegm_sigmoid_DC: 0.1972 - nonr_def_mean_absolute_error: 0.0852
+11/17 [==================>...........] - ETA: 1:40:44 - loss: -0.1216 - warpedSrc_loss: 0.0495 - movedSegm_loss: -0.1231 - srcSegm_loss: -0.1229 - nonr_def_loss: 3.3503e-04 - warpedSrc_MeanSquaredError: 0.0495 - movedSegm_sigmoid_sftDC: 0.2051 - srcSegm_sigmoid_DC: 0.2041 - nonr_def_mean_absolute_error: 0.0888
+12/17 [====================>.........] - ETA: 1:23:53 - loss: -0.1297 - warpedSrc_loss: 0.0498 - movedSegm_loss: -0.1263 - srcSegm_loss: -0.1262 - nonr_def_loss: 3.7420e-04 - warpedSrc_MeanSquaredError: 0.0498 - movedSegm_sigmoid_sftDC: 0.2112 - srcSegm_sigmoid_DC: 0.2103 - nonr_def_mean_absolute_error: 0.0929
+13/17 [=====================>........] - ETA: 1:07:05 - loss: -0.1266 - warpedSrc_loss: 0.0518 - movedSegm_loss: -0.1285 - srcSegm_loss: -0.1284 - nonr_def_loss: 4.2618e-04 - warpedSrc_MeanSquaredError: 0.0518 - movedSegm_sigmoid_sftDC: 0.2161 - srcSegm_sigmoid_DC: 0.2152 - nonr_def_mean_absolute_error: 0.0971
+14/17 [=======================>......] - ETA: 50:17 - loss: -0.1430 - warpedSrc_loss: 0.0502 - movedSegm_loss: -0.1313 - srcSegm_loss: -0.1313 - nonr_def_loss: 4.9708e-04 - warpedSrc_MeanSquaredError: 0.0502 - movedSegm_sigmoid_sftDC: 0.2227 - srcSegm_sigmoid_DC: 0.2219 - nonr_def_mean_absolute_error: 0.1021  
+15/17 [=========================>....] - ETA: 33:30 - loss: -0.1505 - warpedSrc_loss: 0.0509 - movedSegm_loss: -0.1350 - srcSegm_loss: -0.1350 - nonr_def_loss: 5.7223e-04 - warpedSrc_MeanSquaredError: 0.0509 - movedSegm_sigmoid_sftDC: 0.2314 - srcSegm_sigmoid_DC: 0.2307 - nonr_def_mean_absolute_error: 0.1071
+16/17 [===========================>..] - ETA: 16:45 - loss: -0.1549 - warpedSrc_loss: 0.0519 - movedSegm_loss: -0.1384 - srcSegm_loss: -0.1378 - nonr_def_loss: 6.3614e-04 - warpedSrc_MeanSquaredError: 0.0519 - movedSegm_sigmoid_sftDC: 0.2396 - srcSegm_sigmoid_DC: 0.2377 - nonr_def_mean_absolute_error: 0.1112
+17/17 [==============================] - 18359s 1080s/step - loss: -0.1672 - warpedSrc_loss: 0.0515 - movedSegm_loss: -0.1422 - srcSegm_loss: -0.1411 - nonr_def_loss: 6.7668e-04 - warpedSrc_MeanSquaredError: 0.0515 - movedSegm_sigmoid_sftDC: 0.2476 - srcSegm_sigmoid_DC: 0.2448 - nonr_def_mean_absolute_error: 0.1143 - val_loss: -0.1163 - val_warpedSrc_loss: 0.0398 - val_movedSegm_loss: -0.1060 - val_srcSegm_loss: -0.1043 - val_nonr_def_loss: 0.0012 - val_warpedSrc_MeanSquaredError: 0.0398 - val_movedSegm_sigmoid_sftDC: 0.1488 - val_srcSegm_sigmoid_DC: 0.1455 - val_nonr_def_mean_absolute_error: 0.2080
+
+Epoch 00001: val_srcSegm_sigmoid_DC improved from -inf to 0.14547, saving model to /home/groups/dlmrimnd/jacob/data/results/accWeights.01--0.12.hdf5
+
+Epoch 00001: val_movedSegm_sigmoid_sftDC improved from -inf to 0.14878, saving model to /home/groups/dlmrimnd/jacob/data/results/consWeights.01--0.12.hdf5
+
+Epoch 00001: saving model to /home/groups/dlmrimnd/jacob/data/results/model_weight_out.h5
+lr:  0.0005
+loss weight lamda used:  9.0

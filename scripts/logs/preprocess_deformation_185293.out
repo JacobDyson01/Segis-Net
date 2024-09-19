@@ -1,0 +1,675 @@
+Removing existing directory /home/groups/dlmrimnd/jacob/data/MND_input_images
+Removing existing directory /home/groups/dlmrimnd/jacob/data/MND_warped_input
+Starting the preprocessing pipeline and deformation field generation using ANTs
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-002MND_ses-01/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-002MND_ses_01_ses_02/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-002MND_ses-02/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-002MND_ses_01_ses_02/target.nii.gz
+Created input files for sub-002MND_ses_01_ses_02
+Warping source image to template for sub-002MND_ses_01_ses_02
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-002MND_ses_01_ses_02
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-002MND_ses-01/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-002MND_ses_01_ses_02/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-002MND_ses-02/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-002MND_ses_01_ses_02/target.nii.gz
+Created input files for sub-002MND_ses_01_ses_02
+Warping source image to template for sub-002MND_ses_01_ses_02
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-002MND_ses_01_ses_02
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-003MND_ses-01/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-003MND_ses_01_ses_02/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-003MND_ses-02/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-003MND_ses_01_ses_02/target.nii.gz
+Created input files for sub-003MND_ses_01_ses_02
+Warping source image to template for sub-003MND_ses_01_ses_02
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-003MND_ses_01_ses_02
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-003MND_ses-01/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-003MND_ses_01_ses_03/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-003MND_ses-03/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-003MND_ses_01_ses_03/target.nii.gz
+Created input files for sub-003MND_ses_01_ses_03
+Warping source image to template for sub-003MND_ses_01_ses_03
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-003MND_ses_01_ses_03
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-003MND_ses-01/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-003MND_ses_01_ses_04/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-003MND_ses-04/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-003MND_ses_01_ses_04/target.nii.gz
+Created input files for sub-003MND_ses_01_ses_04
+Warping source image to template for sub-003MND_ses_01_ses_04
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-003MND_ses_01_ses_04
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-003MND_ses-02/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-003MND_ses_02_ses_03/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-003MND_ses-03/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-003MND_ses_02_ses_03/target.nii.gz
+Created input files for sub-003MND_ses_02_ses_03
+Warping source image to template for sub-003MND_ses_02_ses_03
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-003MND_ses_02_ses_03
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-003MND_ses-02/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-003MND_ses_02_ses_04/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-003MND_ses-04/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-003MND_ses_02_ses_04/target.nii.gz
+Created input files for sub-003MND_ses_02_ses_04
+Warping source image to template for sub-003MND_ses_02_ses_04
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-003MND_ses_02_ses_04
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-003MND_ses-03/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-003MND_ses_03_ses_04/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-003MND_ses-04/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-003MND_ses_03_ses_04/target.nii.gz
+Created input files for sub-003MND_ses_03_ses_04
+Warping source image to template for sub-003MND_ses_03_ses_04
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-003MND_ses_03_ses_04
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-003MND_ses-01/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-003MND_ses_01_ses_02/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-003MND_ses-02/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-003MND_ses_01_ses_02/target.nii.gz
+Created input files for sub-003MND_ses_01_ses_02
+Warping source image to template for sub-003MND_ses_01_ses_02
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-003MND_ses_01_ses_02
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-003MND_ses-01/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-003MND_ses_01_ses_03/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-003MND_ses-03/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-003MND_ses_01_ses_03/target.nii.gz
+Created input files for sub-003MND_ses_01_ses_03
+Warping source image to template for sub-003MND_ses_01_ses_03
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-003MND_ses_01_ses_03
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-003MND_ses-01/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-003MND_ses_01_ses_04/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-003MND_ses-04/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-003MND_ses_01_ses_04/target.nii.gz
+Created input files for sub-003MND_ses_01_ses_04
+Warping source image to template for sub-003MND_ses_01_ses_04
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-003MND_ses_01_ses_04
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-003MND_ses-02/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-003MND_ses_02_ses_03/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-003MND_ses-03/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-003MND_ses_02_ses_03/target.nii.gz
+Created input files for sub-003MND_ses_02_ses_03
+Warping source image to template for sub-003MND_ses_02_ses_03
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-003MND_ses_02_ses_03
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-003MND_ses-02/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-003MND_ses_02_ses_04/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-003MND_ses-04/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-003MND_ses_02_ses_04/target.nii.gz
+Created input files for sub-003MND_ses_02_ses_04
+Warping source image to template for sub-003MND_ses_02_ses_04
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-003MND_ses_02_ses_04
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-003MND_ses-03/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-003MND_ses_03_ses_04/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-003MND_ses-04/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-003MND_ses_03_ses_04/target.nii.gz
+Created input files for sub-003MND_ses_03_ses_04
+Warping source image to template for sub-003MND_ses_03_ses_04
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-003MND_ses_03_ses_04
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-003MND_ses-01/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-003MND_ses_01_ses_02/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-003MND_ses-02/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-003MND_ses_01_ses_02/target.nii.gz
+Created input files for sub-003MND_ses_01_ses_02
+Warping source image to template for sub-003MND_ses_01_ses_02
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-003MND_ses_01_ses_02
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-003MND_ses-01/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-003MND_ses_01_ses_03/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-003MND_ses-03/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-003MND_ses_01_ses_03/target.nii.gz
+Created input files for sub-003MND_ses_01_ses_03
+Warping source image to template for sub-003MND_ses_01_ses_03
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-003MND_ses_01_ses_03
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-003MND_ses-01/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-003MND_ses_01_ses_04/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-003MND_ses-04/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-003MND_ses_01_ses_04/target.nii.gz
+Created input files for sub-003MND_ses_01_ses_04
+Warping source image to template for sub-003MND_ses_01_ses_04
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-003MND_ses_01_ses_04
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-003MND_ses-02/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-003MND_ses_02_ses_03/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-003MND_ses-03/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-003MND_ses_02_ses_03/target.nii.gz
+Created input files for sub-003MND_ses_02_ses_03
+Warping source image to template for sub-003MND_ses_02_ses_03
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-003MND_ses_02_ses_03
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-003MND_ses-02/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-003MND_ses_02_ses_04/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-003MND_ses-04/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-003MND_ses_02_ses_04/target.nii.gz
+Created input files for sub-003MND_ses_02_ses_04
+Warping source image to template for sub-003MND_ses_02_ses_04
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-003MND_ses_02_ses_04
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-003MND_ses-03/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-003MND_ses_03_ses_04/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-003MND_ses-04/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-003MND_ses_03_ses_04/target.nii.gz
+Created input files for sub-003MND_ses_03_ses_04
+Warping source image to template for sub-003MND_ses_03_ses_04
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-003MND_ses_03_ses_04
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-003MND_ses-01/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-003MND_ses_01_ses_02/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-003MND_ses-02/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-003MND_ses_01_ses_02/target.nii.gz
+Created input files for sub-003MND_ses_01_ses_02
+Warping source image to template for sub-003MND_ses_01_ses_02
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-003MND_ses_01_ses_02
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-003MND_ses-01/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-003MND_ses_01_ses_03/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-003MND_ses-03/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-003MND_ses_01_ses_03/target.nii.gz
+Created input files for sub-003MND_ses_01_ses_03
+Warping source image to template for sub-003MND_ses_01_ses_03
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-003MND_ses_01_ses_03
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-003MND_ses-01/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-003MND_ses_01_ses_04/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-003MND_ses-04/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-003MND_ses_01_ses_04/target.nii.gz
+Created input files for sub-003MND_ses_01_ses_04
+Warping source image to template for sub-003MND_ses_01_ses_04
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-003MND_ses_01_ses_04
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-003MND_ses-02/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-003MND_ses_02_ses_03/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-003MND_ses-03/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-003MND_ses_02_ses_03/target.nii.gz
+Created input files for sub-003MND_ses_02_ses_03
+Warping source image to template for sub-003MND_ses_02_ses_03
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-003MND_ses_02_ses_03
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-003MND_ses-02/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-003MND_ses_02_ses_04/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-003MND_ses-04/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-003MND_ses_02_ses_04/target.nii.gz
+Created input files for sub-003MND_ses_02_ses_04
+Warping source image to template for sub-003MND_ses_02_ses_04
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-003MND_ses_02_ses_04
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-003MND_ses-03/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-003MND_ses_03_ses_04/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-003MND_ses-04/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-003MND_ses_03_ses_04/target.nii.gz
+Created input files for sub-003MND_ses_03_ses_04
+Warping source image to template for sub-003MND_ses_03_ses_04
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-003MND_ses_03_ses_04
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-004MND_ses-01/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-004MND_ses_01_ses_02/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-004MND_ses-02/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-004MND_ses_01_ses_02/target.nii.gz
+Created input files for sub-004MND_ses_01_ses_02
+Warping source image to template for sub-004MND_ses_01_ses_02
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-004MND_ses_01_ses_02
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-004MND_ses-01/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-004MND_ses_01_ses_02/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-004MND_ses-02/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-004MND_ses_01_ses_02/target.nii.gz
+Created input files for sub-004MND_ses_01_ses_02
+Warping source image to template for sub-004MND_ses_01_ses_02
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-004MND_ses_01_ses_02
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-01/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_01_ses_04/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-04/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_01_ses_04/target.nii.gz
+Created input files for sub-005MND_ses_01_ses_04
+Warping source image to template for sub-005MND_ses_01_ses_04
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-005MND_ses_01_ses_04
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-01/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_01_ses_05/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-05/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_01_ses_05/target.nii.gz
+Created input files for sub-005MND_ses_01_ses_05
+Warping source image to template for sub-005MND_ses_01_ses_05
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-005MND_ses_01_ses_05
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-01/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_01_ses_06/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-06/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_01_ses_06/target.nii.gz
+Created input files for sub-005MND_ses_01_ses_06
+Warping source image to template for sub-005MND_ses_01_ses_06
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-005MND_ses_01_ses_06
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-01/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_01_ses_07/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-07/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_01_ses_07/target.nii.gz
+Created input files for sub-005MND_ses_01_ses_07
+Warping source image to template for sub-005MND_ses_01_ses_07
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-005MND_ses_01_ses_07
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-01/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_01_ses_08/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-08/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_01_ses_08/target.nii.gz
+Created input files for sub-005MND_ses_01_ses_08
+Warping source image to template for sub-005MND_ses_01_ses_08
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-005MND_ses_01_ses_08
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-01/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_01_ses_09/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-09/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_01_ses_09/target.nii.gz
+Created input files for sub-005MND_ses_01_ses_09
+Warping source image to template for sub-005MND_ses_01_ses_09
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-005MND_ses_01_ses_09
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-04/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_04_ses_05/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-05/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_04_ses_05/target.nii.gz
+Created input files for sub-005MND_ses_04_ses_05
+Warping source image to template for sub-005MND_ses_04_ses_05
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-005MND_ses_04_ses_05
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-04/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_04_ses_06/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-06/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_04_ses_06/target.nii.gz
+Created input files for sub-005MND_ses_04_ses_06
+Warping source image to template for sub-005MND_ses_04_ses_06
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-005MND_ses_04_ses_06
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-04/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_04_ses_07/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-07/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_04_ses_07/target.nii.gz
+Created input files for sub-005MND_ses_04_ses_07
+Warping source image to template for sub-005MND_ses_04_ses_07
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-005MND_ses_04_ses_07
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-04/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_04_ses_08/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-08/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_04_ses_08/target.nii.gz
+Created input files for sub-005MND_ses_04_ses_08
+Warping source image to template for sub-005MND_ses_04_ses_08
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-005MND_ses_04_ses_08
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-04/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_04_ses_09/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-09/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_04_ses_09/target.nii.gz
+Created input files for sub-005MND_ses_04_ses_09
+Warping source image to template for sub-005MND_ses_04_ses_09
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-005MND_ses_04_ses_09
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-05/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_05_ses_06/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-06/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_05_ses_06/target.nii.gz
+Created input files for sub-005MND_ses_05_ses_06
+Warping source image to template for sub-005MND_ses_05_ses_06
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-005MND_ses_05_ses_06
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-05/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_05_ses_07/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-07/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_05_ses_07/target.nii.gz
+Created input files for sub-005MND_ses_05_ses_07
+Warping source image to template for sub-005MND_ses_05_ses_07
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-005MND_ses_05_ses_07
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-05/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_05_ses_08/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-08/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_05_ses_08/target.nii.gz
+Created input files for sub-005MND_ses_05_ses_08
+Warping source image to template for sub-005MND_ses_05_ses_08
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-005MND_ses_05_ses_08
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-05/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_05_ses_09/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-09/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_05_ses_09/target.nii.gz
+Created input files for sub-005MND_ses_05_ses_09
+Warping source image to template for sub-005MND_ses_05_ses_09
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-005MND_ses_05_ses_09
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-06/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_06_ses_07/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-07/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_06_ses_07/target.nii.gz
+Created input files for sub-005MND_ses_06_ses_07
+Warping source image to template for sub-005MND_ses_06_ses_07
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-005MND_ses_06_ses_07
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-06/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_06_ses_08/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-08/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_06_ses_08/target.nii.gz
+Created input files for sub-005MND_ses_06_ses_08
+Warping source image to template for sub-005MND_ses_06_ses_08
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-005MND_ses_06_ses_08
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-06/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_06_ses_09/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-09/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_06_ses_09/target.nii.gz
+Created input files for sub-005MND_ses_06_ses_09
+Warping source image to template for sub-005MND_ses_06_ses_09
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-005MND_ses_06_ses_09
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-07/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_07_ses_08/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-08/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_07_ses_08/target.nii.gz
+Created input files for sub-005MND_ses_07_ses_08
+Warping source image to template for sub-005MND_ses_07_ses_08
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-005MND_ses_07_ses_08
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-07/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_07_ses_09/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-09/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_07_ses_09/target.nii.gz
+Created input files for sub-005MND_ses_07_ses_09
+Warping source image to template for sub-005MND_ses_07_ses_09
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-005MND_ses_07_ses_09
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-08/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_08_ses_09/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-09/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_08_ses_09/target.nii.gz
+Created input files for sub-005MND_ses_08_ses_09
+Warping source image to template for sub-005MND_ses_08_ses_09
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-005MND_ses_08_ses_09
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-01/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_01_ses_04/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-04/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_01_ses_04/target.nii.gz
+Created input files for sub-005MND_ses_01_ses_04
+Warping source image to template for sub-005MND_ses_01_ses_04
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-005MND_ses_01_ses_04
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-01/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_01_ses_05/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-05/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_01_ses_05/target.nii.gz
+Created input files for sub-005MND_ses_01_ses_05
+Warping source image to template for sub-005MND_ses_01_ses_05
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-005MND_ses_01_ses_05
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-01/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_01_ses_06/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-06/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_01_ses_06/target.nii.gz
+Created input files for sub-005MND_ses_01_ses_06
+Warping source image to template for sub-005MND_ses_01_ses_06
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-005MND_ses_01_ses_06
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-01/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_01_ses_07/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-07/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_01_ses_07/target.nii.gz
+Created input files for sub-005MND_ses_01_ses_07
+Warping source image to template for sub-005MND_ses_01_ses_07
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-005MND_ses_01_ses_07
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-01/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_01_ses_08/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-08/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_01_ses_08/target.nii.gz
+Created input files for sub-005MND_ses_01_ses_08
+Warping source image to template for sub-005MND_ses_01_ses_08
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-005MND_ses_01_ses_08
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-01/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_01_ses_09/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-09/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_01_ses_09/target.nii.gz
+Created input files for sub-005MND_ses_01_ses_09
+Warping source image to template for sub-005MND_ses_01_ses_09
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-005MND_ses_01_ses_09
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-04/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_04_ses_05/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-05/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_04_ses_05/target.nii.gz
+Created input files for sub-005MND_ses_04_ses_05
+Warping source image to template for sub-005MND_ses_04_ses_05
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-005MND_ses_04_ses_05
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-04/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_04_ses_06/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-06/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_04_ses_06/target.nii.gz
+Created input files for sub-005MND_ses_04_ses_06
+Warping source image to template for sub-005MND_ses_04_ses_06
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-005MND_ses_04_ses_06
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-04/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_04_ses_07/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-07/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_04_ses_07/target.nii.gz
+Created input files for sub-005MND_ses_04_ses_07
+Warping source image to template for sub-005MND_ses_04_ses_07
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-005MND_ses_04_ses_07
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-04/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_04_ses_08/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-08/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_04_ses_08/target.nii.gz
+Created input files for sub-005MND_ses_04_ses_08
+Warping source image to template for sub-005MND_ses_04_ses_08
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-005MND_ses_04_ses_08
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-04/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_04_ses_09/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-09/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_04_ses_09/target.nii.gz
+Created input files for sub-005MND_ses_04_ses_09
+Warping source image to template for sub-005MND_ses_04_ses_09
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-005MND_ses_04_ses_09
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-05/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_05_ses_06/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-06/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_05_ses_06/target.nii.gz
+Created input files for sub-005MND_ses_05_ses_06
+Warping source image to template for sub-005MND_ses_05_ses_06
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-005MND_ses_05_ses_06
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-05/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_05_ses_07/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-07/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_05_ses_07/target.nii.gz
+Created input files for sub-005MND_ses_05_ses_07
+Warping source image to template for sub-005MND_ses_05_ses_07
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-005MND_ses_05_ses_07
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-05/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_05_ses_08/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-08/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_05_ses_08/target.nii.gz
+Created input files for sub-005MND_ses_05_ses_08
+Warping source image to template for sub-005MND_ses_05_ses_08
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-005MND_ses_05_ses_08
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-05/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_05_ses_09/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-09/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_05_ses_09/target.nii.gz
+Created input files for sub-005MND_ses_05_ses_09
+Warping source image to template for sub-005MND_ses_05_ses_09
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-005MND_ses_05_ses_09
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-06/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_06_ses_07/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-07/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_06_ses_07/target.nii.gz
+Created input files for sub-005MND_ses_06_ses_07
+Warping source image to template for sub-005MND_ses_06_ses_07
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-005MND_ses_06_ses_07
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-06/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_06_ses_08/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-08/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_06_ses_08/target.nii.gz
+Created input files for sub-005MND_ses_06_ses_08
+Warping source image to template for sub-005MND_ses_06_ses_08
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-005MND_ses_06_ses_08
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-06/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_06_ses_09/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-09/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_06_ses_09/target.nii.gz
+Created input files for sub-005MND_ses_06_ses_09
+Warping source image to template for sub-005MND_ses_06_ses_09
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-005MND_ses_06_ses_09
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-07/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_07_ses_08/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-08/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_07_ses_08/target.nii.gz
+Created input files for sub-005MND_ses_07_ses_08
+Warping source image to template for sub-005MND_ses_07_ses_08
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-005MND_ses_07_ses_08
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-07/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_07_ses_09/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-09/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_07_ses_09/target.nii.gz
+Created input files for sub-005MND_ses_07_ses_09
+Warping source image to template for sub-005MND_ses_07_ses_09
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-005MND_ses_07_ses_09
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-08/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_08_ses_09/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-09/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_08_ses_09/target.nii.gz
+Created input files for sub-005MND_ses_08_ses_09
+Warping source image to template for sub-005MND_ses_08_ses_09
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-005MND_ses_08_ses_09
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-01/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_01_ses_04/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-04/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_01_ses_04/target.nii.gz
+Created input files for sub-005MND_ses_01_ses_04
+Warping source image to template for sub-005MND_ses_01_ses_04
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-005MND_ses_01_ses_04
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-01/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_01_ses_05/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-05/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_01_ses_05/target.nii.gz
+Created input files for sub-005MND_ses_01_ses_05
+Warping source image to template for sub-005MND_ses_01_ses_05
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-005MND_ses_01_ses_05
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-01/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_01_ses_06/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-06/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_01_ses_06/target.nii.gz
+Created input files for sub-005MND_ses_01_ses_06
+Warping source image to template for sub-005MND_ses_01_ses_06
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-005MND_ses_01_ses_06
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-01/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_01_ses_07/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-07/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_01_ses_07/target.nii.gz
+Created input files for sub-005MND_ses_01_ses_07
+Warping source image to template for sub-005MND_ses_01_ses_07
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-005MND_ses_01_ses_07
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-01/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_01_ses_08/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-08/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_01_ses_08/target.nii.gz
+Created input files for sub-005MND_ses_01_ses_08
+Warping source image to template for sub-005MND_ses_01_ses_08
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-005MND_ses_01_ses_08
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-01/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_01_ses_09/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-09/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_01_ses_09/target.nii.gz
+Created input files for sub-005MND_ses_01_ses_09
+Warping source image to template for sub-005MND_ses_01_ses_09
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-005MND_ses_01_ses_09
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-04/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_04_ses_05/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-05/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_04_ses_05/target.nii.gz
+Created input files for sub-005MND_ses_04_ses_05
+Warping source image to template for sub-005MND_ses_04_ses_05
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-005MND_ses_04_ses_05
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-04/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_04_ses_06/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-06/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_04_ses_06/target.nii.gz
+Created input files for sub-005MND_ses_04_ses_06
+Warping source image to template for sub-005MND_ses_04_ses_06
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-005MND_ses_04_ses_06
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-04/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_04_ses_07/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-07/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_04_ses_07/target.nii.gz
+Created input files for sub-005MND_ses_04_ses_07
+Warping source image to template for sub-005MND_ses_04_ses_07
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-005MND_ses_04_ses_07
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-04/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_04_ses_08/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-08/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_04_ses_08/target.nii.gz
+Created input files for sub-005MND_ses_04_ses_08
+Warping source image to template for sub-005MND_ses_04_ses_08
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-005MND_ses_04_ses_08
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-04/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_04_ses_09/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-09/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_04_ses_09/target.nii.gz
+Created input files for sub-005MND_ses_04_ses_09
+Warping source image to template for sub-005MND_ses_04_ses_09
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-005MND_ses_04_ses_09
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-05/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_05_ses_06/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-06/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_05_ses_06/target.nii.gz
+Created input files for sub-005MND_ses_05_ses_06
+Warping source image to template for sub-005MND_ses_05_ses_06
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-005MND_ses_05_ses_06
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-05/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_05_ses_07/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-07/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_05_ses_07/target.nii.gz
+Created input files for sub-005MND_ses_05_ses_07
+Warping source image to template for sub-005MND_ses_05_ses_07
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-005MND_ses_05_ses_07
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-05/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_05_ses_08/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-08/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_05_ses_08/target.nii.gz
+Created input files for sub-005MND_ses_05_ses_08
+Warping source image to template for sub-005MND_ses_05_ses_08
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-005MND_ses_05_ses_08
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-05/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_05_ses_09/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-09/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_05_ses_09/target.nii.gz
+Created input files for sub-005MND_ses_05_ses_09
+Warping source image to template for sub-005MND_ses_05_ses_09
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-005MND_ses_05_ses_09
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-06/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_06_ses_07/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-07/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_06_ses_07/target.nii.gz
+Created input files for sub-005MND_ses_06_ses_07
+Warping source image to template for sub-005MND_ses_06_ses_07
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-005MND_ses_06_ses_07
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-06/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_06_ses_08/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-08/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_06_ses_08/target.nii.gz
+Created input files for sub-005MND_ses_06_ses_08
+Warping source image to template for sub-005MND_ses_06_ses_08
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-005MND_ses_06_ses_08
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-06/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_06_ses_09/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-09/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_06_ses_09/target.nii.gz
+Created input files for sub-005MND_ses_06_ses_09
+Warping source image to template for sub-005MND_ses_06_ses_09
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-005MND_ses_06_ses_09
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-07/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_07_ses_08/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-08/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_07_ses_08/target.nii.gz
+Created input files for sub-005MND_ses_07_ses_08
+Warping source image to template for sub-005MND_ses_07_ses_08
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-005MND_ses_07_ses_08
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-07/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_07_ses_09/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-09/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_07_ses_09/target.nii.gz
+Created input files for sub-005MND_ses_07_ses_09
+Warping source image to template for sub-005MND_ses_07_ses_09
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-005MND_ses_07_ses_09
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-08/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_08_ses_09/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-09/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_08_ses_09/target.nii.gz
+Created input files for sub-005MND_ses_08_ses_09
+Warping source image to template for sub-005MND_ses_08_ses_09
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-005MND_ses_08_ses_09
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-01/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_01_ses_04/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-04/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_01_ses_04/target.nii.gz
+Created input files for sub-005MND_ses_01_ses_04
+Warping source image to template for sub-005MND_ses_01_ses_04
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-005MND_ses_01_ses_04
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-01/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_01_ses_05/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-05/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_01_ses_05/target.nii.gz
+Created input files for sub-005MND_ses_01_ses_05
+Warping source image to template for sub-005MND_ses_01_ses_05
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-005MND_ses_01_ses_05
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-01/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_01_ses_06/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-06/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_01_ses_06/target.nii.gz
+Created input files for sub-005MND_ses_01_ses_06
+Warping source image to template for sub-005MND_ses_01_ses_06
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-005MND_ses_01_ses_06
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-01/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_01_ses_07/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-07/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_01_ses_07/target.nii.gz
+Created input files for sub-005MND_ses_01_ses_07
+Warping source image to template for sub-005MND_ses_01_ses_07
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-005MND_ses_01_ses_07
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-01/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_01_ses_08/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-005MND_ses-08/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-005MND_ses_01_ses_08/target.nii.gz
+Created input files for sub-005MND_ses_01_ses_08
+Warping source image to template for sub-005MND_ses_01_ses_08
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
+Warping target image to template for sub-005MND_ses_01_ses_08
+Fixed image '/template/brain_mni.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'

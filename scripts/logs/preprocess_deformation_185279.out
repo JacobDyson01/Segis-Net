@@ -1,0 +1,550 @@
+Starting the preprocessing pipeline and deformation field generation using ANTs
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-002MND_ses-01/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-002MND_ses-02/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/target.nii.gz
+Created input files for sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02
+Warping source image to template for sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02
+
+--------------------------------------------------------------------------------------
+ Mapping parameters
+--------------------------------------------------------------------------------------
+ ANTSPATH is /opt/ants/bin/
+
+ Dimensionality:           3
+ Output name prefix:       /output/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/warped_source_
+ Fixed images:             /template
+ Moving images:            /input/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/source.nii.gz
+ Mask images:              
+ Initial transforms:       
+ Number of threads:        1
+ Spline distance:          26
+ SyN gradient step:        0.1
+ Transform type:           s
+ MI histogram bins:        32
+ Precision:                d
+ Use histogram matching:   0
+ Repro                     0
+======================================================================================
+ antsRegistration call:
+--------------------------------------------------------------------------------------
+/opt/ants/bin//antsRegistration --verbose 1 --dimensionality 3 --float 0 --collapse-output-transforms 1 --output [ /output/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/warped_source_,/output/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/warped_source_Warped.nii.gz,/output/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/warped_source_InverseWarped.nii.gz ] --interpolation Linear --use-histogram-matching 0 --winsorize-image-intensities [ 0.005,0.995 ] --initial-moving-transform [ /template,/input/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/source.nii.gz,1 ] --transform Rigid[ 0.1 ] --metric MI[ /template,/input/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/source.nii.gz,1,32,Regular,0.25 ] --convergence [ 1000x500x250x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox --transform Affine[ 0.1 ] --metric MI[ /template,/input/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/source.nii.gz,1,32,Regular,0.25 ] --convergence [ 1000x500x250x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox --transform SyN[ 0.1,3,0 ] --metric MI[ /template,/input/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/source.nii.gz,1,32] --convergence [ 100x70x50x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox
+--------------------------------------------------------------------------------------
+All_Command_lines_OK
+Using double precision for computations.
+ Registration finished. The antsRegistration call was:
+--------------------------------------------------------------------------------------
+/opt/ants/bin//antsRegistration --verbose 1 --dimensionality 3 --float 0 --collapse-output-transforms 1 --output [ /output/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/warped_source_,/output/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/warped_source_Warped.nii.gz,/output/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/warped_source_InverseWarped.nii.gz ] --interpolation Linear --use-histogram-matching 0 --winsorize-image-intensities [ 0.005,0.995 ] --initial-moving-transform [ /template,/input/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/source.nii.gz,1 ] --transform Rigid[ 0.1 ] --metric MI[ /template,/input/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/source.nii.gz,1,32,Regular,0.25 ] --convergence [ 1000x500x250x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox --transform Affine[ 0.1 ] --metric MI[ /template,/input/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/source.nii.gz,1,32,Regular,0.25 ] --convergence [ 1000x500x250x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox --transform SyN[ 0.1,3,0 ] --metric MI[ /template,/input/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/source.nii.gz,1,32] --convergence [ 100x70x50x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox
+--------------------------------------------------------------------------------------
+Moving image resampled into fixed space: /output/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/warped_source_Warped.nii.gz
+Fixed image resampled into moving space: /output/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/warped_source_InverseWarped.nii.gz
+--------------------------------------------------------------------------------------
+Warping target image to template for sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02
+
+--------------------------------------------------------------------------------------
+ Mapping parameters
+--------------------------------------------------------------------------------------
+ ANTSPATH is /opt/ants/bin/
+
+ Dimensionality:           3
+ Output name prefix:       /output/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/warped_target_
+ Fixed images:             /template
+ Moving images:            /input/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/target.nii.gz
+ Mask images:              
+ Initial transforms:       
+ Number of threads:        1
+ Spline distance:          26
+ SyN gradient step:        0.1
+ Transform type:           s
+ MI histogram bins:        32
+ Precision:                d
+ Use histogram matching:   0
+ Repro                     0
+======================================================================================
+ antsRegistration call:
+--------------------------------------------------------------------------------------
+/opt/ants/bin//antsRegistration --verbose 1 --dimensionality 3 --float 0 --collapse-output-transforms 1 --output [ /output/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/warped_target_,/output/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/warped_target_Warped.nii.gz,/output/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/warped_target_InverseWarped.nii.gz ] --interpolation Linear --use-histogram-matching 0 --winsorize-image-intensities [ 0.005,0.995 ] --initial-moving-transform [ /template,/input/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/target.nii.gz,1 ] --transform Rigid[ 0.1 ] --metric MI[ /template,/input/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/target.nii.gz,1,32,Regular,0.25 ] --convergence [ 1000x500x250x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox --transform Affine[ 0.1 ] --metric MI[ /template,/input/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/target.nii.gz,1,32,Regular,0.25 ] --convergence [ 1000x500x250x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox --transform SyN[ 0.1,3,0 ] --metric MI[ /template,/input/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/target.nii.gz,1,32] --convergence [ 100x70x50x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox
+--------------------------------------------------------------------------------------
+All_Command_lines_OK
+Using double precision for computations.
+ Registration finished. The antsRegistration call was:
+--------------------------------------------------------------------------------------
+/opt/ants/bin//antsRegistration --verbose 1 --dimensionality 3 --float 0 --collapse-output-transforms 1 --output [ /output/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/warped_target_,/output/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/warped_target_Warped.nii.gz,/output/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/warped_target_InverseWarped.nii.gz ] --interpolation Linear --use-histogram-matching 0 --winsorize-image-intensities [ 0.005,0.995 ] --initial-moving-transform [ /template,/input/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/target.nii.gz,1 ] --transform Rigid[ 0.1 ] --metric MI[ /template,/input/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/target.nii.gz,1,32,Regular,0.25 ] --convergence [ 1000x500x250x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox --transform Affine[ 0.1 ] --metric MI[ /template,/input/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/target.nii.gz,1,32,Regular,0.25 ] --convergence [ 1000x500x250x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox --transform SyN[ 0.1,3,0 ] --metric MI[ /template,/input/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/target.nii.gz,1,32] --convergence [ 100x70x50x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox
+--------------------------------------------------------------------------------------
+Moving image resampled into fixed space: /output/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/warped_target_Warped.nii.gz
+Fixed image resampled into moving space: /output/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/warped_target_InverseWarped.nii.gz
+--------------------------------------------------------------------------------------
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-002MND_ses-01/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-002MND_ses-02/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/target.nii.gz
+Created input files for sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02
+Warping source image to template for sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02
+
+--------------------------------------------------------------------------------------
+ Mapping parameters
+--------------------------------------------------------------------------------------
+ ANTSPATH is /opt/ants/bin/
+
+ Dimensionality:           3
+ Output name prefix:       /output/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/warped_source_
+ Fixed images:             /template
+ Moving images:            /input/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/source.nii.gz
+ Mask images:              
+ Initial transforms:       
+ Number of threads:        1
+ Spline distance:          26
+ SyN gradient step:        0.1
+ Transform type:           s
+ MI histogram bins:        32
+ Precision:                d
+ Use histogram matching:   0
+ Repro                     0
+======================================================================================
+ antsRegistration call:
+--------------------------------------------------------------------------------------
+/opt/ants/bin//antsRegistration --verbose 1 --dimensionality 3 --float 0 --collapse-output-transforms 1 --output [ /output/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/warped_source_,/output/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/warped_source_Warped.nii.gz,/output/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/warped_source_InverseWarped.nii.gz ] --interpolation Linear --use-histogram-matching 0 --winsorize-image-intensities [ 0.005,0.995 ] --initial-moving-transform [ /template,/input/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/source.nii.gz,1 ] --transform Rigid[ 0.1 ] --metric MI[ /template,/input/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/source.nii.gz,1,32,Regular,0.25 ] --convergence [ 1000x500x250x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox --transform Affine[ 0.1 ] --metric MI[ /template,/input/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/source.nii.gz,1,32,Regular,0.25 ] --convergence [ 1000x500x250x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox --transform SyN[ 0.1,3,0 ] --metric MI[ /template,/input/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/source.nii.gz,1,32] --convergence [ 100x70x50x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox
+--------------------------------------------------------------------------------------
+All_Command_lines_OK
+Using double precision for computations.
+ Registration finished. The antsRegistration call was:
+--------------------------------------------------------------------------------------
+/opt/ants/bin//antsRegistration --verbose 1 --dimensionality 3 --float 0 --collapse-output-transforms 1 --output [ /output/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/warped_source_,/output/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/warped_source_Warped.nii.gz,/output/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/warped_source_InverseWarped.nii.gz ] --interpolation Linear --use-histogram-matching 0 --winsorize-image-intensities [ 0.005,0.995 ] --initial-moving-transform [ /template,/input/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/source.nii.gz,1 ] --transform Rigid[ 0.1 ] --metric MI[ /template,/input/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/source.nii.gz,1,32,Regular,0.25 ] --convergence [ 1000x500x250x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox --transform Affine[ 0.1 ] --metric MI[ /template,/input/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/source.nii.gz,1,32,Regular,0.25 ] --convergence [ 1000x500x250x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox --transform SyN[ 0.1,3,0 ] --metric MI[ /template,/input/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/source.nii.gz,1,32] --convergence [ 100x70x50x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox
+--------------------------------------------------------------------------------------
+Moving image resampled into fixed space: /output/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/warped_source_Warped.nii.gz
+Fixed image resampled into moving space: /output/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/warped_source_InverseWarped.nii.gz
+--------------------------------------------------------------------------------------
+Warping target image to template for sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02
+
+--------------------------------------------------------------------------------------
+ Mapping parameters
+--------------------------------------------------------------------------------------
+ ANTSPATH is /opt/ants/bin/
+
+ Dimensionality:           3
+ Output name prefix:       /output/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/warped_target_
+ Fixed images:             /template
+ Moving images:            /input/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/target.nii.gz
+ Mask images:              
+ Initial transforms:       
+ Number of threads:        1
+ Spline distance:          26
+ SyN gradient step:        0.1
+ Transform type:           s
+ MI histogram bins:        32
+ Precision:                d
+ Use histogram matching:   0
+ Repro                     0
+======================================================================================
+ antsRegistration call:
+--------------------------------------------------------------------------------------
+/opt/ants/bin//antsRegistration --verbose 1 --dimensionality 3 --float 0 --collapse-output-transforms 1 --output [ /output/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/warped_target_,/output/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/warped_target_Warped.nii.gz,/output/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/warped_target_InverseWarped.nii.gz ] --interpolation Linear --use-histogram-matching 0 --winsorize-image-intensities [ 0.005,0.995 ] --initial-moving-transform [ /template,/input/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/target.nii.gz,1 ] --transform Rigid[ 0.1 ] --metric MI[ /template,/input/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/target.nii.gz,1,32,Regular,0.25 ] --convergence [ 1000x500x250x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox --transform Affine[ 0.1 ] --metric MI[ /template,/input/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/target.nii.gz,1,32,Regular,0.25 ] --convergence [ 1000x500x250x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox --transform SyN[ 0.1,3,0 ] --metric MI[ /template,/input/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/target.nii.gz,1,32] --convergence [ 100x70x50x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox
+--------------------------------------------------------------------------------------
+All_Command_lines_OK
+Using double precision for computations.
+ Registration finished. The antsRegistration call was:
+--------------------------------------------------------------------------------------
+/opt/ants/bin//antsRegistration --verbose 1 --dimensionality 3 --float 0 --collapse-output-transforms 1 --output [ /output/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/warped_target_,/output/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/warped_target_Warped.nii.gz,/output/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/warped_target_InverseWarped.nii.gz ] --interpolation Linear --use-histogram-matching 0 --winsorize-image-intensities [ 0.005,0.995 ] --initial-moving-transform [ /template,/input/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/target.nii.gz,1 ] --transform Rigid[ 0.1 ] --metric MI[ /template,/input/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/target.nii.gz,1,32,Regular,0.25 ] --convergence [ 1000x500x250x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox --transform Affine[ 0.1 ] --metric MI[ /template,/input/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/target.nii.gz,1,32,Regular,0.25 ] --convergence [ 1000x500x250x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox --transform SyN[ 0.1,3,0 ] --metric MI[ /template,/input/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/target.nii.gz,1,32] --convergence [ 100x70x50x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox
+--------------------------------------------------------------------------------------
+Moving image resampled into fixed space: /output/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/warped_target_Warped.nii.gz
+Fixed image resampled into moving space: /output/sub-002MND_sub_002MND_ses_01_sub_002MND_ses_02/warped_target_InverseWarped.nii.gz
+--------------------------------------------------------------------------------------
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-003MND_ses-01/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_02/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-003MND_ses-02/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_02/target.nii.gz
+Created input files for sub-003MND_sub_003MND_ses_01_sub_003MND_ses_02
+Warping source image to template for sub-003MND_sub_003MND_ses_01_sub_003MND_ses_02
+
+--------------------------------------------------------------------------------------
+ Mapping parameters
+--------------------------------------------------------------------------------------
+ ANTSPATH is /opt/ants/bin/
+
+ Dimensionality:           3
+ Output name prefix:       /output/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_02/warped_source_
+ Fixed images:             /template
+ Moving images:            /input/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_02/source.nii.gz
+ Mask images:              
+ Initial transforms:       
+ Number of threads:        1
+ Spline distance:          26
+ SyN gradient step:        0.1
+ Transform type:           s
+ MI histogram bins:        32
+ Precision:                d
+ Use histogram matching:   0
+ Repro                     0
+======================================================================================
+ antsRegistration call:
+--------------------------------------------------------------------------------------
+/opt/ants/bin//antsRegistration --verbose 1 --dimensionality 3 --float 0 --collapse-output-transforms 1 --output [ /output/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_02/warped_source_,/output/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_02/warped_source_Warped.nii.gz,/output/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_02/warped_source_InverseWarped.nii.gz ] --interpolation Linear --use-histogram-matching 0 --winsorize-image-intensities [ 0.005,0.995 ] --initial-moving-transform [ /template,/input/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_02/source.nii.gz,1 ] --transform Rigid[ 0.1 ] --metric MI[ /template,/input/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_02/source.nii.gz,1,32,Regular,0.25 ] --convergence [ 1000x500x250x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox --transform Affine[ 0.1 ] --metric MI[ /template,/input/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_02/source.nii.gz,1,32,Regular,0.25 ] --convergence [ 1000x500x250x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox --transform SyN[ 0.1,3,0 ] --metric MI[ /template,/input/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_02/source.nii.gz,1,32] --convergence [ 100x70x50x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox
+--------------------------------------------------------------------------------------
+All_Command_lines_OK
+Using double precision for computations.
+ Registration finished. The antsRegistration call was:
+--------------------------------------------------------------------------------------
+/opt/ants/bin//antsRegistration --verbose 1 --dimensionality 3 --float 0 --collapse-output-transforms 1 --output [ /output/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_02/warped_source_,/output/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_02/warped_source_Warped.nii.gz,/output/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_02/warped_source_InverseWarped.nii.gz ] --interpolation Linear --use-histogram-matching 0 --winsorize-image-intensities [ 0.005,0.995 ] --initial-moving-transform [ /template,/input/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_02/source.nii.gz,1 ] --transform Rigid[ 0.1 ] --metric MI[ /template,/input/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_02/source.nii.gz,1,32,Regular,0.25 ] --convergence [ 1000x500x250x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox --transform Affine[ 0.1 ] --metric MI[ /template,/input/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_02/source.nii.gz,1,32,Regular,0.25 ] --convergence [ 1000x500x250x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox --transform SyN[ 0.1,3,0 ] --metric MI[ /template,/input/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_02/source.nii.gz,1,32] --convergence [ 100x70x50x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox
+--------------------------------------------------------------------------------------
+Moving image resampled into fixed space: /output/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_02/warped_source_Warped.nii.gz
+Fixed image resampled into moving space: /output/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_02/warped_source_InverseWarped.nii.gz
+--------------------------------------------------------------------------------------
+Warping target image to template for sub-003MND_sub_003MND_ses_01_sub_003MND_ses_02
+
+--------------------------------------------------------------------------------------
+ Mapping parameters
+--------------------------------------------------------------------------------------
+ ANTSPATH is /opt/ants/bin/
+
+ Dimensionality:           3
+ Output name prefix:       /output/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_02/warped_target_
+ Fixed images:             /template
+ Moving images:            /input/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_02/target.nii.gz
+ Mask images:              
+ Initial transforms:       
+ Number of threads:        1
+ Spline distance:          26
+ SyN gradient step:        0.1
+ Transform type:           s
+ MI histogram bins:        32
+ Precision:                d
+ Use histogram matching:   0
+ Repro                     0
+======================================================================================
+ antsRegistration call:
+--------------------------------------------------------------------------------------
+/opt/ants/bin//antsRegistration --verbose 1 --dimensionality 3 --float 0 --collapse-output-transforms 1 --output [ /output/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_02/warped_target_,/output/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_02/warped_target_Warped.nii.gz,/output/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_02/warped_target_InverseWarped.nii.gz ] --interpolation Linear --use-histogram-matching 0 --winsorize-image-intensities [ 0.005,0.995 ] --initial-moving-transform [ /template,/input/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_02/target.nii.gz,1 ] --transform Rigid[ 0.1 ] --metric MI[ /template,/input/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_02/target.nii.gz,1,32,Regular,0.25 ] --convergence [ 1000x500x250x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox --transform Affine[ 0.1 ] --metric MI[ /template,/input/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_02/target.nii.gz,1,32,Regular,0.25 ] --convergence [ 1000x500x250x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox --transform SyN[ 0.1,3,0 ] --metric MI[ /template,/input/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_02/target.nii.gz,1,32] --convergence [ 100x70x50x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox
+--------------------------------------------------------------------------------------
+All_Command_lines_OK
+Using double precision for computations.
+ Registration finished. The antsRegistration call was:
+--------------------------------------------------------------------------------------
+/opt/ants/bin//antsRegistration --verbose 1 --dimensionality 3 --float 0 --collapse-output-transforms 1 --output [ /output/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_02/warped_target_,/output/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_02/warped_target_Warped.nii.gz,/output/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_02/warped_target_InverseWarped.nii.gz ] --interpolation Linear --use-histogram-matching 0 --winsorize-image-intensities [ 0.005,0.995 ] --initial-moving-transform [ /template,/input/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_02/target.nii.gz,1 ] --transform Rigid[ 0.1 ] --metric MI[ /template,/input/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_02/target.nii.gz,1,32,Regular,0.25 ] --convergence [ 1000x500x250x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox --transform Affine[ 0.1 ] --metric MI[ /template,/input/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_02/target.nii.gz,1,32,Regular,0.25 ] --convergence [ 1000x500x250x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox --transform SyN[ 0.1,3,0 ] --metric MI[ /template,/input/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_02/target.nii.gz,1,32] --convergence [ 100x70x50x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox
+--------------------------------------------------------------------------------------
+Moving image resampled into fixed space: /output/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_02/warped_target_Warped.nii.gz
+Fixed image resampled into moving space: /output/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_02/warped_target_InverseWarped.nii.gz
+--------------------------------------------------------------------------------------
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-003MND_ses-01/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_03/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-003MND_ses-03/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_03/target.nii.gz
+Created input files for sub-003MND_sub_003MND_ses_01_sub_003MND_ses_03
+Warping source image to template for sub-003MND_sub_003MND_ses_01_sub_003MND_ses_03
+
+--------------------------------------------------------------------------------------
+ Mapping parameters
+--------------------------------------------------------------------------------------
+ ANTSPATH is /opt/ants/bin/
+
+ Dimensionality:           3
+ Output name prefix:       /output/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_03/warped_source_
+ Fixed images:             /template
+ Moving images:            /input/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_03/source.nii.gz
+ Mask images:              
+ Initial transforms:       
+ Number of threads:        1
+ Spline distance:          26
+ SyN gradient step:        0.1
+ Transform type:           s
+ MI histogram bins:        32
+ Precision:                d
+ Use histogram matching:   0
+ Repro                     0
+======================================================================================
+ antsRegistration call:
+--------------------------------------------------------------------------------------
+/opt/ants/bin//antsRegistration --verbose 1 --dimensionality 3 --float 0 --collapse-output-transforms 1 --output [ /output/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_03/warped_source_,/output/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_03/warped_source_Warped.nii.gz,/output/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_03/warped_source_InverseWarped.nii.gz ] --interpolation Linear --use-histogram-matching 0 --winsorize-image-intensities [ 0.005,0.995 ] --initial-moving-transform [ /template,/input/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_03/source.nii.gz,1 ] --transform Rigid[ 0.1 ] --metric MI[ /template,/input/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_03/source.nii.gz,1,32,Regular,0.25 ] --convergence [ 1000x500x250x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox --transform Affine[ 0.1 ] --metric MI[ /template,/input/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_03/source.nii.gz,1,32,Regular,0.25 ] --convergence [ 1000x500x250x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox --transform SyN[ 0.1,3,0 ] --metric MI[ /template,/input/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_03/source.nii.gz,1,32] --convergence [ 100x70x50x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox
+--------------------------------------------------------------------------------------
+All_Command_lines_OK
+Using double precision for computations.
+ Registration finished. The antsRegistration call was:
+--------------------------------------------------------------------------------------
+/opt/ants/bin//antsRegistration --verbose 1 --dimensionality 3 --float 0 --collapse-output-transforms 1 --output [ /output/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_03/warped_source_,/output/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_03/warped_source_Warped.nii.gz,/output/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_03/warped_source_InverseWarped.nii.gz ] --interpolation Linear --use-histogram-matching 0 --winsorize-image-intensities [ 0.005,0.995 ] --initial-moving-transform [ /template,/input/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_03/source.nii.gz,1 ] --transform Rigid[ 0.1 ] --metric MI[ /template,/input/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_03/source.nii.gz,1,32,Regular,0.25 ] --convergence [ 1000x500x250x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox --transform Affine[ 0.1 ] --metric MI[ /template,/input/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_03/source.nii.gz,1,32,Regular,0.25 ] --convergence [ 1000x500x250x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox --transform SyN[ 0.1,3,0 ] --metric MI[ /template,/input/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_03/source.nii.gz,1,32] --convergence [ 100x70x50x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox
+--------------------------------------------------------------------------------------
+Moving image resampled into fixed space: /output/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_03/warped_source_Warped.nii.gz
+Fixed image resampled into moving space: /output/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_03/warped_source_InverseWarped.nii.gz
+--------------------------------------------------------------------------------------
+Warping target image to template for sub-003MND_sub_003MND_ses_01_sub_003MND_ses_03
+
+--------------------------------------------------------------------------------------
+ Mapping parameters
+--------------------------------------------------------------------------------------
+ ANTSPATH is /opt/ants/bin/
+
+ Dimensionality:           3
+ Output name prefix:       /output/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_03/warped_target_
+ Fixed images:             /template
+ Moving images:            /input/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_03/target.nii.gz
+ Mask images:              
+ Initial transforms:       
+ Number of threads:        1
+ Spline distance:          26
+ SyN gradient step:        0.1
+ Transform type:           s
+ MI histogram bins:        32
+ Precision:                d
+ Use histogram matching:   0
+ Repro                     0
+======================================================================================
+ antsRegistration call:
+--------------------------------------------------------------------------------------
+/opt/ants/bin//antsRegistration --verbose 1 --dimensionality 3 --float 0 --collapse-output-transforms 1 --output [ /output/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_03/warped_target_,/output/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_03/warped_target_Warped.nii.gz,/output/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_03/warped_target_InverseWarped.nii.gz ] --interpolation Linear --use-histogram-matching 0 --winsorize-image-intensities [ 0.005,0.995 ] --initial-moving-transform [ /template,/input/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_03/target.nii.gz,1 ] --transform Rigid[ 0.1 ] --metric MI[ /template,/input/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_03/target.nii.gz,1,32,Regular,0.25 ] --convergence [ 1000x500x250x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox --transform Affine[ 0.1 ] --metric MI[ /template,/input/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_03/target.nii.gz,1,32,Regular,0.25 ] --convergence [ 1000x500x250x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox --transform SyN[ 0.1,3,0 ] --metric MI[ /template,/input/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_03/target.nii.gz,1,32] --convergence [ 100x70x50x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox
+--------------------------------------------------------------------------------------
+All_Command_lines_OK
+Using double precision for computations.
+ Registration finished. The antsRegistration call was:
+--------------------------------------------------------------------------------------
+/opt/ants/bin//antsRegistration --verbose 1 --dimensionality 3 --float 0 --collapse-output-transforms 1 --output [ /output/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_03/warped_target_,/output/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_03/warped_target_Warped.nii.gz,/output/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_03/warped_target_InverseWarped.nii.gz ] --interpolation Linear --use-histogram-matching 0 --winsorize-image-intensities [ 0.005,0.995 ] --initial-moving-transform [ /template,/input/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_03/target.nii.gz,1 ] --transform Rigid[ 0.1 ] --metric MI[ /template,/input/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_03/target.nii.gz,1,32,Regular,0.25 ] --convergence [ 1000x500x250x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox --transform Affine[ 0.1 ] --metric MI[ /template,/input/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_03/target.nii.gz,1,32,Regular,0.25 ] --convergence [ 1000x500x250x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox --transform SyN[ 0.1,3,0 ] --metric MI[ /template,/input/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_03/target.nii.gz,1,32] --convergence [ 100x70x50x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox
+--------------------------------------------------------------------------------------
+Moving image resampled into fixed space: /output/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_03/warped_target_Warped.nii.gz
+Fixed image resampled into moving space: /output/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_03/warped_target_InverseWarped.nii.gz
+--------------------------------------------------------------------------------------
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-003MND_ses-01/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_04/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-003MND_ses-04/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_04/target.nii.gz
+Created input files for sub-003MND_sub_003MND_ses_01_sub_003MND_ses_04
+Warping source image to template for sub-003MND_sub_003MND_ses_01_sub_003MND_ses_04
+
+--------------------------------------------------------------------------------------
+ Mapping parameters
+--------------------------------------------------------------------------------------
+ ANTSPATH is /opt/ants/bin/
+
+ Dimensionality:           3
+ Output name prefix:       /output/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_04/warped_source_
+ Fixed images:             /template
+ Moving images:            /input/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_04/source.nii.gz
+ Mask images:              
+ Initial transforms:       
+ Number of threads:        1
+ Spline distance:          26
+ SyN gradient step:        0.1
+ Transform type:           s
+ MI histogram bins:        32
+ Precision:                d
+ Use histogram matching:   0
+ Repro                     0
+======================================================================================
+ antsRegistration call:
+--------------------------------------------------------------------------------------
+/opt/ants/bin//antsRegistration --verbose 1 --dimensionality 3 --float 0 --collapse-output-transforms 1 --output [ /output/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_04/warped_source_,/output/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_04/warped_source_Warped.nii.gz,/output/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_04/warped_source_InverseWarped.nii.gz ] --interpolation Linear --use-histogram-matching 0 --winsorize-image-intensities [ 0.005,0.995 ] --initial-moving-transform [ /template,/input/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_04/source.nii.gz,1 ] --transform Rigid[ 0.1 ] --metric MI[ /template,/input/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_04/source.nii.gz,1,32,Regular,0.25 ] --convergence [ 1000x500x250x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox --transform Affine[ 0.1 ] --metric MI[ /template,/input/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_04/source.nii.gz,1,32,Regular,0.25 ] --convergence [ 1000x500x250x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox --transform SyN[ 0.1,3,0 ] --metric MI[ /template,/input/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_04/source.nii.gz,1,32] --convergence [ 100x70x50x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox
+--------------------------------------------------------------------------------------
+All_Command_lines_OK
+Using double precision for computations.
+ Registration finished. The antsRegistration call was:
+--------------------------------------------------------------------------------------
+/opt/ants/bin//antsRegistration --verbose 1 --dimensionality 3 --float 0 --collapse-output-transforms 1 --output [ /output/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_04/warped_source_,/output/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_04/warped_source_Warped.nii.gz,/output/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_04/warped_source_InverseWarped.nii.gz ] --interpolation Linear --use-histogram-matching 0 --winsorize-image-intensities [ 0.005,0.995 ] --initial-moving-transform [ /template,/input/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_04/source.nii.gz,1 ] --transform Rigid[ 0.1 ] --metric MI[ /template,/input/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_04/source.nii.gz,1,32,Regular,0.25 ] --convergence [ 1000x500x250x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox --transform Affine[ 0.1 ] --metric MI[ /template,/input/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_04/source.nii.gz,1,32,Regular,0.25 ] --convergence [ 1000x500x250x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox --transform SyN[ 0.1,3,0 ] --metric MI[ /template,/input/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_04/source.nii.gz,1,32] --convergence [ 100x70x50x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox
+--------------------------------------------------------------------------------------
+Moving image resampled into fixed space: /output/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_04/warped_source_Warped.nii.gz
+Fixed image resampled into moving space: /output/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_04/warped_source_InverseWarped.nii.gz
+--------------------------------------------------------------------------------------
+Warping target image to template for sub-003MND_sub_003MND_ses_01_sub_003MND_ses_04
+
+--------------------------------------------------------------------------------------
+ Mapping parameters
+--------------------------------------------------------------------------------------
+ ANTSPATH is /opt/ants/bin/
+
+ Dimensionality:           3
+ Output name prefix:       /output/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_04/warped_target_
+ Fixed images:             /template
+ Moving images:            /input/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_04/target.nii.gz
+ Mask images:              
+ Initial transforms:       
+ Number of threads:        1
+ Spline distance:          26
+ SyN gradient step:        0.1
+ Transform type:           s
+ MI histogram bins:        32
+ Precision:                d
+ Use histogram matching:   0
+ Repro                     0
+======================================================================================
+ antsRegistration call:
+--------------------------------------------------------------------------------------
+/opt/ants/bin//antsRegistration --verbose 1 --dimensionality 3 --float 0 --collapse-output-transforms 1 --output [ /output/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_04/warped_target_,/output/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_04/warped_target_Warped.nii.gz,/output/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_04/warped_target_InverseWarped.nii.gz ] --interpolation Linear --use-histogram-matching 0 --winsorize-image-intensities [ 0.005,0.995 ] --initial-moving-transform [ /template,/input/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_04/target.nii.gz,1 ] --transform Rigid[ 0.1 ] --metric MI[ /template,/input/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_04/target.nii.gz,1,32,Regular,0.25 ] --convergence [ 1000x500x250x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox --transform Affine[ 0.1 ] --metric MI[ /template,/input/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_04/target.nii.gz,1,32,Regular,0.25 ] --convergence [ 1000x500x250x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox --transform SyN[ 0.1,3,0 ] --metric MI[ /template,/input/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_04/target.nii.gz,1,32] --convergence [ 100x70x50x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox
+--------------------------------------------------------------------------------------
+All_Command_lines_OK
+Using double precision for computations.
+ Registration finished. The antsRegistration call was:
+--------------------------------------------------------------------------------------
+/opt/ants/bin//antsRegistration --verbose 1 --dimensionality 3 --float 0 --collapse-output-transforms 1 --output [ /output/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_04/warped_target_,/output/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_04/warped_target_Warped.nii.gz,/output/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_04/warped_target_InverseWarped.nii.gz ] --interpolation Linear --use-histogram-matching 0 --winsorize-image-intensities [ 0.005,0.995 ] --initial-moving-transform [ /template,/input/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_04/target.nii.gz,1 ] --transform Rigid[ 0.1 ] --metric MI[ /template,/input/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_04/target.nii.gz,1,32,Regular,0.25 ] --convergence [ 1000x500x250x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox --transform Affine[ 0.1 ] --metric MI[ /template,/input/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_04/target.nii.gz,1,32,Regular,0.25 ] --convergence [ 1000x500x250x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox --transform SyN[ 0.1,3,0 ] --metric MI[ /template,/input/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_04/target.nii.gz,1,32] --convergence [ 100x70x50x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox
+--------------------------------------------------------------------------------------
+Moving image resampled into fixed space: /output/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_04/warped_target_Warped.nii.gz
+Fixed image resampled into moving space: /output/sub-003MND_sub_003MND_ses_01_sub_003MND_ses_04/warped_target_InverseWarped.nii.gz
+--------------------------------------------------------------------------------------
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-003MND_ses-02/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_03/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-003MND_ses-03/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_03/target.nii.gz
+Created input files for sub-003MND_sub_003MND_ses_02_sub_003MND_ses_03
+Warping source image to template for sub-003MND_sub_003MND_ses_02_sub_003MND_ses_03
+
+--------------------------------------------------------------------------------------
+ Mapping parameters
+--------------------------------------------------------------------------------------
+ ANTSPATH is /opt/ants/bin/
+
+ Dimensionality:           3
+ Output name prefix:       /output/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_03/warped_source_
+ Fixed images:             /template
+ Moving images:            /input/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_03/source.nii.gz
+ Mask images:              
+ Initial transforms:       
+ Number of threads:        1
+ Spline distance:          26
+ SyN gradient step:        0.1
+ Transform type:           s
+ MI histogram bins:        32
+ Precision:                d
+ Use histogram matching:   0
+ Repro                     0
+======================================================================================
+ antsRegistration call:
+--------------------------------------------------------------------------------------
+/opt/ants/bin//antsRegistration --verbose 1 --dimensionality 3 --float 0 --collapse-output-transforms 1 --output [ /output/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_03/warped_source_,/output/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_03/warped_source_Warped.nii.gz,/output/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_03/warped_source_InverseWarped.nii.gz ] --interpolation Linear --use-histogram-matching 0 --winsorize-image-intensities [ 0.005,0.995 ] --initial-moving-transform [ /template,/input/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_03/source.nii.gz,1 ] --transform Rigid[ 0.1 ] --metric MI[ /template,/input/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_03/source.nii.gz,1,32,Regular,0.25 ] --convergence [ 1000x500x250x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox --transform Affine[ 0.1 ] --metric MI[ /template,/input/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_03/source.nii.gz,1,32,Regular,0.25 ] --convergence [ 1000x500x250x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox --transform SyN[ 0.1,3,0 ] --metric MI[ /template,/input/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_03/source.nii.gz,1,32] --convergence [ 100x70x50x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox
+--------------------------------------------------------------------------------------
+All_Command_lines_OK
+Using double precision for computations.
+ Registration finished. The antsRegistration call was:
+--------------------------------------------------------------------------------------
+/opt/ants/bin//antsRegistration --verbose 1 --dimensionality 3 --float 0 --collapse-output-transforms 1 --output [ /output/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_03/warped_source_,/output/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_03/warped_source_Warped.nii.gz,/output/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_03/warped_source_InverseWarped.nii.gz ] --interpolation Linear --use-histogram-matching 0 --winsorize-image-intensities [ 0.005,0.995 ] --initial-moving-transform [ /template,/input/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_03/source.nii.gz,1 ] --transform Rigid[ 0.1 ] --metric MI[ /template,/input/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_03/source.nii.gz,1,32,Regular,0.25 ] --convergence [ 1000x500x250x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox --transform Affine[ 0.1 ] --metric MI[ /template,/input/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_03/source.nii.gz,1,32,Regular,0.25 ] --convergence [ 1000x500x250x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox --transform SyN[ 0.1,3,0 ] --metric MI[ /template,/input/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_03/source.nii.gz,1,32] --convergence [ 100x70x50x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox
+--------------------------------------------------------------------------------------
+Moving image resampled into fixed space: /output/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_03/warped_source_Warped.nii.gz
+Fixed image resampled into moving space: /output/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_03/warped_source_InverseWarped.nii.gz
+--------------------------------------------------------------------------------------
+Warping target image to template for sub-003MND_sub_003MND_ses_02_sub_003MND_ses_03
+
+--------------------------------------------------------------------------------------
+ Mapping parameters
+--------------------------------------------------------------------------------------
+ ANTSPATH is /opt/ants/bin/
+
+ Dimensionality:           3
+ Output name prefix:       /output/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_03/warped_target_
+ Fixed images:             /template
+ Moving images:            /input/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_03/target.nii.gz
+ Mask images:              
+ Initial transforms:       
+ Number of threads:        1
+ Spline distance:          26
+ SyN gradient step:        0.1
+ Transform type:           s
+ MI histogram bins:        32
+ Precision:                d
+ Use histogram matching:   0
+ Repro                     0
+======================================================================================
+ antsRegistration call:
+--------------------------------------------------------------------------------------
+/opt/ants/bin//antsRegistration --verbose 1 --dimensionality 3 --float 0 --collapse-output-transforms 1 --output [ /output/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_03/warped_target_,/output/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_03/warped_target_Warped.nii.gz,/output/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_03/warped_target_InverseWarped.nii.gz ] --interpolation Linear --use-histogram-matching 0 --winsorize-image-intensities [ 0.005,0.995 ] --initial-moving-transform [ /template,/input/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_03/target.nii.gz,1 ] --transform Rigid[ 0.1 ] --metric MI[ /template,/input/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_03/target.nii.gz,1,32,Regular,0.25 ] --convergence [ 1000x500x250x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox --transform Affine[ 0.1 ] --metric MI[ /template,/input/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_03/target.nii.gz,1,32,Regular,0.25 ] --convergence [ 1000x500x250x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox --transform SyN[ 0.1,3,0 ] --metric MI[ /template,/input/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_03/target.nii.gz,1,32] --convergence [ 100x70x50x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox
+--------------------------------------------------------------------------------------
+All_Command_lines_OK
+Using double precision for computations.
+ Registration finished. The antsRegistration call was:
+--------------------------------------------------------------------------------------
+/opt/ants/bin//antsRegistration --verbose 1 --dimensionality 3 --float 0 --collapse-output-transforms 1 --output [ /output/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_03/warped_target_,/output/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_03/warped_target_Warped.nii.gz,/output/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_03/warped_target_InverseWarped.nii.gz ] --interpolation Linear --use-histogram-matching 0 --winsorize-image-intensities [ 0.005,0.995 ] --initial-moving-transform [ /template,/input/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_03/target.nii.gz,1 ] --transform Rigid[ 0.1 ] --metric MI[ /template,/input/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_03/target.nii.gz,1,32,Regular,0.25 ] --convergence [ 1000x500x250x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox --transform Affine[ 0.1 ] --metric MI[ /template,/input/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_03/target.nii.gz,1,32,Regular,0.25 ] --convergence [ 1000x500x250x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox --transform SyN[ 0.1,3,0 ] --metric MI[ /template,/input/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_03/target.nii.gz,1,32] --convergence [ 100x70x50x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox
+--------------------------------------------------------------------------------------
+Moving image resampled into fixed space: /output/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_03/warped_target_Warped.nii.gz
+Fixed image resampled into moving space: /output/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_03/warped_target_InverseWarped.nii.gz
+--------------------------------------------------------------------------------------
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-003MND_ses-02/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_04/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-003MND_ses-04/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_04/target.nii.gz
+Created input files for sub-003MND_sub_003MND_ses_02_sub_003MND_ses_04
+Warping source image to template for sub-003MND_sub_003MND_ses_02_sub_003MND_ses_04
+
+--------------------------------------------------------------------------------------
+ Mapping parameters
+--------------------------------------------------------------------------------------
+ ANTSPATH is /opt/ants/bin/
+
+ Dimensionality:           3
+ Output name prefix:       /output/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_04/warped_source_
+ Fixed images:             /template
+ Moving images:            /input/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_04/source.nii.gz
+ Mask images:              
+ Initial transforms:       
+ Number of threads:        1
+ Spline distance:          26
+ SyN gradient step:        0.1
+ Transform type:           s
+ MI histogram bins:        32
+ Precision:                d
+ Use histogram matching:   0
+ Repro                     0
+======================================================================================
+ antsRegistration call:
+--------------------------------------------------------------------------------------
+/opt/ants/bin//antsRegistration --verbose 1 --dimensionality 3 --float 0 --collapse-output-transforms 1 --output [ /output/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_04/warped_source_,/output/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_04/warped_source_Warped.nii.gz,/output/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_04/warped_source_InverseWarped.nii.gz ] --interpolation Linear --use-histogram-matching 0 --winsorize-image-intensities [ 0.005,0.995 ] --initial-moving-transform [ /template,/input/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_04/source.nii.gz,1 ] --transform Rigid[ 0.1 ] --metric MI[ /template,/input/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_04/source.nii.gz,1,32,Regular,0.25 ] --convergence [ 1000x500x250x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox --transform Affine[ 0.1 ] --metric MI[ /template,/input/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_04/source.nii.gz,1,32,Regular,0.25 ] --convergence [ 1000x500x250x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox --transform SyN[ 0.1,3,0 ] --metric MI[ /template,/input/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_04/source.nii.gz,1,32] --convergence [ 100x70x50x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox
+--------------------------------------------------------------------------------------
+All_Command_lines_OK
+Using double precision for computations.
+ Registration finished. The antsRegistration call was:
+--------------------------------------------------------------------------------------
+/opt/ants/bin//antsRegistration --verbose 1 --dimensionality 3 --float 0 --collapse-output-transforms 1 --output [ /output/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_04/warped_source_,/output/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_04/warped_source_Warped.nii.gz,/output/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_04/warped_source_InverseWarped.nii.gz ] --interpolation Linear --use-histogram-matching 0 --winsorize-image-intensities [ 0.005,0.995 ] --initial-moving-transform [ /template,/input/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_04/source.nii.gz,1 ] --transform Rigid[ 0.1 ] --metric MI[ /template,/input/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_04/source.nii.gz,1,32,Regular,0.25 ] --convergence [ 1000x500x250x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox --transform Affine[ 0.1 ] --metric MI[ /template,/input/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_04/source.nii.gz,1,32,Regular,0.25 ] --convergence [ 1000x500x250x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox --transform SyN[ 0.1,3,0 ] --metric MI[ /template,/input/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_04/source.nii.gz,1,32] --convergence [ 100x70x50x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox
+--------------------------------------------------------------------------------------
+Moving image resampled into fixed space: /output/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_04/warped_source_Warped.nii.gz
+Fixed image resampled into moving space: /output/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_04/warped_source_InverseWarped.nii.gz
+--------------------------------------------------------------------------------------
+Warping target image to template for sub-003MND_sub_003MND_ses_02_sub_003MND_ses_04
+
+--------------------------------------------------------------------------------------
+ Mapping parameters
+--------------------------------------------------------------------------------------
+ ANTSPATH is /opt/ants/bin/
+
+ Dimensionality:           3
+ Output name prefix:       /output/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_04/warped_target_
+ Fixed images:             /template
+ Moving images:            /input/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_04/target.nii.gz
+ Mask images:              
+ Initial transforms:       
+ Number of threads:        1
+ Spline distance:          26
+ SyN gradient step:        0.1
+ Transform type:           s
+ MI histogram bins:        32
+ Precision:                d
+ Use histogram matching:   0
+ Repro                     0
+======================================================================================
+ antsRegistration call:
+--------------------------------------------------------------------------------------
+/opt/ants/bin//antsRegistration --verbose 1 --dimensionality 3 --float 0 --collapse-output-transforms 1 --output [ /output/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_04/warped_target_,/output/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_04/warped_target_Warped.nii.gz,/output/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_04/warped_target_InverseWarped.nii.gz ] --interpolation Linear --use-histogram-matching 0 --winsorize-image-intensities [ 0.005,0.995 ] --initial-moving-transform [ /template,/input/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_04/target.nii.gz,1 ] --transform Rigid[ 0.1 ] --metric MI[ /template,/input/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_04/target.nii.gz,1,32,Regular,0.25 ] --convergence [ 1000x500x250x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox --transform Affine[ 0.1 ] --metric MI[ /template,/input/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_04/target.nii.gz,1,32,Regular,0.25 ] --convergence [ 1000x500x250x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox --transform SyN[ 0.1,3,0 ] --metric MI[ /template,/input/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_04/target.nii.gz,1,32] --convergence [ 100x70x50x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox
+--------------------------------------------------------------------------------------
+All_Command_lines_OK
+Using double precision for computations.
+ Registration finished. The antsRegistration call was:
+--------------------------------------------------------------------------------------
+/opt/ants/bin//antsRegistration --verbose 1 --dimensionality 3 --float 0 --collapse-output-transforms 1 --output [ /output/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_04/warped_target_,/output/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_04/warped_target_Warped.nii.gz,/output/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_04/warped_target_InverseWarped.nii.gz ] --interpolation Linear --use-histogram-matching 0 --winsorize-image-intensities [ 0.005,0.995 ] --initial-moving-transform [ /template,/input/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_04/target.nii.gz,1 ] --transform Rigid[ 0.1 ] --metric MI[ /template,/input/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_04/target.nii.gz,1,32,Regular,0.25 ] --convergence [ 1000x500x250x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox --transform Affine[ 0.1 ] --metric MI[ /template,/input/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_04/target.nii.gz,1,32,Regular,0.25 ] --convergence [ 1000x500x250x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox --transform SyN[ 0.1,3,0 ] --metric MI[ /template,/input/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_04/target.nii.gz,1,32] --convergence [ 100x70x50x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox
+--------------------------------------------------------------------------------------
+Moving image resampled into fixed space: /output/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_04/warped_target_Warped.nii.gz
+Fixed image resampled into moving space: /output/sub-003MND_sub_003MND_ses_02_sub_003MND_ses_04/warped_target_InverseWarped.nii.gz
+--------------------------------------------------------------------------------------
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-003MND_ses-03/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-003MND_sub_003MND_ses_03_sub_003MND_ses_04/source.nii.gz
+Converted /home/groups/dlmrimnd/akshit/MND_output_files/sub-003MND_ses-04/mri/brain.mgz to /home/groups/dlmrimnd/jacob/data/MND_input_images/sub-003MND_sub_003MND_ses_03_sub_003MND_ses_04/target.nii.gz
+Created input files for sub-003MND_sub_003MND_ses_03_sub_003MND_ses_04
+Warping source image to template for sub-003MND_sub_003MND_ses_03_sub_003MND_ses_04
+
+--------------------------------------------------------------------------------------
+ Mapping parameters
+--------------------------------------------------------------------------------------
+ ANTSPATH is /opt/ants/bin/
+
+ Dimensionality:           3
+ Output name prefix:       /output/sub-003MND_sub_003MND_ses_03_sub_003MND_ses_04/warped_source_
+ Fixed images:             /template
+ Moving images:            /input/sub-003MND_sub_003MND_ses_03_sub_003MND_ses_04/source.nii.gz
+ Mask images:              
+ Initial transforms:       
+ Number of threads:        1
+ Spline distance:          26
+ SyN gradient step:        0.1
+ Transform type:           s
+ MI histogram bins:        32
+ Precision:                d
+ Use histogram matching:   0
+ Repro                     0
+======================================================================================
+ antsRegistration call:
+--------------------------------------------------------------------------------------
+/opt/ants/bin//antsRegistration --verbose 1 --dimensionality 3 --float 0 --collapse-output-transforms 1 --output [ /output/sub-003MND_sub_003MND_ses_03_sub_003MND_ses_04/warped_source_,/output/sub-003MND_sub_003MND_ses_03_sub_003MND_ses_04/warped_source_Warped.nii.gz,/output/sub-003MND_sub_003MND_ses_03_sub_003MND_ses_04/warped_source_InverseWarped.nii.gz ] --interpolation Linear --use-histogram-matching 0 --winsorize-image-intensities [ 0.005,0.995 ] --initial-moving-transform [ /template,/input/sub-003MND_sub_003MND_ses_03_sub_003MND_ses_04/source.nii.gz,1 ] --transform Rigid[ 0.1 ] --metric MI[ /template,/input/sub-003MND_sub_003MND_ses_03_sub_003MND_ses_04/source.nii.gz,1,32,Regular,0.25 ] --convergence [ 1000x500x250x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox --transform Affine[ 0.1 ] --metric MI[ /template,/input/sub-003MND_sub_003MND_ses_03_sub_003MND_ses_04/source.nii.gz,1,32,Regular,0.25 ] --convergence [ 1000x500x250x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox --transform SyN[ 0.1,3,0 ] --metric MI[ /template,/input/sub-003MND_sub_003MND_ses_03_sub_003MND_ses_04/source.nii.gz,1,32] --convergence [ 100x70x50x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox
+--------------------------------------------------------------------------------------
+All_Command_lines_OK
+Using double precision for computations.
+ Registration finished. The antsRegistration call was:
+--------------------------------------------------------------------------------------
+/opt/ants/bin//antsRegistration --verbose 1 --dimensionality 3 --float 0 --collapse-output-transforms 1 --output [ /output/sub-003MND_sub_003MND_ses_03_sub_003MND_ses_04/warped_source_,/output/sub-003MND_sub_003MND_ses_03_sub_003MND_ses_04/warped_source_Warped.nii.gz,/output/sub-003MND_sub_003MND_ses_03_sub_003MND_ses_04/warped_source_InverseWarped.nii.gz ] --interpolation Linear --use-histogram-matching 0 --winsorize-image-intensities [ 0.005,0.995 ] --initial-moving-transform [ /template,/input/sub-003MND_sub_003MND_ses_03_sub_003MND_ses_04/source.nii.gz,1 ] --transform Rigid[ 0.1 ] --metric MI[ /template,/input/sub-003MND_sub_003MND_ses_03_sub_003MND_ses_04/source.nii.gz,1,32,Regular,0.25 ] --convergence [ 1000x500x250x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox --transform Affine[ 0.1 ] --metric MI[ /template,/input/sub-003MND_sub_003MND_ses_03_sub_003MND_ses_04/source.nii.gz,1,32,Regular,0.25 ] --convergence [ 1000x500x250x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox --transform SyN[ 0.1,3,0 ] --metric MI[ /template,/input/sub-003MND_sub_003MND_ses_03_sub_003MND_ses_04/source.nii.gz,1,32] --convergence [ 100x70x50x0,1e-6,10 ] --shrink-factors 8x4x2x1 --smoothing-sigmas 3x2x1x0vox
+--------------------------------------------------------------------------------------
+Moving image resampled into fixed space: /output/sub-003MND_sub_003MND_ses_03_sub_003MND_ses_04/warped_source_Warped.nii.gz
+Fixed image resampled into moving space: /output/sub-003MND_sub_003MND_ses_03_sub_003MND_ses_04/warped_source_InverseWarped.nii.gz
+--------------------------------------------------------------------------------------

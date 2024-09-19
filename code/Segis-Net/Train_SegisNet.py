@@ -20,7 +20,9 @@ if 1==G:
 from os.path import join, exists
 import numpy as np
 #import csv
+# from keras.callbacks import ModelCheckpoint, ReduceLROnPlateau, CSVLogger, TensorBoard
 from keras.callbacks import ModelCheckpoint, ReduceLROnPlateau, CSVLogger
+
 #import time
 from keras.optimizers import Adam
 import keras.backend as K
@@ -75,11 +77,11 @@ structs = ['cgc_l', 'cgc_r',  'cgh_l', 'cgh_r', 'fma', 'fmi', 'atr_l', 'atr_r',
 params_train = {'dim_xyz': (144, 96, 112),
           'R_ch': 1,
           'S_ch': 1,
-          'batch_size': 4,
+          'batch_size': 2,
           # 'outputs': structs[:6],
           # int(len(params_train['outputs'])/2)
           # combined the left & right structures into one map/channel
-          'n_output': 3, # nb of feature channels in the output
+          'n_output': 1, # nb of feature channels in the output
           'shuffle': True}
 params_vali = params_train
 # data Generators
@@ -97,7 +99,7 @@ resume_pretrained = False
 initial_epoch = 0 
 # change here empirically, this number was used where there are n=10350 batches
 # in each epoch. Thus the learning rate schedule stops the training before n_epoch.
-n_epoch = 2
+n_epoch = 35
  
 # alpha for LeakyRuLU
 # Custom learning rate auto decay settings
@@ -199,6 +201,20 @@ check_eachEpoch = ModelCheckpoint(weight_path_out, monitor='val_loss',
 csv_logger   = CSVLogger(train_his_path, separator=',', append=True)
 
 
+# TensorBoard callback setup
+# log_dir = join(save_path, 'logs')
+# if not exists(log_dir):
+#     os.makedirs(log_dir)
+# tensorboard_callback = TensorBoard(log_dir=log_dir, 
+#                                    histogram_freq=0,
+#                                    write_graph=False, 
+#                                    write_images=False)
+
+# callbacks_list = [check, check_2, check_eachEpoch, 
+#                   auto_decay, loss_history, 
+#                   csv_logger, adptive_weight,
+#                   tensorboard_callback]
+                  
 callbacks_list = [check, check_2, check_eachEpoch, 
                   auto_decay, loss_history, 
                   csv_logger, adptive_weight]
