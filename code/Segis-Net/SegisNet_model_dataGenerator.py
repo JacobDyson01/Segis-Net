@@ -236,7 +236,7 @@ class DataGenerator(object):
         src_img = np.expand_dims(src_img, axis=-1)
 
         # Pre-estimated dense affine (displacement) map, size: (x,y,z,3)
-        affine_p = join(affine_path, f'{subject}_{ses1}_{ses2}', 'deformation_Warped.nii.gz')
+        affine_p = join(affine_path, f'{subject}_{ses1}_{ses2}', 'deformation_Warped_roi.nii.gz')
         affine = nib.load(affine_p).get_fdata().astype(dtype='float32')
         affine = np.expand_dims(affine, axis=-1)
         affine -= np.mean(affine)

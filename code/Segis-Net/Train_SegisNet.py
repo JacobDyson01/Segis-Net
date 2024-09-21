@@ -33,11 +33,11 @@ import matplotlib.pyplot as plt
 
 """ Initial setting """
 # data and saving path
-data_p = '/home/groups/dlmrimnd/jacob/data/'
+data_p = '/home/groups/dlmrimnd/jacob/data/combined_data'
 # images to be registered, e.g., fractional anisotropy (FA) derived from DTI
-R_path    = join(data_p,'ants_warped_input_roi') 
+R_path    = join(data_p,'warped_input_roi') 
 # images to be segmented, e.g., diffusion tensor image (with six components)
-S_path    = join(data_p,'ants_warped_input_roi') 
+S_path    = join(data_p,'warped_input_roi') 
 # segmentation labels for supervised training
 segm_path = join(data_p,'warped_masks_roi') 
 # dense affine displacement, e.g., estimated using Elastix
@@ -47,8 +47,8 @@ save_path   = join(data_p,'results')
 if not exists(save_path):
     os.makedirs(save_path)
 
-train_index = np.load('/home/groups/dlmrimnd/jacob/projects/Segis-Net/code/Segis-Net/train_index.npy') 
-vali_index  = np.load('/home/groups/dlmrimnd/jacob/projects/Segis-Net/code/Segis-Net/vali_index.npy')
+train_index = np.load('/home/groups/dlmrimnd/jacob/projects/Segis-Net/code/Segis-Net/train_index_new.npy') 
+vali_index  = np.load('/home/groups/dlmrimnd/jacob/projects/Segis-Net/code/Segis-Net/vali_index_new.npy')
 
 # files to save during training
 # best weights of the monitor metric in checkpoint 1, i.e., seg acc
@@ -74,7 +74,7 @@ structs = ['cgc_l', 'cgc_r',  'cgh_l', 'cgh_r', 'fma', 'fmi', 'atr_l', 'atr_r',
 
 # params_train = {'dim_xyz': (160, 112, 128),
 # params_train = {'dim_xyz': (197, 233, 189),
-params_train = {'dim_xyz': (144, 96, 112),
+params_train = {'dim_xyz': (176, 80, 96),
           'R_ch': 1,
           'S_ch': 1,
           'batch_size': 2,

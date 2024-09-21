@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --job-name=segisnet
+#SBATCH --job-name=combined_segis
 #SBATCH --output=/home/groups/dlmrimnd/jacob/projects/Segis-Net/logs/segis_net_output_%j.out
 #SBATCH --error=/home/groups/dlmrimnd/jacob/projects/Segis-Net/logs/segis_net_error_%j.err
 #SBATCH --partition=a100

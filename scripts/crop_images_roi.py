@@ -16,11 +16,11 @@ def crop_image(input_path, output_path, crop_coords):
     nib.save(cropped_img, output_path)
 
 # Define the cropping coordinates (adjust these values as needed)
-crop_coords = (2, 194, 1, 233, 2, 186)
+crop_coords = (12, 188, 80, 160, 60, 156)
 
 # Directories
-input_dir = "/home/groups/dlmrimnd/jacob/data/ants_warped_input"
-output_dir = "/home/groups/dlmrimnd/jacob/data/ants_warped_input_roi_full"
+input_dir = "/home/groups/dlmrimnd/jacob/data/MND/warped_input"
+output_dir = "/home/groups/dlmrimnd/jacob/data/MND/warped_input_roi"
 
 # Create output directory if it doesn't exist
 os.makedirs(output_dir, exist_ok=True)
@@ -31,8 +31,8 @@ for sub_dir in os.listdir(input_dir):
     print(f"Processing {sub_id}...")
 
     # Define input and output paths
-    src_img = os.path.join(input_dir, sub_dir, "source_Warped.nii.gz")
-    tgt_img = os.path.join(input_dir, sub_dir, "target_Warped.nii.gz")
+    src_img = os.path.join(input_dir, sub_dir, "warped_source_Warped.nii.gz")
+    tgt_img = os.path.join(input_dir, sub_dir, "warped_target_Warped.nii.gz")
     src_roi = os.path.join(output_dir, sub_dir, "source_Warped_roi.nii.gz")
     tgt_roi = os.path.join(output_dir, sub_dir, "target_Warped_roi.nii.gz")
 

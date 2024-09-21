@@ -3,10 +3,10 @@ import numpy as np
 from collections import defaultdict
 
 # Set the base directory for the data
-data_dir = '/home/groups/dlmrimnd/jacob/data'
+data_dir = '/home/groups/dlmrimnd/jacob/data/combined_data'
 
 # Path to the input images directory
-input_images_dir = os.path.join(data_dir, 'ants_warped_input_roi')
+input_images_dir = os.path.join(data_dir, 'warped_input_roi')
 
 # Dictionary to group subjects by patient ID
 patient_sessions = defaultdict(list)
@@ -47,8 +47,8 @@ for patient_id in vali_patient_ids:
     print(f"Patient {patient_id}: Sessions: {patient_sessions[patient_id]}")
 
 # Save the indices to .npy files
-np.save(os.path.join(data_dir, 'train_index.npy'), train_subjects)
-np.save(os.path.join(data_dir, 'vali_index.npy'), vali_subjects)
+np.save(os.path.join(data_dir, 'train_index_new.npy'), train_subjects)
+np.save(os.path.join(data_dir, 'vali_index_new.npy'), vali_subjects)
 
 # Confirm the split
 print(f"\nTotal number of training subjects: {len(train_patient_ids)}")
