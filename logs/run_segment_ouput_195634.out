@@ -1,0 +1,246 @@
+Loading model weights from: /home/groups/dlmrimnd/jacob/data/combined_data/saved_results/run1/model_weight_out.h5
+Model weights loaded successfully.
+Processing subject: sub-031MND_ses-01_ses-02
+Affine file not found for sub-031MND_ses-01_ses-02: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-031MND_ses-01_ses-02/deformation_Warped_roi.nii.gz
+Processing subject: sub-021MND_ses-02_ses-03
+Affine file not found for sub-021MND_ses-02_ses-03: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-021MND_ses-02_ses-03/deformation_Warped_roi.nii.gz
+Processing subject: sub-005MND_ses-05_ses-07
+Affine file not found for sub-005MND_ses-05_ses-07: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-005MND_ses-05_ses-07/deformation_Warped_roi.nii.gz
+Processing subject: sub-034MND_ses-02_ses-03
+Affine file not found for sub-034MND_ses-02_ses-03: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-034MND_ses-02_ses-03/deformation_Warped_roi.nii.gz
+Processing subject: sub-005MND_ses-01_ses-04
+Affine file not found for sub-005MND_ses-01_ses-04: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-005MND_ses-01_ses-04/deformation_Warped_roi.nii.gz
+Processing subject: sub-024MND_ses-01_ses-02
+Affine file not found for sub-024MND_ses-01_ses-02: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-024MND_ses-01_ses-02/deformation_Warped_roi.nii.gz
+Processing subject: sub-021MND_ses-03_ses-06
+Affine file not found for sub-021MND_ses-03_ses-06: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-021MND_ses-03_ses-06/deformation_Warped_roi.nii.gz
+Processing subject: sub-023MND_ses-02_ses-04
+Affine file not found for sub-023MND_ses-02_ses-04: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-023MND_ses-02_ses-04/deformation_Warped_roi.nii.gz
+Processing subject: sub-024MND_ses-03_ses-05
+Affine file not found for sub-024MND_ses-03_ses-05: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-024MND_ses-03_ses-05/deformation_Warped_roi.nii.gz
+Processing subject: sub-005MND_ses-04_ses-08
+Affine file not found for sub-005MND_ses-04_ses-08: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-005MND_ses-04_ses-08/deformation_Warped_roi.nii.gz
+Processing subject: sub-040MND_ses-02_ses-04
+Affine file not found for sub-040MND_ses-02_ses-04: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-040MND_ses-02_ses-04/deformation_Warped_roi.nii.gz
+Processing subject: sub-007MND_ses-01_ses-03
+Affine file not found for sub-007MND_ses-01_ses-03: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-007MND_ses-01_ses-03/deformation_Warped_roi.nii.gz
+Processing subject: sub-018MND_ses-01_ses-02
+Affine file not found for sub-018MND_ses-01_ses-02: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-018MND_ses-01_ses-02/deformation_Warped_roi.nii.gz
+Processing subject: sub-026MND_ses-01_ses-02
+Affine file not found for sub-026MND_ses-01_ses-02: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-026MND_ses-01_ses-02/deformation_Warped_roi.nii.gz
+Processing subject: sub-017MND_ses-02_ses-05
+Affine file not found for sub-017MND_ses-02_ses-05: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-017MND_ses-02_ses-05/deformation_Warped_roi.nii.gz
+Processing subject: sub-005MND_ses-04_ses-05
+Affine file not found for sub-005MND_ses-04_ses-05: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-005MND_ses-04_ses-05/deformation_Warped_roi.nii.gz
+Processing subject: sub-043MND_ses-02_ses-04
+Affine file not found for sub-043MND_ses-02_ses-04: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-043MND_ses-02_ses-04/deformation_Warped_roi.nii.gz
+Processing subject: sub-005MND_ses-06_ses-08
+Affine file not found for sub-005MND_ses-06_ses-08: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-005MND_ses-06_ses-08/deformation_Warped_roi.nii.gz
+Processing subject: sub-005MND_ses-01_ses-09
+Affine file not found for sub-005MND_ses-01_ses-09: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-005MND_ses-01_ses-09/deformation_Warped_roi.nii.gz
+Processing subject: sub-024MND_ses-01_ses-05
+Affine file not found for sub-024MND_ses-01_ses-05: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-024MND_ses-01_ses-05/deformation_Warped_roi.nii.gz
+Processing subject: sub-044MND_ses-01_ses-02
+Affine file not found for sub-044MND_ses-01_ses-02: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-044MND_ses-01_ses-02/deformation_Warped_roi.nii.gz
+Processing subject: sub-021MND_ses-01_ses-06
+Affine file not found for sub-021MND_ses-01_ses-06: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-021MND_ses-01_ses-06/deformation_Warped_roi.nii.gz
+Processing subject: sub-019MND_ses-01_ses-02
+Affine file not found for sub-019MND_ses-01_ses-02: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-019MND_ses-01_ses-02/deformation_Warped_roi.nii.gz
+Processing subject: sub-024MND_ses-05_ses-06
+Affine file not found for sub-024MND_ses-05_ses-06: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-024MND_ses-05_ses-06/deformation_Warped_roi.nii.gz
+Processing subject: sub-022MND_ses-02_ses-03
+Affine file not found for sub-022MND_ses-02_ses-03: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-022MND_ses-02_ses-03/deformation_Warped_roi.nii.gz
+Processing subject: sub-032MND_ses-01_ses-02
+Affine file not found for sub-032MND_ses-01_ses-02: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-032MND_ses-01_ses-02/deformation_Warped_roi.nii.gz
+Processing subject: sub-021MND_ses-02_ses-04
+Affine file not found for sub-021MND_ses-02_ses-04: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-021MND_ses-02_ses-04/deformation_Warped_roi.nii.gz
+Processing subject: sub-057MND_ses-01_ses-02
+Affine file not found for sub-057MND_ses-01_ses-02: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-057MND_ses-01_ses-02/deformation_Warped_roi.nii.gz
+Processing subject: sub-024MND_ses-02_ses-03
+Affine file not found for sub-024MND_ses-02_ses-03: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-024MND_ses-02_ses-03/deformation_Warped_roi.nii.gz
+Processing subject: sub-034MND_ses-01_ses-02
+Affine file not found for sub-034MND_ses-01_ses-02: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-034MND_ses-01_ses-02/deformation_Warped_roi.nii.gz
+Processing subject: sub-005MND_ses-01_ses-07
+Affine file not found for sub-005MND_ses-01_ses-07: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-005MND_ses-01_ses-07/deformation_Warped_roi.nii.gz
+Processing subject: sub-021MND_ses-01_ses-02
+Affine file not found for sub-021MND_ses-01_ses-02: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-021MND_ses-01_ses-02/deformation_Warped_roi.nii.gz
+Processing subject: sub-017MND_ses-04_ses-05
+Affine file not found for sub-017MND_ses-04_ses-05: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-017MND_ses-04_ses-05/deformation_Warped_roi.nii.gz
+Processing subject: sub-003MND_ses-01_ses-03
+Affine file not found for sub-003MND_ses-01_ses-03: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-003MND_ses-01_ses-03/deformation_Warped_roi.nii.gz
+Processing subject: sub-017MND_ses-03_ses-04
+Affine file not found for sub-017MND_ses-03_ses-04: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-017MND_ses-03_ses-04/deformation_Warped_roi.nii.gz
+Processing subject: sub-029MND_ses-01_ses-03
+Affine file not found for sub-029MND_ses-01_ses-03: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-029MND_ses-01_ses-03/deformation_Warped_roi.nii.gz
+Processing subject: sub-024MND_ses-03_ses-06
+Affine file not found for sub-024MND_ses-03_ses-06: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-024MND_ses-03_ses-06/deformation_Warped_roi.nii.gz
+Processing subject: sub-049MND_ses-01_ses-04
+Affine file not found for sub-049MND_ses-01_ses-04: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-049MND_ses-01_ses-04/deformation_Warped_roi.nii.gz
+Processing subject: sub-017MND_ses-01_ses-03
+Affine file not found for sub-017MND_ses-01_ses-03: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-017MND_ses-01_ses-03/deformation_Warped_roi.nii.gz
+Processing subject: sub-003MND_ses-03_ses-04
+Affine file not found for sub-003MND_ses-03_ses-04: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-003MND_ses-03_ses-04/deformation_Warped_roi.nii.gz
+Processing subject: sub-056MND_ses-01_ses-02
+Affine file not found for sub-056MND_ses-01_ses-02: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-056MND_ses-01_ses-02/deformation_Warped_roi.nii.gz
+Processing subject: sub-021MND_ses-03_ses-05
+Affine file not found for sub-021MND_ses-03_ses-05: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-021MND_ses-03_ses-05/deformation_Warped_roi.nii.gz
+Processing subject: sub-020MND_ses-01_ses-02
+Affine file not found for sub-020MND_ses-01_ses-02: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-020MND_ses-01_ses-02/deformation_Warped_roi.nii.gz
+Processing subject: sub-005MND_ses-07_ses-09
+Affine file not found for sub-005MND_ses-07_ses-09: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-005MND_ses-07_ses-09/deformation_Warped_roi.nii.gz
+Processing subject: sub-043MND_ses-01_ses-02
+Affine file not found for sub-043MND_ses-01_ses-02: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-043MND_ses-01_ses-02/deformation_Warped_roi.nii.gz
+Processing subject: sub-040MND_ses-01_ses-02
+Affine file not found for sub-040MND_ses-01_ses-02: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-040MND_ses-01_ses-02/deformation_Warped_roi.nii.gz
+Processing subject: sub-023MND_ses-01_ses-02
+Affine file not found for sub-023MND_ses-01_ses-02: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-023MND_ses-01_ses-02/deformation_Warped_roi.nii.gz
+Processing subject: sub-062MND_ses-01_ses-03
+Affine file not found for sub-062MND_ses-01_ses-03: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-062MND_ses-01_ses-03/deformation_Warped_roi.nii.gz
+Processing subject: sub-017MND_ses-01_ses-04
+Affine file not found for sub-017MND_ses-01_ses-04: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-017MND_ses-01_ses-04/deformation_Warped_roi.nii.gz
+Processing subject: sub-014MND_ses-01_ses-03
+Affine file not found for sub-014MND_ses-01_ses-03: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-014MND_ses-01_ses-03/deformation_Warped_roi.nii.gz
+Processing subject: sub-008MND_ses-01_ses-02
+Affine file not found for sub-008MND_ses-01_ses-02: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-008MND_ses-01_ses-02/deformation_Warped_roi.nii.gz
+Processing subject: sub-005MND_ses-04_ses-06
+Affine file not found for sub-005MND_ses-04_ses-06: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-005MND_ses-04_ses-06/deformation_Warped_roi.nii.gz
+Processing subject: sub-049MND_ses-01_ses-03
+Affine file not found for sub-049MND_ses-01_ses-03: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-049MND_ses-01_ses-03/deformation_Warped_roi.nii.gz
+Processing subject: sub-021MND_ses-01_ses-05
+Affine file not found for sub-021MND_ses-01_ses-05: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-021MND_ses-01_ses-05/deformation_Warped_roi.nii.gz
+Processing subject: sub-022MND_ses-01_ses-02
+Affine file not found for sub-022MND_ses-01_ses-02: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-022MND_ses-01_ses-02/deformation_Warped_roi.nii.gz
+Processing subject: sub-003MND_ses-01_ses-04
+Affine file not found for sub-003MND_ses-01_ses-04: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-003MND_ses-01_ses-04/deformation_Warped_roi.nii.gz
+Processing subject: sub-049MND_ses-03_ses-04
+Affine file not found for sub-049MND_ses-03_ses-04: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-049MND_ses-03_ses-04/deformation_Warped_roi.nii.gz
+Processing subject: sub-005MND_ses-08_ses-09
+Affine file not found for sub-005MND_ses-08_ses-09: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-005MND_ses-08_ses-09/deformation_Warped_roi.nii.gz
+Processing subject: sub-024MND_ses-01_ses-06
+Affine file not found for sub-024MND_ses-01_ses-06: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-024MND_ses-01_ses-06/deformation_Warped_roi.nii.gz
+Processing subject: sub-021MND_ses-05_ses-06
+Affine file not found for sub-021MND_ses-05_ses-06: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-021MND_ses-05_ses-06/deformation_Warped_roi.nii.gz
+Processing subject: sub-009MND_ses-01_ses-02
+Affine file not found for sub-009MND_ses-01_ses-02: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-009MND_ses-01_ses-02/deformation_Warped_roi.nii.gz
+Processing subject: sub-024MND_ses-02_ses-04
+Affine file not found for sub-024MND_ses-02_ses-04: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-024MND_ses-02_ses-04/deformation_Warped_roi.nii.gz
+Processing subject: sub-005MND_ses-05_ses-09
+Affine file not found for sub-005MND_ses-05_ses-09: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-005MND_ses-05_ses-09/deformation_Warped_roi.nii.gz
+Processing subject: sub-054MND_ses-01_ses-02
+Affine file not found for sub-054MND_ses-01_ses-02: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-054MND_ses-01_ses-02/deformation_Warped_roi.nii.gz
+Processing subject: sub-024MND_ses-01_ses-04
+Affine file not found for sub-024MND_ses-01_ses-04: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-024MND_ses-01_ses-04/deformation_Warped_roi.nii.gz
+Processing subject: sub-005MND_ses-01_ses-08
+Affine file not found for sub-005MND_ses-01_ses-08: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-005MND_ses-01_ses-08/deformation_Warped_roi.nii.gz
+Processing subject: sub-005MND_ses-06_ses-09
+Affine file not found for sub-005MND_ses-06_ses-09: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-005MND_ses-06_ses-09/deformation_Warped_roi.nii.gz
+Processing subject: sub-058MND_ses-01_ses-02
+Affine file not found for sub-058MND_ses-01_ses-02: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-058MND_ses-01_ses-02/deformation_Warped_roi.nii.gz
+Processing subject: sub-024MND_ses-02_ses-06
+Affine file not found for sub-024MND_ses-02_ses-06: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-024MND_ses-02_ses-06/deformation_Warped_roi.nii.gz
+Processing subject: sub-021MND_ses-02_ses-05
+Affine file not found for sub-021MND_ses-02_ses-05: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-021MND_ses-02_ses-05/deformation_Warped_roi.nii.gz
+Processing subject: sub-003MND_ses-02_ses-04
+Affine file not found for sub-003MND_ses-02_ses-04: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-003MND_ses-02_ses-04/deformation_Warped_roi.nii.gz
+Processing subject: sub-010MND_ses-01_ses-02
+Affine file not found for sub-010MND_ses-01_ses-02: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-010MND_ses-01_ses-02/deformation_Warped_roi.nii.gz
+Processing subject: sub-059MND_ses-01_ses-02
+Affine file not found for sub-059MND_ses-01_ses-02: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-059MND_ses-01_ses-02/deformation_Warped_roi.nii.gz
+Processing subject: sub-049MND_ses-02_ses-03
+Affine file not found for sub-049MND_ses-02_ses-03: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-049MND_ses-02_ses-03/deformation_Warped_roi.nii.gz
+Processing subject: sub-004MND_ses-01_ses-02
+Affine file not found for sub-004MND_ses-01_ses-02: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-004MND_ses-01_ses-02/deformation_Warped_roi.nii.gz
+Processing subject: sub-017MND_ses-02_ses-04
+Affine file not found for sub-017MND_ses-02_ses-04: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-017MND_ses-02_ses-04/deformation_Warped_roi.nii.gz
+Processing subject: sub-014MND_ses-02_ses-03
+Affine file not found for sub-014MND_ses-02_ses-03: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-014MND_ses-02_ses-03/deformation_Warped_roi.nii.gz
+Processing subject: sub-011MND_ses-01_ses-02
+Affine file not found for sub-011MND_ses-01_ses-02: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-011MND_ses-01_ses-02/deformation_Warped_roi.nii.gz
+Processing subject: sub-021MND_ses-04_ses-06
+Affine file not found for sub-021MND_ses-04_ses-06: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-021MND_ses-04_ses-06/deformation_Warped_roi.nii.gz
+Processing subject: sub-012MND_ses-01_ses-02
+Affine file not found for sub-012MND_ses-01_ses-02: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-012MND_ses-01_ses-02/deformation_Warped_roi.nii.gz
+Processing subject: sub-005MND_ses-04_ses-09
+Affine file not found for sub-005MND_ses-04_ses-09: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-005MND_ses-04_ses-09/deformation_Warped_roi.nii.gz
+Processing subject: sub-024MND_ses-03_ses-04
+Affine file not found for sub-024MND_ses-03_ses-04: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-024MND_ses-03_ses-04/deformation_Warped_roi.nii.gz
+Processing subject: sub-024MND_ses-04_ses-05
+Affine file not found for sub-024MND_ses-04_ses-05: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-024MND_ses-04_ses-05/deformation_Warped_roi.nii.gz
+Processing subject: sub-017MND_ses-02_ses-03
+Affine file not found for sub-017MND_ses-02_ses-03: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-017MND_ses-02_ses-03/deformation_Warped_roi.nii.gz
+Processing subject: sub-007MND_ses-01_ses-02
+Affine file not found for sub-007MND_ses-01_ses-02: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-007MND_ses-01_ses-02/deformation_Warped_roi.nii.gz
+Processing subject: sub-049MND_ses-02_ses-04
+Affine file not found for sub-049MND_ses-02_ses-04: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-049MND_ses-02_ses-04/deformation_Warped_roi.nii.gz
+Processing subject: sub-029MND_ses-02_ses-03
+Affine file not found for sub-029MND_ses-02_ses-03: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-029MND_ses-02_ses-03/deformation_Warped_roi.nii.gz
+Processing subject: sub-052MND_ses-01_ses-03
+Affine file not found for sub-052MND_ses-01_ses-03: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-052MND_ses-01_ses-03/deformation_Warped_roi.nii.gz
+Processing subject: sub-013MND_ses-01_ses-02
+Affine file not found for sub-013MND_ses-01_ses-02: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-013MND_ses-01_ses-02/deformation_Warped_roi.nii.gz
+Processing subject: sub-003MND_ses-02_ses-03
+Affine file not found for sub-003MND_ses-02_ses-03: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-003MND_ses-02_ses-03/deformation_Warped_roi.nii.gz
+Processing subject: sub-005MND_ses-05_ses-06
+Affine file not found for sub-005MND_ses-05_ses-06: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-005MND_ses-05_ses-06/deformation_Warped_roi.nii.gz
+Processing subject: sub-024MND_ses-01_ses-03
+Affine file not found for sub-024MND_ses-01_ses-03: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-024MND_ses-01_ses-03/deformation_Warped_roi.nii.gz
+Processing subject: sub-005MND_ses-01_ses-05
+Affine file not found for sub-005MND_ses-01_ses-05: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-005MND_ses-01_ses-05/deformation_Warped_roi.nii.gz
+Processing subject: sub-006MND_ses-01_ses-02
+Affine file not found for sub-006MND_ses-01_ses-02: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-006MND_ses-01_ses-02/deformation_Warped_roi.nii.gz
+Processing subject: sub-022MND_ses-01_ses-03
+Affine file not found for sub-022MND_ses-01_ses-03: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-022MND_ses-01_ses-03/deformation_Warped_roi.nii.gz
+Processing subject: sub-021MND_ses-01_ses-04
+Affine file not found for sub-021MND_ses-01_ses-04: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-021MND_ses-01_ses-04/deformation_Warped_roi.nii.gz
+Processing subject: sub-021MND_ses-02_ses-06
+Affine file not found for sub-021MND_ses-02_ses-06: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-021MND_ses-02_ses-06/deformation_Warped_roi.nii.gz
+Processing subject: sub-005MND_ses-05_ses-08
+Affine file not found for sub-005MND_ses-05_ses-08: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-005MND_ses-05_ses-08/deformation_Warped_roi.nii.gz
+Processing subject: sub-024MND_ses-02_ses-05
+Affine file not found for sub-024MND_ses-02_ses-05: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-024MND_ses-02_ses-05/deformation_Warped_roi.nii.gz
+Processing subject: sub-043MND_ses-01_ses-04
+Affine file not found for sub-043MND_ses-01_ses-04: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-043MND_ses-01_ses-04/deformation_Warped_roi.nii.gz
+Processing subject: sub-014MND_ses-01_ses-02
+Affine file not found for sub-014MND_ses-01_ses-02: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-014MND_ses-01_ses-02/deformation_Warped_roi.nii.gz
+Processing subject: sub-017MND_ses-01_ses-05
+Affine file not found for sub-017MND_ses-01_ses-05: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-017MND_ses-01_ses-05/deformation_Warped_roi.nii.gz
+Processing subject: sub-005MND_ses-04_ses-07
+Affine file not found for sub-005MND_ses-04_ses-07: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-005MND_ses-04_ses-07/deformation_Warped_roi.nii.gz
+Processing subject: sub-049MND_ses-01_ses-02
+Affine file not found for sub-049MND_ses-01_ses-02: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-049MND_ses-01_ses-02/deformation_Warped_roi.nii.gz
+Processing subject: sub-024MND_ses-04_ses-06
+Affine file not found for sub-024MND_ses-04_ses-06: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-024MND_ses-04_ses-06/deformation_Warped_roi.nii.gz
+Processing subject: sub-029MND_ses-01_ses-02
+Affine file not found for sub-029MND_ses-01_ses-02: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-029MND_ses-01_ses-02/deformation_Warped_roi.nii.gz
+Processing subject: sub-021MND_ses-04_ses-05
+Affine file not found for sub-021MND_ses-04_ses-05: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-021MND_ses-04_ses-05/deformation_Warped_roi.nii.gz
+Processing subject: sub-007MND_ses-02_ses-03
+Affine file not found for sub-007MND_ses-02_ses-03: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-007MND_ses-02_ses-03/deformation_Warped_roi.nii.gz
+Processing subject: sub-021MND_ses-03_ses-04
+Affine file not found for sub-021MND_ses-03_ses-04: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-021MND_ses-03_ses-04/deformation_Warped_roi.nii.gz
+Processing subject: sub-017MND_ses-01_ses-02
+Affine file not found for sub-017MND_ses-01_ses-02: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-017MND_ses-01_ses-02/deformation_Warped_roi.nii.gz
+Processing subject: sub-023MND_ses-01_ses-04
+Affine file not found for sub-023MND_ses-01_ses-04: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-023MND_ses-01_ses-04/deformation_Warped_roi.nii.gz
+Processing subject: sub-002MND_ses-01_ses-02
+Affine file not found for sub-002MND_ses-01_ses-02: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-002MND_ses-01_ses-02/deformation_Warped_roi.nii.gz
+Processing subject: sub-040MND_ses-01_ses-04
+Affine file not found for sub-040MND_ses-01_ses-04: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-040MND_ses-01_ses-04/deformation_Warped_roi.nii.gz
+Processing subject: sub-005MND_ses-07_ses-08
+Affine file not found for sub-005MND_ses-07_ses-08: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-005MND_ses-07_ses-08/deformation_Warped_roi.nii.gz
+Processing subject: sub-034MND_ses-01_ses-03
+Affine file not found for sub-034MND_ses-01_ses-03: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-034MND_ses-01_ses-03/deformation_Warped_roi.nii.gz
+Processing subject: sub-016MND_ses-01_ses-02
+Affine file not found for sub-016MND_ses-01_ses-02: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-016MND_ses-01_ses-02/deformation_Warped_roi.nii.gz
+Processing subject: sub-028MND_ses-01_ses-02
+Affine file not found for sub-028MND_ses-01_ses-02: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-028MND_ses-01_ses-02/deformation_Warped_roi.nii.gz
+Processing subject: sub-005MND_ses-01_ses-06
+Affine file not found for sub-005MND_ses-01_ses-06: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-005MND_ses-01_ses-06/deformation_Warped_roi.nii.gz
+Processing subject: sub-005MND_ses-06_ses-07
+Affine file not found for sub-005MND_ses-06_ses-07: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-005MND_ses-06_ses-07/deformation_Warped_roi.nii.gz
+Processing subject: sub-003MND_ses-01_ses-02
+Affine file not found for sub-003MND_ses-01_ses-02: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-003MND_ses-01_ses-02/deformation_Warped_roi.nii.gz
+Processing subject: sub-017MND_ses-03_ses-05
+Affine file not found for sub-017MND_ses-03_ses-05: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-017MND_ses-03_ses-05/deformation_Warped_roi.nii.gz
+Processing subject: sub-021MND_ses-01_ses-03
+Affine file not found for sub-021MND_ses-01_ses-03: /home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi/sub-021MND_ses-01_ses-03/deformation_Warped_roi.nii.gz

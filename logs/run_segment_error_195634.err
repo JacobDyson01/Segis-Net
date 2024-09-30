@@ -1,3 +1,4 @@
+2024-09-30 13:11:27.510196: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
 Using TensorFlow backend.
 /home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:469: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
   _np_qint8 = np.dtype([("qint8", np.int8, 1)])
@@ -15,6 +16,3 @@ Using TensorFlow backend.
   return f(*args, **kwds)
 /home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/nilearn/__init__.py:69: FutureWarning: Python 3.6 support is deprecated and will be removed in release 0.10 of Nilearn. Consider switching to Python 3.8 or 3.9.
   _python_deprecation_warnings()
-Matplotlib created a temporary config/cache directory at /scratch/187675/matplotlib-4hdcj752 because the default path (/cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
-2024-09-21 12:40:49.358121: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
-slurmstepd: error: *** JOB 187675 ON a100-0 CANCELLED AT 2024-09-21T13:47:30 ***

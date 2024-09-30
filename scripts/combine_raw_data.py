@@ -2,9 +2,9 @@ import os
 import shutil
 
 # Define source and destination directories for warped_input_roi
-ants_input_dir = '/home/groups/dlmrimnd/jacob/data/input_images'
-mnd_input_dir = '/home/groups/dlmrimnd/jacob/data/MND/input_images'
-combined_input_dir = '/home/groups/dlmrimnd/jacob/data/combined_data/input_images'
+ants_input_dir = '/home/groups/dlmrimnd/jacob/data/deformation_fields_roi_real'
+mnd_input_dir = '/home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi_real'
+combined_input_dir = '/home/groups/dlmrimnd/jacob/data/combined_data/deformation_fields_roi_real'
 
 
 # Create the combined directories if they don't exist

@@ -15,9 +15,10 @@ Using TensorFlow backend.
   return f(*args, **kwds)
 /home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/nilearn/__init__.py:69: FutureWarning: Python 3.6 support is deprecated and will be removed in release 0.10 of Nilearn. Consider switching to Python 3.8 or 3.9.
   _python_deprecation_warnings()
-Matplotlib created a temporary config/cache directory at /scratch/186870/matplotlib-h0_p_c9l because the default path (/cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
-2024-09-19 13:59:21.055648: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
-2024-09-25 23:02:46.194247: W tensorflow/core/framework/op_kernel.cc:1192] Resource exhausted: OOM when allocating tensor with shape[2,144,96,112,48]
+Matplotlib created a temporary config/cache directory at /scratch/187705/matplotlib-p6rpf7ea because the default path (/cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+2024-09-21 13:46:19.524169: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2024-09-27 18:21:13.736985: W tensorflow/core/framework/op_kernel.cc:1192] Resource exhausted: OOM when allocating tensor with shape[2,176,80,96,32]
+2024-09-27 18:21:17.534569: W tensorflow/core/framework/op_kernel.cc:1192] Resource exhausted: OOM when allocating tensor with shape[176,80,96,2,48]
 /home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/keras/callbacks.py:999: UserWarning: `epsilon` argument is deprecated and will be removed, use `min_delta` instead.
   warnings.warn('`epsilon` argument is deprecated and '
 Traceback (most recent call last):
@@ -27,8 +28,8 @@ Traceback (most recent call last):
     status, run_metadata)
   File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/tensorflow/python/framework/errors_impl.py", line 473, in __exit__
     c_api.TF_GetCode(self.status.status))
-tensorflow.python.framework.errors_impl.ResourceExhaustedError: OOM when allocating tensor with shape[2,144,96,112,48]
-	 [[Node: model_1/concatenate_4/concat = ConcatV2[N=2, T=DT_FLOAT, Tidx=DT_INT32, _device="/job:localhost/replica:0/task:0/device:CPU:0"](model_1/up_sampling3d_4/concat_2, model_1/leaky_re_lu_2/LeakyRelu/Maximum, model_2/concatenate_6/concat/axis)]]
+tensorflow.python.framework.errors_impl.ResourceExhaustedError: OOM when allocating tensor with shape[2,176,80,96,32]
+	 [[Node: training/Adam/gradients/model_1/concatenate_4/concat_grad/Slice = Slice[Index=DT_INT32, T=DT_FLOAT, _class=["loc:@model_1/concatenate_4/concat"], _device="/job:localhost/replica:0/task:0/device:CPU:0"](training/Adam/gradients/model_1/conv3d_17/convolution_grad/Conv3DBackpropInputV2, training/Adam/gradients/model_1/concatenate_4/concat_grad/ConcatOffset, training/Adam/gradients/model_1/concatenate_4/concat_grad/ShapeN)]]
 
 During handling of the above exception, another exception occurred:
 
@@ -55,10 +56,50 @@ Traceback (most recent call last):
     options, run_metadata)
   File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1336, in _do_call
     raise type(e)(node_def, op, message)
-tensorflow.python.framework.errors_impl.ResourceExhaustedError: OOM when allocating tensor with shape[2,144,96,112,48]
-	 [[Node: model_1/concatenate_4/concat = ConcatV2[N=2, T=DT_FLOAT, Tidx=DT_INT32, _device="/job:localhost/replica:0/task:0/device:CPU:0"](model_1/up_sampling3d_4/concat_2, model_1/leaky_re_lu_2/LeakyRelu/Maximum, model_2/concatenate_6/concat/axis)]]
+tensorflow.python.framework.errors_impl.ResourceExhaustedError: OOM when allocating tensor with shape[2,176,80,96,32]
+	 [[Node: training/Adam/gradients/model_1/concatenate_4/concat_grad/Slice = Slice[Index=DT_INT32, T=DT_FLOAT, _class=["loc:@model_1/concatenate_4/concat"], _device="/job:localhost/replica:0/task:0/device:CPU:0"](training/Adam/gradients/model_1/conv3d_17/convolution_grad/Conv3DBackpropInputV2, training/Adam/gradients/model_1/concatenate_4/concat_grad/ConcatOffset, training/Adam/gradients/model_1/concatenate_4/concat_grad/ShapeN)]]
 
-Caused by op 'model_1/concatenate_4/concat', defined at:
+Caused by op 'training/Adam/gradients/model_1/concatenate_4/concat_grad/Slice', defined at:
+  File "/home/groups/dlmrimnd/jacob/projects/Segis-Net/code/Segis-Net/Train_SegisNet.py", line 228, in <module>
+    initial_epoch=initial_epoch)
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/keras/legacy/interfaces.py", line 91, in wrapper
+    return func(*args, **kwargs)
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/keras/engine/training.py", line 1426, in fit_generator
+    initial_epoch=initial_epoch)
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/keras/engine/training_generator.py", line 37, in fit_generator
+    model._make_train_function()
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/keras/engine/training.py", line 497, in _make_train_function
+    loss=self.total_loss)
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/keras/legacy/interfaces.py", line 91, in wrapper
+    return func(*args, **kwargs)
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/keras/optimizers.py", line 445, in get_updates
+    grads = self.get_gradients(loss, params)
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/keras/optimizers.py", line 78, in get_gradients
+    grads = K.gradients(loss, params)
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py", line 2703, in gradients
+    return tf.gradients(loss, variables, colocate_gradients_with_ops=True)
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/tensorflow/python/ops/gradients_impl.py", line 581, in gradients
+    grad_scope, op, func_call, lambda: grad_fn(op, *out_grads))
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/tensorflow/python/ops/gradients_impl.py", line 353, in _MaybeCompile
+    return grad_fn()  # Exit early
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/tensorflow/python/ops/gradients_impl.py", line 581, in <lambda>
+    grad_scope, op, func_call, lambda: grad_fn(op, *out_grads))
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/tensorflow/python/ops/array_grad.py", line 196, in _ConcatGradV2
+    op, grad, start_value_index=0, end_value_index=-1, dim_index=-1)
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/tensorflow/python/ops/array_grad.py", line 128, in _ConcatGradHelper
+    out_grads.append(array_ops.slice(grad, begin, size))
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/tensorflow/python/ops/array_ops.py", line 590, in slice
+    return gen_array_ops._slice(input_, begin, size, name=name)
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/tensorflow/python/ops/gen_array_ops.py", line 4635, in _slice
+    "Slice", input=input, begin=begin, size=size, name=name)
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py", line 787, in _apply_op_helper
+    op_def=op_def)
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 2956, in create_op
+    op_def=op_def)
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 1470, in __init__
+    self._traceback = self._graph._extract_stack()  # pylint: disable=protected-access
+
+...which was originally created as op 'model_1/concatenate_4/concat', defined at:
   File "/home/groups/dlmrimnd/jacob/projects/Segis-Net/code/Segis-Net/Train_SegisNet.py", line 151, in <module>
     indexing='ij',alpha=a)
   File "/home/groups/dlmrimnd/jacob/projects/Segis-Net/code/Segis-Net/SegisNet_model_dataGenerator.py", line 104, in joint_model
@@ -86,6 +127,6 @@ Caused by op 'model_1/concatenate_4/concat', defined at:
   File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 1470, in __init__
     self._traceback = self._graph._extract_stack()  # pylint: disable=protected-access
 
-ResourceExhaustedError (see above for traceback): OOM when allocating tensor with shape[2,144,96,112,48]
-	 [[Node: model_1/concatenate_4/concat = ConcatV2[N=2, T=DT_FLOAT, Tidx=DT_INT32, _device="/job:localhost/replica:0/task:0/device:CPU:0"](model_1/up_sampling3d_4/concat_2, model_1/leaky_re_lu_2/LeakyRelu/Maximum, model_2/concatenate_6/concat/axis)]]
+ResourceExhaustedError (see above for traceback): OOM when allocating tensor with shape[2,176,80,96,32]
+	 [[Node: training/Adam/gradients/model_1/concatenate_4/concat_grad/Slice = Slice[Index=DT_INT32, T=DT_FLOAT, _class=["loc:@model_1/concatenate_4/concat"], _device="/job:localhost/replica:0/task:0/device:CPU:0"](training/Adam/gradients/model_1/conv3d_17/convolution_grad/Conv3DBackpropInputV2, training/Adam/gradients/model_1/concatenate_4/concat_grad/ConcatOffset, training/Adam/gradients/model_1/concatenate_4/concat_grad/ShapeN)]]
 

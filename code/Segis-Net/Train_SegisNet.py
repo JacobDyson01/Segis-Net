@@ -43,7 +43,8 @@ segm_path = join(data_p,'warped_masks_roi')
 # dense affine displacement, e.g., estimated using Elastix
 affine_path = join(data_p,'deformation_fields_roi') 
 # save folder for this experiment
-save_path   = join(data_p,'results') 
+save_path = join(data_p,'saved_results', 'restart') 
+load_path = join (data_p, 'saved_results', 'run1')
 if not exists(save_path):
     os.makedirs(save_path)
 
@@ -56,7 +57,8 @@ check_path  = join(save_path, 'accWeights.{epoch:02d}-{val_loss:.2f}.hdf5')
 # best weights of the monitor metric in checkpoint 2, i.e., seg consistency
 check2_path = join(save_path, 'consWeights.{epoch:02d}-{val_loss:.2f}.hdf5')
 # begining weights for continued training
-weight_path_in  = join(save_path, 'Pretrained.hdf5')
+
+weight_path_in  = join(load_path, 'model_weight_out.h5')
 # weights of the latest epoch, would overwrite the previous one
 weight_path_out = join(save_path, 'model_weight_out.h5')
 # training history
@@ -77,7 +79,7 @@ structs = ['cgc_l', 'cgc_r',  'cgh_l', 'cgh_r', 'fma', 'fmi', 'atr_l', 'atr_r',
 params_train = {'dim_xyz': (176, 80, 96),
           'R_ch': 1,
           'S_ch': 1,
-          'batch_size': 2,
+          'batch_size': 1,
           # 'outputs': structs[:6],
           # int(len(params_train['outputs'])/2)
           # combined the left & right structures into one map/channel
@@ -99,7 +101,7 @@ resume_pretrained = False
 initial_epoch = 0 
 # change here empirically, this number was used where there are n=10350 batches
 # in each epoch. Thus the learning rate schedule stops the training before n_epoch.
-n_epoch = 35
+n_epoch = 30
  
 # alpha for LeakyRuLU
 # Custom learning rate auto decay settings
