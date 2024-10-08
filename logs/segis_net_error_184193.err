@@ -1,2 +1,0 @@
-2024-09-14 09:04:15.220454: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
-slurmstepd: error: *** JOB 184193 ON c4130-2 CANCELLED AT 2024-09-14T09:04:52 ***

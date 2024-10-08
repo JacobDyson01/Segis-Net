@@ -1,3 +1,0 @@
-2024-09-12 17:14:08.406506: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
-2024-09-12 17:18:07.170701: W tensorflow/core/framework/op_kernel.cc:1192] Resource exhausted: OOM when allocating tensor with shape[96,144,4,112,3]
-slurmstepd: error: *** JOB 183728 ON a100-4 CANCELLED AT 2024-09-12T17:21:12 ***

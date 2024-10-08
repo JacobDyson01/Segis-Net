@@ -48,76 +48,77 @@ def ConvBlockB(x, ch_1, ch_2, ch_3, alpha):
 
 
 def reg_net(img_xyz, alpha=0.2):
-    num_start_ch = 16
+    """
+    Updated reg_net for applying both affine and non-linear deformations in 3D image registration.
+    """
+    num_start_ch = 8
     alpha = alpha
-    """input layers"""
-    tgt = Input(shape=(img_xyz) + (1,))  # Single channel for target image
-    src = Input(shape=(img_xyz) + (1,))  # Single channel for source image
-    # tgt = Input(shape=(img_xyz))  # Single channel for target image
-    # src = Input(shape=(img_xyz))  # Single channel for source image
-    aff_warped = Input(shape=(img_xyz) + (1,))  # 3 channels for deformation field  
     
-
+    """ Input Layers """
+    tgt = Input(shape=(*img_xyz, 1))  # Target image (1 channel)
+    src = Input(shape=(*img_xyz, 1))  # Source image (1 channel)
+    aff_def = Input(shape=(*img_xyz, 3))  # Affine deformation (3 channels for x, y, z displacements)
     
-   
-
-    """online affine-warp"""
-    # aff_warped = SpatialTransformer(interp_method='linear', indexing='ij', 
-    #                                 name='aff_warped')([src, aff_def]) 
-    # print('Warped Image - min:', tf.reduce_min(aff_warped).numpy(), 'max:', tf.reduce_max(aff_warped).numpy())
-    # aff_warped = tf.clip_by_value(aff_warped, 0, 255)
+    """ Affine Warping """
+    # Apply affine deformation to the source image using SpatialTransformer
+    aff_warped = SpatialTransformer(interp_method='linear', indexing='ij', 
+                                    name='aff_warped')([src, aff_def])
+    
+    # Concatenate the target image and the affine-warped source image to form a two-channel input
     inputs = concatenate([tgt, aff_warped], axis=-1)
 
-    """Encoder"""
+    """ Encoder (Downsampling Path) """
     conv_1 = ConvBlockA(inputs, int(num_start_ch / 2), num_start_ch, alpha)
     pool_1 = MaxPooling3D(pool_size=(2, 2, 2))(conv_1)
 
-    conv_2 = ConvBlockA(pool_1, num_start_ch*2, num_start_ch*2, alpha)
+    conv_2 = ConvBlockA(pool_1, num_start_ch * 2, num_start_ch * 2, alpha)
     pool_2 = MaxPooling3D(pool_size=(2, 2, 2))(conv_2)
-
-    conv_3 = ConvBlockA(pool_2, num_start_ch*4, num_start_ch*4, alpha)
+    
+    conv_3 = ConvBlockA(pool_2, num_start_ch * 4, num_start_ch * 4, alpha)
     pool_3 = MaxPooling3D(pool_size=(2, 2, 2))(conv_3)
-
-    conv_4 = ConvBlockA(pool_3, num_start_ch*8, num_start_ch*8, alpha)
+    
+    conv_4 = ConvBlockA(pool_3, num_start_ch * 8, num_start_ch * 8, alpha)
     pool_4 = MaxPooling3D(pool_size=(2, 2, 2))(conv_4)
 
-    """fifth layer"""
-    conv_5 = ConvBlockB(pool_4, num_start_ch*16, num_start_ch*8, num_start_ch*8, alpha)
+    """ Bottleneck Layer """
+    conv_5 = ConvBlockB(pool_4, num_start_ch * 16, num_start_ch * 8, num_start_ch * 8, alpha)
     up_6 = UpSampling3D(size=(2, 2, 2))(conv_5)
 
-    """Decoder"""
+    """ Decoder (Upsampling Path) """
     up_6 = concatenate([up_6, conv_4], axis=4)
-    conv_6 = ConvBlockB(up_6, num_start_ch*8, num_start_ch*4, num_start_ch*4, alpha)
+    conv_6 = ConvBlockB(up_6, num_start_ch * 8, num_start_ch * 4, num_start_ch * 4, alpha)
     up_7 = UpSampling3D(size=(2, 2, 2))(conv_6)
-
+    
     up_7 = concatenate([up_7, conv_3], axis=4)
-    conv_7 = ConvBlockB(up_7, num_start_ch*4, num_start_ch*2, num_start_ch*2, alpha)
+    conv_7 = ConvBlockB(up_7, num_start_ch * 4, num_start_ch * 2, num_start_ch * 2, alpha)
     up_8 = UpSampling3D(size=(2, 2, 2))(conv_7)
-
+    
     up_8 = concatenate([up_8, conv_2], axis=4)
-    conv_8 = ConvBlockB(up_8, num_start_ch*2, num_start_ch, num_start_ch, alpha)
+    conv_8 = ConvBlockB(up_8, num_start_ch * 2, num_start_ch, num_start_ch, alpha)
     up_9 = UpSampling3D(size=(2, 2, 2))(conv_8)
-
+    
     up_9 = concatenate([up_9, conv_1], axis=4)
     conv_9 = ConvBlockA(up_9, num_start_ch, int(num_start_ch / 2), alpha)
-
-    """shape the nonr_def"""
-    nonr_def = Conv3D(3, (3, 3, 3), activation=None, padding='same', name='nonr_def',
-                      kernel_initializer=RandomNormal(mean=0.0, stddev=1e-5))(conv_9)
     
-
-    """composite transformation"""
-    # all_def = Add()([nonr_def, aff_def])
+    """ Non-linear Deformation Field """
+    # This layer predicts the non-linear deformation field (3 channels for x, y, z displacements)
+    nonr_def = Conv3D(3, (3, 3, 3), activation=None, padding='same', 
+                      kernel_initializer=RandomNormal(mean=0.0, stddev=1e-5),
+                      name='nonr_def')(conv_9)
     
-
-    """image warp use the composite transformation"""
-    y = SpatialTransformer(interp_method='linear', indexing='ij', name='movedFA')([src, nonr_def])
+    """ Composite Transformation """
+    # Add the affine deformation and non-linear deformation to get the full deformation field
+    all_def = Add()([nonr_def, aff_def])
     
-
-    """output"""
-    model = Model(inputs=[tgt, src, aff_warped], outputs=[y, nonr_def])
-
+    """ Apply the Composite Transformation """
+    # Warp the source image using the full deformation field (affine + non-linear)
+    y = SpatialTransformer(interp_method='linear', indexing='ij', name='movedSrc')([src, all_def])
+    
+    """ Output Model """
+    model = Model(inputs=[tgt, src, aff_def], outputs=[y, nonr_def])
+    
     return model
+
 
 
 class DataGenerator(object):
@@ -233,60 +234,3 @@ def apply_affine_deff_from_Elastix(deff_file, tgt_p, src_p):
                                 name='warped_img')([src_tensor, deff_tensor]).eval()
 
     return warped
-
-
-#class Softmax(Layer):
-#    def __init__(self, axis=-1, **kwargs):
-#        self.axis=axis
-#        super(Softmax, self).__init__(**kwargs)
-#
-#    def build(self,input_shape):
-#        pass
-#
-#    def call(self, x, mask=None):
-#        e = K.exp(x - K.max(x, axis=self.axis, keepdims=True))
-#        s = K.sum(e, axis=self.axis, keepdims=True)
-#        return e / s
-#
-#    def compute_output_shape_for(self, input_shape):
-#        return input_shape
-#
-#
-#class Deconvolution3D(Layer):
-#    def __init__(self, nb_filter, kernel_dims, output_shape, subsample):
-#        self.nb_filter = nb_filter
-#        self.kernel_dims = kernel_dims
-#        self.strides = (1,) + subsample + (1,)
-#        self.output_shape_ = output_shape
-#        assert K.backend() == 'tensorflow'
-#        super(Deconvolution3D, self).__init__()
-#
-#    def build(self, input_shape):
-#        assert len(input_shape) == 5
-#        self.input_shape_ = input_shape
-#        W_shape = self.kernel_dims + (self.nb_filter, input_shape[4],)
-#
-#
-#        self.b = self.add_weight((1, 1, 1, self.nb_filter,),
-#                                 initializer='zero', name='{}_b'.format(self.name))
-#
-#        self.W = self.add_weight(name='{}_W'.format(self.name),
-#                                 shape=W_shape,
-#                                 initializer='uniform',
-#                                 trainable=True)
-#
-#        super(Deconvolution3D, self).build(input_shape)  # Be sure to call this somewhere!
-#
-#    #     def get_output_shape_for(self, input_shape):
-#    def compute_output_shape(self, input_shape):
-#        return (None,) + self.output_shape_[1:]
-#
-#
-#    def call(self, x, mask=None):
-#        return tf.nn.conv3d_transpose(x, self.W, output_shape=self.output_shape_,
-#                                      strides=self.strides, padding='SAME', name=self.name) + self.b
-#
-#    def get_config(self):
-#        base_config = super(Deconvolution3D, self).get_config().copy()
-#        base_config['output_shape'] = self.output_shape_
-#        return base_config   

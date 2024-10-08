@@ -1,0 +1,5 @@
+Loading model weights from: /home/groups/dlmrimnd/jacob/data/combined_data/saved_results/run2/model_weight_out.h5
+Model weights loaded successfully.
+Processing subject: sub-031MND_ses-01_ses-02
+Loading source, target, and affine images for sub-031MND_ses-01_ses-02
+Running segmentation for sub-031MND_ses-01_ses-02

@@ -5,10 +5,10 @@ from keras.models import load_model
 from SegisNet_model_dataGenerator import joint_model
 
 # File paths
-model_weights_path = '/home/groups/dlmrimnd/jacob/data/combined_data/saved_results/run1/model_weight_out.h5'
+model_weights_path = '/home/groups/dlmrimnd/jacob/data/combined_data/saved_results/run_proper_1/model_weight_out.h5'
 input_data_dir = '/home/groups/dlmrimnd/jacob/data/MND/warped_input_roi'
-affine_data_dir = '/home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi'  # Corrected path for affine deformations
-output_segmentation_dir = '/home/groups/dlmrimnd/jacob/data/MND/output_segmentations'
+affine_data_dir = '/home/groups/dlmrimnd/jacob/data/MND/deformation_fields_roi_real'  # Corrected path for affine deformations
+output_segmentation_dir = '/home/groups/dlmrimnd/jacob/data/MND/output_segmentations_new'
 
 # Create output directory if it doesn't exist
 if not os.path.exists(output_segmentation_dir):
@@ -26,6 +26,7 @@ params_inference = {
 # Initialize the Segis-Net model
 print(f"Loading model weights from: {model_weights_path}")
 model = joint_model(params_inference['dim_xyz'], params_inference['R_ch'], params_inference['S_ch'], 1, indexing='ij', alpha=0.2)
+# model.load_weights(model_weights_path, by_name=True)
 model.load_weights(model_weights_path)
 print("Model weights loaded successfully.")
 
@@ -41,8 +42,9 @@ for subject_dir in os.listdir(input_data_dir):
         target_file = os.path.join(subject_path, 'target_Warped_roi.nii.gz')
         
         # For affine directories, replace '-' with '_' to match the format in the affine directories
-        affine_subject_dir = subject_dir.replace('ses-', 'ses_')
-        affine_file = os.path.join(affine_data_dir, affine_subject_dir, 'deformation_Warped_roi.nii.gz')
+        # affine_subject_dir = subject_dir.replace('ses-', 'ses_')
+        affine_subject_dir = subject_dir
+        affine_file = os.path.join(affine_data_dir, affine_subject_dir, 'deformation_1Warp_roi.nii.gz')
 
         # Check if all files exist before proceeding
         if not os.path.exists(source_file):
@@ -68,8 +70,9 @@ for subject_dir in os.listdir(input_data_dir):
         source_data = np.expand_dims(source_img, axis=[0, -1])  # Add batch and channel dimensions
         target_data = np.expand_dims(target_img, axis=[0, -1])  # Add batch and channel dimensions
         S_src_data = np.expand_dims(S_src, axis=[0, -1])        # Add batch and channel dimensions
-        affine_data = np.expand_dims(affine_img, axis=[0, -1])  # Add batch and channel dimensions
-        
+        # affine_data = np.expand_dims(affine_img, axis=[0, -1])  # Add batch and channel dimensions
+        affine_data = np.squeeze(affine_img)
+        affine_data = np.expand_dims(affine_data, axis=[0])
         # Prepare the inputs as a list, since the model expects multiple inputs
         inputs = [target_data, source_data, S_src_data, affine_data]
 

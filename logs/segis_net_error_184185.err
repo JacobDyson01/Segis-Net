@@ -1,1 +1,0 @@
-/var/slurm/d/job184185/slurm_script: line 23: 1929549 Aborted                 /home/groups/dlmrimnd/jacob/miniconda3/envs/segisnet_env/bin/python3.6 /home/groups/dlmrimnd/jacob/projects/Segis-Net/code/Segis-Net/Train_SegisNet.py

@@ -52,7 +52,7 @@ def ConvBlockC(x, ch_1, n_output, alpha):
 # def seg_net(img_xyz, img_ch, n_output, alpha = 0.2):
 def seg_net(img_xyz, img_ch, n_output, alpha = 0.2):
     alpha=alpha   
-    num_start_ch = 16
+    num_start_ch = 8
     
     """input layers"""
     # tensors = Input(shape=(*img_xyz, img_ch), name='tensor_input')

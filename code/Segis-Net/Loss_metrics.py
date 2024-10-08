@@ -151,13 +151,14 @@ def DC(y_true, y_pred):
     return K.mean(2. * intersection / union)
 
 def DCLoss(y_true, y_pred):
-    epsilon=1e-08
-    y_pred = K.clip(y_pred, epsilon, 1. - epsilon)    
+    epsilon = 1e-08
+    y_pred = K.clip(y_pred, epsilon, 1. - epsilon)  # Clip predictions to avoid extreme values
 
-    intersection = - 2. * K.sum(y_true * y_pred)
+    # Positive intersection (this is how Dice loss is typically calculated)
+    intersection = 2. * K.sum(y_true * y_pred)
     union = K.sum(y_true) + K.sum(y_pred)
 
-    return intersection / union
+    return 1 - (intersection / (union + epsilon))
    
 
 #https://stackoverflow.com/questions/36462962/loss-clipping-in-tensor-flow-on-deepminds-dqn

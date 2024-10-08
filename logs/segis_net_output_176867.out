@@ -1,4 +1,0 @@
-Construct model
-src_segm shape: (?, 144, 96, 112, 3)
-y shape: (?, 144, 96, 112, 1)
-nonr_def shape: (?, 144, 96, 112, 3)
