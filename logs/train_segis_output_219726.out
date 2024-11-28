@@ -1,0 +1,46 @@
+Constructing model
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to                     
+==================================================================================================
+tgt_input (InputLayer)          (None, 176, 80, 96,  0                                            
+__________________________________________________________________________________________________
+src_input (InputLayer)          (None, 176, 80, 96,  0                                            
+__________________________________________________________________________________________________
+affine_input (InputLayer)       (None, 176, 80, 96,  0                                            
+__________________________________________________________________________________________________
+model_2 (Model)                 [(None, 176, 80, 96, 1178495     tgt_input[0][0]                  
+                                                                 src_input[0][0]                  
+                                                                 affine_input[0][0]               
+__________________________________________________________________________________________________
+seg_input (InputLayer)          (None, 176, 80, 96,  0                                            
+__________________________________________________________________________________________________
+model_1 (Model)                 (None, 176, 80, 96,  1473697     seg_input[0][0]                  
+__________________________________________________________________________________________________
+nonr_def (Lambda)               (None, 176, 80, 96,  0           model_2[1][1]                    
+__________________________________________________________________________________________________
+srcSegm (Lambda)                (None, 176, 80, 96,  0           model_1[1][0]                    
+__________________________________________________________________________________________________
+all_def (Add)                   (None, 176, 80, 96,  0           nonr_def[0][0]                   
+                                                                 affine_input[0][0]               
+__________________________________________________________________________________________________
+warpedSrc (Lambda)              (None, 176, 80, 96,  0           model_2[1][0]                    
+__________________________________________________________________________________________________
+movedSegm (SpatialTransformer)  [(None, 176, 80, 96, 0           srcSegm[0][0]                    
+                                                                 all_def[0][0]                    
+==================================================================================================
+Total params: 2,652,192
+Trainable params: 2,649,264
+Non-trainable params: 2,928
+__________________________________________________________________________________________________
+Training a new model!
+Epoch 1/300
+
+  1/138 [..............................] - ETA: 4:37:26 - loss: 2.6821 - warpedSrc_loss: 0.0711 - movedSegm_loss: 0.9665 - srcSegm_loss: 0.9638 - nonr_def_loss: 0.4058 - warpedSrc_MeanSquaredError: 0.0711 - movedSegm_sigmoid_sftDC: 0.0389 - srcSegm_sigmoid_DC: 0.0480 - nonr_def_mean_absolute_error: 0.6314
+  2/138 [..............................] - ETA: 4:18:18 - loss: 2.5594 - warpedSrc_loss: 0.0623 - movedSegm_loss: 0.9532 - srcSegm_loss: 0.9516 - nonr_def_loss: 0.3132 - warpedSrc_MeanSquaredError: 0.0623 - movedSegm_sigmoid_sftDC: 0.0845 - srcSegm_sigmoid_DC: 0.0837 - nonr_def_mean_absolute_error: 0.6271
+  3/138 [..............................] - ETA: 4:10:52 - loss: 4.2605 - warpedSrc_loss: 0.2341 - movedSegm_loss: 0.9457 - srcSegm_loss: 0.9498 - nonr_def_loss: 0.2435 - warpedSrc_MeanSquaredError: 0.2341 - movedSegm_sigmoid_sftDC: 0.1102 - srcSegm_sigmoid_DC: 0.0901 - nonr_def_mean_absolute_error: 0.6099
+  4/138 [..............................] - ETA: 4:06:13 - loss: 3.7620 - warpedSrc_loss: 0.1863 - movedSegm_loss: 0.9374 - srcSegm_loss: 0.9408 - nonr_def_loss: 0.2061 - warpedSrc_MeanSquaredError: 0.1863 - movedSegm_sigmoid_sftDC: 0.1374 - srcSegm_sigmoid_DC: 0.1185 - nonr_def_mean_absolute_error: 0.6069
+  5/138 [>.............................] - ETA: 4:02:41 - loss: 4.3641 - warpedSrc_loss: 0.2460 - movedSegm_loss: 0.9482 - srcSegm_loss: 0.9376 - nonr_def_loss: 0.1812 - warpedSrc_MeanSquaredError: 0.2460 - movedSegm_sigmoid_sftDC: 0.1133 - srcSegm_sigmoid_DC: 0.1251 - nonr_def_mean_absolute_error: 0.5952
+  6/138 [>.............................] - ETA: 3:59:39 - loss: 4.9802 - warpedSrc_loss: 0.3094 - movedSegm_loss: 0.9380 - srcSegm_loss: 0.9322 - nonr_def_loss: 0.1612 - warpedSrc_MeanSquaredError: 0.3094 - movedSegm_sigmoid_sftDC: 0.1238 - srcSegm_sigmoid_DC: 0.1297 - nonr_def_mean_absolute_error: 0.5799
+  7/138 [>.............................] - ETA: 3:57:03 - loss: 4.5539 - warpedSrc_loss: 0.2685 - movedSegm_loss: 0.9292 - srcSegm_loss: 0.9245 - nonr_def_loss: 0.1479 - warpedSrc_MeanSquaredError: 0.2685 - movedSegm_sigmoid_sftDC: 0.1330 - srcSegm_sigmoid_DC: 0.1372 - nonr_def_mean_absolute_error: 0.5705
+  8/138 [>.............................] - ETA: 3:54:42 - loss: 4.8318 - warpedSrc_loss: 0.2985 - movedSegm_loss: 0.9196 - srcSegm_loss: 0.9135 - nonr_def_loss: 0.1360 - warpedSrc_MeanSquaredError: 0.2985 - movedSegm_sigmoid_sftDC: 0.1452 - srcSegm_sigmoid_DC: 0.1506 - nonr_def_mean_absolute_error: 0.5596
+  9/138 [>.............................] - ETA: 3:52:24 - loss: 5.2946 - warpedSrc_loss: 0.3459 - movedSegm_loss: 0.9091 - srcSegm_loss: 0.9142 - nonr_def_loss: 0.1271 - warpedSrc_MeanSquaredError: 0.3459 - movedSegm_sigmoid_sftDC: 0.1576 - srcSegm_sigmoid_DC: 0.1468 - nonr_def_mean_absolute_error: 0.5521

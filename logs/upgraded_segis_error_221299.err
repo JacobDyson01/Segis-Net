@@ -1,0 +1,16 @@
+2024-10-25 15:12:09.856654: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-10-25 15:12:10.610770: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1525] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 15401 MB memory:  -> device: 0, name: Tesla P100-PCIE-16GB, pci bus id: 0000:04:00.0, compute capability: 6.0
+WARNING:tensorflow:From /home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/tensorflow/python/util/deprecation.py:616: calling map_fn_v2 (from tensorflow.python.ops.map_fn) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Use fn_output_signature instead
+Traceback (most recent call last):
+  File "/home/groups/dlmrimnd/jacob/projects/Segis-Net/code/Segis-Net/Train_SegisNet.py", line 163, in <module>
+    history = model.fit(
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/keras/utils/traceback_utils.py", line 67, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/groups/dlmrimnd/jacob/projects/Segis-Net/code/Segis-Net/SegisNet_model_dataGenerator.py", line 79, in generate
+    x, y = self.__data_generation(list_IDs_temp, R_path, S_path, segm_path, affine_path)
+  File "/home/groups/dlmrimnd/jacob/projects/Segis-Net/code/Segis-Net/SegisNet_model_dataGenerator.py", line 146, in __data_generation
+    S_src[i] = tensor
+ValueError: could not broadcast input array from shape (197,233,189,1) into shape (256,256,256,1)

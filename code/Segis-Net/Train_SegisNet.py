@@ -1,25 +1,26 @@
-"""
-# tensorflow/keras training for Segis-Net
-for non-linear registration and concurrent segmentation of multiple white matter tracts
-developed in:
-    Li et al., Longitudinal diffusion MRI analysis using Segis-Net: a single-step deep-learning
-    framework for simultaneous segmentation and registration. NeuroImage 2021.
-paper: https://arxiv.org/abs/2012.14230
-
-please cite the paper if the code/method would be useful to your work.
-
-# for suggestions and questions, contact: BL (b.li@erasmusmc.nl)
-"""
-
 import os
 from os.path import join, exists
 import numpy as np
-from keras.callbacks import ModelCheckpoint, ReduceLROnPlateau, CSVLogger
-from keras.optimizers import Adam
-import keras.backend as K
+import tensorflow as tf
+from tensorflow.keras.callbacks import ModelCheckpoint, ReduceLROnPlateau, CSVLogger
+from tensorflow.keras.optimizers import Adam
+import tensorflow.keras.backend as K
 from tools import Adaptive_LossWeight, LossHistory_basic
 from Loss_metrics import sigmoid_DC, sigmoid_sftDC, grad_loss, DCLoss, MeanSquaredError
 from SegisNet_model_dataGenerator import joint_model, DataGenerator
+
+# Check if GPU is available using TensorFlow 2.x API
+gpus = tf.config.list_physical_devices('GPU')
+if gpus:
+    print("GPU is available")
+    try:
+        # Set memory growth to avoid memory issues
+        for gpu in gpus:
+            tf.config.experimental.set_memory_growth(gpu, True)
+    except RuntimeError as e:
+        print(e)
+else:
+    print("GPU is not available")
 
 # GPU settings
 G = 1
@@ -28,15 +29,12 @@ if G == 1:
 
 """ Initial setting """
 # Define paths
-data_p = '/home/groups/dlmrimnd/jacob/data/combined_data'
-# images to be registered, e.g., fractional anisotropy (FA) derived from DTI
-R_path    = join(data_p,'warped_input_roi') 
-# images to be segmented, e.g., diffusion tensor image (with six components)
-S_path    = join(data_p,'warped_input_roi') 
-# segmentation labels for supervised training
-segm_path = join(data_p,'warped_masks_roi')   # Segmentation labels
-affine_path = join(data_p, 'deformation_fields_roi_real')  # Affine transformations
-save_path = join(data_p, 'saved_results', 'run_proper_1')
+data_p = '/home/groups/dlmrimnd/jacob/data/upgraded_segis_data'
+R_path = join(data_p, 'warped_input_roi')
+S_path = join(data_p, 'warped_input_roi')
+segm_path = join(data_p, 'warped_masks_roi')  # Segmentation labels
+affine_path = join(data_p, 'deformation_fields_roi')  # Affine transformations
+save_path = join(data_p, 'saved_results', 'run_proper_5')
 
 if not exists(save_path):
     os.makedirs(save_path)
@@ -58,7 +56,7 @@ structs = ['cgc_l', 'cgc_r', 'cgh_l', 'cgh_r', 'fma', 'fmi', 'atr_l', 'atr_r',
 
 # Parameters for data generator
 params_train = {
-    'dim_xyz': (176, 80, 96),
+    'dim_xyz': (192,192,176),
     'R_ch': 1,
     'S_ch': 1,
     'batch_size': 1,
@@ -89,7 +87,7 @@ para_decay_auto = {
 }
 
 opt = Adam(
-    lr=para_decay_auto['initial_lr'], beta_1=0.9, beta_2=0.999,
+    learning_rate=para_decay_auto['initial_lr'], beta_1=0.9, beta_2=0.999,
     epsilon=1e-08, decay=0.0, clipnorm=1.
 )
 
@@ -140,30 +138,30 @@ adaptive_weight = Adaptive_LossWeight(lamda)
 auto_decay = ReduceLROnPlateau(
     monitor='val_srcSegm_sigmoid_DC', factor=para_decay_auto['drop_percent'], 
     patience=para_decay_auto['patience'], verbose=1, mode='max',
-    epsilon=para_decay_auto['threshold_epsilon'], cooldown=para_decay_auto['cooldown'], 
+    min_delta=para_decay_auto['threshold_epsilon'], cooldown=para_decay_auto['cooldown'], 
     min_lr=para_decay_auto['min_lr']
 )
 loss_history = LossHistory_basic(auto_decay)
 
 check = ModelCheckpoint(
     check_path, monitor='val_srcSegm_sigmoid_DC', verbose=1, save_best_only=True, 
-    save_weights_only=True, mode='max', period=1
+    save_weights_only=True, mode='max'
 )
 check_2 = ModelCheckpoint(
     check2_path, monitor='val_movedSegm_sigmoid_sftDC', verbose=1, 
-    save_best_only=True, save_weights_only=True, mode='max', period=1
+    save_best_only=True, save_weights_only=True, mode='max'
 )
 check_each_epoch = ModelCheckpoint(
     weight_path_out, monitor='val_loss', verbose=1, save_best_only=False, 
-    save_weights_only=True, mode='min', period=1
+    save_weights_only=True, mode='min'
 )
 csv_logger = CSVLogger(train_his_path, separator=',', append=True)
 
 callbacks_list = [check, check_2, check_each_epoch, auto_decay, loss_history, csv_logger, adaptive_weight]
 
 # Training the model
-history = model.fit_generator(
-    generator=train_generator,
+history = model.fit(
+    train_generator,
     steps_per_epoch=len(train_index) // params_train['batch_size'],
     epochs=n_epoch,
     verbose=1, callbacks=callbacks_list,

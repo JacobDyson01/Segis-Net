@@ -1,1218 +1,0 @@
-Starting the preprocessing pipeline and deformation field generation using ANTs
-Created input files for sub-002MND_sub-002MND_ses-01_sub-002MND_ses-02
-Warping source image to template for sub-002MND_sub-002MND_ses-01_sub-002MND_ses-02
-Moving image '/input/sub-002MND_sub-002MND_ses-01_sub-002MND_ses-02/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-002MND_sub-002MND_ses-01_sub-002MND_ses-02
-Moving image '/input/sub-002MND_sub-002MND_ses-01_sub-002MND_ses-02/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-002MND_sub-002MND_ses-01_sub-002MND_ses-02
-Warping source image to template for sub-002MND_sub-002MND_ses-01_sub-002MND_ses-02
-Moving image '/input/sub-002MND_sub-002MND_ses-01_sub-002MND_ses-02/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-002MND_sub-002MND_ses-01_sub-002MND_ses-02
-Moving image '/input/sub-002MND_sub-002MND_ses-01_sub-002MND_ses-02/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-003MND_sub-003MND_ses-01_sub-003MND_ses-02
-Warping source image to template for sub-003MND_sub-003MND_ses-01_sub-003MND_ses-02
-Moving image '/input/sub-003MND_sub-003MND_ses-01_sub-003MND_ses-02/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-003MND_sub-003MND_ses-01_sub-003MND_ses-02
-Moving image '/input/sub-003MND_sub-003MND_ses-01_sub-003MND_ses-02/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-003MND_sub-003MND_ses-01_sub-003MND_ses-03
-Warping source image to template for sub-003MND_sub-003MND_ses-01_sub-003MND_ses-03
-Moving image '/input/sub-003MND_sub-003MND_ses-01_sub-003MND_ses-03/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-003MND_sub-003MND_ses-01_sub-003MND_ses-03
-Moving image '/input/sub-003MND_sub-003MND_ses-01_sub-003MND_ses-03/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-003MND_sub-003MND_ses-01_sub-003MND_ses-04
-Warping source image to template for sub-003MND_sub-003MND_ses-01_sub-003MND_ses-04
-Moving image '/input/sub-003MND_sub-003MND_ses-01_sub-003MND_ses-04/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-003MND_sub-003MND_ses-01_sub-003MND_ses-04
-Moving image '/input/sub-003MND_sub-003MND_ses-01_sub-003MND_ses-04/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-003MND_sub-003MND_ses-02_sub-003MND_ses-03
-Warping source image to template for sub-003MND_sub-003MND_ses-02_sub-003MND_ses-03
-Moving image '/input/sub-003MND_sub-003MND_ses-02_sub-003MND_ses-03/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-003MND_sub-003MND_ses-02_sub-003MND_ses-03
-Moving image '/input/sub-003MND_sub-003MND_ses-02_sub-003MND_ses-03/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-003MND_sub-003MND_ses-02_sub-003MND_ses-04
-Warping source image to template for sub-003MND_sub-003MND_ses-02_sub-003MND_ses-04
-Moving image '/input/sub-003MND_sub-003MND_ses-02_sub-003MND_ses-04/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-003MND_sub-003MND_ses-02_sub-003MND_ses-04
-Moving image '/input/sub-003MND_sub-003MND_ses-02_sub-003MND_ses-04/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-003MND_sub-003MND_ses-03_sub-003MND_ses-04
-Warping source image to template for sub-003MND_sub-003MND_ses-03_sub-003MND_ses-04
-Moving image '/input/sub-003MND_sub-003MND_ses-03_sub-003MND_ses-04/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-003MND_sub-003MND_ses-03_sub-003MND_ses-04
-Moving image '/input/sub-003MND_sub-003MND_ses-03_sub-003MND_ses-04/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-003MND_sub-003MND_ses-01_sub-003MND_ses-02
-Warping source image to template for sub-003MND_sub-003MND_ses-01_sub-003MND_ses-02
-Moving image '/input/sub-003MND_sub-003MND_ses-01_sub-003MND_ses-02/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-003MND_sub-003MND_ses-01_sub-003MND_ses-02
-Moving image '/input/sub-003MND_sub-003MND_ses-01_sub-003MND_ses-02/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-003MND_sub-003MND_ses-01_sub-003MND_ses-03
-Warping source image to template for sub-003MND_sub-003MND_ses-01_sub-003MND_ses-03
-Moving image '/input/sub-003MND_sub-003MND_ses-01_sub-003MND_ses-03/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-003MND_sub-003MND_ses-01_sub-003MND_ses-03
-Moving image '/input/sub-003MND_sub-003MND_ses-01_sub-003MND_ses-03/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-003MND_sub-003MND_ses-01_sub-003MND_ses-04
-Warping source image to template for sub-003MND_sub-003MND_ses-01_sub-003MND_ses-04
-Moving image '/input/sub-003MND_sub-003MND_ses-01_sub-003MND_ses-04/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-003MND_sub-003MND_ses-01_sub-003MND_ses-04
-Moving image '/input/sub-003MND_sub-003MND_ses-01_sub-003MND_ses-04/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-003MND_sub-003MND_ses-02_sub-003MND_ses-03
-Warping source image to template for sub-003MND_sub-003MND_ses-02_sub-003MND_ses-03
-Moving image '/input/sub-003MND_sub-003MND_ses-02_sub-003MND_ses-03/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-003MND_sub-003MND_ses-02_sub-003MND_ses-03
-Moving image '/input/sub-003MND_sub-003MND_ses-02_sub-003MND_ses-03/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-003MND_sub-003MND_ses-02_sub-003MND_ses-04
-Warping source image to template for sub-003MND_sub-003MND_ses-02_sub-003MND_ses-04
-Moving image '/input/sub-003MND_sub-003MND_ses-02_sub-003MND_ses-04/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-003MND_sub-003MND_ses-02_sub-003MND_ses-04
-Moving image '/input/sub-003MND_sub-003MND_ses-02_sub-003MND_ses-04/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-003MND_sub-003MND_ses-03_sub-003MND_ses-04
-Warping source image to template for sub-003MND_sub-003MND_ses-03_sub-003MND_ses-04
-Moving image '/input/sub-003MND_sub-003MND_ses-03_sub-003MND_ses-04/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-003MND_sub-003MND_ses-03_sub-003MND_ses-04
-Moving image '/input/sub-003MND_sub-003MND_ses-03_sub-003MND_ses-04/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-003MND_sub-003MND_ses-01_sub-003MND_ses-02
-Warping source image to template for sub-003MND_sub-003MND_ses-01_sub-003MND_ses-02
-Moving image '/input/sub-003MND_sub-003MND_ses-01_sub-003MND_ses-02/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-003MND_sub-003MND_ses-01_sub-003MND_ses-02
-Moving image '/input/sub-003MND_sub-003MND_ses-01_sub-003MND_ses-02/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-003MND_sub-003MND_ses-01_sub-003MND_ses-03
-Warping source image to template for sub-003MND_sub-003MND_ses-01_sub-003MND_ses-03
-Moving image '/input/sub-003MND_sub-003MND_ses-01_sub-003MND_ses-03/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-003MND_sub-003MND_ses-01_sub-003MND_ses-03
-Moving image '/input/sub-003MND_sub-003MND_ses-01_sub-003MND_ses-03/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-003MND_sub-003MND_ses-01_sub-003MND_ses-04
-Warping source image to template for sub-003MND_sub-003MND_ses-01_sub-003MND_ses-04
-Moving image '/input/sub-003MND_sub-003MND_ses-01_sub-003MND_ses-04/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-003MND_sub-003MND_ses-01_sub-003MND_ses-04
-Moving image '/input/sub-003MND_sub-003MND_ses-01_sub-003MND_ses-04/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-003MND_sub-003MND_ses-02_sub-003MND_ses-03
-Warping source image to template for sub-003MND_sub-003MND_ses-02_sub-003MND_ses-03
-Moving image '/input/sub-003MND_sub-003MND_ses-02_sub-003MND_ses-03/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-003MND_sub-003MND_ses-02_sub-003MND_ses-03
-Moving image '/input/sub-003MND_sub-003MND_ses-02_sub-003MND_ses-03/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-003MND_sub-003MND_ses-02_sub-003MND_ses-04
-Warping source image to template for sub-003MND_sub-003MND_ses-02_sub-003MND_ses-04
-Moving image '/input/sub-003MND_sub-003MND_ses-02_sub-003MND_ses-04/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-003MND_sub-003MND_ses-02_sub-003MND_ses-04
-Moving image '/input/sub-003MND_sub-003MND_ses-02_sub-003MND_ses-04/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-003MND_sub-003MND_ses-03_sub-003MND_ses-04
-Warping source image to template for sub-003MND_sub-003MND_ses-03_sub-003MND_ses-04
-Moving image '/input/sub-003MND_sub-003MND_ses-03_sub-003MND_ses-04/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-003MND_sub-003MND_ses-03_sub-003MND_ses-04
-Moving image '/input/sub-003MND_sub-003MND_ses-03_sub-003MND_ses-04/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-003MND_sub-003MND_ses-01_sub-003MND_ses-02
-Warping source image to template for sub-003MND_sub-003MND_ses-01_sub-003MND_ses-02
-Moving image '/input/sub-003MND_sub-003MND_ses-01_sub-003MND_ses-02/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-003MND_sub-003MND_ses-01_sub-003MND_ses-02
-Moving image '/input/sub-003MND_sub-003MND_ses-01_sub-003MND_ses-02/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-003MND_sub-003MND_ses-01_sub-003MND_ses-03
-Warping source image to template for sub-003MND_sub-003MND_ses-01_sub-003MND_ses-03
-Moving image '/input/sub-003MND_sub-003MND_ses-01_sub-003MND_ses-03/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-003MND_sub-003MND_ses-01_sub-003MND_ses-03
-Moving image '/input/sub-003MND_sub-003MND_ses-01_sub-003MND_ses-03/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-003MND_sub-003MND_ses-01_sub-003MND_ses-04
-Warping source image to template for sub-003MND_sub-003MND_ses-01_sub-003MND_ses-04
-Moving image '/input/sub-003MND_sub-003MND_ses-01_sub-003MND_ses-04/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-003MND_sub-003MND_ses-01_sub-003MND_ses-04
-Moving image '/input/sub-003MND_sub-003MND_ses-01_sub-003MND_ses-04/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-003MND_sub-003MND_ses-02_sub-003MND_ses-03
-Warping source image to template for sub-003MND_sub-003MND_ses-02_sub-003MND_ses-03
-Moving image '/input/sub-003MND_sub-003MND_ses-02_sub-003MND_ses-03/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-003MND_sub-003MND_ses-02_sub-003MND_ses-03
-Moving image '/input/sub-003MND_sub-003MND_ses-02_sub-003MND_ses-03/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-003MND_sub-003MND_ses-02_sub-003MND_ses-04
-Warping source image to template for sub-003MND_sub-003MND_ses-02_sub-003MND_ses-04
-Moving image '/input/sub-003MND_sub-003MND_ses-02_sub-003MND_ses-04/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-003MND_sub-003MND_ses-02_sub-003MND_ses-04
-Moving image '/input/sub-003MND_sub-003MND_ses-02_sub-003MND_ses-04/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-003MND_sub-003MND_ses-03_sub-003MND_ses-04
-Warping source image to template for sub-003MND_sub-003MND_ses-03_sub-003MND_ses-04
-Moving image '/input/sub-003MND_sub-003MND_ses-03_sub-003MND_ses-04/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-003MND_sub-003MND_ses-03_sub-003MND_ses-04
-Moving image '/input/sub-003MND_sub-003MND_ses-03_sub-003MND_ses-04/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-004MND_sub-004MND_ses-01_sub-004MND_ses-02
-Warping source image to template for sub-004MND_sub-004MND_ses-01_sub-004MND_ses-02
-Moving image '/input/sub-004MND_sub-004MND_ses-01_sub-004MND_ses-02/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-004MND_sub-004MND_ses-01_sub-004MND_ses-02
-Moving image '/input/sub-004MND_sub-004MND_ses-01_sub-004MND_ses-02/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-004MND_sub-004MND_ses-01_sub-004MND_ses-02
-Warping source image to template for sub-004MND_sub-004MND_ses-01_sub-004MND_ses-02
-Moving image '/input/sub-004MND_sub-004MND_ses-01_sub-004MND_ses-02/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-004MND_sub-004MND_ses-01_sub-004MND_ses-02
-Moving image '/input/sub-004MND_sub-004MND_ses-01_sub-004MND_ses-02/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-04
-Warping source image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-04
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-04/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-04
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-04/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-05
-Warping source image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-05
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-05/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-05
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-05/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-06
-Warping source image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-06
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-06/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-06
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-06/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-07
-Warping source image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-07
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-07/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-07
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-07/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-08
-Warping source image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-08/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-08/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-09
-Warping source image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-09/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-09/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-05
-Warping source image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-05
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-05/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-05
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-05/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-06
-Warping source image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-06
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-06/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-06
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-06/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-07
-Warping source image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-07
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-07/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-07
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-07/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-08
-Warping source image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-08/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-08/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-09
-Warping source image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-09/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-09/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-06
-Warping source image to template for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-06
-Moving image '/input/sub-005MND_sub-005MND_ses-05_sub-005MND_ses-06/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-06
-Moving image '/input/sub-005MND_sub-005MND_ses-05_sub-005MND_ses-06/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-07
-Warping source image to template for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-07
-Moving image '/input/sub-005MND_sub-005MND_ses-05_sub-005MND_ses-07/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-07
-Moving image '/input/sub-005MND_sub-005MND_ses-05_sub-005MND_ses-07/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-08
-Warping source image to template for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-05_sub-005MND_ses-08/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-05_sub-005MND_ses-08/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-09
-Warping source image to template for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-05_sub-005MND_ses-09/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-05_sub-005MND_ses-09/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-06_sub-005MND_ses-07
-Warping source image to template for sub-005MND_sub-005MND_ses-06_sub-005MND_ses-07
-Moving image '/input/sub-005MND_sub-005MND_ses-06_sub-005MND_ses-07/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-06_sub-005MND_ses-07
-Moving image '/input/sub-005MND_sub-005MND_ses-06_sub-005MND_ses-07/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-06_sub-005MND_ses-08
-Warping source image to template for sub-005MND_sub-005MND_ses-06_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-06_sub-005MND_ses-08/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-06_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-06_sub-005MND_ses-08/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-06_sub-005MND_ses-09
-Warping source image to template for sub-005MND_sub-005MND_ses-06_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-06_sub-005MND_ses-09/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-06_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-06_sub-005MND_ses-09/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-07_sub-005MND_ses-08
-Warping source image to template for sub-005MND_sub-005MND_ses-07_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-07_sub-005MND_ses-08/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-07_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-07_sub-005MND_ses-08/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-07_sub-005MND_ses-09
-Warping source image to template for sub-005MND_sub-005MND_ses-07_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-07_sub-005MND_ses-09/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-07_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-07_sub-005MND_ses-09/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-08_sub-005MND_ses-09
-Warping source image to template for sub-005MND_sub-005MND_ses-08_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-08_sub-005MND_ses-09/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-08_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-08_sub-005MND_ses-09/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-04
-Warping source image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-04
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-04/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-04
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-04/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-05
-Warping source image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-05
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-05/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-05
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-05/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-06
-Warping source image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-06
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-06/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-06
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-06/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-07
-Warping source image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-07
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-07/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-07
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-07/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-08
-Warping source image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-08/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-08/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-09
-Warping source image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-09/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-09/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-05
-Warping source image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-05
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-05/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-05
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-05/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-06
-Warping source image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-06
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-06/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-06
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-06/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-07
-Warping source image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-07
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-07/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-07
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-07/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-08
-Warping source image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-08/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-08/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-09
-Warping source image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-09/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-09/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-06
-Warping source image to template for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-06
-Moving image '/input/sub-005MND_sub-005MND_ses-05_sub-005MND_ses-06/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-06
-Moving image '/input/sub-005MND_sub-005MND_ses-05_sub-005MND_ses-06/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-07
-Warping source image to template for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-07
-Moving image '/input/sub-005MND_sub-005MND_ses-05_sub-005MND_ses-07/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-07
-Moving image '/input/sub-005MND_sub-005MND_ses-05_sub-005MND_ses-07/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-08
-Warping source image to template for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-05_sub-005MND_ses-08/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-05_sub-005MND_ses-08/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-09
-Warping source image to template for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-05_sub-005MND_ses-09/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-05_sub-005MND_ses-09/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-06_sub-005MND_ses-07
-Warping source image to template for sub-005MND_sub-005MND_ses-06_sub-005MND_ses-07
-Moving image '/input/sub-005MND_sub-005MND_ses-06_sub-005MND_ses-07/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-06_sub-005MND_ses-07
-Moving image '/input/sub-005MND_sub-005MND_ses-06_sub-005MND_ses-07/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-06_sub-005MND_ses-08
-Warping source image to template for sub-005MND_sub-005MND_ses-06_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-06_sub-005MND_ses-08/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-06_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-06_sub-005MND_ses-08/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-06_sub-005MND_ses-09
-Warping source image to template for sub-005MND_sub-005MND_ses-06_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-06_sub-005MND_ses-09/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-06_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-06_sub-005MND_ses-09/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-07_sub-005MND_ses-08
-Warping source image to template for sub-005MND_sub-005MND_ses-07_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-07_sub-005MND_ses-08/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-07_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-07_sub-005MND_ses-08/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-07_sub-005MND_ses-09
-Warping source image to template for sub-005MND_sub-005MND_ses-07_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-07_sub-005MND_ses-09/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-07_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-07_sub-005MND_ses-09/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-08_sub-005MND_ses-09
-Warping source image to template for sub-005MND_sub-005MND_ses-08_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-08_sub-005MND_ses-09/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-08_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-08_sub-005MND_ses-09/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-04
-Warping source image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-04
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-04/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-04
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-04/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-05
-Warping source image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-05
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-05/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-05
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-05/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-06
-Warping source image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-06
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-06/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-06
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-06/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-07
-Warping source image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-07
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-07/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-07
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-07/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-08
-Warping source image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-08/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-08/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-09
-Warping source image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-09/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-09/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-05
-Warping source image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-05
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-05/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-05
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-05/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-06
-Warping source image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-06
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-06/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-06
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-06/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-07
-Warping source image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-07
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-07/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-07
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-07/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-08
-Warping source image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-08/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-08/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-09
-Warping source image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-09/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-09/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-06
-Warping source image to template for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-06
-Moving image '/input/sub-005MND_sub-005MND_ses-05_sub-005MND_ses-06/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-06
-Moving image '/input/sub-005MND_sub-005MND_ses-05_sub-005MND_ses-06/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-07
-Warping source image to template for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-07
-Moving image '/input/sub-005MND_sub-005MND_ses-05_sub-005MND_ses-07/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-07
-Moving image '/input/sub-005MND_sub-005MND_ses-05_sub-005MND_ses-07/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-08
-Warping source image to template for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-05_sub-005MND_ses-08/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-05_sub-005MND_ses-08/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-09
-Warping source image to template for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-05_sub-005MND_ses-09/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-05_sub-005MND_ses-09/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-06_sub-005MND_ses-07
-Warping source image to template for sub-005MND_sub-005MND_ses-06_sub-005MND_ses-07
-Moving image '/input/sub-005MND_sub-005MND_ses-06_sub-005MND_ses-07/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-06_sub-005MND_ses-07
-Moving image '/input/sub-005MND_sub-005MND_ses-06_sub-005MND_ses-07/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-06_sub-005MND_ses-08
-Warping source image to template for sub-005MND_sub-005MND_ses-06_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-06_sub-005MND_ses-08/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-06_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-06_sub-005MND_ses-08/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-06_sub-005MND_ses-09
-Warping source image to template for sub-005MND_sub-005MND_ses-06_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-06_sub-005MND_ses-09/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-06_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-06_sub-005MND_ses-09/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-07_sub-005MND_ses-08
-Warping source image to template for sub-005MND_sub-005MND_ses-07_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-07_sub-005MND_ses-08/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-07_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-07_sub-005MND_ses-08/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-07_sub-005MND_ses-09
-Warping source image to template for sub-005MND_sub-005MND_ses-07_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-07_sub-005MND_ses-09/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-07_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-07_sub-005MND_ses-09/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-08_sub-005MND_ses-09
-Warping source image to template for sub-005MND_sub-005MND_ses-08_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-08_sub-005MND_ses-09/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-08_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-08_sub-005MND_ses-09/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-04
-Warping source image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-04
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-04/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-04
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-04/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-05
-Warping source image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-05
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-05/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-05
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-05/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-06
-Warping source image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-06
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-06/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-06
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-06/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-07
-Warping source image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-07
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-07/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-07
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-07/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-08
-Warping source image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-08/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-08/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-09
-Warping source image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-09/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-09/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-05
-Warping source image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-05
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-05/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-05
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-05/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-06
-Warping source image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-06
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-06/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-06
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-06/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-07
-Warping source image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-07
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-07/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-07
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-07/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-08
-Warping source image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-08/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-08/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-09
-Warping source image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-09/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-09/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-06
-Warping source image to template for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-06
-Moving image '/input/sub-005MND_sub-005MND_ses-05_sub-005MND_ses-06/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-06
-Moving image '/input/sub-005MND_sub-005MND_ses-05_sub-005MND_ses-06/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-07
-Warping source image to template for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-07
-Moving image '/input/sub-005MND_sub-005MND_ses-05_sub-005MND_ses-07/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-07
-Moving image '/input/sub-005MND_sub-005MND_ses-05_sub-005MND_ses-07/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-08
-Warping source image to template for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-05_sub-005MND_ses-08/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-05_sub-005MND_ses-08/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-09
-Warping source image to template for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-05_sub-005MND_ses-09/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-05_sub-005MND_ses-09/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-06_sub-005MND_ses-07
-Warping source image to template for sub-005MND_sub-005MND_ses-06_sub-005MND_ses-07
-Moving image '/input/sub-005MND_sub-005MND_ses-06_sub-005MND_ses-07/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-06_sub-005MND_ses-07
-Moving image '/input/sub-005MND_sub-005MND_ses-06_sub-005MND_ses-07/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-06_sub-005MND_ses-08
-Warping source image to template for sub-005MND_sub-005MND_ses-06_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-06_sub-005MND_ses-08/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-06_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-06_sub-005MND_ses-08/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-06_sub-005MND_ses-09
-Warping source image to template for sub-005MND_sub-005MND_ses-06_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-06_sub-005MND_ses-09/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-06_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-06_sub-005MND_ses-09/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-07_sub-005MND_ses-08
-Warping source image to template for sub-005MND_sub-005MND_ses-07_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-07_sub-005MND_ses-08/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-07_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-07_sub-005MND_ses-08/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-07_sub-005MND_ses-09
-Warping source image to template for sub-005MND_sub-005MND_ses-07_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-07_sub-005MND_ses-09/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-07_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-07_sub-005MND_ses-09/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-08_sub-005MND_ses-09
-Warping source image to template for sub-005MND_sub-005MND_ses-08_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-08_sub-005MND_ses-09/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-08_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-08_sub-005MND_ses-09/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-04
-Warping source image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-04
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-04/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-04
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-04/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-05
-Warping source image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-05
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-05/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-05
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-05/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-06
-Warping source image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-06
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-06/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-06
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-06/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-07
-Warping source image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-07
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-07/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-07
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-07/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-08
-Warping source image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-08/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-08/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-09
-Warping source image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-09/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-09/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-05
-Warping source image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-05
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-05/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-05
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-05/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-06
-Warping source image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-06
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-06/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-06
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-06/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-07
-Warping source image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-07
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-07/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-07
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-07/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-08
-Warping source image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-08/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-08/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-09
-Warping source image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-09/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-09/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-06
-Warping source image to template for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-06
-Moving image '/input/sub-005MND_sub-005MND_ses-05_sub-005MND_ses-06/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-06
-Moving image '/input/sub-005MND_sub-005MND_ses-05_sub-005MND_ses-06/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-07
-Warping source image to template for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-07
-Moving image '/input/sub-005MND_sub-005MND_ses-05_sub-005MND_ses-07/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-07
-Moving image '/input/sub-005MND_sub-005MND_ses-05_sub-005MND_ses-07/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-08
-Warping source image to template for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-05_sub-005MND_ses-08/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-05_sub-005MND_ses-08/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-09
-Warping source image to template for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-05_sub-005MND_ses-09/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-05_sub-005MND_ses-09/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-06_sub-005MND_ses-07
-Warping source image to template for sub-005MND_sub-005MND_ses-06_sub-005MND_ses-07
-Moving image '/input/sub-005MND_sub-005MND_ses-06_sub-005MND_ses-07/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-06_sub-005MND_ses-07
-Moving image '/input/sub-005MND_sub-005MND_ses-06_sub-005MND_ses-07/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-06_sub-005MND_ses-08
-Warping source image to template for sub-005MND_sub-005MND_ses-06_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-06_sub-005MND_ses-08/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-06_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-06_sub-005MND_ses-08/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-06_sub-005MND_ses-09
-Warping source image to template for sub-005MND_sub-005MND_ses-06_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-06_sub-005MND_ses-09/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-06_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-06_sub-005MND_ses-09/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-07_sub-005MND_ses-08
-Warping source image to template for sub-005MND_sub-005MND_ses-07_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-07_sub-005MND_ses-08/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-07_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-07_sub-005MND_ses-08/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-07_sub-005MND_ses-09
-Warping source image to template for sub-005MND_sub-005MND_ses-07_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-07_sub-005MND_ses-09/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-07_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-07_sub-005MND_ses-09/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-08_sub-005MND_ses-09
-Warping source image to template for sub-005MND_sub-005MND_ses-08_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-08_sub-005MND_ses-09/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-08_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-08_sub-005MND_ses-09/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-04
-Warping source image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-04
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-04/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-04
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-04/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-05
-Warping source image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-05
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-05/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-05
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-05/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-06
-Warping source image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-06
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-06/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-06
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-06/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-07
-Warping source image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-07
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-07/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-07
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-07/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-08
-Warping source image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-08/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-08/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-09
-Warping source image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-09/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-09/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-05
-Warping source image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-05
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-05/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-05
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-05/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-06
-Warping source image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-06
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-06/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-06
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-06/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-07
-Warping source image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-07
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-07/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-07
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-07/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-08
-Warping source image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-08/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-08/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-09
-Warping source image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-09/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-09/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-06
-Warping source image to template for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-06
-Moving image '/input/sub-005MND_sub-005MND_ses-05_sub-005MND_ses-06/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-06
-Moving image '/input/sub-005MND_sub-005MND_ses-05_sub-005MND_ses-06/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-07
-Warping source image to template for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-07
-Moving image '/input/sub-005MND_sub-005MND_ses-05_sub-005MND_ses-07/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-07
-Moving image '/input/sub-005MND_sub-005MND_ses-05_sub-005MND_ses-07/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-08
-Warping source image to template for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-05_sub-005MND_ses-08/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-05_sub-005MND_ses-08/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-09
-Warping source image to template for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-05_sub-005MND_ses-09/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-05_sub-005MND_ses-09/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-06_sub-005MND_ses-07
-Warping source image to template for sub-005MND_sub-005MND_ses-06_sub-005MND_ses-07
-Moving image '/input/sub-005MND_sub-005MND_ses-06_sub-005MND_ses-07/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-06_sub-005MND_ses-07
-Moving image '/input/sub-005MND_sub-005MND_ses-06_sub-005MND_ses-07/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-06_sub-005MND_ses-08
-Warping source image to template for sub-005MND_sub-005MND_ses-06_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-06_sub-005MND_ses-08/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-06_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-06_sub-005MND_ses-08/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-06_sub-005MND_ses-09
-Warping source image to template for sub-005MND_sub-005MND_ses-06_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-06_sub-005MND_ses-09/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-06_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-06_sub-005MND_ses-09/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-07_sub-005MND_ses-08
-Warping source image to template for sub-005MND_sub-005MND_ses-07_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-07_sub-005MND_ses-08/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-07_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-07_sub-005MND_ses-08/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-07_sub-005MND_ses-09
-Warping source image to template for sub-005MND_sub-005MND_ses-07_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-07_sub-005MND_ses-09/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-07_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-07_sub-005MND_ses-09/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-08_sub-005MND_ses-09
-Warping source image to template for sub-005MND_sub-005MND_ses-08_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-08_sub-005MND_ses-09/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-08_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-08_sub-005MND_ses-09/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-04
-Warping source image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-04
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-04/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-04
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-04/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-05
-Warping source image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-05
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-05/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-05
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-05/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-06
-Warping source image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-06
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-06/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-06
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-06/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-07
-Warping source image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-07
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-07/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-07
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-07/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-08
-Warping source image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-08/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-08/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-09
-Warping source image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-09/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-01_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-01_sub-005MND_ses-09/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-05
-Warping source image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-05
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-05/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-05
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-05/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-06
-Warping source image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-06
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-06/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-06
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-06/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-07
-Warping source image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-07
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-07/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-07
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-07/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-08
-Warping source image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-08/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-08/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-09
-Warping source image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-09/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-04_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-04_sub-005MND_ses-09/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-06
-Warping source image to template for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-06
-Moving image '/input/sub-005MND_sub-005MND_ses-05_sub-005MND_ses-06/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-06
-Moving image '/input/sub-005MND_sub-005MND_ses-05_sub-005MND_ses-06/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-07
-Warping source image to template for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-07
-Moving image '/input/sub-005MND_sub-005MND_ses-05_sub-005MND_ses-07/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-07
-Moving image '/input/sub-005MND_sub-005MND_ses-05_sub-005MND_ses-07/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-08
-Warping source image to template for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-05_sub-005MND_ses-08/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-05_sub-005MND_ses-08/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-09
-Warping source image to template for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-05_sub-005MND_ses-09/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-05_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-05_sub-005MND_ses-09/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-06_sub-005MND_ses-07
-Warping source image to template for sub-005MND_sub-005MND_ses-06_sub-005MND_ses-07
-Moving image '/input/sub-005MND_sub-005MND_ses-06_sub-005MND_ses-07/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-06_sub-005MND_ses-07
-Moving image '/input/sub-005MND_sub-005MND_ses-06_sub-005MND_ses-07/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-06_sub-005MND_ses-08
-Warping source image to template for sub-005MND_sub-005MND_ses-06_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-06_sub-005MND_ses-08/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-06_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-06_sub-005MND_ses-08/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-06_sub-005MND_ses-09
-Warping source image to template for sub-005MND_sub-005MND_ses-06_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-06_sub-005MND_ses-09/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-06_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-06_sub-005MND_ses-09/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-07_sub-005MND_ses-08
-Warping source image to template for sub-005MND_sub-005MND_ses-07_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-07_sub-005MND_ses-08/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-07_sub-005MND_ses-08
-Moving image '/input/sub-005MND_sub-005MND_ses-07_sub-005MND_ses-08/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-07_sub-005MND_ses-09
-Warping source image to template for sub-005MND_sub-005MND_ses-07_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-07_sub-005MND_ses-09/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-07_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-07_sub-005MND_ses-09/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-005MND_sub-005MND_ses-08_sub-005MND_ses-09
-Warping source image to template for sub-005MND_sub-005MND_ses-08_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-08_sub-005MND_ses-09/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-005MND_sub-005MND_ses-08_sub-005MND_ses-09
-Moving image '/input/sub-005MND_sub-005MND_ses-08_sub-005MND_ses-09/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-006MND_sub-006MND_ses-01_sub-006MND_ses-02
-Warping source image to template for sub-006MND_sub-006MND_ses-01_sub-006MND_ses-02
-Moving image '/input/sub-006MND_sub-006MND_ses-01_sub-006MND_ses-02/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-006MND_sub-006MND_ses-01_sub-006MND_ses-02
-Moving image '/input/sub-006MND_sub-006MND_ses-01_sub-006MND_ses-02/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-006MND_sub-006MND_ses-01_sub-006MND_ses-02
-Warping source image to template for sub-006MND_sub-006MND_ses-01_sub-006MND_ses-02
-Moving image '/input/sub-006MND_sub-006MND_ses-01_sub-006MND_ses-02/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-006MND_sub-006MND_ses-01_sub-006MND_ses-02
-Moving image '/input/sub-006MND_sub-006MND_ses-01_sub-006MND_ses-02/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-007MND_sub-007MND_ses-01_sub-007MND_ses-02
-Warping source image to template for sub-007MND_sub-007MND_ses-01_sub-007MND_ses-02
-Moving image '/input/sub-007MND_sub-007MND_ses-01_sub-007MND_ses-02/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-007MND_sub-007MND_ses-01_sub-007MND_ses-02
-Moving image '/input/sub-007MND_sub-007MND_ses-01_sub-007MND_ses-02/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-007MND_sub-007MND_ses-01_sub-007MND_ses-03
-Warping source image to template for sub-007MND_sub-007MND_ses-01_sub-007MND_ses-03
-Moving image '/input/sub-007MND_sub-007MND_ses-01_sub-007MND_ses-03/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-007MND_sub-007MND_ses-01_sub-007MND_ses-03
-Moving image '/input/sub-007MND_sub-007MND_ses-01_sub-007MND_ses-03/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-007MND_sub-007MND_ses-02_sub-007MND_ses-03
-Warping source image to template for sub-007MND_sub-007MND_ses-02_sub-007MND_ses-03
-Moving image '/input/sub-007MND_sub-007MND_ses-02_sub-007MND_ses-03/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-007MND_sub-007MND_ses-02_sub-007MND_ses-03
-Moving image '/input/sub-007MND_sub-007MND_ses-02_sub-007MND_ses-03/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-007MND_sub-007MND_ses-01_sub-007MND_ses-02
-Warping source image to template for sub-007MND_sub-007MND_ses-01_sub-007MND_ses-02
-Moving image '/input/sub-007MND_sub-007MND_ses-01_sub-007MND_ses-02/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-007MND_sub-007MND_ses-01_sub-007MND_ses-02
-Moving image '/input/sub-007MND_sub-007MND_ses-01_sub-007MND_ses-02/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-007MND_sub-007MND_ses-01_sub-007MND_ses-03
-Warping source image to template for sub-007MND_sub-007MND_ses-01_sub-007MND_ses-03
-Moving image '/input/sub-007MND_sub-007MND_ses-01_sub-007MND_ses-03/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-007MND_sub-007MND_ses-01_sub-007MND_ses-03
-Moving image '/input/sub-007MND_sub-007MND_ses-01_sub-007MND_ses-03/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-007MND_sub-007MND_ses-02_sub-007MND_ses-03
-Warping source image to template for sub-007MND_sub-007MND_ses-02_sub-007MND_ses-03
-Moving image '/input/sub-007MND_sub-007MND_ses-02_sub-007MND_ses-03/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-007MND_sub-007MND_ses-02_sub-007MND_ses-03
-Moving image '/input/sub-007MND_sub-007MND_ses-02_sub-007MND_ses-03/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-007MND_sub-007MND_ses-01_sub-007MND_ses-02
-Warping source image to template for sub-007MND_sub-007MND_ses-01_sub-007MND_ses-02
-Moving image '/input/sub-007MND_sub-007MND_ses-01_sub-007MND_ses-02/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-007MND_sub-007MND_ses-01_sub-007MND_ses-02
-Moving image '/input/sub-007MND_sub-007MND_ses-01_sub-007MND_ses-02/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-007MND_sub-007MND_ses-01_sub-007MND_ses-03
-Warping source image to template for sub-007MND_sub-007MND_ses-01_sub-007MND_ses-03
-Moving image '/input/sub-007MND_sub-007MND_ses-01_sub-007MND_ses-03/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-007MND_sub-007MND_ses-01_sub-007MND_ses-03
-Moving image '/input/sub-007MND_sub-007MND_ses-01_sub-007MND_ses-03/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-007MND_sub-007MND_ses-02_sub-007MND_ses-03
-Warping source image to template for sub-007MND_sub-007MND_ses-02_sub-007MND_ses-03
-Moving image '/input/sub-007MND_sub-007MND_ses-02_sub-007MND_ses-03/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-007MND_sub-007MND_ses-02_sub-007MND_ses-03
-Moving image '/input/sub-007MND_sub-007MND_ses-02_sub-007MND_ses-03/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-008MND_sub-008MND_ses-01_sub-008MND_ses-02
-Warping source image to template for sub-008MND_sub-008MND_ses-01_sub-008MND_ses-02
-Moving image '/input/sub-008MND_sub-008MND_ses-01_sub-008MND_ses-02/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-008MND_sub-008MND_ses-01_sub-008MND_ses-02
-Moving image '/input/sub-008MND_sub-008MND_ses-01_sub-008MND_ses-02/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-008MND_sub-008MND_ses-01_sub-008MND_ses-02
-Warping source image to template for sub-008MND_sub-008MND_ses-01_sub-008MND_ses-02
-Moving image '/input/sub-008MND_sub-008MND_ses-01_sub-008MND_ses-02/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-008MND_sub-008MND_ses-01_sub-008MND_ses-02
-Moving image '/input/sub-008MND_sub-008MND_ses-01_sub-008MND_ses-02/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-009MND_sub-009MND_ses-01_sub-009MND_ses-02
-Warping source image to template for sub-009MND_sub-009MND_ses-01_sub-009MND_ses-02
-Moving image '/input/sub-009MND_sub-009MND_ses-01_sub-009MND_ses-02/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-009MND_sub-009MND_ses-01_sub-009MND_ses-02
-Moving image '/input/sub-009MND_sub-009MND_ses-01_sub-009MND_ses-02/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-009MND_sub-009MND_ses-01_sub-009MND_ses-02
-Warping source image to template for sub-009MND_sub-009MND_ses-01_sub-009MND_ses-02
-Moving image '/input/sub-009MND_sub-009MND_ses-01_sub-009MND_ses-02/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-009MND_sub-009MND_ses-01_sub-009MND_ses-02
-Moving image '/input/sub-009MND_sub-009MND_ses-01_sub-009MND_ses-02/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-010MND_sub-010MND_ses-01_sub-010MND_ses-02
-Warping source image to template for sub-010MND_sub-010MND_ses-01_sub-010MND_ses-02
-Moving image '/input/sub-010MND_sub-010MND_ses-01_sub-010MND_ses-02/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-010MND_sub-010MND_ses-01_sub-010MND_ses-02
-Moving image '/input/sub-010MND_sub-010MND_ses-01_sub-010MND_ses-02/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-010MND_sub-010MND_ses-01_sub-010MND_ses-02
-Warping source image to template for sub-010MND_sub-010MND_ses-01_sub-010MND_ses-02
-Moving image '/input/sub-010MND_sub-010MND_ses-01_sub-010MND_ses-02/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-010MND_sub-010MND_ses-01_sub-010MND_ses-02
-Moving image '/input/sub-010MND_sub-010MND_ses-01_sub-010MND_ses-02/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-011MND_sub-011MND_ses-01_sub-011MND_ses-02
-Warping source image to template for sub-011MND_sub-011MND_ses-01_sub-011MND_ses-02
-Moving image '/input/sub-011MND_sub-011MND_ses-01_sub-011MND_ses-02/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-011MND_sub-011MND_ses-01_sub-011MND_ses-02
-Moving image '/input/sub-011MND_sub-011MND_ses-01_sub-011MND_ses-02/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-011MND_sub-011MND_ses-01_sub-011MND_ses-02
-Warping source image to template for sub-011MND_sub-011MND_ses-01_sub-011MND_ses-02
-Moving image '/input/sub-011MND_sub-011MND_ses-01_sub-011MND_ses-02/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-011MND_sub-011MND_ses-01_sub-011MND_ses-02
-Moving image '/input/sub-011MND_sub-011MND_ses-01_sub-011MND_ses-02/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-012MND_sub-012MND_ses-01_sub-012MND_ses-02
-Warping source image to template for sub-012MND_sub-012MND_ses-01_sub-012MND_ses-02
-Moving image '/input/sub-012MND_sub-012MND_ses-01_sub-012MND_ses-02/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-012MND_sub-012MND_ses-01_sub-012MND_ses-02
-Moving image '/input/sub-012MND_sub-012MND_ses-01_sub-012MND_ses-02/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-012MND_sub-012MND_ses-01_sub-012MND_ses-02
-Warping source image to template for sub-012MND_sub-012MND_ses-01_sub-012MND_ses-02
-Moving image '/input/sub-012MND_sub-012MND_ses-01_sub-012MND_ses-02/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-012MND_sub-012MND_ses-01_sub-012MND_ses-02
-Moving image '/input/sub-012MND_sub-012MND_ses-01_sub-012MND_ses-02/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-013MND_sub-013MND_ses-01_sub-013MND_ses-02
-Warping source image to template for sub-013MND_sub-013MND_ses-01_sub-013MND_ses-02
-Moving image '/input/sub-013MND_sub-013MND_ses-01_sub-013MND_ses-02/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-013MND_sub-013MND_ses-01_sub-013MND_ses-02
-Moving image '/input/sub-013MND_sub-013MND_ses-01_sub-013MND_ses-02/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-013MND_sub-013MND_ses-01_sub-013MND_ses-02
-Warping source image to template for sub-013MND_sub-013MND_ses-01_sub-013MND_ses-02
-Moving image '/input/sub-013MND_sub-013MND_ses-01_sub-013MND_ses-02/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-013MND_sub-013MND_ses-01_sub-013MND_ses-02
-Moving image '/input/sub-013MND_sub-013MND_ses-01_sub-013MND_ses-02/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-014MND_sub-014MND_ses-01_sub-014MND_ses-02
-Warping source image to template for sub-014MND_sub-014MND_ses-01_sub-014MND_ses-02
-Moving image '/input/sub-014MND_sub-014MND_ses-01_sub-014MND_ses-02/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-014MND_sub-014MND_ses-01_sub-014MND_ses-02
-Moving image '/input/sub-014MND_sub-014MND_ses-01_sub-014MND_ses-02/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-014MND_sub-014MND_ses-01_sub-014MND_ses-03
-Warping source image to template for sub-014MND_sub-014MND_ses-01_sub-014MND_ses-03
-Moving image '/input/sub-014MND_sub-014MND_ses-01_sub-014MND_ses-03/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-014MND_sub-014MND_ses-01_sub-014MND_ses-03
-Moving image '/input/sub-014MND_sub-014MND_ses-01_sub-014MND_ses-03/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-014MND_sub-014MND_ses-02_sub-014MND_ses-03
-Warping source image to template for sub-014MND_sub-014MND_ses-02_sub-014MND_ses-03
-Moving image '/input/sub-014MND_sub-014MND_ses-02_sub-014MND_ses-03/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-014MND_sub-014MND_ses-02_sub-014MND_ses-03
-Moving image '/input/sub-014MND_sub-014MND_ses-02_sub-014MND_ses-03/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-014MND_sub-014MND_ses-01_sub-014MND_ses-02
-Warping source image to template for sub-014MND_sub-014MND_ses-01_sub-014MND_ses-02
-Moving image '/input/sub-014MND_sub-014MND_ses-01_sub-014MND_ses-02/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-014MND_sub-014MND_ses-01_sub-014MND_ses-02
-Moving image '/input/sub-014MND_sub-014MND_ses-01_sub-014MND_ses-02/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-014MND_sub-014MND_ses-01_sub-014MND_ses-03
-Warping source image to template for sub-014MND_sub-014MND_ses-01_sub-014MND_ses-03
-Moving image '/input/sub-014MND_sub-014MND_ses-01_sub-014MND_ses-03/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-014MND_sub-014MND_ses-01_sub-014MND_ses-03
-Moving image '/input/sub-014MND_sub-014MND_ses-01_sub-014MND_ses-03/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-014MND_sub-014MND_ses-02_sub-014MND_ses-03
-Warping source image to template for sub-014MND_sub-014MND_ses-02_sub-014MND_ses-03
-Moving image '/input/sub-014MND_sub-014MND_ses-02_sub-014MND_ses-03/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-014MND_sub-014MND_ses-02_sub-014MND_ses-03
-Moving image '/input/sub-014MND_sub-014MND_ses-02_sub-014MND_ses-03/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-014MND_sub-014MND_ses-01_sub-014MND_ses-02
-Warping source image to template for sub-014MND_sub-014MND_ses-01_sub-014MND_ses-02
-Moving image '/input/sub-014MND_sub-014MND_ses-01_sub-014MND_ses-02/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-014MND_sub-014MND_ses-01_sub-014MND_ses-02
-Moving image '/input/sub-014MND_sub-014MND_ses-01_sub-014MND_ses-02/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-014MND_sub-014MND_ses-01_sub-014MND_ses-03
-Warping source image to template for sub-014MND_sub-014MND_ses-01_sub-014MND_ses-03
-Moving image '/input/sub-014MND_sub-014MND_ses-01_sub-014MND_ses-03/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-014MND_sub-014MND_ses-01_sub-014MND_ses-03
-Moving image '/input/sub-014MND_sub-014MND_ses-01_sub-014MND_ses-03/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-014MND_sub-014MND_ses-02_sub-014MND_ses-03
-Warping source image to template for sub-014MND_sub-014MND_ses-02_sub-014MND_ses-03
-Moving image '/input/sub-014MND_sub-014MND_ses-02_sub-014MND_ses-03/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-014MND_sub-014MND_ses-02_sub-014MND_ses-03
-Moving image '/input/sub-014MND_sub-014MND_ses-02_sub-014MND_ses-03/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Skipping sub-015MND as it has only one session.
-Created input files for sub-016MND_sub-016MND_ses-01_sub-016MND_ses-02
-Warping source image to template for sub-016MND_sub-016MND_ses-01_sub-016MND_ses-02
-Moving image '/input/sub-016MND_sub-016MND_ses-01_sub-016MND_ses-02/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-016MND_sub-016MND_ses-01_sub-016MND_ses-02
-Moving image '/input/sub-016MND_sub-016MND_ses-01_sub-016MND_ses-02/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-016MND_sub-016MND_ses-01_sub-016MND_ses-02
-Warping source image to template for sub-016MND_sub-016MND_ses-01_sub-016MND_ses-02
-Moving image '/input/sub-016MND_sub-016MND_ses-01_sub-016MND_ses-02/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-016MND_sub-016MND_ses-01_sub-016MND_ses-02
-Moving image '/input/sub-016MND_sub-016MND_ses-01_sub-016MND_ses-02/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-017MND_sub-017MND_ses-01_sub-017MND_ses-02
-Warping source image to template for sub-017MND_sub-017MND_ses-01_sub-017MND_ses-02
-Moving image '/input/sub-017MND_sub-017MND_ses-01_sub-017MND_ses-02/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-017MND_sub-017MND_ses-01_sub-017MND_ses-02
-Moving image '/input/sub-017MND_sub-017MND_ses-01_sub-017MND_ses-02/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-017MND_sub-017MND_ses-01_sub-017MND_ses-03
-Warping source image to template for sub-017MND_sub-017MND_ses-01_sub-017MND_ses-03
-Moving image '/input/sub-017MND_sub-017MND_ses-01_sub-017MND_ses-03/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-017MND_sub-017MND_ses-01_sub-017MND_ses-03
-Moving image '/input/sub-017MND_sub-017MND_ses-01_sub-017MND_ses-03/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-017MND_sub-017MND_ses-01_sub-017MND_ses-04
-Warping source image to template for sub-017MND_sub-017MND_ses-01_sub-017MND_ses-04
-Moving image '/input/sub-017MND_sub-017MND_ses-01_sub-017MND_ses-04/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-017MND_sub-017MND_ses-01_sub-017MND_ses-04
-Moving image '/input/sub-017MND_sub-017MND_ses-01_sub-017MND_ses-04/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-017MND_sub-017MND_ses-01_sub-017MND_ses-05
-Warping source image to template for sub-017MND_sub-017MND_ses-01_sub-017MND_ses-05
-Moving image '/input/sub-017MND_sub-017MND_ses-01_sub-017MND_ses-05/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-017MND_sub-017MND_ses-01_sub-017MND_ses-05
-Moving image '/input/sub-017MND_sub-017MND_ses-01_sub-017MND_ses-05/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-017MND_sub-017MND_ses-02_sub-017MND_ses-03
-Warping source image to template for sub-017MND_sub-017MND_ses-02_sub-017MND_ses-03
-Moving image '/input/sub-017MND_sub-017MND_ses-02_sub-017MND_ses-03/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-017MND_sub-017MND_ses-02_sub-017MND_ses-03
-Created input files for sub-017MND_sub-017MND_ses-02_sub-017MND_ses-04
-Warping source image to template for sub-017MND_sub-017MND_ses-02_sub-017MND_ses-04
-Moving image '/input/sub-017MND_sub-017MND_ses-02_sub-017MND_ses-04/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-017MND_sub-017MND_ses-02_sub-017MND_ses-04
-Moving image '/input/sub-017MND_sub-017MND_ses-02_sub-017MND_ses-04/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-017MND_sub-017MND_ses-02_sub-017MND_ses-05
-Warping source image to template for sub-017MND_sub-017MND_ses-02_sub-017MND_ses-05
-Moving image '/input/sub-017MND_sub-017MND_ses-02_sub-017MND_ses-05/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-017MND_sub-017MND_ses-02_sub-017MND_ses-05
-Moving image '/input/sub-017MND_sub-017MND_ses-02_sub-017MND_ses-05/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-017MND_sub-017MND_ses-03_sub-017MND_ses-04
-Warping source image to template for sub-017MND_sub-017MND_ses-03_sub-017MND_ses-04
-Moving image '/input/sub-017MND_sub-017MND_ses-03_sub-017MND_ses-04/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-017MND_sub-017MND_ses-03_sub-017MND_ses-04
-Moving image '/input/sub-017MND_sub-017MND_ses-03_sub-017MND_ses-04/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-017MND_sub-017MND_ses-03_sub-017MND_ses-05
-Warping source image to template for sub-017MND_sub-017MND_ses-03_sub-017MND_ses-05
-Moving image '/input/sub-017MND_sub-017MND_ses-03_sub-017MND_ses-05/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-017MND_sub-017MND_ses-03_sub-017MND_ses-05
-Moving image '/input/sub-017MND_sub-017MND_ses-03_sub-017MND_ses-05/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-017MND_sub-017MND_ses-04_sub-017MND_ses-05
-Warping source image to template for sub-017MND_sub-017MND_ses-04_sub-017MND_ses-05
-Moving image '/input/sub-017MND_sub-017MND_ses-04_sub-017MND_ses-05/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-017MND_sub-017MND_ses-04_sub-017MND_ses-05
-Created input files for sub-017MND_sub-017MND_ses-01_sub-017MND_ses-02
-Warping source image to template for sub-017MND_sub-017MND_ses-01_sub-017MND_ses-02
-Moving image '/input/sub-017MND_sub-017MND_ses-01_sub-017MND_ses-02/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-017MND_sub-017MND_ses-01_sub-017MND_ses-02
-Moving image '/input/sub-017MND_sub-017MND_ses-01_sub-017MND_ses-02/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-017MND_sub-017MND_ses-01_sub-017MND_ses-03
-Warping source image to template for sub-017MND_sub-017MND_ses-01_sub-017MND_ses-03
-Moving image '/input/sub-017MND_sub-017MND_ses-01_sub-017MND_ses-03/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-017MND_sub-017MND_ses-01_sub-017MND_ses-03
-Moving image '/input/sub-017MND_sub-017MND_ses-01_sub-017MND_ses-03/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-017MND_sub-017MND_ses-01_sub-017MND_ses-04
-Warping source image to template for sub-017MND_sub-017MND_ses-01_sub-017MND_ses-04
-Moving image '/input/sub-017MND_sub-017MND_ses-01_sub-017MND_ses-04/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-017MND_sub-017MND_ses-01_sub-017MND_ses-04
-Moving image '/input/sub-017MND_sub-017MND_ses-01_sub-017MND_ses-04/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-017MND_sub-017MND_ses-01_sub-017MND_ses-05
-Warping source image to template for sub-017MND_sub-017MND_ses-01_sub-017MND_ses-05
-Moving image '/input/sub-017MND_sub-017MND_ses-01_sub-017MND_ses-05/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-017MND_sub-017MND_ses-01_sub-017MND_ses-05
-Moving image '/input/sub-017MND_sub-017MND_ses-01_sub-017MND_ses-05/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-017MND_sub-017MND_ses-02_sub-017MND_ses-03
-Warping source image to template for sub-017MND_sub-017MND_ses-02_sub-017MND_ses-03
-Moving image '/input/sub-017MND_sub-017MND_ses-02_sub-017MND_ses-03/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-017MND_sub-017MND_ses-02_sub-017MND_ses-03
-Moving image '/input/sub-017MND_sub-017MND_ses-02_sub-017MND_ses-03/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-017MND_sub-017MND_ses-02_sub-017MND_ses-04
-Warping source image to template for sub-017MND_sub-017MND_ses-02_sub-017MND_ses-04
-Moving image '/input/sub-017MND_sub-017MND_ses-02_sub-017MND_ses-04/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-017MND_sub-017MND_ses-02_sub-017MND_ses-04
-Moving image '/input/sub-017MND_sub-017MND_ses-02_sub-017MND_ses-04/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-017MND_sub-017MND_ses-02_sub-017MND_ses-05
-Warping source image to template for sub-017MND_sub-017MND_ses-02_sub-017MND_ses-05
-Moving image '/input/sub-017MND_sub-017MND_ses-02_sub-017MND_ses-05/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-017MND_sub-017MND_ses-02_sub-017MND_ses-05
-Moving image '/input/sub-017MND_sub-017MND_ses-02_sub-017MND_ses-05/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-017MND_sub-017MND_ses-03_sub-017MND_ses-04
-Warping source image to template for sub-017MND_sub-017MND_ses-03_sub-017MND_ses-04
-Moving image '/input/sub-017MND_sub-017MND_ses-03_sub-017MND_ses-04/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-017MND_sub-017MND_ses-03_sub-017MND_ses-04
-Moving image '/input/sub-017MND_sub-017MND_ses-03_sub-017MND_ses-04/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-017MND_sub-017MND_ses-03_sub-017MND_ses-05
-Warping source image to template for sub-017MND_sub-017MND_ses-03_sub-017MND_ses-05
-Moving image '/input/sub-017MND_sub-017MND_ses-03_sub-017MND_ses-05/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-017MND_sub-017MND_ses-03_sub-017MND_ses-05
-Moving image '/input/sub-017MND_sub-017MND_ses-03_sub-017MND_ses-05/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-017MND_sub-017MND_ses-04_sub-017MND_ses-05
-Warping source image to template for sub-017MND_sub-017MND_ses-04_sub-017MND_ses-05
-Moving image '/input/sub-017MND_sub-017MND_ses-04_sub-017MND_ses-05/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-017MND_sub-017MND_ses-04_sub-017MND_ses-05
-Moving image '/input/sub-017MND_sub-017MND_ses-04_sub-017MND_ses-05/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-017MND_sub-017MND_ses-01_sub-017MND_ses-02
-Warping source image to template for sub-017MND_sub-017MND_ses-01_sub-017MND_ses-02
-Moving image '/input/sub-017MND_sub-017MND_ses-01_sub-017MND_ses-02/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-017MND_sub-017MND_ses-01_sub-017MND_ses-02
-Moving image '/input/sub-017MND_sub-017MND_ses-01_sub-017MND_ses-02/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-017MND_sub-017MND_ses-01_sub-017MND_ses-03
-Warping source image to template for sub-017MND_sub-017MND_ses-01_sub-017MND_ses-03
-Moving image '/input/sub-017MND_sub-017MND_ses-01_sub-017MND_ses-03/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-017MND_sub-017MND_ses-01_sub-017MND_ses-03
-Moving image '/input/sub-017MND_sub-017MND_ses-01_sub-017MND_ses-03/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-017MND_sub-017MND_ses-01_sub-017MND_ses-04
-Warping source image to template for sub-017MND_sub-017MND_ses-01_sub-017MND_ses-04
-Moving image '/input/sub-017MND_sub-017MND_ses-01_sub-017MND_ses-04/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-017MND_sub-017MND_ses-01_sub-017MND_ses-04
-Moving image '/input/sub-017MND_sub-017MND_ses-01_sub-017MND_ses-04/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-017MND_sub-017MND_ses-01_sub-017MND_ses-05
-Warping source image to template for sub-017MND_sub-017MND_ses-01_sub-017MND_ses-05
-Moving image '/input/sub-017MND_sub-017MND_ses-01_sub-017MND_ses-05/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-017MND_sub-017MND_ses-01_sub-017MND_ses-05
-Moving image '/input/sub-017MND_sub-017MND_ses-01_sub-017MND_ses-05/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-017MND_sub-017MND_ses-02_sub-017MND_ses-03
-Warping source image to template for sub-017MND_sub-017MND_ses-02_sub-017MND_ses-03
-Moving image '/input/sub-017MND_sub-017MND_ses-02_sub-017MND_ses-03/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-017MND_sub-017MND_ses-02_sub-017MND_ses-03
-Moving image '/input/sub-017MND_sub-017MND_ses-02_sub-017MND_ses-03/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-017MND_sub-017MND_ses-02_sub-017MND_ses-04
-Warping source image to template for sub-017MND_sub-017MND_ses-02_sub-017MND_ses-04
-Moving image '/input/sub-017MND_sub-017MND_ses-02_sub-017MND_ses-04/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-017MND_sub-017MND_ses-02_sub-017MND_ses-04
-Moving image '/input/sub-017MND_sub-017MND_ses-02_sub-017MND_ses-04/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-017MND_sub-017MND_ses-02_sub-017MND_ses-05
-Warping source image to template for sub-017MND_sub-017MND_ses-02_sub-017MND_ses-05
-Moving image '/input/sub-017MND_sub-017MND_ses-02_sub-017MND_ses-05/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-017MND_sub-017MND_ses-02_sub-017MND_ses-05
-Moving image '/input/sub-017MND_sub-017MND_ses-02_sub-017MND_ses-05/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-017MND_sub-017MND_ses-03_sub-017MND_ses-04
-Warping source image to template for sub-017MND_sub-017MND_ses-03_sub-017MND_ses-04
-Moving image '/input/sub-017MND_sub-017MND_ses-03_sub-017MND_ses-04/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-017MND_sub-017MND_ses-03_sub-017MND_ses-04
-Moving image '/input/sub-017MND_sub-017MND_ses-03_sub-017MND_ses-04/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-017MND_sub-017MND_ses-03_sub-017MND_ses-05
-Warping source image to template for sub-017MND_sub-017MND_ses-03_sub-017MND_ses-05
-Moving image '/input/sub-017MND_sub-017MND_ses-03_sub-017MND_ses-05/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-017MND_sub-017MND_ses-03_sub-017MND_ses-05
-Moving image '/input/sub-017MND_sub-017MND_ses-03_sub-017MND_ses-05/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-017MND_sub-017MND_ses-04_sub-017MND_ses-05
-Warping source image to template for sub-017MND_sub-017MND_ses-04_sub-017MND_ses-05
-Moving image '/input/sub-017MND_sub-017MND_ses-04_sub-017MND_ses-05/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-017MND_sub-017MND_ses-04_sub-017MND_ses-05
-Moving image '/input/sub-017MND_sub-017MND_ses-04_sub-017MND_ses-05/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-017MND_sub-017MND_ses-01_sub-017MND_ses-02
-Warping source image to template for sub-017MND_sub-017MND_ses-01_sub-017MND_ses-02
-Moving image '/input/sub-017MND_sub-017MND_ses-01_sub-017MND_ses-02/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-017MND_sub-017MND_ses-01_sub-017MND_ses-02
-Moving image '/input/sub-017MND_sub-017MND_ses-01_sub-017MND_ses-02/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-017MND_sub-017MND_ses-01_sub-017MND_ses-03
-Warping source image to template for sub-017MND_sub-017MND_ses-01_sub-017MND_ses-03
-Moving image '/input/sub-017MND_sub-017MND_ses-01_sub-017MND_ses-03/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-017MND_sub-017MND_ses-01_sub-017MND_ses-03
-Moving image '/input/sub-017MND_sub-017MND_ses-01_sub-017MND_ses-03/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-017MND_sub-017MND_ses-01_sub-017MND_ses-04
-Warping source image to template for sub-017MND_sub-017MND_ses-01_sub-017MND_ses-04
-Moving image '/input/sub-017MND_sub-017MND_ses-01_sub-017MND_ses-04/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-017MND_sub-017MND_ses-01_sub-017MND_ses-04
-Moving image '/input/sub-017MND_sub-017MND_ses-01_sub-017MND_ses-04/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-017MND_sub-017MND_ses-01_sub-017MND_ses-05
-Warping source image to template for sub-017MND_sub-017MND_ses-01_sub-017MND_ses-05
-Moving image '/input/sub-017MND_sub-017MND_ses-01_sub-017MND_ses-05/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Warping target image to template for sub-017MND_sub-017MND_ses-01_sub-017MND_ses-05
-Moving image '/input/sub-017MND_sub-017MND_ses-01_sub-017MND_ses-05/target.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'
-Created input files for sub-017MND_sub-017MND_ses-02_sub-017MND_ses-03
-Warping source image to template for sub-017MND_sub-017MND_ses-02_sub-017MND_ses-03
-Moving image '/input/sub-017MND_sub-017MND_ses-02_sub-017MND_ses-03/source.nii.gz' does not exist.  See usage: '/opt/ants/bin/antsRegistrationSyNQuick.sh -h 1'

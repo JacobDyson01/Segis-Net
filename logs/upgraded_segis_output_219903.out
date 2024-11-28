@@ -1,0 +1,3 @@
+Checking TensorFlow:
+TensorFlow Version: 2.13.0
+CUDA is NOT available for TensorFlow.

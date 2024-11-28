@@ -1,0 +1,52 @@
+Checking TensorFlow:
+TensorFlow Version: 2.8.0
+TensorFlow is using GPU: /physical_device:GPU:0
+CUDA Version: 11.2
+CUDNN Version: 8
+GPU is available
+Constructing model
+Model: "model_2"
+__________________________________________________________________________________________________
+ Layer (type)                   Output Shape         Param #     Connected to                     
+==================================================================================================
+ tgt_input (InputLayer)         [(None, 256, 256, 2  0           []                               
+                                56, 1)]                                                           
+                                                                                                  
+ src_input (InputLayer)         [(None, 256, 256, 2  0           []                               
+                                56, 1)]                                                           
+                                                                                                  
+ affine_input (InputLayer)      [(None, 256, 256, 2  0           []                               
+                                56, 3)]                                                           
+                                                                                                  
+ model_1 (Functional)           [(None, 256, 256, 2  4707067     ['tgt_input[0][0]',              
+                                56, 1),                           'src_input[0][0]',              
+                                 (None, 256, 256, 2               'affine_input[0][0]']           
+                                56, 3)]                                                           
+                                                                                                  
+ seg_input (InputLayer)         [(None, 256, 256, 2  0           []                               
+                                56, 1)]                                                           
+                                                                                                  
+ model (Functional)             (None, 256, 256, 25  5888449     ['seg_input[0][0]']              
+                                6, 1)                                                             
+                                                                                                  
+ nonr_def (Lambda)              (None, 256, 256, 25  0           ['model_1[0][1]']                
+                                6, 3)                                                             
+                                                                                                  
+ srcSegm (Lambda)               (None, 256, 256, 25  0           ['model[0][0]']                  
+                                6, 1)                                                             
+                                                                                                  
+ all_def (Add)                  (None, 256, 256, 25  0           ['nonr_def[0][0]',               
+                                6, 3)                             'affine_input[0][0]']           
+                                                                                                  
+ warpedSrc (Lambda)             (None, 256, 256, 25  0           ['model_1[0][0]']                
+                                6, 1)                                                             
+                                                                                                  
+ movedSegm (SpatialTransformer)  (None, 256, 256, 25  0          ['srcSegm[0][0]',                
+                                6, 1)                             'all_def[0][0]']                
+                                                                                                  
+==================================================================================================
+Total params: 10,595,516
+Trainable params: 10,589,660
+Non-trainable params: 5,856
+__________________________________________________________________________________________________
+Training a new model!

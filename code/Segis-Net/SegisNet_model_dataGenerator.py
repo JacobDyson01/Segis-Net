@@ -1,15 +1,14 @@
-from keras.models import Model
-from keras.layers import Input, Add, Lambda
-import keras.backend as K
-import tensorflow as tf
-from os.path import join
-from keras.engine import Layer
+import os
 import nibabel as nib
 import numpy as np
+import tensorflow as tf
+from tensorflow.keras.models import Model
+from tensorflow.keras.layers import Input, Add, Lambda
+from os.path import join
+from tensorflow.keras.layers import Layer
 from Transform_layer_interpn_0 import SpatialTransformer as Transformer
 from SegNet_model_segGener import seg_net
 from RegNet_model_regGener import reg_net
-
 
 def joint_model(img_xyz, R_ch, S_ch, n_output, indexing='ij', alpha=0.2):
     # Define inputs
@@ -63,11 +62,18 @@ class DataGenerator(object):
         while 1:
             # Generate order of exploration of dataset
             indexes = self.__get_exploration_order(part_index)
-            imax = int(len(indexes) / self.batch_size)
+            imax = int(np.floor(len(indexes) / self.batch_size))  # Ensure we only process full batches
             
             for i in range(imax):
+                # Ensure that the slice doesn't go out of bounds
+                batch_indexes = indexes[i*self.batch_size:(i+1)*self.batch_size]
+
+                # Safeguard against the batch being incomplete or empty
+                if len(batch_indexes) == 0:
+                    continue
+
                 # Find list of IDs for the batch
-                list_IDs_temp = [part_index[k] for k in indexes[i*self.batch_size:(i+1)*self.batch_size]]
+                list_IDs_temp = [part_index[k] for k in batch_indexes]
                 
                 # Generate data
                 x, y = self.__data_generation(list_IDs_temp, R_path, S_path, segm_path, affine_path)
@@ -93,7 +99,7 @@ class DataGenerator(object):
         
         # 3 channels for the 3D affine deformation field
         aff_def = np.zeros((self.batch_size, *self.dim_xyz, 3)).astype(dtype='float32')
-        zeros = np.zeros((self.batch_size, *self.dim_xyz, 3)).astype(dtype='float16')
+        zeros = np.zeros((self.batch_size, *self.dim_xyz, 3)).astype(dtype='float32')
         
         # Generate batch
         for i, ID in enumerate(list_IDs_temp):
@@ -104,18 +110,16 @@ class DataGenerator(object):
             ses2 = subject_ses[2]
 
             # Load the target and source images
-            tgt_p = join(R_path, f'{subject}_{ses1}_{ses2}', 'target_Warped_roi.nii.gz')
-            src_p = join(R_path, f'{subject}_{ses1}_{ses2}', 'source_Warped_roi.nii.gz')
+            tgt_p = join(R_path, f'{subject}_{ses1}_{ses2}', 'target_roi.nii.gz')
+            src_p = join(R_path, f'{subject}_{ses1}_{ses2}', 'source_roi.nii.gz')
             tgt_img = nib.load(tgt_p).get_fdata().astype(dtype='float32')
             src_img = nib.load(src_p).get_fdata().astype(dtype='float32')
 
             # Load the source image to be segmented (the feature tensor) and the label (ground truth segmentation)
-            tensor_p = join(S_path, f'{subject}_{ses1}_{ses2}', 'source_Warped_roi.nii.gz')
-            tensor = nib.load(tensor_p).get_fdata().astype(dtype='float32')
-            
+            tensor = src_img
             # Load the segmentation masks for the source and target
-            segm1_p = join(segm_path, f'{subject}_{ses1}', 'binary_mask_warped_roi.nii.gz')
-            segm2_p = join(segm_path, f'{subject}_{ses2}', 'binary_mask_warped_roi.nii.gz')
+            segm1_p = join(segm_path, f'{subject}_{ses1}', 'binary_mask_roi.nii.gz')
+            segm2_p = join(segm_path, f'{subject}_{ses2}', 'binary_mask_roi.nii.gz')
             segm1 = nib.load(segm1_p).get_fdata().astype(dtype='int8')
             segm2 = nib.load(segm2_p).get_fdata().astype(dtype='int8')
 
@@ -132,11 +136,9 @@ class DataGenerator(object):
             src_img = np.expand_dims(src_img, axis=-1)
 
             # Pre-estimated dense affine deformation field
-            affine_p = join(affine_path, f'{subject}_{ses1}_{ses2}', 'deformation_1Warp_roi.nii.gz')
+            affine_p = join(affine_path, f'{subject}_{ses1}_{ses2}', 'deformation_field_roi.nii.gz')
             affine = nib.load(affine_p).get_fdata().astype(dtype='float32')
-            # affine = np.expand_dims(affine, axis=-1)
             affine = np.squeeze(affine)
-            # affine = (affine - np.mean(affine)) / np.std(affine)
 
             # Assign processed data to batch arrays
             S_src[i] = tensor
@@ -148,4 +150,3 @@ class DataGenerator(object):
 
         # Return the batch of processed data
         return [R_tgt, R_src, S_src, aff_def], [R_tgt, segm_tgt, segm_src, zeros]
-

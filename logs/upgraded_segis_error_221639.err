@@ -1,0 +1,69 @@
+2024-10-25 22:11:02.508261: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-11.4/extras/CUPTI/lib64:/usr/local/cuda-11.4/lib64
+2024-10-25 22:11:02.508299: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2024-10-25 22:11:07.956376: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:936] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-10-25 22:11:07.959096: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-11.4/extras/CUPTI/lib64:/usr/local/cuda-11.4/lib64
+2024-10-25 22:11:07.959460: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcublas.so.11'; dlerror: libcublas.so.11: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-11.4/extras/CUPTI/lib64:/usr/local/cuda-11.4/lib64
+2024-10-25 22:11:07.959788: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcublasLt.so.11'; dlerror: libcublasLt.so.11: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-11.4/extras/CUPTI/lib64:/usr/local/cuda-11.4/lib64
+2024-10-25 22:11:07.960134: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcufft.so.10'; dlerror: libcufft.so.10: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-11.4/extras/CUPTI/lib64:/usr/local/cuda-11.4/lib64
+2024-10-25 22:11:07.994883: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcusparse.so.11'; dlerror: libcusparse.so.11: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-11.4/extras/CUPTI/lib64:/usr/local/cuda-11.4/lib64
+2024-10-25 22:11:07.995435: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1850] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2024-10-25 22:11:08.824847: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-11.4/extras/CUPTI/lib64:/usr/local/cuda-11.4/lib64
+2024-10-25 22:11:08.824885: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2024-10-25 22:11:10.666865: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:936] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-10-25 22:11:10.669565: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-11.4/extras/CUPTI/lib64:/usr/local/cuda-11.4/lib64
+2024-10-25 22:11:10.669620: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcublas.so.11'; dlerror: libcublas.so.11: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-11.4/extras/CUPTI/lib64:/usr/local/cuda-11.4/lib64
+2024-10-25 22:11:10.669665: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcublasLt.so.11'; dlerror: libcublasLt.so.11: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-11.4/extras/CUPTI/lib64:/usr/local/cuda-11.4/lib64
+2024-10-25 22:11:10.669713: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcufft.so.10'; dlerror: libcufft.so.10: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-11.4/extras/CUPTI/lib64:/usr/local/cuda-11.4/lib64
+2024-10-25 22:11:10.687713: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcusparse.so.11'; dlerror: libcusparse.so.11: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-11.4/extras/CUPTI/lib64:/usr/local/cuda-11.4/lib64
+2024-10-25 22:11:10.687908: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1850] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2024-10-25 22:11:10.695885: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING:tensorflow:From /home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/tensorflow/python/util/deprecation.py:616: calling map_fn_v2 (from tensorflow.python.ops.map_fn) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Use fn_output_signature instead
+2024-10-25 22:12:18.972230: W tensorflow/core/framework/cpu_allocator_impl.cc:82] Allocation of 11211374592 exceeds 10% of free system memory.
+2024-10-25 22:12:26.163233: W tensorflow/core/framework/cpu_allocator_impl.cc:82] Allocation of 33634123776 exceeds 10% of free system memory.
+2024-10-25 22:12:26.163352: W tensorflow/core/framework/op_kernel.cc:1745] OP_REQUIRES failed at conv_grad_ops_3d.cc:509 : RESOURCE_EXHAUSTED: OOM when allocating tensor with shape[1,6488064,1296] and type float on /job:localhost/replica:0/task:0/device:CPU:0 by allocator cpu
+2024-10-25 22:12:26.163410: W tensorflow/core/framework/cpu_allocator_impl.cc:82] Allocation of 33634123776 exceeds 10% of free system memory.
+2024-10-25 22:12:26.163430: W tensorflow/core/framework/op_kernel.cc:1745] OP_REQUIRES failed at conv_grad_ops_3d.cc:1020 : RESOURCE_EXHAUSTED: OOM when allocating tensor with shape[1,6488064,1296] and type float on /job:localhost/replica:0/task:0/device:CPU:0 by allocator cpu
+2024-10-25 22:12:26.166308: W tensorflow/core/framework/cpu_allocator_impl.cc:82] Allocation of 11211374592 exceeds 10% of free system memory.
+2024-10-25 22:12:40.104275: W tensorflow/core/framework/cpu_allocator_impl.cc:82] Allocation of 5605687296 exceeds 10% of free system memory.
+Traceback (most recent call last):
+  File "/home/groups/dlmrimnd/jacob/projects/Segis-Net/code/Segis-Net/Train_SegisNet.py", line 163, in <module>
+    history = model.fit(
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/keras/utils/traceback_utils.py", line 67, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/tensorflow/python/eager/execute.py", line 54, in quick_execute
+    tensors = pywrap_tfe.TFE_Py_Execute(ctx._handle, device_name, op_name,
+tensorflow.python.framework.errors_impl.ResourceExhaustedError: Graph execution error:
+
+Detected at node 'gradient_tape/model_2/model/conv3d_16/Conv3D/Conv3DBackpropInputV2' defined at (most recent call last):
+    File "/home/groups/dlmrimnd/jacob/projects/Segis-Net/code/Segis-Net/Train_SegisNet.py", line 163, in <module>
+      history = model.fit(
+    File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/keras/utils/traceback_utils.py", line 64, in error_handler
+      return fn(*args, **kwargs)
+    File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/keras/engine/training.py", line 1384, in fit
+      tmp_logs = self.train_function(iterator)
+    File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/keras/engine/training.py", line 1021, in train_function
+      return step_function(self, iterator)
+    File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/keras/engine/training.py", line 1010, in step_function
+      outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/keras/engine/training.py", line 1000, in run_step
+      outputs = model.train_step(data)
+    File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/keras/engine/training.py", line 863, in train_step
+      self.optimizer.minimize(loss, self.trainable_variables, tape=tape)
+    File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/keras/optimizer_v2/optimizer_v2.py", line 530, in minimize
+      grads_and_vars = self._compute_gradients(
+    File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/keras/optimizer_v2/optimizer_v2.py", line 583, in _compute_gradients
+      grads_and_vars = self._get_gradients(tape, loss, var_list, grad_loss)
+    File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/keras/optimizer_v2/optimizer_v2.py", line 464, in _get_gradients
+      grads = tape.gradient(loss, var_list, grad_loss)
+Node: 'gradient_tape/model_2/model/conv3d_16/Conv3D/Conv3DBackpropInputV2'
+OOM when allocating tensor with shape[1,6488064,1296] and type float on /job:localhost/replica:0/task:0/device:CPU:0 by allocator cpu
+	 [[{{node gradient_tape/model_2/model/conv3d_16/Conv3D/Conv3DBackpropInputV2}}]]
+Hint: If you want to see a list of allocated tensors when OOM happens, add report_tensor_allocations_upon_oom to RunOptions for current allocation info. This isn't available when running in Eager mode.
+ [Op:__inference_train_function_38129]
+2024-10-25 22:14:03.367221: W tensorflow/core/kernels/data/generator_dataset_op.cc:107] Error occurred when finalizing GeneratorDataset iterator: FAILED_PRECONDITION: Python interpreter state is not initialized. The process may be terminated.
+	 [[{{node PyFunc}}]]

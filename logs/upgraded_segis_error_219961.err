@@ -1,0 +1,74 @@
+/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/tensorflow/python/framework/dtypes.py:513: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  np.object,
+Traceback (most recent call last):
+  File "/home/groups/dlmrimnd/jacob/projects/Segis-Net/scripts/gpu_test.py", line 1, in <module>
+    import tensorflow as tf
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/tensorflow/__init__.py", line 41, in <module>
+    from tensorflow.python.tools import module_util as _module_util
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/tensorflow/python/__init__.py", line 46, in <module>
+    from tensorflow.python import data
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/tensorflow/python/data/__init__.py", line 25, in <module>
+    from tensorflow.python.data import experimental
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/tensorflow/python/data/experimental/__init__.py", line 96, in <module>
+    from tensorflow.python.data.experimental import service
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/tensorflow/python/data/experimental/service/__init__.py", line 140, in <module>
+    from tensorflow.python.data.experimental.ops.data_service_ops import distribute
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/tensorflow/python/data/experimental/ops/data_service_ops.py", line 25, in <module>
+    from tensorflow.python.data.experimental.ops import compression_ops
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/tensorflow/python/data/experimental/ops/compression_ops.py", line 20, in <module>
+    from tensorflow.python.data.util import structure
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/tensorflow/python/data/util/structure.py", line 26, in <module>
+    from tensorflow.python.data.util import nest
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/tensorflow/python/data/util/nest.py", line 41, in <module>
+    from tensorflow.python.framework import sparse_tensor as _sparse_tensor
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/tensorflow/python/framework/sparse_tensor.py", line 29, in <module>
+    from tensorflow.python.framework import constant_op
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/tensorflow/python/framework/constant_op.py", line 29, in <module>
+    from tensorflow.python.eager import execute
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/tensorflow/python/eager/execute.py", line 27, in <module>
+    from tensorflow.python.framework import dtypes
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/tensorflow/python/framework/dtypes.py", line 513, in <module>
+    np.object,
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/numpy/__init__.py", line 324, in __getattr__
+    raise AttributeError(__former_attrs__[attr])
+AttributeError: module 'numpy' has no attribute 'object'.
+`np.object` was a deprecated alias for the builtin `object`. To avoid this error in existing code, use `object` by itself. Doing this will not modify any behavior and is safe. 
+The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:
+    https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/tensorflow/python/framework/dtypes.py:513: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  np.object,
+Traceback (most recent call last):
+  File "/home/groups/dlmrimnd/jacob/projects/Segis-Net/code/Segis-Net/Train_SegisNet.py", line 4, in <module>
+    import tensorflow as tf
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/tensorflow/__init__.py", line 41, in <module>
+    from tensorflow.python.tools import module_util as _module_util
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/tensorflow/python/__init__.py", line 46, in <module>
+    from tensorflow.python import data
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/tensorflow/python/data/__init__.py", line 25, in <module>
+    from tensorflow.python.data import experimental
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/tensorflow/python/data/experimental/__init__.py", line 96, in <module>
+    from tensorflow.python.data.experimental import service
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/tensorflow/python/data/experimental/service/__init__.py", line 140, in <module>
+    from tensorflow.python.data.experimental.ops.data_service_ops import distribute
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/tensorflow/python/data/experimental/ops/data_service_ops.py", line 25, in <module>
+    from tensorflow.python.data.experimental.ops import compression_ops
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/tensorflow/python/data/experimental/ops/compression_ops.py", line 20, in <module>
+    from tensorflow.python.data.util import structure
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/tensorflow/python/data/util/structure.py", line 26, in <module>
+    from tensorflow.python.data.util import nest
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/tensorflow/python/data/util/nest.py", line 41, in <module>
+    from tensorflow.python.framework import sparse_tensor as _sparse_tensor
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/tensorflow/python/framework/sparse_tensor.py", line 29, in <module>
+    from tensorflow.python.framework import constant_op
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/tensorflow/python/framework/constant_op.py", line 29, in <module>
+    from tensorflow.python.eager import execute
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/tensorflow/python/eager/execute.py", line 27, in <module>
+    from tensorflow.python.framework import dtypes
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/tensorflow/python/framework/dtypes.py", line 513, in <module>
+    np.object,
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/numpy/__init__.py", line 324, in __getattr__
+    raise AttributeError(__former_attrs__[attr])
+AttributeError: module 'numpy' has no attribute 'object'.
+`np.object` was a deprecated alias for the builtin `object`. To avoid this error in existing code, use `object` by itself. Doing this will not modify any behavior and is safe. 
+The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:
+    https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations

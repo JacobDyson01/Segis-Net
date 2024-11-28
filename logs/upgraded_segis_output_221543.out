@@ -1,0 +1,7 @@
+Checking TensorFlow:
+TensorFlow Version: 2.8.0
+TensorFlow is using GPU: /physical_device:GPU:0
+CUDA Version: 11.2
+CUDNN Version: 8
+GPU is available
+Constructing model

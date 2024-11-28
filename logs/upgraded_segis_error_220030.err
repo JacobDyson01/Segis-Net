@@ -1,0 +1,16 @@
+2024-10-23 20:32:34.249788: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-10-23 20:32:35.316615: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1525] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 15401 MB memory:  -> device: 0, name: Tesla P100-PCIE-16GB, pci bus id: 0000:82:00.0, compute capability: 6.0
+WARNING:tensorflow:From /home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/tensorflow/python/util/deprecation.py:616: calling map_fn_v2 (from tensorflow.python.ops.map_fn) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Use fn_output_signature instead
+Traceback (most recent call last):
+  File "/home/groups/dlmrimnd/jacob/projects/Segis-Net/code/Segis-Net/Train_SegisNet.py", line 163, in <module>
+    history = model.fit(
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/keras/utils/traceback_utils.py", line 67, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/groups/dlmrimnd/jacob/projects/Segis-Net/code/Segis-Net/SegisNet_model_dataGenerator.py", line 76, in __getitem__
+    list_IDs_temp = [self.indexes[k] for k in indexes]
+  File "/home/groups/dlmrimnd/jacob/projects/Segis-Net/code/Segis-Net/SegisNet_model_dataGenerator.py", line 76, in <listcomp>
+    list_IDs_temp = [self.indexes[k] for k in indexes]
+IndexError: only integers, slices (`:`), ellipsis (`...`), numpy.newaxis (`None`) and integer or boolean arrays are valid indices

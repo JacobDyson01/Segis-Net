@@ -1,0 +1,3 @@
+Checking TensorFlow:
+TensorFlow Version: 2.19.0-dev20241021
+CUDA is NOT available for TensorFlow.

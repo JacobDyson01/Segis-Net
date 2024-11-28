@@ -1,0 +1,27 @@
+/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/tensorflow/python/keras/engine/data_adapter.py:61: UserWarning: A NumPy version >=1.22.4 and <2.3.0 is required for this version of SciPy (detected version 1.19.5)
+  from scipy import sparse as scipy_sparse  # pylint: disable=g-import-not-at-top
+/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/tensorflow/python/keras/engine/data_adapter.py:61: UserWarning: A NumPy version >=1.22.4 and <2.3.0 is required for this version of SciPy (detected version 1.19.5)
+  from scipy import sparse as scipy_sparse  # pylint: disable=g-import-not-at-top
+2024-10-23 18:44:21.949299: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING:tensorflow:From /home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/tensorflow/python/util/deprecation.py:605: calling map_fn_v2 (from tensorflow.python.ops.map_fn) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Use fn_output_signature instead
+Traceback (most recent call last):
+  File "/home/groups/dlmrimnd/jacob/projects/Segis-Net/code/Segis-Net/Train_SegisNet.py", line 163, in <module>
+    history = model.fit(
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/tensorflow/python/keras/engine/training.py", line 1050, in fit
+    data_handler = data_adapter.DataHandler(
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/tensorflow/python/keras/engine/data_adapter.py", line 1100, in __init__
+    self._adapter = adapter_cls(
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/tensorflow/python/keras/engine/data_adapter.py", line 902, in __init__
+    super(KerasSequenceAdapter, self).__init__(
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/tensorflow/python/keras/engine/data_adapter.py", line 779, in __init__
+    peek, x = self._peek_and_restore(x)
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/tensorflow/python/keras/engine/data_adapter.py", line 913, in _peek_and_restore
+    return x[0], x
+  File "/home/groups/dlmrimnd/jacob/projects/Segis-Net/code/Segis-Net/SegisNet_model_dataGenerator.py", line 76, in __getitem__
+    list_IDs_temp = [self.indexes[k] for k in indexes]
+  File "/home/groups/dlmrimnd/jacob/projects/Segis-Net/code/Segis-Net/SegisNet_model_dataGenerator.py", line 76, in <listcomp>
+    list_IDs_temp = [self.indexes[k] for k in indexes]
+IndexError: only integers, slices (`:`), ellipsis (`...`), numpy.newaxis (`None`) and integer or boolean arrays are valid indices

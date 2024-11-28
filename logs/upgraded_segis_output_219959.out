@@ -1,0 +1,5 @@
+Checking TensorFlow:
+TensorFlow Version: 2.17.0
+CUDA is NOT available for TensorFlow.
+GPU is not available
+Constructing model

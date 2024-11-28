@@ -1,0 +1,1222 @@
+Loading model weights from: /home/groups/dlmrimnd/jacob/data/combined_data/saved_results/run_proper_3/model_weight_out.h5
+Model weights loaded successfully.
+Processing subject: sub-031MND_ses-01_ses-02
+Loading source, target, and affine images for sub-031MND_ses-01_ses-02
+MRI Affine for sub-031MND_ses-01_ses-02:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-031MND_ses-01_ses-02
+Saved postprocessed target segmentation for sub-031MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-031MND_ses-01_ses-02/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-031MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-031MND_ses-01_ses-02/source_segmentation.nii.gz
+Processing subject: sub-021MND_ses-02_ses-03
+Loading source, target, and affine images for sub-021MND_ses-02_ses-03
+MRI Affine for sub-021MND_ses-02_ses-03:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-021MND_ses-02_ses-03
+Saved postprocessed target segmentation for sub-021MND_ses-02_ses-03 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-021MND_ses-02_ses-03/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-021MND_ses-02_ses-03 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-021MND_ses-02_ses-03/source_segmentation.nii.gz
+Processing subject: sub-005MND_ses-05_ses-07
+Loading source, target, and affine images for sub-005MND_ses-05_ses-07
+MRI Affine for sub-005MND_ses-05_ses-07:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-005MND_ses-05_ses-07
+Saved postprocessed target segmentation for sub-005MND_ses-05_ses-07 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-005MND_ses-05_ses-07/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-005MND_ses-05_ses-07 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-005MND_ses-05_ses-07/source_segmentation.nii.gz
+Processing subject: sub-034MND_ses-02_ses-03
+Loading source, target, and affine images for sub-034MND_ses-02_ses-03
+MRI Affine for sub-034MND_ses-02_ses-03:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-034MND_ses-02_ses-03
+Saved postprocessed target segmentation for sub-034MND_ses-02_ses-03 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-034MND_ses-02_ses-03/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-034MND_ses-02_ses-03 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-034MND_ses-02_ses-03/source_segmentation.nii.gz
+Processing subject: sub-005MND_ses-01_ses-04
+Loading source, target, and affine images for sub-005MND_ses-01_ses-04
+MRI Affine for sub-005MND_ses-01_ses-04:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-005MND_ses-01_ses-04
+Saved postprocessed target segmentation for sub-005MND_ses-01_ses-04 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-005MND_ses-01_ses-04/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-005MND_ses-01_ses-04 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-005MND_ses-01_ses-04/source_segmentation.nii.gz
+Processing subject: sub-024MND_ses-01_ses-02
+Loading source, target, and affine images for sub-024MND_ses-01_ses-02
+MRI Affine for sub-024MND_ses-01_ses-02:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-024MND_ses-01_ses-02
+Saved postprocessed target segmentation for sub-024MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-024MND_ses-01_ses-02/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-024MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-024MND_ses-01_ses-02/source_segmentation.nii.gz
+Processing subject: sub-021MND_ses-03_ses-06
+Loading source, target, and affine images for sub-021MND_ses-03_ses-06
+MRI Affine for sub-021MND_ses-03_ses-06:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-021MND_ses-03_ses-06
+Saved postprocessed target segmentation for sub-021MND_ses-03_ses-06 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-021MND_ses-03_ses-06/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-021MND_ses-03_ses-06 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-021MND_ses-03_ses-06/source_segmentation.nii.gz
+Processing subject: sub-023MND_ses-02_ses-04
+Loading source, target, and affine images for sub-023MND_ses-02_ses-04
+MRI Affine for sub-023MND_ses-02_ses-04:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-023MND_ses-02_ses-04
+Saved postprocessed target segmentation for sub-023MND_ses-02_ses-04 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-023MND_ses-02_ses-04/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-023MND_ses-02_ses-04 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-023MND_ses-02_ses-04/source_segmentation.nii.gz
+Processing subject: sub-024MND_ses-03_ses-05
+Loading source, target, and affine images for sub-024MND_ses-03_ses-05
+MRI Affine for sub-024MND_ses-03_ses-05:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-024MND_ses-03_ses-05
+Saved postprocessed target segmentation for sub-024MND_ses-03_ses-05 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-024MND_ses-03_ses-05/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-024MND_ses-03_ses-05 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-024MND_ses-03_ses-05/source_segmentation.nii.gz
+Processing subject: sub-005MND_ses-04_ses-08
+Loading source, target, and affine images for sub-005MND_ses-04_ses-08
+MRI Affine for sub-005MND_ses-04_ses-08:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-005MND_ses-04_ses-08
+Saved postprocessed target segmentation for sub-005MND_ses-04_ses-08 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-005MND_ses-04_ses-08/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-005MND_ses-04_ses-08 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-005MND_ses-04_ses-08/source_segmentation.nii.gz
+Processing subject: sub-040MND_ses-02_ses-04
+Loading source, target, and affine images for sub-040MND_ses-02_ses-04
+MRI Affine for sub-040MND_ses-02_ses-04:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-040MND_ses-02_ses-04
+Saved postprocessed target segmentation for sub-040MND_ses-02_ses-04 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-040MND_ses-02_ses-04/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-040MND_ses-02_ses-04 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-040MND_ses-02_ses-04/source_segmentation.nii.gz
+Processing subject: sub-007MND_ses-01_ses-03
+Loading source, target, and affine images for sub-007MND_ses-01_ses-03
+MRI Affine for sub-007MND_ses-01_ses-03:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-007MND_ses-01_ses-03
+Saved postprocessed target segmentation for sub-007MND_ses-01_ses-03 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-007MND_ses-01_ses-03/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-007MND_ses-01_ses-03 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-007MND_ses-01_ses-03/source_segmentation.nii.gz
+Processing subject: sub-018MND_ses-01_ses-02
+Loading source, target, and affine images for sub-018MND_ses-01_ses-02
+MRI Affine for sub-018MND_ses-01_ses-02:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-018MND_ses-01_ses-02
+Saved postprocessed target segmentation for sub-018MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-018MND_ses-01_ses-02/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-018MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-018MND_ses-01_ses-02/source_segmentation.nii.gz
+Processing subject: sub-026MND_ses-01_ses-02
+Loading source, target, and affine images for sub-026MND_ses-01_ses-02
+MRI Affine for sub-026MND_ses-01_ses-02:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-026MND_ses-01_ses-02
+Saved postprocessed target segmentation for sub-026MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-026MND_ses-01_ses-02/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-026MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-026MND_ses-01_ses-02/source_segmentation.nii.gz
+Processing subject: sub-017MND_ses-02_ses-05
+Loading source, target, and affine images for sub-017MND_ses-02_ses-05
+MRI Affine for sub-017MND_ses-02_ses-05:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-017MND_ses-02_ses-05
+Saved postprocessed target segmentation for sub-017MND_ses-02_ses-05 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-017MND_ses-02_ses-05/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-017MND_ses-02_ses-05 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-017MND_ses-02_ses-05/source_segmentation.nii.gz
+Processing subject: sub-005MND_ses-04_ses-05
+Loading source, target, and affine images for sub-005MND_ses-04_ses-05
+MRI Affine for sub-005MND_ses-04_ses-05:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-005MND_ses-04_ses-05
+Saved postprocessed target segmentation for sub-005MND_ses-04_ses-05 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-005MND_ses-04_ses-05/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-005MND_ses-04_ses-05 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-005MND_ses-04_ses-05/source_segmentation.nii.gz
+Processing subject: sub-043MND_ses-02_ses-04
+Loading source, target, and affine images for sub-043MND_ses-02_ses-04
+MRI Affine for sub-043MND_ses-02_ses-04:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-043MND_ses-02_ses-04
+Saved postprocessed target segmentation for sub-043MND_ses-02_ses-04 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-043MND_ses-02_ses-04/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-043MND_ses-02_ses-04 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-043MND_ses-02_ses-04/source_segmentation.nii.gz
+Processing subject: sub-005MND_ses-06_ses-08
+Loading source, target, and affine images for sub-005MND_ses-06_ses-08
+MRI Affine for sub-005MND_ses-06_ses-08:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-005MND_ses-06_ses-08
+Saved postprocessed target segmentation for sub-005MND_ses-06_ses-08 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-005MND_ses-06_ses-08/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-005MND_ses-06_ses-08 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-005MND_ses-06_ses-08/source_segmentation.nii.gz
+Processing subject: sub-005MND_ses-01_ses-09
+Loading source, target, and affine images for sub-005MND_ses-01_ses-09
+MRI Affine for sub-005MND_ses-01_ses-09:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-005MND_ses-01_ses-09
+Saved postprocessed target segmentation for sub-005MND_ses-01_ses-09 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-005MND_ses-01_ses-09/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-005MND_ses-01_ses-09 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-005MND_ses-01_ses-09/source_segmentation.nii.gz
+Processing subject: sub-024MND_ses-01_ses-05
+Loading source, target, and affine images for sub-024MND_ses-01_ses-05
+MRI Affine for sub-024MND_ses-01_ses-05:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-024MND_ses-01_ses-05
+Saved postprocessed target segmentation for sub-024MND_ses-01_ses-05 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-024MND_ses-01_ses-05/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-024MND_ses-01_ses-05 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-024MND_ses-01_ses-05/source_segmentation.nii.gz
+Processing subject: sub-044MND_ses-01_ses-02
+Loading source, target, and affine images for sub-044MND_ses-01_ses-02
+MRI Affine for sub-044MND_ses-01_ses-02:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-044MND_ses-01_ses-02
+Saved postprocessed target segmentation for sub-044MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-044MND_ses-01_ses-02/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-044MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-044MND_ses-01_ses-02/source_segmentation.nii.gz
+Processing subject: sub-021MND_ses-01_ses-06
+Loading source, target, and affine images for sub-021MND_ses-01_ses-06
+MRI Affine for sub-021MND_ses-01_ses-06:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-021MND_ses-01_ses-06
+Saved postprocessed target segmentation for sub-021MND_ses-01_ses-06 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-021MND_ses-01_ses-06/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-021MND_ses-01_ses-06 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-021MND_ses-01_ses-06/source_segmentation.nii.gz
+Processing subject: sub-019MND_ses-01_ses-02
+Loading source, target, and affine images for sub-019MND_ses-01_ses-02
+MRI Affine for sub-019MND_ses-01_ses-02:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-019MND_ses-01_ses-02
+Saved postprocessed target segmentation for sub-019MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-019MND_ses-01_ses-02/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-019MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-019MND_ses-01_ses-02/source_segmentation.nii.gz
+Processing subject: sub-024MND_ses-05_ses-06
+Loading source, target, and affine images for sub-024MND_ses-05_ses-06
+MRI Affine for sub-024MND_ses-05_ses-06:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-024MND_ses-05_ses-06
+Saved postprocessed target segmentation for sub-024MND_ses-05_ses-06 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-024MND_ses-05_ses-06/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-024MND_ses-05_ses-06 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-024MND_ses-05_ses-06/source_segmentation.nii.gz
+Processing subject: sub-022MND_ses-02_ses-03
+Loading source, target, and affine images for sub-022MND_ses-02_ses-03
+MRI Affine for sub-022MND_ses-02_ses-03:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-022MND_ses-02_ses-03
+Saved postprocessed target segmentation for sub-022MND_ses-02_ses-03 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-022MND_ses-02_ses-03/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-022MND_ses-02_ses-03 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-022MND_ses-02_ses-03/source_segmentation.nii.gz
+Processing subject: sub-032MND_ses-01_ses-02
+Loading source, target, and affine images for sub-032MND_ses-01_ses-02
+MRI Affine for sub-032MND_ses-01_ses-02:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-032MND_ses-01_ses-02
+Saved postprocessed target segmentation for sub-032MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-032MND_ses-01_ses-02/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-032MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-032MND_ses-01_ses-02/source_segmentation.nii.gz
+Processing subject: sub-021MND_ses-02_ses-04
+Loading source, target, and affine images for sub-021MND_ses-02_ses-04
+MRI Affine for sub-021MND_ses-02_ses-04:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-021MND_ses-02_ses-04
+Saved postprocessed target segmentation for sub-021MND_ses-02_ses-04 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-021MND_ses-02_ses-04/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-021MND_ses-02_ses-04 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-021MND_ses-02_ses-04/source_segmentation.nii.gz
+Processing subject: sub-057MND_ses-01_ses-02
+Loading source, target, and affine images for sub-057MND_ses-01_ses-02
+MRI Affine for sub-057MND_ses-01_ses-02:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-057MND_ses-01_ses-02
+Saved postprocessed target segmentation for sub-057MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-057MND_ses-01_ses-02/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-057MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-057MND_ses-01_ses-02/source_segmentation.nii.gz
+Processing subject: sub-024MND_ses-02_ses-03
+Loading source, target, and affine images for sub-024MND_ses-02_ses-03
+MRI Affine for sub-024MND_ses-02_ses-03:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-024MND_ses-02_ses-03
+Saved postprocessed target segmentation for sub-024MND_ses-02_ses-03 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-024MND_ses-02_ses-03/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-024MND_ses-02_ses-03 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-024MND_ses-02_ses-03/source_segmentation.nii.gz
+Processing subject: sub-034MND_ses-01_ses-02
+Loading source, target, and affine images for sub-034MND_ses-01_ses-02
+MRI Affine for sub-034MND_ses-01_ses-02:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-034MND_ses-01_ses-02
+Saved postprocessed target segmentation for sub-034MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-034MND_ses-01_ses-02/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-034MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-034MND_ses-01_ses-02/source_segmentation.nii.gz
+Processing subject: sub-005MND_ses-01_ses-07
+Loading source, target, and affine images for sub-005MND_ses-01_ses-07
+MRI Affine for sub-005MND_ses-01_ses-07:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-005MND_ses-01_ses-07
+Saved postprocessed target segmentation for sub-005MND_ses-01_ses-07 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-005MND_ses-01_ses-07/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-005MND_ses-01_ses-07 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-005MND_ses-01_ses-07/source_segmentation.nii.gz
+Processing subject: sub-021MND_ses-01_ses-02
+Loading source, target, and affine images for sub-021MND_ses-01_ses-02
+MRI Affine for sub-021MND_ses-01_ses-02:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-021MND_ses-01_ses-02
+Saved postprocessed target segmentation for sub-021MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-021MND_ses-01_ses-02/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-021MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-021MND_ses-01_ses-02/source_segmentation.nii.gz
+Processing subject: sub-017MND_ses-04_ses-05
+Loading source, target, and affine images for sub-017MND_ses-04_ses-05
+MRI Affine for sub-017MND_ses-04_ses-05:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-017MND_ses-04_ses-05
+Saved postprocessed target segmentation for sub-017MND_ses-04_ses-05 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-017MND_ses-04_ses-05/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-017MND_ses-04_ses-05 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-017MND_ses-04_ses-05/source_segmentation.nii.gz
+Processing subject: sub-003MND_ses-01_ses-03
+Loading source, target, and affine images for sub-003MND_ses-01_ses-03
+MRI Affine for sub-003MND_ses-01_ses-03:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-003MND_ses-01_ses-03
+Saved postprocessed target segmentation for sub-003MND_ses-01_ses-03 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-003MND_ses-01_ses-03/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-003MND_ses-01_ses-03 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-003MND_ses-01_ses-03/source_segmentation.nii.gz
+Processing subject: sub-017MND_ses-03_ses-04
+Loading source, target, and affine images for sub-017MND_ses-03_ses-04
+MRI Affine for sub-017MND_ses-03_ses-04:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-017MND_ses-03_ses-04
+Saved postprocessed target segmentation for sub-017MND_ses-03_ses-04 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-017MND_ses-03_ses-04/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-017MND_ses-03_ses-04 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-017MND_ses-03_ses-04/source_segmentation.nii.gz
+Processing subject: sub-029MND_ses-01_ses-03
+Loading source, target, and affine images for sub-029MND_ses-01_ses-03
+MRI Affine for sub-029MND_ses-01_ses-03:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-029MND_ses-01_ses-03
+Saved postprocessed target segmentation for sub-029MND_ses-01_ses-03 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-029MND_ses-01_ses-03/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-029MND_ses-01_ses-03 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-029MND_ses-01_ses-03/source_segmentation.nii.gz
+Processing subject: sub-024MND_ses-03_ses-06
+Loading source, target, and affine images for sub-024MND_ses-03_ses-06
+MRI Affine for sub-024MND_ses-03_ses-06:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-024MND_ses-03_ses-06
+Saved postprocessed target segmentation for sub-024MND_ses-03_ses-06 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-024MND_ses-03_ses-06/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-024MND_ses-03_ses-06 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-024MND_ses-03_ses-06/source_segmentation.nii.gz
+Processing subject: sub-049MND_ses-01_ses-04
+Loading source, target, and affine images for sub-049MND_ses-01_ses-04
+MRI Affine for sub-049MND_ses-01_ses-04:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-049MND_ses-01_ses-04
+Saved postprocessed target segmentation for sub-049MND_ses-01_ses-04 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-049MND_ses-01_ses-04/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-049MND_ses-01_ses-04 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-049MND_ses-01_ses-04/source_segmentation.nii.gz
+Processing subject: sub-017MND_ses-01_ses-03
+Loading source, target, and affine images for sub-017MND_ses-01_ses-03
+MRI Affine for sub-017MND_ses-01_ses-03:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-017MND_ses-01_ses-03
+Saved postprocessed target segmentation for sub-017MND_ses-01_ses-03 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-017MND_ses-01_ses-03/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-017MND_ses-01_ses-03 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-017MND_ses-01_ses-03/source_segmentation.nii.gz
+Processing subject: sub-003MND_ses-03_ses-04
+Loading source, target, and affine images for sub-003MND_ses-03_ses-04
+MRI Affine for sub-003MND_ses-03_ses-04:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-003MND_ses-03_ses-04
+Saved postprocessed target segmentation for sub-003MND_ses-03_ses-04 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-003MND_ses-03_ses-04/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-003MND_ses-03_ses-04 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-003MND_ses-03_ses-04/source_segmentation.nii.gz
+Processing subject: sub-056MND_ses-01_ses-02
+Loading source, target, and affine images for sub-056MND_ses-01_ses-02
+MRI Affine for sub-056MND_ses-01_ses-02:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-056MND_ses-01_ses-02
+Saved postprocessed target segmentation for sub-056MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-056MND_ses-01_ses-02/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-056MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-056MND_ses-01_ses-02/source_segmentation.nii.gz
+Processing subject: sub-021MND_ses-03_ses-05
+Loading source, target, and affine images for sub-021MND_ses-03_ses-05
+MRI Affine for sub-021MND_ses-03_ses-05:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-021MND_ses-03_ses-05
+Saved postprocessed target segmentation for sub-021MND_ses-03_ses-05 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-021MND_ses-03_ses-05/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-021MND_ses-03_ses-05 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-021MND_ses-03_ses-05/source_segmentation.nii.gz
+Processing subject: sub-020MND_ses-01_ses-02
+Loading source, target, and affine images for sub-020MND_ses-01_ses-02
+MRI Affine for sub-020MND_ses-01_ses-02:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-020MND_ses-01_ses-02
+Saved postprocessed target segmentation for sub-020MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-020MND_ses-01_ses-02/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-020MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-020MND_ses-01_ses-02/source_segmentation.nii.gz
+Processing subject: sub-005MND_ses-07_ses-09
+Loading source, target, and affine images for sub-005MND_ses-07_ses-09
+MRI Affine for sub-005MND_ses-07_ses-09:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-005MND_ses-07_ses-09
+Saved postprocessed target segmentation for sub-005MND_ses-07_ses-09 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-005MND_ses-07_ses-09/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-005MND_ses-07_ses-09 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-005MND_ses-07_ses-09/source_segmentation.nii.gz
+Processing subject: sub-043MND_ses-01_ses-02
+Loading source, target, and affine images for sub-043MND_ses-01_ses-02
+MRI Affine for sub-043MND_ses-01_ses-02:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-043MND_ses-01_ses-02
+Saved postprocessed target segmentation for sub-043MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-043MND_ses-01_ses-02/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-043MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-043MND_ses-01_ses-02/source_segmentation.nii.gz
+Processing subject: sub-040MND_ses-01_ses-02
+Loading source, target, and affine images for sub-040MND_ses-01_ses-02
+MRI Affine for sub-040MND_ses-01_ses-02:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-040MND_ses-01_ses-02
+Saved postprocessed target segmentation for sub-040MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-040MND_ses-01_ses-02/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-040MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-040MND_ses-01_ses-02/source_segmentation.nii.gz
+Processing subject: sub-023MND_ses-01_ses-02
+Loading source, target, and affine images for sub-023MND_ses-01_ses-02
+MRI Affine for sub-023MND_ses-01_ses-02:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-023MND_ses-01_ses-02
+Saved postprocessed target segmentation for sub-023MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-023MND_ses-01_ses-02/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-023MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-023MND_ses-01_ses-02/source_segmentation.nii.gz
+Processing subject: sub-062MND_ses-01_ses-03
+Loading source, target, and affine images for sub-062MND_ses-01_ses-03
+MRI Affine for sub-062MND_ses-01_ses-03:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-062MND_ses-01_ses-03
+Saved postprocessed target segmentation for sub-062MND_ses-01_ses-03 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-062MND_ses-01_ses-03/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-062MND_ses-01_ses-03 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-062MND_ses-01_ses-03/source_segmentation.nii.gz
+Processing subject: sub-017MND_ses-01_ses-04
+Loading source, target, and affine images for sub-017MND_ses-01_ses-04
+MRI Affine for sub-017MND_ses-01_ses-04:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-017MND_ses-01_ses-04
+Saved postprocessed target segmentation for sub-017MND_ses-01_ses-04 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-017MND_ses-01_ses-04/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-017MND_ses-01_ses-04 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-017MND_ses-01_ses-04/source_segmentation.nii.gz
+Processing subject: sub-014MND_ses-01_ses-03
+Loading source, target, and affine images for sub-014MND_ses-01_ses-03
+MRI Affine for sub-014MND_ses-01_ses-03:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-014MND_ses-01_ses-03
+Saved postprocessed target segmentation for sub-014MND_ses-01_ses-03 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-014MND_ses-01_ses-03/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-014MND_ses-01_ses-03 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-014MND_ses-01_ses-03/source_segmentation.nii.gz
+Processing subject: sub-008MND_ses-01_ses-02
+Loading source, target, and affine images for sub-008MND_ses-01_ses-02
+MRI Affine for sub-008MND_ses-01_ses-02:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-008MND_ses-01_ses-02
+Saved postprocessed target segmentation for sub-008MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-008MND_ses-01_ses-02/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-008MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-008MND_ses-01_ses-02/source_segmentation.nii.gz
+Processing subject: sub-005MND_ses-04_ses-06
+Loading source, target, and affine images for sub-005MND_ses-04_ses-06
+MRI Affine for sub-005MND_ses-04_ses-06:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-005MND_ses-04_ses-06
+Saved postprocessed target segmentation for sub-005MND_ses-04_ses-06 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-005MND_ses-04_ses-06/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-005MND_ses-04_ses-06 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-005MND_ses-04_ses-06/source_segmentation.nii.gz
+Processing subject: sub-049MND_ses-01_ses-03
+Loading source, target, and affine images for sub-049MND_ses-01_ses-03
+MRI Affine for sub-049MND_ses-01_ses-03:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-049MND_ses-01_ses-03
+Saved postprocessed target segmentation for sub-049MND_ses-01_ses-03 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-049MND_ses-01_ses-03/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-049MND_ses-01_ses-03 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-049MND_ses-01_ses-03/source_segmentation.nii.gz
+Processing subject: sub-021MND_ses-01_ses-05
+Loading source, target, and affine images for sub-021MND_ses-01_ses-05
+MRI Affine for sub-021MND_ses-01_ses-05:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-021MND_ses-01_ses-05
+Saved postprocessed target segmentation for sub-021MND_ses-01_ses-05 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-021MND_ses-01_ses-05/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-021MND_ses-01_ses-05 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-021MND_ses-01_ses-05/source_segmentation.nii.gz
+Processing subject: sub-022MND_ses-01_ses-02
+Loading source, target, and affine images for sub-022MND_ses-01_ses-02
+MRI Affine for sub-022MND_ses-01_ses-02:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-022MND_ses-01_ses-02
+Saved postprocessed target segmentation for sub-022MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-022MND_ses-01_ses-02/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-022MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-022MND_ses-01_ses-02/source_segmentation.nii.gz
+Processing subject: sub-003MND_ses-01_ses-04
+Loading source, target, and affine images for sub-003MND_ses-01_ses-04
+MRI Affine for sub-003MND_ses-01_ses-04:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-003MND_ses-01_ses-04
+Saved postprocessed target segmentation for sub-003MND_ses-01_ses-04 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-003MND_ses-01_ses-04/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-003MND_ses-01_ses-04 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-003MND_ses-01_ses-04/source_segmentation.nii.gz
+Processing subject: sub-049MND_ses-03_ses-04
+Loading source, target, and affine images for sub-049MND_ses-03_ses-04
+MRI Affine for sub-049MND_ses-03_ses-04:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-049MND_ses-03_ses-04
+Saved postprocessed target segmentation for sub-049MND_ses-03_ses-04 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-049MND_ses-03_ses-04/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-049MND_ses-03_ses-04 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-049MND_ses-03_ses-04/source_segmentation.nii.gz
+Processing subject: sub-005MND_ses-08_ses-09
+Loading source, target, and affine images for sub-005MND_ses-08_ses-09
+MRI Affine for sub-005MND_ses-08_ses-09:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-005MND_ses-08_ses-09
+Saved postprocessed target segmentation for sub-005MND_ses-08_ses-09 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-005MND_ses-08_ses-09/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-005MND_ses-08_ses-09 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-005MND_ses-08_ses-09/source_segmentation.nii.gz
+Processing subject: sub-024MND_ses-01_ses-06
+Loading source, target, and affine images for sub-024MND_ses-01_ses-06
+MRI Affine for sub-024MND_ses-01_ses-06:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-024MND_ses-01_ses-06
+Saved postprocessed target segmentation for sub-024MND_ses-01_ses-06 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-024MND_ses-01_ses-06/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-024MND_ses-01_ses-06 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-024MND_ses-01_ses-06/source_segmentation.nii.gz
+Processing subject: sub-021MND_ses-05_ses-06
+Loading source, target, and affine images for sub-021MND_ses-05_ses-06
+MRI Affine for sub-021MND_ses-05_ses-06:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-021MND_ses-05_ses-06
+Saved postprocessed target segmentation for sub-021MND_ses-05_ses-06 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-021MND_ses-05_ses-06/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-021MND_ses-05_ses-06 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-021MND_ses-05_ses-06/source_segmentation.nii.gz
+Processing subject: sub-009MND_ses-01_ses-02
+Loading source, target, and affine images for sub-009MND_ses-01_ses-02
+MRI Affine for sub-009MND_ses-01_ses-02:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-009MND_ses-01_ses-02
+Saved postprocessed target segmentation for sub-009MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-009MND_ses-01_ses-02/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-009MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-009MND_ses-01_ses-02/source_segmentation.nii.gz
+Processing subject: sub-024MND_ses-02_ses-04
+Loading source, target, and affine images for sub-024MND_ses-02_ses-04
+MRI Affine for sub-024MND_ses-02_ses-04:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-024MND_ses-02_ses-04
+Saved postprocessed target segmentation for sub-024MND_ses-02_ses-04 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-024MND_ses-02_ses-04/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-024MND_ses-02_ses-04 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-024MND_ses-02_ses-04/source_segmentation.nii.gz
+Processing subject: sub-005MND_ses-05_ses-09
+Loading source, target, and affine images for sub-005MND_ses-05_ses-09
+MRI Affine for sub-005MND_ses-05_ses-09:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-005MND_ses-05_ses-09
+Saved postprocessed target segmentation for sub-005MND_ses-05_ses-09 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-005MND_ses-05_ses-09/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-005MND_ses-05_ses-09 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-005MND_ses-05_ses-09/source_segmentation.nii.gz
+Processing subject: sub-054MND_ses-01_ses-02
+Loading source, target, and affine images for sub-054MND_ses-01_ses-02
+MRI Affine for sub-054MND_ses-01_ses-02:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-054MND_ses-01_ses-02
+Saved postprocessed target segmentation for sub-054MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-054MND_ses-01_ses-02/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-054MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-054MND_ses-01_ses-02/source_segmentation.nii.gz
+Processing subject: sub-024MND_ses-01_ses-04
+Loading source, target, and affine images for sub-024MND_ses-01_ses-04
+MRI Affine for sub-024MND_ses-01_ses-04:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-024MND_ses-01_ses-04
+Saved postprocessed target segmentation for sub-024MND_ses-01_ses-04 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-024MND_ses-01_ses-04/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-024MND_ses-01_ses-04 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-024MND_ses-01_ses-04/source_segmentation.nii.gz
+Processing subject: sub-005MND_ses-01_ses-08
+Loading source, target, and affine images for sub-005MND_ses-01_ses-08
+MRI Affine for sub-005MND_ses-01_ses-08:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-005MND_ses-01_ses-08
+Saved postprocessed target segmentation for sub-005MND_ses-01_ses-08 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-005MND_ses-01_ses-08/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-005MND_ses-01_ses-08 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-005MND_ses-01_ses-08/source_segmentation.nii.gz
+Processing subject: sub-005MND_ses-06_ses-09
+Loading source, target, and affine images for sub-005MND_ses-06_ses-09
+MRI Affine for sub-005MND_ses-06_ses-09:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-005MND_ses-06_ses-09
+Saved postprocessed target segmentation for sub-005MND_ses-06_ses-09 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-005MND_ses-06_ses-09/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-005MND_ses-06_ses-09 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-005MND_ses-06_ses-09/source_segmentation.nii.gz
+Processing subject: sub-058MND_ses-01_ses-02
+Loading source, target, and affine images for sub-058MND_ses-01_ses-02
+MRI Affine for sub-058MND_ses-01_ses-02:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-058MND_ses-01_ses-02
+Saved postprocessed target segmentation for sub-058MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-058MND_ses-01_ses-02/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-058MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-058MND_ses-01_ses-02/source_segmentation.nii.gz
+Processing subject: sub-024MND_ses-02_ses-06
+Loading source, target, and affine images for sub-024MND_ses-02_ses-06
+MRI Affine for sub-024MND_ses-02_ses-06:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-024MND_ses-02_ses-06
+Saved postprocessed target segmentation for sub-024MND_ses-02_ses-06 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-024MND_ses-02_ses-06/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-024MND_ses-02_ses-06 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-024MND_ses-02_ses-06/source_segmentation.nii.gz
+Processing subject: sub-021MND_ses-02_ses-05
+Loading source, target, and affine images for sub-021MND_ses-02_ses-05
+MRI Affine for sub-021MND_ses-02_ses-05:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-021MND_ses-02_ses-05
+Saved postprocessed target segmentation for sub-021MND_ses-02_ses-05 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-021MND_ses-02_ses-05/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-021MND_ses-02_ses-05 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-021MND_ses-02_ses-05/source_segmentation.nii.gz
+Processing subject: sub-003MND_ses-02_ses-04
+Loading source, target, and affine images for sub-003MND_ses-02_ses-04
+MRI Affine for sub-003MND_ses-02_ses-04:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-003MND_ses-02_ses-04
+Saved postprocessed target segmentation for sub-003MND_ses-02_ses-04 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-003MND_ses-02_ses-04/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-003MND_ses-02_ses-04 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-003MND_ses-02_ses-04/source_segmentation.nii.gz
+Processing subject: sub-010MND_ses-01_ses-02
+Loading source, target, and affine images for sub-010MND_ses-01_ses-02
+MRI Affine for sub-010MND_ses-01_ses-02:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-010MND_ses-01_ses-02
+Saved postprocessed target segmentation for sub-010MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-010MND_ses-01_ses-02/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-010MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-010MND_ses-01_ses-02/source_segmentation.nii.gz
+Processing subject: sub-059MND_ses-01_ses-02
+Loading source, target, and affine images for sub-059MND_ses-01_ses-02
+MRI Affine for sub-059MND_ses-01_ses-02:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-059MND_ses-01_ses-02
+Saved postprocessed target segmentation for sub-059MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-059MND_ses-01_ses-02/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-059MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-059MND_ses-01_ses-02/source_segmentation.nii.gz
+Processing subject: sub-049MND_ses-02_ses-03
+Loading source, target, and affine images for sub-049MND_ses-02_ses-03
+MRI Affine for sub-049MND_ses-02_ses-03:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-049MND_ses-02_ses-03
+Saved postprocessed target segmentation for sub-049MND_ses-02_ses-03 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-049MND_ses-02_ses-03/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-049MND_ses-02_ses-03 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-049MND_ses-02_ses-03/source_segmentation.nii.gz
+Processing subject: sub-004MND_ses-01_ses-02
+Loading source, target, and affine images for sub-004MND_ses-01_ses-02
+MRI Affine for sub-004MND_ses-01_ses-02:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-004MND_ses-01_ses-02
+Saved postprocessed target segmentation for sub-004MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-004MND_ses-01_ses-02/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-004MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-004MND_ses-01_ses-02/source_segmentation.nii.gz
+Processing subject: sub-017MND_ses-02_ses-04
+Loading source, target, and affine images for sub-017MND_ses-02_ses-04
+MRI Affine for sub-017MND_ses-02_ses-04:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-017MND_ses-02_ses-04
+Saved postprocessed target segmentation for sub-017MND_ses-02_ses-04 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-017MND_ses-02_ses-04/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-017MND_ses-02_ses-04 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-017MND_ses-02_ses-04/source_segmentation.nii.gz
+Processing subject: sub-014MND_ses-02_ses-03
+Loading source, target, and affine images for sub-014MND_ses-02_ses-03
+MRI Affine for sub-014MND_ses-02_ses-03:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-014MND_ses-02_ses-03
+Saved postprocessed target segmentation for sub-014MND_ses-02_ses-03 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-014MND_ses-02_ses-03/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-014MND_ses-02_ses-03 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-014MND_ses-02_ses-03/source_segmentation.nii.gz
+Processing subject: sub-011MND_ses-01_ses-02
+Loading source, target, and affine images for sub-011MND_ses-01_ses-02
+MRI Affine for sub-011MND_ses-01_ses-02:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-011MND_ses-01_ses-02
+Saved postprocessed target segmentation for sub-011MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-011MND_ses-01_ses-02/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-011MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-011MND_ses-01_ses-02/source_segmentation.nii.gz
+Processing subject: sub-021MND_ses-04_ses-06
+Loading source, target, and affine images for sub-021MND_ses-04_ses-06
+MRI Affine for sub-021MND_ses-04_ses-06:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-021MND_ses-04_ses-06
+Saved postprocessed target segmentation for sub-021MND_ses-04_ses-06 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-021MND_ses-04_ses-06/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-021MND_ses-04_ses-06 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-021MND_ses-04_ses-06/source_segmentation.nii.gz
+Processing subject: sub-012MND_ses-01_ses-02
+Loading source, target, and affine images for sub-012MND_ses-01_ses-02
+MRI Affine for sub-012MND_ses-01_ses-02:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-012MND_ses-01_ses-02
+Saved postprocessed target segmentation for sub-012MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-012MND_ses-01_ses-02/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-012MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-012MND_ses-01_ses-02/source_segmentation.nii.gz
+Processing subject: sub-005MND_ses-04_ses-09
+Loading source, target, and affine images for sub-005MND_ses-04_ses-09
+MRI Affine for sub-005MND_ses-04_ses-09:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-005MND_ses-04_ses-09
+Saved postprocessed target segmentation for sub-005MND_ses-04_ses-09 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-005MND_ses-04_ses-09/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-005MND_ses-04_ses-09 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-005MND_ses-04_ses-09/source_segmentation.nii.gz
+Processing subject: sub-024MND_ses-03_ses-04
+Loading source, target, and affine images for sub-024MND_ses-03_ses-04
+MRI Affine for sub-024MND_ses-03_ses-04:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-024MND_ses-03_ses-04
+Saved postprocessed target segmentation for sub-024MND_ses-03_ses-04 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-024MND_ses-03_ses-04/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-024MND_ses-03_ses-04 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-024MND_ses-03_ses-04/source_segmentation.nii.gz
+Processing subject: sub-024MND_ses-04_ses-05
+Loading source, target, and affine images for sub-024MND_ses-04_ses-05
+MRI Affine for sub-024MND_ses-04_ses-05:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-024MND_ses-04_ses-05
+Saved postprocessed target segmentation for sub-024MND_ses-04_ses-05 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-024MND_ses-04_ses-05/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-024MND_ses-04_ses-05 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-024MND_ses-04_ses-05/source_segmentation.nii.gz
+Processing subject: sub-017MND_ses-02_ses-03
+Loading source, target, and affine images for sub-017MND_ses-02_ses-03
+MRI Affine for sub-017MND_ses-02_ses-03:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-017MND_ses-02_ses-03
+Saved postprocessed target segmentation for sub-017MND_ses-02_ses-03 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-017MND_ses-02_ses-03/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-017MND_ses-02_ses-03 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-017MND_ses-02_ses-03/source_segmentation.nii.gz
+Processing subject: sub-007MND_ses-01_ses-02
+Loading source, target, and affine images for sub-007MND_ses-01_ses-02
+MRI Affine for sub-007MND_ses-01_ses-02:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-007MND_ses-01_ses-02
+Saved postprocessed target segmentation for sub-007MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-007MND_ses-01_ses-02/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-007MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-007MND_ses-01_ses-02/source_segmentation.nii.gz
+Processing subject: sub-049MND_ses-02_ses-04
+Loading source, target, and affine images for sub-049MND_ses-02_ses-04
+MRI Affine for sub-049MND_ses-02_ses-04:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-049MND_ses-02_ses-04
+Saved postprocessed target segmentation for sub-049MND_ses-02_ses-04 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-049MND_ses-02_ses-04/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-049MND_ses-02_ses-04 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-049MND_ses-02_ses-04/source_segmentation.nii.gz
+Processing subject: sub-029MND_ses-02_ses-03
+Loading source, target, and affine images for sub-029MND_ses-02_ses-03
+MRI Affine for sub-029MND_ses-02_ses-03:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-029MND_ses-02_ses-03
+Saved postprocessed target segmentation for sub-029MND_ses-02_ses-03 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-029MND_ses-02_ses-03/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-029MND_ses-02_ses-03 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-029MND_ses-02_ses-03/source_segmentation.nii.gz
+Processing subject: sub-052MND_ses-01_ses-03
+Loading source, target, and affine images for sub-052MND_ses-01_ses-03
+MRI Affine for sub-052MND_ses-01_ses-03:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-052MND_ses-01_ses-03
+Saved postprocessed target segmentation for sub-052MND_ses-01_ses-03 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-052MND_ses-01_ses-03/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-052MND_ses-01_ses-03 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-052MND_ses-01_ses-03/source_segmentation.nii.gz
+Processing subject: sub-013MND_ses-01_ses-02
+Loading source, target, and affine images for sub-013MND_ses-01_ses-02
+MRI Affine for sub-013MND_ses-01_ses-02:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-013MND_ses-01_ses-02
+Saved postprocessed target segmentation for sub-013MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-013MND_ses-01_ses-02/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-013MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-013MND_ses-01_ses-02/source_segmentation.nii.gz
+Processing subject: sub-003MND_ses-02_ses-03
+Loading source, target, and affine images for sub-003MND_ses-02_ses-03
+MRI Affine for sub-003MND_ses-02_ses-03:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-003MND_ses-02_ses-03
+Saved postprocessed target segmentation for sub-003MND_ses-02_ses-03 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-003MND_ses-02_ses-03/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-003MND_ses-02_ses-03 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-003MND_ses-02_ses-03/source_segmentation.nii.gz
+Processing subject: sub-005MND_ses-05_ses-06
+Loading source, target, and affine images for sub-005MND_ses-05_ses-06
+MRI Affine for sub-005MND_ses-05_ses-06:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-005MND_ses-05_ses-06
+Saved postprocessed target segmentation for sub-005MND_ses-05_ses-06 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-005MND_ses-05_ses-06/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-005MND_ses-05_ses-06 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-005MND_ses-05_ses-06/source_segmentation.nii.gz
+Processing subject: sub-024MND_ses-01_ses-03
+Loading source, target, and affine images for sub-024MND_ses-01_ses-03
+MRI Affine for sub-024MND_ses-01_ses-03:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-024MND_ses-01_ses-03
+Saved postprocessed target segmentation for sub-024MND_ses-01_ses-03 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-024MND_ses-01_ses-03/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-024MND_ses-01_ses-03 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-024MND_ses-01_ses-03/source_segmentation.nii.gz
+Processing subject: sub-005MND_ses-01_ses-05
+Loading source, target, and affine images for sub-005MND_ses-01_ses-05
+MRI Affine for sub-005MND_ses-01_ses-05:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-005MND_ses-01_ses-05
+Saved postprocessed target segmentation for sub-005MND_ses-01_ses-05 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-005MND_ses-01_ses-05/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-005MND_ses-01_ses-05 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-005MND_ses-01_ses-05/source_segmentation.nii.gz
+Processing subject: sub-006MND_ses-01_ses-02
+Loading source, target, and affine images for sub-006MND_ses-01_ses-02
+MRI Affine for sub-006MND_ses-01_ses-02:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-006MND_ses-01_ses-02
+Saved postprocessed target segmentation for sub-006MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-006MND_ses-01_ses-02/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-006MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-006MND_ses-01_ses-02/source_segmentation.nii.gz
+Processing subject: sub-022MND_ses-01_ses-03
+Loading source, target, and affine images for sub-022MND_ses-01_ses-03
+MRI Affine for sub-022MND_ses-01_ses-03:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-022MND_ses-01_ses-03
+Saved postprocessed target segmentation for sub-022MND_ses-01_ses-03 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-022MND_ses-01_ses-03/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-022MND_ses-01_ses-03 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-022MND_ses-01_ses-03/source_segmentation.nii.gz
+Processing subject: sub-021MND_ses-01_ses-04
+Loading source, target, and affine images for sub-021MND_ses-01_ses-04
+MRI Affine for sub-021MND_ses-01_ses-04:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-021MND_ses-01_ses-04
+Saved postprocessed target segmentation for sub-021MND_ses-01_ses-04 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-021MND_ses-01_ses-04/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-021MND_ses-01_ses-04 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-021MND_ses-01_ses-04/source_segmentation.nii.gz
+Processing subject: sub-021MND_ses-02_ses-06
+Loading source, target, and affine images for sub-021MND_ses-02_ses-06
+MRI Affine for sub-021MND_ses-02_ses-06:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-021MND_ses-02_ses-06
+Saved postprocessed target segmentation for sub-021MND_ses-02_ses-06 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-021MND_ses-02_ses-06/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-021MND_ses-02_ses-06 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-021MND_ses-02_ses-06/source_segmentation.nii.gz
+Processing subject: sub-005MND_ses-05_ses-08
+Loading source, target, and affine images for sub-005MND_ses-05_ses-08
+MRI Affine for sub-005MND_ses-05_ses-08:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-005MND_ses-05_ses-08
+Saved postprocessed target segmentation for sub-005MND_ses-05_ses-08 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-005MND_ses-05_ses-08/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-005MND_ses-05_ses-08 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-005MND_ses-05_ses-08/source_segmentation.nii.gz
+Processing subject: sub-024MND_ses-02_ses-05
+Loading source, target, and affine images for sub-024MND_ses-02_ses-05
+MRI Affine for sub-024MND_ses-02_ses-05:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-024MND_ses-02_ses-05
+Saved postprocessed target segmentation for sub-024MND_ses-02_ses-05 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-024MND_ses-02_ses-05/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-024MND_ses-02_ses-05 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-024MND_ses-02_ses-05/source_segmentation.nii.gz
+Processing subject: sub-043MND_ses-01_ses-04
+Loading source, target, and affine images for sub-043MND_ses-01_ses-04
+MRI Affine for sub-043MND_ses-01_ses-04:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-043MND_ses-01_ses-04
+Saved postprocessed target segmentation for sub-043MND_ses-01_ses-04 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-043MND_ses-01_ses-04/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-043MND_ses-01_ses-04 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-043MND_ses-01_ses-04/source_segmentation.nii.gz
+Processing subject: sub-014MND_ses-01_ses-02
+Loading source, target, and affine images for sub-014MND_ses-01_ses-02
+MRI Affine for sub-014MND_ses-01_ses-02:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-014MND_ses-01_ses-02
+Saved postprocessed target segmentation for sub-014MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-014MND_ses-01_ses-02/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-014MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-014MND_ses-01_ses-02/source_segmentation.nii.gz
+Processing subject: sub-017MND_ses-01_ses-05
+Loading source, target, and affine images for sub-017MND_ses-01_ses-05
+MRI Affine for sub-017MND_ses-01_ses-05:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-017MND_ses-01_ses-05
+Saved postprocessed target segmentation for sub-017MND_ses-01_ses-05 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-017MND_ses-01_ses-05/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-017MND_ses-01_ses-05 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-017MND_ses-01_ses-05/source_segmentation.nii.gz
+Processing subject: sub-005MND_ses-04_ses-07
+Loading source, target, and affine images for sub-005MND_ses-04_ses-07
+MRI Affine for sub-005MND_ses-04_ses-07:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-005MND_ses-04_ses-07
+Saved postprocessed target segmentation for sub-005MND_ses-04_ses-07 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-005MND_ses-04_ses-07/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-005MND_ses-04_ses-07 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-005MND_ses-04_ses-07/source_segmentation.nii.gz
+Processing subject: sub-049MND_ses-01_ses-02
+Loading source, target, and affine images for sub-049MND_ses-01_ses-02
+MRI Affine for sub-049MND_ses-01_ses-02:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-049MND_ses-01_ses-02
+Saved postprocessed target segmentation for sub-049MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-049MND_ses-01_ses-02/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-049MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-049MND_ses-01_ses-02/source_segmentation.nii.gz
+Processing subject: sub-024MND_ses-04_ses-06
+Loading source, target, and affine images for sub-024MND_ses-04_ses-06
+MRI Affine for sub-024MND_ses-04_ses-06:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-024MND_ses-04_ses-06
+Saved postprocessed target segmentation for sub-024MND_ses-04_ses-06 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-024MND_ses-04_ses-06/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-024MND_ses-04_ses-06 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-024MND_ses-04_ses-06/source_segmentation.nii.gz
+Processing subject: sub-029MND_ses-01_ses-02
+Loading source, target, and affine images for sub-029MND_ses-01_ses-02
+MRI Affine for sub-029MND_ses-01_ses-02:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-029MND_ses-01_ses-02
+Saved postprocessed target segmentation for sub-029MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-029MND_ses-01_ses-02/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-029MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-029MND_ses-01_ses-02/source_segmentation.nii.gz
+Processing subject: sub-021MND_ses-04_ses-05
+Loading source, target, and affine images for sub-021MND_ses-04_ses-05
+MRI Affine for sub-021MND_ses-04_ses-05:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-021MND_ses-04_ses-05
+Saved postprocessed target segmentation for sub-021MND_ses-04_ses-05 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-021MND_ses-04_ses-05/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-021MND_ses-04_ses-05 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-021MND_ses-04_ses-05/source_segmentation.nii.gz
+Processing subject: sub-007MND_ses-02_ses-03
+Loading source, target, and affine images for sub-007MND_ses-02_ses-03
+MRI Affine for sub-007MND_ses-02_ses-03:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-007MND_ses-02_ses-03
+Saved postprocessed target segmentation for sub-007MND_ses-02_ses-03 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-007MND_ses-02_ses-03/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-007MND_ses-02_ses-03 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-007MND_ses-02_ses-03/source_segmentation.nii.gz
+Processing subject: sub-021MND_ses-03_ses-04
+Loading source, target, and affine images for sub-021MND_ses-03_ses-04
+MRI Affine for sub-021MND_ses-03_ses-04:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-021MND_ses-03_ses-04
+Saved postprocessed target segmentation for sub-021MND_ses-03_ses-04 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-021MND_ses-03_ses-04/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-021MND_ses-03_ses-04 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-021MND_ses-03_ses-04/source_segmentation.nii.gz
+Processing subject: sub-017MND_ses-01_ses-02
+Loading source, target, and affine images for sub-017MND_ses-01_ses-02
+MRI Affine for sub-017MND_ses-01_ses-02:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-017MND_ses-01_ses-02
+Saved postprocessed target segmentation for sub-017MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-017MND_ses-01_ses-02/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-017MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-017MND_ses-01_ses-02/source_segmentation.nii.gz
+Processing subject: sub-023MND_ses-01_ses-04
+Loading source, target, and affine images for sub-023MND_ses-01_ses-04
+MRI Affine for sub-023MND_ses-01_ses-04:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-023MND_ses-01_ses-04
+Saved postprocessed target segmentation for sub-023MND_ses-01_ses-04 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-023MND_ses-01_ses-04/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-023MND_ses-01_ses-04 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-023MND_ses-01_ses-04/source_segmentation.nii.gz
+Processing subject: sub-002MND_ses-01_ses-02
+Loading source, target, and affine images for sub-002MND_ses-01_ses-02
+MRI Affine for sub-002MND_ses-01_ses-02:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-002MND_ses-01_ses-02
+Saved postprocessed target segmentation for sub-002MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-002MND_ses-01_ses-02/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-002MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-002MND_ses-01_ses-02/source_segmentation.nii.gz
+Processing subject: sub-040MND_ses-01_ses-04
+Loading source, target, and affine images for sub-040MND_ses-01_ses-04
+MRI Affine for sub-040MND_ses-01_ses-04:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-040MND_ses-01_ses-04
+Saved postprocessed target segmentation for sub-040MND_ses-01_ses-04 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-040MND_ses-01_ses-04/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-040MND_ses-01_ses-04 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-040MND_ses-01_ses-04/source_segmentation.nii.gz
+Processing subject: sub-005MND_ses-07_ses-08
+Loading source, target, and affine images for sub-005MND_ses-07_ses-08
+MRI Affine for sub-005MND_ses-07_ses-08:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-005MND_ses-07_ses-08
+Saved postprocessed target segmentation for sub-005MND_ses-07_ses-08 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-005MND_ses-07_ses-08/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-005MND_ses-07_ses-08 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-005MND_ses-07_ses-08/source_segmentation.nii.gz
+Processing subject: sub-034MND_ses-01_ses-03
+Loading source, target, and affine images for sub-034MND_ses-01_ses-03
+MRI Affine for sub-034MND_ses-01_ses-03:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-034MND_ses-01_ses-03
+Saved postprocessed target segmentation for sub-034MND_ses-01_ses-03 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-034MND_ses-01_ses-03/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-034MND_ses-01_ses-03 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-034MND_ses-01_ses-03/source_segmentation.nii.gz
+Processing subject: sub-016MND_ses-01_ses-02
+Loading source, target, and affine images for sub-016MND_ses-01_ses-02
+MRI Affine for sub-016MND_ses-01_ses-02:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-016MND_ses-01_ses-02
+Saved postprocessed target segmentation for sub-016MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-016MND_ses-01_ses-02/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-016MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-016MND_ses-01_ses-02/source_segmentation.nii.gz
+Processing subject: sub-028MND_ses-01_ses-02
+Loading source, target, and affine images for sub-028MND_ses-01_ses-02
+MRI Affine for sub-028MND_ses-01_ses-02:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-028MND_ses-01_ses-02
+Saved postprocessed target segmentation for sub-028MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-028MND_ses-01_ses-02/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-028MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-028MND_ses-01_ses-02/source_segmentation.nii.gz
+Processing subject: sub-005MND_ses-01_ses-06
+Loading source, target, and affine images for sub-005MND_ses-01_ses-06
+MRI Affine for sub-005MND_ses-01_ses-06:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-005MND_ses-01_ses-06
+Saved postprocessed target segmentation for sub-005MND_ses-01_ses-06 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-005MND_ses-01_ses-06/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-005MND_ses-01_ses-06 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-005MND_ses-01_ses-06/source_segmentation.nii.gz
+Processing subject: sub-005MND_ses-06_ses-07
+Loading source, target, and affine images for sub-005MND_ses-06_ses-07
+MRI Affine for sub-005MND_ses-06_ses-07:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-005MND_ses-06_ses-07
+Saved postprocessed target segmentation for sub-005MND_ses-06_ses-07 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-005MND_ses-06_ses-07/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-005MND_ses-06_ses-07 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-005MND_ses-06_ses-07/source_segmentation.nii.gz
+Processing subject: sub-003MND_ses-01_ses-02
+Loading source, target, and affine images for sub-003MND_ses-01_ses-02
+MRI Affine for sub-003MND_ses-01_ses-02:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-003MND_ses-01_ses-02
+Saved postprocessed target segmentation for sub-003MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-003MND_ses-01_ses-02/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-003MND_ses-01_ses-02 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-003MND_ses-01_ses-02/source_segmentation.nii.gz
+Processing subject: sub-017MND_ses-03_ses-05
+Loading source, target, and affine images for sub-017MND_ses-03_ses-05
+MRI Affine for sub-017MND_ses-03_ses-05:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-017MND_ses-03_ses-05
+Saved postprocessed target segmentation for sub-017MND_ses-03_ses-05 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-017MND_ses-03_ses-05/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-017MND_ses-03_ses-05 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-017MND_ses-03_ses-05/source_segmentation.nii.gz
+Processing subject: sub-021MND_ses-01_ses-03
+Loading source, target, and affine images for sub-021MND_ses-01_ses-03
+MRI Affine for sub-021MND_ses-01_ses-03:
+[[   1.    0.   -0.  -98.]
+ [   0.    1.   -0. -134.]
+ [   0.    0.    1.  -72.]
+ [   0.    0.    0.    1.]]
+Running segmentation for sub-021MND_ses-01_ses-03
+Saved postprocessed target segmentation for sub-021MND_ses-01_ses-03 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-021MND_ses-01_ses-03/target_segmentation.nii.gz
+Saved postprocessed source segmentation for sub-021MND_ses-01_ses-03 at /home/groups/dlmrimnd/jacob/data/MND/output_segmentations_final_reversed/sub-021MND_ses-01_ses-03/source_segmentation.nii.gz

@@ -1,0 +1,45 @@
+2024-10-23 18:36:04.798952: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2024-10-23 18:36:04.913393: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2024-10-23 18:36:05.031194: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:485] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-10-23 18:36:05.124921: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:8454] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-10-23 18:36:05.151505: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1452] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-10-23 18:36:05.337631: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-10-23 18:36:07.926254: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2024-10-23 18:36:10.176259: E external/local_xla/xla/stream_executor/cuda/cuda_driver.cc:266] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2024-10-23 18:36:10.176381: I external/local_xla/xla/stream_executor/cuda/cuda_diagnostics.cc:135] retrieving CUDA diagnostic information for host: c4130-2.compute.eait.uq.edu.au
+2024-10-23 18:36:10.176393: I external/local_xla/xla/stream_executor/cuda/cuda_diagnostics.cc:142] hostname: c4130-2.compute.eait.uq.edu.au
+2024-10-23 18:36:10.176517: I external/local_xla/xla/stream_executor/cuda/cuda_diagnostics.cc:166] libcuda reported version is: 470.82.1
+2024-10-23 18:36:10.176546: I external/local_xla/xla/stream_executor/cuda/cuda_diagnostics.cc:170] kernel reported version is: 470.82.1
+2024-10-23 18:36:10.176555: I external/local_xla/xla/stream_executor/cuda/cuda_diagnostics.cc:249] kernel version seems to match DSO: 470.82.1
+2024-10-23 18:36:10.970287: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2024-10-23 18:36:10.974238: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2024-10-23 18:36:10.986882: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:485] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-10-23 18:36:11.006257: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:8454] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-10-23 18:36:11.012052: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1452] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-10-23 18:36:11.028392: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-10-23 18:36:12.242653: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2024-10-23 18:36:13.599986: E external/local_xla/xla/stream_executor/cuda/cuda_driver.cc:266] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2024-10-23 18:36:13.600028: I external/local_xla/xla/stream_executor/cuda/cuda_diagnostics.cc:135] retrieving CUDA diagnostic information for host: c4130-2.compute.eait.uq.edu.au
+2024-10-23 18:36:13.600036: I external/local_xla/xla/stream_executor/cuda/cuda_diagnostics.cc:142] hostname: c4130-2.compute.eait.uq.edu.au
+2024-10-23 18:36:13.600100: I external/local_xla/xla/stream_executor/cuda/cuda_diagnostics.cc:166] libcuda reported version is: 470.82.1
+2024-10-23 18:36:13.600123: I external/local_xla/xla/stream_executor/cuda/cuda_diagnostics.cc:170] kernel reported version is: 470.82.1
+2024-10-23 18:36:13.600131: I external/local_xla/xla/stream_executor/cuda/cuda_diagnostics.cc:249] kernel version seems to match DSO: 470.82.1
+/home/groups/dlmrimnd/jacob/miniconda3/envs/segis-new-env/lib/python3.9/site-packages/keras/src/optimizers/base_optimizer.py:86: UserWarning: Argument `decay` is no longer supported and will be ignored.
+  warnings.warn(
+/home/groups/dlmrimnd/jacob/miniconda3/envs/segis-new-env/lib/python3.9/site-packages/keras/src/layers/activations/leaky_relu.py:41: UserWarning: Argument `alpha` is deprecated. Use `negative_slope` instead.
+  warnings.warn(
+WARNING:tensorflow:From /home/groups/dlmrimnd/jacob/miniconda3/envs/segis-new-env/lib/python3.9/site-packages/tensorflow/python/util/deprecation.py:660: calling map_fn_v2 (from tensorflow.python.ops.map_fn) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Use fn_output_signature instead
+Traceback (most recent call last):
+  File "/home/groups/dlmrimnd/jacob/projects/Segis-Net/code/Segis-Net/Train_SegisNet.py", line 121, in <module>
+    model = joint_model(params_train['dim_xyz'], params_train['R_ch'],
+  File "/home/groups/dlmrimnd/jacob/projects/Segis-Net/code/Segis-Net/SegisNet_model_dataGenerator.py", line 39, in joint_model
+    tgt_segm = Transformer(interp_method='linear', indexing=indexing, name='movedSegm')([src_segm, all_def])
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/segis-new-env/lib/python3.9/site-packages/keras/src/utils/traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/groups/dlmrimnd/jacob/projects/Segis-Net/code/Segis-Net/Transform_layer_interpn_0.py", line 65, in build
+    raise ValueError('Offset flow field size expected: %d, found: %d' % (self.ndims, trf_shape[-1]))
+ValueError: Offset flow field size expected: -1, found: 3

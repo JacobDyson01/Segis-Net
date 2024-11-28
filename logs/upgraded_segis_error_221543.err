@@ -1,0 +1,17 @@
+2024-10-25 19:30:45.503567: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-10-25 19:30:46.246792: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1525] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 15401 MB memory:  -> device: 0, name: Tesla P100-PCIE-16GB, pci bus id: 0000:04:00.0, compute capability: 6.0
+Traceback (most recent call last):
+  File "/home/groups/dlmrimnd/jacob/projects/Segis-Net/code/Segis-Net/Train_SegisNet.py", line 121, in <module>
+    model = joint_model(params_train['dim_xyz'], params_train['R_ch'],
+  File "/home/groups/dlmrimnd/jacob/projects/Segis-Net/code/Segis-Net/SegisNet_model_dataGenerator.py", line 21, in joint_model
+    seg_model = seg_net(img_xyz, S_ch, n_output, alpha=alpha)
+  File "/home/groups/dlmrimnd/jacob/projects/Segis-Net/code/Segis-Net/SegNet_model_segGener.py", line 81, in seg_net
+    up_6 = concatenate([up_6, conv_4], axis=4)
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/keras/layers/merge.py", line 968, in concatenate
+    return Concatenate(axis=axis, **kwargs)(inputs)
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/keras/utils/traceback_utils.py", line 67, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/keras/layers/merge.py", line 528, in build
+    raise ValueError(err_msg)
+ValueError: A `Concatenate` layer requires inputs with matching shapes except for the concatenation axis. Received: input_shape=[(None, 24, 24, 22, 256), (None, 24, 25, 22, 128)]

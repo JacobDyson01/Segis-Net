@@ -1,0 +1,8 @@
+  File "/home/groups/dlmrimnd/jacob/projects/Segis-Net/scripts/gpu_test.py", line 6
+    print(f"TensorFlow Version: {tf.__version__}")
+                                                ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/groups/dlmrimnd/jacob/projects/Segis-Net/code/Segis-Net/Train_SegisNet.py", line 3, in <module>
+    import numpy as np
+ImportError: No module named numpy

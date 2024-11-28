@@ -1,0 +1,60 @@
+Traceback (most recent call last):
+  File "/home/groups/dlmrimnd/jacob/projects/Segis-Net/scripts/gpu_test.py", line 1, in <module>
+    import tensorflow as tf
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/tensorflow/__init__.py", line 37, in <module>
+    from tensorflow.python.tools import module_util as _module_util
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/tensorflow/python/__init__.py", line 45, in <module>
+    from tensorflow.python.feature_column import feature_column_lib as feature_column
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/tensorflow/python/feature_column/feature_column_lib.py", line 18, in <module>
+    from tensorflow.python.feature_column.feature_column import *
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/tensorflow/python/feature_column/feature_column.py", line 143, in <module>
+    from tensorflow.python.layers import base
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/tensorflow/python/layers/base.py", line 16, in <module>
+    from tensorflow.python.keras.legacy_tf_layers import base
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/tensorflow/python/keras/__init__.py", line 25, in <module>
+    from tensorflow.python.keras import models
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/tensorflow/python/keras/models.py", line 22, in <module>
+    from tensorflow.python.keras.engine import functional
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/tensorflow/python/keras/engine/functional.py", line 32, in <module>
+    from tensorflow.python.keras.engine import training as training_lib
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/tensorflow/python/keras/engine/training.py", line 52, in <module>
+    from tensorflow.python.keras.saving import hdf5_format
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/tensorflow/python/keras/saving/hdf5_format.py", line 37, in <module>
+    import h5py
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/h5py/__init__.py", line 46, in <module>
+    from ._conv import register_converters as _register_converters
+  File "h5py/_conv.pyx", line 1, in init h5py._conv
+  File "h5py/h5t.pyx", line 293, in init h5py.h5t
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/numpy/__init__.py", line 333, in __getattr__
+    raise AttributeError("module {!r} has no attribute "
+AttributeError: module 'numpy' has no attribute 'typeDict'
+Traceback (most recent call last):
+  File "/home/groups/dlmrimnd/jacob/projects/Segis-Net/code/Segis-Net/Train_SegisNet.py", line 4, in <module>
+    import tensorflow as tf
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/tensorflow/__init__.py", line 37, in <module>
+    from tensorflow.python.tools import module_util as _module_util
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/tensorflow/python/__init__.py", line 45, in <module>
+    from tensorflow.python.feature_column import feature_column_lib as feature_column
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/tensorflow/python/feature_column/feature_column_lib.py", line 18, in <module>
+    from tensorflow.python.feature_column.feature_column import *
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/tensorflow/python/feature_column/feature_column.py", line 143, in <module>
+    from tensorflow.python.layers import base
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/tensorflow/python/layers/base.py", line 16, in <module>
+    from tensorflow.python.keras.legacy_tf_layers import base
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/tensorflow/python/keras/__init__.py", line 25, in <module>
+    from tensorflow.python.keras import models
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/tensorflow/python/keras/models.py", line 22, in <module>
+    from tensorflow.python.keras.engine import functional
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/tensorflow/python/keras/engine/functional.py", line 32, in <module>
+    from tensorflow.python.keras.engine import training as training_lib
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/tensorflow/python/keras/engine/training.py", line 52, in <module>
+    from tensorflow.python.keras.saving import hdf5_format
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/tensorflow/python/keras/saving/hdf5_format.py", line 37, in <module>
+    import h5py
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/h5py/__init__.py", line 46, in <module>
+    from ._conv import register_converters as _register_converters
+  File "h5py/_conv.pyx", line 1, in init h5py._conv
+  File "h5py/h5t.pyx", line 293, in init h5py.h5t
+  File "/home/groups/dlmrimnd/jacob/miniconda3/envs/upgraded-segis-env/lib/python3.9/site-packages/numpy/__init__.py", line 333, in __getattr__
+    raise AttributeError("module {!r} has no attribute "
+AttributeError: module 'numpy' has no attribute 'typeDict'
